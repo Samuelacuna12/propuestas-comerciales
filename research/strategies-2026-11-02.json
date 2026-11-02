@@ -1,0 +1,344 @@
+{
+  "date": "2026-11-02",
+  "author": "Samuel Acuña",
+  "scope": "Estrategias propuestas; no implementación de integraciones ni analítica.",
+  "research": [
+    "b2b.json",
+    "fashion.json",
+    "furniture.json"
+  ],
+  "design": {
+    "path": "direct build within existing page design systems",
+    "liveRefero": "NO_SUBSCRIPTION on 2026-11-02",
+    "references": [
+      "Existing per-brand reference locks in research/b2b.json, research/fashion.json, research/furniture.json",
+      "refero-design/references/typography.md",
+      "refero-design/references/anti-ai-slop.md"
+    ],
+    "lock": "Preserve each page imagery, palette, font roles and functionality. Add scoped strategy section before footer. Three priorities are an ordered list; no decorative cards or invented performance figures. Technical pages use a denser grid; editorial pages retain serif display; Modo retains its rounded visual rhythm; comparison pages use editorial rules.",
+    "verification": "HTML and unchanged scripts/assets checked locally; browser validation delegated to parent agent."
+  },
+  "strategies": [
+    {
+      "slug": "acrilicos-veypa",
+      "brand": "Acrílicos Veypa",
+      "layout": "technical",
+      "ink": "#182a35",
+      "paper": "#e6edf0",
+      "line": "#b8c9d1",
+      "font": "'Barlow',Arial,sans-serif",
+      "title": "Del despiece a una solicitud que se pueda cotizar.",
+      "observed": "Veypa publica láminas acrílicas y servicios para proyectos a medida. Esta propuesta ya permite organizar piezas rectangulares y exportar un plano preliminar.",
+      "hypothesis": "Una solicitud con material, espesor y medidas explícitas podría reducir las aclaraciones antes de cotizar. Habría que contrastarlo con el equipo de taller.",
+      "actions": [
+        [
+          "Preparar el proyecto",
+          "Usar el plano y la lista de corte como punto de partida. Completar material, espesor, cantidad y uso previsto; el tamaño de lámina debe confirmarlo Veypa."
+        ],
+        [
+          "Validar antes de valorar",
+          "Revisar tolerancias, máquina, separación y disponibilidad con taller. Marcar la versión aprobada por una persona; el cálculo de esta página no constituye aprobación técnica."
+        ],
+        [
+          "Seguir cada cotización",
+          "Registrar solicitud completa, revisión, cotización y aceptación. Una futura implementación puede avisar al asesor cuando falten datos, sin aprobar trabajos automáticamente."
+        ]
+      ],
+      "metrics": "Solicitudes completas · aclaraciones por proyecto · tiempo hasta cotización · trabajos aceptados",
+      "sources": [
+        "https://veypaltda.com/laminas-acrilicas-uso-general/",
+        "https://veypaltda.com/servicios/"
+      ],
+      "proposedAutomation": "Al completar el despiece, generar una ficha de proyecto y crear una tarea de revisión. Tras la aprobación de taller, pasarla a cotización y avisar al responsable cuando cambie su estado. La conexión con el sistema comercial de Veypa se definiría con su equipo."
+    },
+    {
+      "slug": "nabay",
+      "brand": "Nabay",
+      "layout": "editorial",
+      "ink": "#302c25",
+      "paper": "#ded7cb",
+      "line": "#b9aa93",
+      "font": "'Baskerville',Georgia,serif",
+      "title": "Una colección con destino, no una lista suelta.",
+      "observed": "El catálogo de Nabay incluye Oceano Costa Rica, Yute Clásico y Vegas. Su propuesta pública combina fabricación de calzado y consultas para distintos mercados.",
+      "hypothesis": "Presentar una selección por tipo de comprador y destino podría hacer más concreta la conversación con fábrica, sin asumir mínimos ni condiciones de exportación.",
+      "actions": [
+        [
+          "Elegir una cápsula",
+          "Crear una selección breve con estas referencias reales y explicar material, estilo y uso. Separar la consulta de tienda colombiana de la de comprador internacional."
+        ],
+        [
+          "Precisar la consulta",
+          "Adjuntar referencias, cantidades deseadas, tallas, país y ciudad. Fábrica confirma capacidad, mínimos, precios y condiciones; aquí no se promete producción ni envío."
+        ],
+        [
+          "Convertir la selección en cotización",
+          "Relacionar cada consulta con su selección y registrar qué se cotizó y qué se aceptó. Proponer una nueva colección solo con contexto y autorización del comprador."
+        ]
+      ],
+      "metrics": "Selecciones completas · consultas por mercado · cotizaciones aceptadas · pedidos repetidos",
+      "sources": [
+        "https://www.calzadopormayor.com/",
+        "https://www.calzadopormayor.com/contacto/"
+      ],
+      "proposedAutomation": "Convertir la selección de referencias y el destino en una solicitud estructurada; asignarla al responsable del mercado y conservar versiones de cotización. Fábrica valida producción y condiciones. La conexión con su gestión comercial se implementaría después de conocer su proceso."
+    },
+    {
+      "slug": "calzado-megam",
+      "brand": "Calzado Megam",
+      "layout": "comparison",
+      "ink": "#183238",
+      "paper": "#eaf0f2",
+      "line": "#c8d4d7",
+      "font": "'Helvetica Neue',Arial,sans-serif",
+      "title": "De “me gustan” a elegir modelo y talla.",
+      "observed": "Luciana, Heily y Cataleya tienen fichas diferentes de material y altura. La propuesta permite compararlas, consultar la guía de talla y guardar favoritas.",
+      "hypothesis": "Ayudar a comparar esas diferencias antes de la consulta podría resolver dudas de elección. La disponibilidad de talla siempre debe confirmarse en la tienda.",
+      "actions": [
+        [
+          "Mostrar una diferencia útil",
+          "Crear contenido de producto que compare material y altura de estos modelos, con fotos reales. Cada pieza lleva a la comparación correspondiente, no a un catálogo sin contexto."
+        ],
+        [
+          "Acompañar la elección",
+          "Mantener modelo, talla y preferencia juntos al pasar a la tienda oficial o a asesoría. Explicar cómo leer la guía sin garantizar que una talla le quede a todas las personas."
+        ],
+        [
+          "Medir la compra real",
+          "Distinguir favoritas, consultas, visitas a producto y pedidos pagados. Si se implementa seguimiento, usar los pedidos confirmados para evaluar el recorrido, no contar un clic como venta."
+        ]
+      ],
+      "metrics": "Comparaciones utilizadas · consultas de talla · visitas a ficha oficial · pedidos pagados atribuibles",
+      "sources": [
+        "https://calzadomegam.com/",
+        "https://calzadomegam.com/products/luciana"
+      ],
+      "proposedAutomation": "Con autorización de la compradora, pasar modelo, talla y duda desde la consulta a la bandeja del asesor. En una integración posterior, conciliar el estado con pedidos reales de la tienda y cerrar la tarea al confirmar compra o atención; no enviar recordatorios sin permiso."
+    },
+    {
+      "slug": "saira-muebles",
+      "brand": "Saira Muebles",
+      "layout": "editorial",
+      "ink": "#153d34",
+      "paper": "#e9eee7",
+      "line": "#bfcbbd",
+      "font": "Georgia,serif",
+      "title": "Vender el ambiente con las medidas claras.",
+      "observed": "El Combo Río reúne sofá cama Mónaco, comedor Thiago, tres sillas Río y un butaco Río. La landing muestra las piezas y sus dimensiones junto a la consulta.",
+      "hypothesis": "Resolver primero el encaje en el espacio podría producir consultas más concretas para los asesores actuales de Saira. Se debe validar con sus conversaciones reales.",
+      "actions": [
+        [
+          "Llevar al ambiente completo",
+          "Presentar el Combo Río como conjunto, usando su fotografía real y un recorrido por las piezas. Enlazar esta selección desde contenido sobre amoblar sala y comedor."
+        ],
+        [
+          "Preparar la asesoría",
+          "Pedir medidas del espacio, ciudad y preferencias de tela al consultar. Comparar con las dimensiones publicadas; Saira confirma fabricación, colores, disponibilidad y entrega."
+        ],
+        [
+          "Conectar con el proceso actual",
+          "Mantener la selección al pasar al asesor o canal existente. Registrar consulta, cotización y pedido pagado; cualquier conexión con sus sistemas requeriría implementación adicional."
+        ]
+      ],
+      "metrics": "Consultas con medidas · cotizaciones del combo · pedidos pagados · dudas repetidas antes de comprar",
+      "sources": [
+        "https://mueblessaira.com/products/combo-rio",
+        "https://mueblessaira.com/pages/canales-oficiales"
+      ],
+      "proposedAutomation": "Convertir la consulta del Combo Río en una ficha con selección, medidas y ciudad; asignarla al canal de asesoría existente y actualizar la etapa con cotización y pedido confirmados. Integraciones, acceso y reglas se definen con Saira, sin duplicar sus canales actuales."
+    },
+    {
+      "slug": "modo-colombia",
+      "brand": "Modo Colombia",
+      "layout": "playful",
+      "ink": "#153f35",
+      "paper": "#dceadf",
+      "line": "#b2caba",
+      "font": "Arial,sans-serif",
+      "title": "Primero el espacio. Después, su nuevo refugio.",
+      "observed": "Mododomo tiene opciones de entrada y medidas publicadas. La guía de esta propuesta distingue el tipo de pared y remite a Modo cuando hace falta revisión.",
+      "hypothesis": "Una consulta que incluya pared, espacio y orientación podría facilitar la recomendación del equipo. No reemplaza la evaluación de instalación ni confirma compatibilidad.",
+      "actions": [
+        [
+          "Mostrar situaciones reales",
+          "Organizar contenido con fotos oficiales por espacio y orientación de entrada. Explicar qué observar en el muro antes de decidir, sin inventar configuraciones instaladas."
+        ],
+        [
+          "Preparar una consulta visual",
+          "Reunir medidas disponibles, tipo de pared y entrada preferida. Invitar a compartir una foto con el asesor de Modo; la marca o un instalador valida anclajes y seguridad."
+        ],
+        [
+          "Dar continuidad a la elección",
+          "Pasar la referencia y orientación elegidas a asesoría. Confirmar acabado, precio e instalación antes del pedido; estudiar piezas complementarias solo cuando encajen en el espacio."
+        ]
+      ],
+      "metrics": "Consultas con datos de pared · revisiones necesarias · cotizaciones aceptadas · pedidos confirmados",
+      "sources": [
+        "https://www.modosas.com/tienda/productos-flotantes/mododomo/",
+        "https://www.modosas.com/conocenos/"
+      ],
+      "proposedAutomation": "Crear una ficha de proyecto con producto, orientación y pared; enviarla a revisión de compatibilidad y luego a cotización. El sistema puede señalar datos faltantes; una persona valida la instalación. La conexión con pedidos se implementaría con acceso autorizado de Modo."
+    },
+    {
+      "slug": "kalida-espacios",
+      "brand": "Kälida Espacios Únicos",
+      "layout": "comparison",
+      "ink": "#191919",
+      "paper": "#f5f5f2",
+      "line": "#cfcfca",
+      "font": "Arial,sans-serif",
+      "title": "Una selección de sala que llegue completa al asesor.",
+      "observed": "Mitchelli, la mesa Key y el cojín 020 son productos del catálogo público. Esta propuesta permite combinarlos y consultar un total de referencia.",
+      "hypothesis": "Asesorar sobre una selección concreta podría facilitar la conversación sobre proporción y acabados. El total mostrado no es una cotización ni garantiza disponibilidad.",
+      "actions": [
+        [
+          "Dar contexto a cada pieza",
+          "Presentar la selección por su función en la sala: asiento, superficie de apoyo y acento textil. Conservar fotos, medidas y fichas reales cerca de cada elección."
+        ],
+        [
+          "Comprobar el encaje",
+          "Pedir medidas de sala, piezas que ya existen y acabado preferido. El asesor confirma proporciones, opciones, precio vigente y disponibilidad antes de ofrecer una combinación final."
+        ],
+        [
+          "Mantener una sola selección",
+          "Usar el resumen elegido como base de cotización y registrar sus revisiones. Distinguir asesoría, cotización y pedido confirmado para saber dónde se detiene la decisión."
+        ]
+      ],
+      "metrics": "Selecciones consultadas · asesorías realizadas · cotizaciones aceptadas · pedidos confirmados",
+      "sources": [
+        "https://kalidaespacios.co/p/silla-poltrona-patchwork-mitchelli/",
+        "https://kalidaespacios.co/p/mesa-de-centro-para-sala-key/",
+        "https://kalidaespacios.co/p/cojin-decorativo-patchwork-020/"
+      ],
+      "proposedAutomation": "Guardar la selección como una ficha de asesoría y mantener sus versiones al cotizar. Tras confirmación humana de precio y disponibilidad, actualizar etapas de cotización y pedido. La conexión con catálogo y gestión comercial requiere acordarse con Kälida."
+    },
+    {
+      "slug": "distribuidora-arymar",
+      "brand": "Distribuidora Arymar",
+      "layout": "technical",
+      "ink": "#142e3c",
+      "paper": "#edf3f5",
+      "line": "#b9cbd3",
+      "font": "'Archivo',Arial,sans-serif",
+      "title": "Reponer por referencia, sin reconstruir el pedido.",
+      "observed": "Arymar publica un catálogo con referencias y precios. Esta propuesta permite buscar por nombre o SKU, conservar una selección local y descargarla.",
+      "hypothesis": "Partir de una lista reutilizable podría simplificar la reposición de un comercio. Antes de construir una conexión real habría que conocer cómo recibe pedidos el equipo.",
+      "actions": [
+        [
+          "Crear el surtido del comercio",
+          "Preparar una primera selección según lo que vende la tienda, con referencias verificadas. Guardar cantidades habituales sin presentarlas como ventas históricas ni inventario disponible."
+        ],
+        [
+          "Revisar antes de confirmar",
+          "Reabrir la lista, ajustar cantidades y enviarla a consulta comercial. Arymar valida existencias, precios, condiciones y transporte; el subtotal local no confirma una compra."
+        ],
+        [
+          "Organizar la siguiente reposición",
+          "Relacionar la cotización con el pedido pagado. En una implementación posterior, ofrecer una lista de recompra y recordatorios solo a clientes que los hayan autorizado."
+        ]
+      ],
+      "metrics": "Listas reutilizadas · solicitudes completas · cotizaciones convertidas en pedido · intervalo de recompra",
+      "sources": [
+        "https://distribuidorarymar.com/",
+        "https://distribuidorarymar.com/contacto/"
+      ],
+      "proposedAutomation": "Transformar la lista por SKU en una solicitud de reposición; cotejar precio y disponibilidad en una futura conexión autorizada, dejar excepciones al asesor y conservar el pedido confirmado para la siguiente compra. Hoy la lista se guarda únicamente en este navegador."
+    },
+    {
+      "slug": "girar-plasticos",
+      "brand": "Girar Plásticos",
+      "layout": "comparison",
+      "ink": "#14233d",
+      "paper": "#edf2fa",
+      "line": "#bdcbe2",
+      "font": "'Manrope',Arial,sans-serif",
+      "title": "De una línea de hogar al surtido de una tienda.",
+      "observed": "Girar publica organizadores, portacomidas y baldes, además de un canal de distribución y compras mayoristas. La propuesta permite seleccionar líneas para consultar.",
+      "hypothesis": "Agrupar la consulta por tipo de tienda y familia de producto podría facilitar la preparación de una oferta de distribución. Se deben confirmar cantidades y condiciones con Girar.",
+      "actions": [
+        [
+          "Abrir por familia de producto",
+          "Crear entradas distintas para organización, cocina y uso cotidiano, con referencias reales. Orientar al comprador según su tienda, sin atribuirle demanda o ventas que no conocemos."
+        ],
+        [
+          "Preparar el surtido",
+          "Adjuntar ciudad, tipo de negocio, líneas elegidas y cantidades deseadas. El asesor completa precios, mínimos y logística; la página no inventa condiciones mayoristas."
+        ],
+        [
+          "Medir hasta la reposición",
+          "Registrar consulta, oferta, primer pedido pagado y nueva compra. Comparar qué familias generan pedidos reales antes de ampliar contenidos o campañas."
+        ]
+      ],
+      "metrics": "Consultas por familia · ofertas emitidas · primeros pedidos pagados · reposiciones confirmadas",
+      "sources": [
+        "https://girarplasticos.co/tienda/",
+        "https://girarplasticos.co/contacto/"
+      ],
+      "proposedAutomation": "Crear una ficha de distribuidor a partir de ciudad, líneas y cantidades; asignarla al asesor y registrar oferta, aceptación y reposición. Una futura conexión con pedidos permitiría usar ventas confirmadas; hoy la página solo prepara la consulta."
+    },
+    {
+      "slug": "lemon-shoes",
+      "brand": "Lemon Shoes",
+      "layout": "comparison",
+      "ink": "#171b18",
+      "paper": "#e9edda",
+      "line": "#c4c9b8",
+      "font": "Arial,Helvetica,sans-serif",
+      "title": "Ocho pares con una intención de colección.",
+      "observed": "Lemon tiene un programa mayorista que comienza en ocho pares. Esta propuesta reúne Eva, Carla y Dallas y permite armar una selección antes de conversar.",
+      "hypothesis": "Llegar con un surtido por modelo y talla podría facilitar la primera consulta mayorista. La mezcla conveniente para cada tienda debe validarse con el comprador y Lemon.",
+      "actions": [
+        [
+          "Separar la entrada mayorista",
+          "Llevar a los dueños de tienda al programa de ocho pares y al catálogo correspondiente. Mantener el recorrido minorista aparte para que cada comprador vea condiciones pertinentes."
+        ],
+        [
+          "Construir el primer surtido",
+          "Seleccionar modelos y tallas con cantidades explícitas. Lemon confirma colores, disponibilidad, tarifa mayorista y envío; los productos elegidos no equivalen a reserva."
+        ],
+        [
+          "Aprender de la recompra",
+          "Registrar la selección cotizada y el pedido pagado. Con ventas reales aportadas por la tienda, proponer reposición por modelo y talla, sin afirmar cuáles rotan mejor de antemano."
+        ]
+      ],
+      "metrics": "Selecciones de ocho pares · consultas mayoristas · primeros pedidos pagados · recompra por referencia",
+      "sources": [
+        "https://lemonshoes.co/mayoristas/",
+        "https://lemonshoes.co/"
+      ],
+      "proposedAutomation": "Convertir la selección de ocho pares en una solicitud por referencia y talla; avisar al asesor y registrar cambios de cotización. Después, vincular el pedido confirmado para preparar futuras reposiciones. La integración comercial se acordaría con Lemon."
+    },
+    {
+      "slug": "tienda-doral",
+      "brand": "Tienda Doral",
+      "layout": "editorial",
+      "ink": "#432e33",
+      "paper": "#eedfe2",
+      "line": "#ceb5bd",
+      "font": "Georgia,serif",
+      "title": "Una primera colección de seis prendas, bien elegida.",
+      "observed": "Doral permite compras mayoristas desde seis prendas combinadas. Esta propuesta muestra referencias reales, tallas y el avance de la selección hacia ese mínimo.",
+      "hypothesis": "Ayudar a preparar una colección antes de la asesoría podría producir consultas mayoristas más completas. El negocio debe confirmar precios y condiciones vigentes.",
+      "actions": [
+        [
+          "Crear una entrada para revender",
+          "Presentar el mínimo de seis prendas junto a estilos y tallas. Usar la colección como destino del contenido para tiendas y revendedoras, con una ruta clara hacia Doral."
+        ],
+        [
+          "Llegar con una selección útil",
+          "Preparar referencias, tallas, cantidades y ciudad de entrega. La marca confirma precio mayorista, disponibilidad y transporte antes de aceptar el pedido."
+        ],
+        [
+          "Conectar consulta y pedido",
+          "Registrar qué selección se cotiza y cuáles pedidos se pagan. Después, revisar las referencias recompradas para orientar nuevas colecciones; no estimar ventas a partir de clics."
+        ]
+      ],
+      "metrics": "Selecciones de seis prendas · consultas completas · primeros pedidos pagados · referencias recompradas",
+      "sources": [
+        "https://tiendadoral.com/",
+        "https://tiendadoral.com/pages/contactanos"
+      ],
+      "proposedAutomation": "Convertir la selección de seis prendas en una solicitud mayorista con tallas y ciudad; asignar un asesor y conservar los estados de cotización y pedido. La conexión con pedidos reales y cualquier aviso al comprador se implementan con acceso y reglas acordadas con Doral."
+    }
+  ]
+}
