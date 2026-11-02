@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Prepara tu lista de materiales de scrapbooking con productos reales de Crea Tus Manualidades. Una muestra independiente de automatización de Samuel Acuña.">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#173c3b">
+  <title>Tu mesa de scrap · Propuesta para Crea Tus Manualidades</title>
+  <link rel="stylesheet" href="styles.css">
+  <script type="module" src="app.mjs"></script>
+</head>
+<body>
+  <a class="skip" href="#mesa">Ir a preparar mi lista</a>
+  <div class="prototype">Una idea preparada para Crea Tus Manualidades <span>Prototipo independiente de Samuel Acuña</span></div>
+  <header class="header wrap">
+    <a class="brand" href="#" aria-label="Tu mesa de scrap, inicio"><span class="brand-mark" aria-hidden="true">c<span>+</span></span><span>crea tus<br><strong>manualidades</strong></span></a>
+    <nav aria-label="Principal"><a href="#mesa">Preparar lista</a><a href="#idea">La idea para la tienda</a><a class="official" href="https://creatusmanualidades.es/" target="_blank" rel="noopener noreferrer">Tienda oficial <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> MENOS OLVIDOS. MÁS GANAS DE CREAR.</p>
+        <h1 id="hero-title">Tu mesa<br>de scrap.</h1>
+        <p class="lead">Pon tu idea sobre la mesa. Reúne los materiales, separa lo que ya tienes y llévate una lista clara.</p>
+        <a class="button primary" href="#mesa">Vamos a preparar algo <span aria-hidden="true">↘</span></a>
+        <p class="hero-note">Sin registro · Tú decides qué comprar</p>
+      </div>
+      <div class="workbench" aria-label="Selección de productos reales: papel Vichy y estilete mint">
+        <span class="desk-label">MESA DE MATERIALES / 01</span>
+        <figure class="paper-photo"><img src="assets/vichy.jpg" width="800" height="800" alt="Papel de scrap Vichy rojo y lunares de Papers For You" fetchpriority="high"><figcaption>Vichy rojo · 30 × 30 cm</figcaption></figure>
+        <figure class="tool-photo"><img src="assets/cutter.jpg" width="800" height="800" alt="Estilete mint Artis Decor en su envase"><figcaption>Para tu mesa de trabajo</figcaption></figure>
+        <div class="desk-note"><span aria-hidden="true">✓</span> Primero revisa<br><strong>lo que ya tienes.</strong></div>
+        <span class="desk-ruler" aria-hidden="true">01 &nbsp; 02 &nbsp; 03 &nbsp; 04 &nbsp; 05 &nbsp; 06 &nbsp; 07 &nbsp; 08 &nbsp; 09</span>
+      </div>
+    </section>
+
+    <section id="mesa" class="planner wrap" aria-labelledby="planner-title">
+      <div class="section-top"><div><p class="eyebrow">01 / EL PUNTO DE PARTIDA</p><h2 id="planner-title">¿Qué te apetece preparar?</h2></div><p>Son selecciones para empezar.<br>Ajusta materiales y cantidades a tu proyecto.</p></div>
+      <div class="project-options">
+        <button class="project" data-preset="tarjetas"><img src="assets/vichy.jpg" width="800" height="800" alt=""><span><small>PAPEL + PLIEGUES</small><strong>Tarjetas de papel</strong><span>Sumar selección inicial <b aria-hidden="true">↗</b></span></span></button>
+        <button class="project" data-preset="recuerdos"><img src="assets/nubes.jpg" width="800" height="800" alt=""><span><small>PAPEL + FOTOGRAFÍAS</small><strong>Páginas de recuerdos</strong><span>Sumar selección inicial <b aria-hidden="true">↗</b></span></span></button>
+        <a class="project free-project" href="#catalogo"><span class="free-symbol" aria-hidden="true">+</span><span><small>A TU MANERA</small><strong>Elige pieza a pieza</strong><span>Explorar los 8 materiales <b aria-hidden="true">↗</b></span></span></a>
+      </div>
+      <p class="selection-note">Las selecciones se combinan sin duplicar productos. No son recetas completas ni calculan el consumo necesario.</p>
+
+      <div class="workspace">
+        <section class="catalog" id="catalogo" aria-labelledby="catalog-title">
+          <div class="catalog-heading"><div><p class="eyebrow">02 / TUS MATERIALES</p><h2 id="catalog-title">Del catálogo a tu mesa.</h2></div><span class="catalog-date">Selección revisada<br>02 nov 2026</span></div>
+          <div class="filters" role="group" aria-label="Filtrar materiales">
+            <button data-filter="todos" aria-pressed="true">Todos <span>8</span></button><button data-filter="papeles" aria-pressed="false">Papeles</button><button data-filter="herramientas" aria-pressed="false">Herramientas</button><button data-filter="adhesivos" aria-pressed="false">Adhesivos y montaje</button>
+          </div>
+          <div id="products" class="products"></div>
+          <noscript><p>Activa JavaScript para preparar la lista. También puedes explorar los materiales en la <a href="https://creatusmanualidades.es/37-scrapbook-mixed-media">tienda oficial</a>.</p></noscript>
+          <p class="source-note">Fotografías y referencias del catálogo oficial. Precio, formato de venta y disponibilidad se confirman en cada ficha. Esta muestra no conecta con el carrito de la tienda.</p>
+        </section>
+
+        <aside class="list" id="lista" aria-labelledby="list-title">
+          <div class="list-head"><p class="eyebrow">03 / TU LISTA</p><span class="list-stamp">HECHO A TU MEDIDA</span><h2 id="list-title">Todo en su sitio.</h2><p id="list-summary" role="status" aria-live="polite">Tu mesa está por estrenar.</p></div>
+          <div id="list-items" class="list-items"></div>
+          <div class="list-check"><strong>Antes de darla por lista</strong><ul id="tips"></ul></div>
+          <div class="list-actions">
+            <button id="copy" class="button primary" disabled>Copiar mi lista <span aria-hidden="true">↗</span></button>
+            <div class="action-pair"><button id="download" disabled>Descargar .txt</button><button id="print" disabled>Imprimir / PDF</button></div>
+            <button id="consult" class="button consult" disabled>Consultar a la tienda por WhatsApp <span aria-hidden="true">↗</span></button>
+            <p>Revisarás el texto antes de abrir WhatsApp. No se envía nada automáticamente.</p>
+            <div class="save-actions"><button id="save" disabled>Guardar en este dispositivo</button><button id="clear" disabled>Vaciar</button></div>
+            <p id="save-status">Tu selección vive aquí. Guárdala sólo si quieres retomarla.</p>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="idea wrap" id="idea" aria-labelledby="idea-title">
+      <div class="idea-intro"><p class="eyebrow">UNA IDEA PARA CREA TUS MANUALIDADES</p><h2 id="idea-title">El proyecto empieza en la cabeza.<br>La lista puede hacerse sola.</h2><p>Esta muestra transforma una selección de productos en una lista útil. Así podría crecer con el equipo de la tienda, después de validar cómo trabaja.</p></div>
+      <ol class="roadmap">
+        <li><span>01</span><div><h3>Organizar por proyecto</h3><p>Validar las selecciones con la tienda y mantener referencias desde su catálogo.</p><small>Medir: listas terminadas / listas iniciadas.</small></div></li>
+        <li><span>02</span><div><h3>Recibir consultas completas</h3><p>Llevar cantidades y productos a su atención comercial, con el permiso del cliente.</p><small>Medir: consultas completas y tiempo de respuesta útil.</small></div></li>
+        <li><span>03</span><div><h3>Preparar la próxima reposición</h3><p>Recordar lo disponible y proponer reposiciones basadas en compras confirmadas, con consentimiento.</p><small>Medir: errores reportados y pedidos pagados vinculados a listas.</small></div></li>
+      </ol>
+      <div class="idea-footer"><p>La muestra funciona en tu navegador. Estas conexiones y mediciones de negocio son una propuesta; aún no están activadas.</p><a class="button primary" href="https://wa.me/573000357484?text=Hola%20Samuel%2C%20quiero%20hablar%20de%20la%20mesa%20de%20materiales%20para%20Crea%20Tus%20Manualidades." target="_blank" rel="noopener noreferrer">Hablar de la propuesta con Samuel <span aria-hidden="true">↗</span></a></div>
+    </section>
+  </main>
+  <footer class="footer wrap"><p>Propuesta independiente de Samuel Acuña.<br>Sin afiliación ni integración activa con Crea Tus Manualidades.</p><p>Productos e imágenes: <a href="https://creatusmanualidades.es/" target="_blank" rel="noopener noreferrer">Crea Tus Manualidades</a><br><a href="https://creatusmanualidades.es/contactenos" target="_blank" rel="noopener noreferrer">Contacto oficial de la tienda</a></p><p>Sin analítica ni formularios.<br><button id="forget">Borrar selección guardada</button></p></footer>
+  <div id="notice" class="notice" role="status" aria-live="polite"></div>
+  <dialog id="consult-dialog" aria-labelledby="consult-title"><div class="dialog-head"><p class="eyebrow">REVISAR ANTES DE ABRIR</p><button id="close-dialog" aria-label="Cerrar revisión">×</button></div><h2 id="consult-title">Tu consulta, lista.</h2><p>Se abrirá el WhatsApp comercial publicado por Crea Tus Manualidades: <strong>+34 699 195 174</strong>. Tú decides si envías el mensaje.</p><pre id="consult-preview"></pre><a id="whatsapp" class="button primary" target="_blank" rel="noopener noreferrer">Abrir WhatsApp de la tienda ↗</a><p class="small">Esta consulta va a la tienda. El contacto de Samuel está en la sección de la propuesta.</p></dialog>
+  <section id="print-area" aria-label="Lista para imprimir"></section>
+</body>
+</html>
