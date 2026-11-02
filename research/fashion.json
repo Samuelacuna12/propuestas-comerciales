@@ -1,0 +1,452 @@
+{
+  "verifiedAt": "2026-11-01",
+  "researchMode": "Official catalogs + Refero bundled craft; live Refero unavailable (NO_SUBSCRIPTION)",
+  "imageSources": {
+    "lemon-shoes": {
+      "eva": "https://lemonshoes.co/wp-content/uploads/2026/06/fa53a3f0-5f3b-45bf-8cb4-da0a5371d75d-950x1024.jpeg",
+      "carla": "https://lemonshoes.co/wp-content/uploads/2026/06/PHOTO-2025-06-18-17-39-14_2-769x1024.jpg",
+      "dallas": "https://lemonshoes.co/wp-content/uploads/2026/06/PHOTO-2025-08-28-17-01-45-910x1024.jpg"
+    },
+    "nabay": {
+      "oceano": "https://www.calzadopormayor.com/wp-content/uploads/2022/11/WhatsApp-Image-2022-08-15-at-6.32.38-PM-2-e1670007267890.jpeg",
+      "oceano-editorial": "https://www.calzadopormayor.com/wp-content/uploads/2022/11/IMG_0457-scaled-1.jpg",
+      "clasico": "https://www.calzadopormayor.com/wp-content/uploads/2022/11/WhatsApp-Image-2025-02-26-at-3.54.01-PM-scaled.jpeg",
+      "vegas": "https://www.calzadopormayor.com/wp-content/uploads/2022/11/WhatsApp-Image-2025-02-26-at-3.53.46-PM-scaled.jpeg"
+    },
+    "tienda-doral": {
+      "tentadora": "https://tiendadoral.com/cdn/shop/files/TENTADORA.jpg?v=1758739178&width=1400",
+      "tentadora-detail": "https://tiendadoral.com/cdn/shop/files/TENTADORA_6.jpg?v=1758738723&width=1200",
+      "romantica": "https://tiendadoral.com/cdn/shop/files/ROMANTICA_1.jpg?v=1757712973&width=1400",
+      "romantica-detail": "https://tiendadoral.com/cdn/shop/files/ROMANTICA_2.jpg?v=1757712986&width=1200",
+      "graciosa": "https://tiendadoral.com/cdn/shop/files/GRACIOSA_1.jpg?v=1757711627&width=1400",
+      "graciosa-detail": "https://tiendadoral.com/cdn/shop/files/GRACIOSA_3.jpg?v=1757711673&width=1200"
+    },
+    "calzado-megam": {
+      "luciana": "https://calzadomegam.com/cdn/shop/files/LUCIANA_NEGRO.png?v=1752784984&width=1200",
+      "luciana-detail": "https://calzadomegam.com/cdn/shop/files/luciana.webp?v=1747360608",
+      "heily": "https://calzadomegam.com/cdn/shop/files/HEILYTALCO.png?v=1754012794&width=1200",
+      "heily-detail": "https://calzadomegam.com/cdn/shop/files/HEILYNEGRO.png?v=1754012794&width=1200",
+      "cataleya": "https://calzadomegam.com/cdn/shop/files/CATALEYACHAMPAGNE4.jpg?v=1779988321",
+      "cataleya-detail": "https://calzadomegam.com/cdn/shop/files/CATALEYACHAMPAGNE3.jpg?v=1779988321"
+    }
+  },
+  "status": "frozen for parent GitHub delivery",
+  "references": [
+    {
+      "url": "https://eberjey.com/collections/womens-pajamas",
+      "observed": "Collection grouped by fabric and style, visible names and variant selection close to product imagery.",
+      "appliedTo": [
+        "tienda-doral"
+      ]
+    },
+    {
+      "url": "https://www.camper.com/en_US/women/shoes",
+      "observed": "Category-first footwear navigation and direct catalog choice, products keep photography and information together.",
+      "appliedTo": [
+        "lemon-shoes",
+        "calzado-megam"
+      ]
+    },
+    {
+      "url": "https://castaner.com/",
+      "observed": "Editorial collection storytelling, craft context alongside real product catalog, quick size choices.",
+      "appliedTo": [
+        "nabay",
+        "lemon-shoes"
+      ]
+    },
+    {
+      "file": "refero-design/references/craft-details.md",
+      "applied": "44px controls, focus, input validation, truthful empty/loading states, explicit local-only save, reduced motion."
+    },
+    {
+      "file": "refero-design/references/typography.md",
+      "applied": "Deliberate hierarchy, restrained type scales per site, readable body, product-first asymmetry."
+    },
+    {
+      "file": "refero-design/references/anti-ai-slop.md",
+      "applied": "No gradients, fake stats, generic service cards, fabricated reviews, or AI visual assets."
+    }
+  ],
+  "brands": [
+    {
+      "slug": "tienda-doral",
+      "official": "https://tiendadoral.com/",
+      "sources": [
+        "https://tiendadoral.com/products/pantalon-y-blusa-con-sesgo",
+        "https://tiendadoral.com/products/camiseta-y-pantalon-de-satin",
+        "https://tiendadoral.com/products/short-y-camiseta-con-bordado"
+      ],
+      "facts": {
+        "minimum": 6,
+        "minimumUnit": "prendas combinadas",
+        "products": [
+          {
+            "id": "tentadora",
+            "name": "Pantalón y blusa con sesgo",
+            "publicPriceCOP": 47000,
+            "sizes": [
+              "S",
+              "M",
+              "L"
+            ]
+          },
+          {
+            "id": "romantica",
+            "name": "Camiseta y pantalón de satín",
+            "publicPriceCOP": 44000,
+            "sizes": [
+              "S",
+              "M",
+              "L"
+            ]
+          },
+          {
+            "id": "graciosa",
+            "name": "Short y camiseta con bordado",
+            "publicPriceCOP": 38000,
+            "sizes": [
+              "SM",
+              "LXL"
+            ]
+          }
+        ]
+      },
+      "lock": {
+        "composition": "Soft editorial collection: compact masthead, large photography triptych with smaller pink text panel, alternating product selector and local collection tray.",
+        "palette": [
+          "#f7f0f1",
+          "#432e33",
+          "#a64660",
+          "#e4c2cb"
+        ],
+        "type": "Georgia display, system-ui body",
+        "conversion": "Select real garment and source size, add quantity to local assortment, visible progress to 6, official source checkout link. Public prices are reference only; wholesale conditions confirmed by brand."
+      }
+    },
+    {
+      "slug": "lemon-shoes",
+      "official": "https://lemonshoes.co/",
+      "sources": [
+        "https://lemonshoes.co/mayoristas/",
+        "https://lemonshoes.co/products/sandalias-eva/",
+        "https://lemonshoes.co/products/canoa-selena/",
+        "https://lemonshoes.co/products/mocasin-dallas/"
+      ],
+      "facts": {
+        "minimum": 8,
+        "minimumUnit": "pares",
+        "location": "Bucaramanga",
+        "material": "cuero genuino según marca",
+        "products": [
+          "Sandalias Eva",
+          "Canoas Carla",
+          "Mocasines Dallas"
+        ]
+      },
+      "lock": {
+        "composition": "Bold dark campaign; oversized numeral8, photo diptych, then horizontal model selector and a vivid lime wholesale assortment bar.",
+        "palette": [
+          "#171b18",
+          "#eff1e9",
+          "#d7ec69"
+        ],
+        "type": "Arial Black headline, Arial body",
+        "conversion": "Build an 8-pair interest list with real models, sizes and colors. No retail price as wholesale price. Copy local selection and continue manually to official wholesale page."
+      }
+    },
+    {
+      "slug": "calzado-megam",
+      "official": "https://calzadomegam.com/",
+      "sources": [
+        "https://calzadomegam.com/products/luciana",
+        "https://calzadomegam.com/products/heily",
+        "https://calzadomegam.com/products/cataleya"
+      ],
+      "facts": {
+        "products": [
+          {
+            "id": "luciana",
+            "priceCOP": 90000,
+            "material": "cuero vegano liso",
+            "sole": "PU lineal",
+            "heightCM": 2
+          },
+          {
+            "id": "heily",
+            "priceCOP": 60000,
+            "material": "cuero vegano grabado",
+            "sole": "PVC",
+            "heightCM": 1
+          },
+          {
+            "id": "cataleya",
+            "priceCOP": 105000,
+            "material": "cuero vegano tejido",
+            "sole": "PVC",
+            "heightCM": 1
+          }
+        ],
+        "sizes": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40
+        ]
+      },
+      "lock": {
+        "composition": "Buyer-oriented product studio: oversized photo with rail of model thumbnails, adjacent concise product detail and size chips; lower comparison table and wishlist.",
+        "palette": [
+          "#eaf0f2",
+          "#122b30",
+          "#ffffff",
+          "#d6e5e8"
+        ],
+        "type": "Helvetica Neue/system sans",
+        "conversion": "Choose model/size, compare real prices/materials, keep local favorites; continue to official product page. No live stock/checkout claims.",
+        "photoFrame": "Desktop photo fixed to clamp(350px,34vw,460px), object-position 50% 76%; mobile square. Shoe visible on first fold. Cataleya uses front view."
+      },
+      "imageCaveat": "Luciana alternative image is tan with unconfirmed exact color label, so omitted from selectable variants. Heily uses source-labeled Talco and Negro images. Cataleya uses Champagne."
+    },
+    {
+      "slug": "nabay",
+      "official": "https://www.calzadopormayor.com/",
+      "sources": [
+        "https://www.calzadopormayor.com/plataformas-oceano-costa-rica/",
+        "https://www.calzadopormayor.com/tacones-yute-clasico/",
+        "https://www.calzadopormayor.com/tacones-vegas-artesanales/",
+        "https://www.calzadopormayor.com/contacto/"
+      ],
+      "facts": {
+        "manufacturing": "Hecho a mano en Bucaramanga; fabricación para marcas publicada en web",
+        "products": [
+          {
+            "id": "oceano",
+            "name": "Plataformas Oceano Costa Rica",
+            "sku": "014",
+            "materials": "yute y jean"
+          },
+          {
+            "id": "clasico",
+            "name": "Tacones Yute Clásico",
+            "sku": "104",
+            "materials": "yute"
+          },
+          {
+            "id": "vegas",
+            "name": "Tacones Vegas Artesanales",
+            "sku": "108",
+            "materials": "yute"
+          }
+        ],
+        "minimum": null,
+        "prices": null
+      },
+      "lock": {
+        "composition": "Artisan lookbook: warm paper background, monumental serif title, full-bleed documentary product image, vertical numbered product chapters with a shortlist side sheet.",
+        "palette": [
+          "#ede8de",
+          "#302c25",
+          "#9b4b31"
+        ],
+        "type": "Baskerville/Georgia display, system-ui body",
+        "conversion": "Choose retail stock versus own brand intent, shortlist real references and requested quantities, download brief, continue to official catalog request. Minima and prices remain to confirm."
+      }
+    }
+  ],
+  "imageResolutionNote": "Megam: original asset paths verified by HTTP/image decoding from same observed Shopify _medium filenames; no stock images.",
+  "imageOptimization": {
+    "method": "Deterministic JPEG encoding and longest-side resampling for web delivery; no scene or product modification. Original official URLs preserved above.",
+    "files": [
+      {
+        "file": "tienda-doral/assets/graciosa-detail.jpg",
+        "originalBytes": 309715,
+        "optimizedBytes": 154266,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "tienda-doral/assets/graciosa.jpg",
+        "originalBytes": 374850,
+        "optimizedBytes": 153843,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "tienda-doral/assets/romantica-detail.jpg",
+        "originalBytes": 372671,
+        "optimizedBytes": 170749,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "tienda-doral/assets/romantica.jpg",
+        "originalBytes": 483504,
+        "optimizedBytes": 180929,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "tienda-doral/assets/tentadora-detail.jpg",
+        "originalBytes": 381067,
+        "optimizedBytes": 175807,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "tienda-doral/assets/tentadora.jpg",
+        "originalBytes": 517276,
+        "optimizedBytes": 147763,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "lemon-shoes/assets/carla.jpg",
+        "originalBytes": 79661,
+        "optimizedBytes": 79661,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "lemon-shoes/assets/dallas.jpg",
+        "originalBytes": 74013,
+        "optimizedBytes": 74013,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "lemon-shoes/assets/eva.jpg",
+        "originalBytes": 137270,
+        "optimizedBytes": 137270,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "calzado-megam/assets/cataleya-detail.jpg",
+        "originalBytes": 266754,
+        "optimizedBytes": 154469,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "calzado-megam/assets/cataleya.jpg",
+        "originalBytes": 297380,
+        "optimizedBytes": 160813,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "calzado-megam/assets/heily-detail.jpg",
+        "originalBytes": 1710699,
+        "optimizedBytes": 160129,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "calzado-megam/assets/heily.jpg",
+        "originalBytes": 1605353,
+        "optimizedBytes": 180682,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "calzado-megam/assets/luciana-detail.jpg",
+        "originalBytes": 278866,
+        "optimizedBytes": 170098,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "calzado-megam/assets/luciana.jpg",
+        "originalBytes": 1863793,
+        "optimizedBytes": 177211,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "nabay/assets/clasico.jpg",
+        "originalBytes": 752130,
+        "optimizedBytes": 137385,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "nabay/assets/oceano-editorial.jpg",
+        "originalBytes": 220290,
+        "optimizedBytes": 163990,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "nabay/assets/oceano.jpg",
+        "originalBytes": 158964,
+        "optimizedBytes": 151601,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      },
+      {
+        "file": "nabay/assets/vegas.jpg",
+        "originalBytes": 437505,
+        "optimizedBytes": 154649,
+        "format": "JPEG",
+        "longestSideMax": 1200,
+        "sceneUnchanged": true
+      }
+    ]
+  },
+  "verification": {
+    "checks": 29,
+    "passed": 29,
+    "report": "../tienda-doral/verification.json",
+    "syntaxFiles": 8,
+    "HTMLChecks": [
+      "unique IDs",
+      "all images have alt",
+      "external links noopener",
+      "local static resources exist"
+    ],
+    "photoChecks": [
+      "19 actual JPEG assets",
+      "max side 1200px",
+      "all below 185kB",
+      "source URL retained",
+      "3 optimized images visually inspected"
+    ],
+    "browserQA": "delegated to parent; child did not browse",
+    "parentChromeObserved": [
+      "Doral and Lemon visually good",
+      "Doral size M × 6 reaches minimum and COP282000",
+      "Nabay coherent",
+      "Megam first-fold shoe visibility issue fixed with 350–460px controlled photo frame, 76% vertical crop; Cataleya front photo selected"
+    ],
+    "finalChildChecks": "29/29 after final change; eight JS modules syntax-valid, all HTML resources exist, JPEG types and dimensions checked."
+  },
+  "deliberateLimits": [
+    "No checkout or backend in proposal. Official pages handle actual purchase or contact.",
+    "Selections and favorites stay in localStorage only; exports require a manual click.",
+    "No automatic WhatsApp or prospect contact. Samuel contact link separate from official buyer CTA.",
+    "No invented inventory, reviews, promotions, wholesale prices, delivery or sales promises.",
+    "Nabay minimum and unit prices not published in inspected catalog; remain unquoted.",
+    "Megam displays only photo-verified colors; official pages carry additional options."
+  ]
+}

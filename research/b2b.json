@@ -1,0 +1,140 @@
+{
+  "date": "2026-11-01",
+  "status": "implemented_and_local_chrome_qa_passed",
+  "refero": "NO_SUBSCRIPTION; official websites plus bundled craft/anti-ai-slop fallback",
+  "userDirection": "Elegir según negocio; diseños reales y diferentes, atractivos, investigación; publicar solo GitHub",
+  "references": {
+    "girar": [
+      "https://girarplasticos.co/",
+      "https://girarplasticos.co/tienda/",
+      "https://www.rubbermaid.com/"
+    ],
+    "veypa": [
+      "https://veypaltda.com/laminas-acrilicas-uso-general/",
+      "https://sendcutsend.com/"
+    ],
+    "arymar": [
+      "https://distribuidorarymar.com/",
+      "https://www.faire.com/"
+    ]
+  },
+  "decisions": {
+    "girar": {
+      "goal": "Captar distribuidores; recorrido por familias y selección de surtido antes de consultar",
+      "visual": "Azul de marca, CTA rojo y amarillo de apoyo; fotografía real sin filtro de color, Manrope geométrica y bloques de productos de uso cotidiano.",
+      "interaction": "Selector de tres líneas para recomendar productos reales y preparar consulta comercial",
+      "reject": "Página de formulario, precios mayoristas supuestos, la misma plantilla que las otras propuestas"
+    },
+    "veypa": {
+      "goal": "Planificar y revisar un despiece rectangular antes de cotizar corte",
+      "visual": "Mesa de trabajo técnica gris clara, tipografía de interfaz y medidas mono; acentos cian, vista SVG funcional dominante; catálogo de acabados fotográfico",
+      "interaction": "Pack de rectángulos, giro permitido, separación, múltiples láminas, utilización, SVG y lista de corte descargable; cálculo local heurístico sin garantía industrial",
+      "reject": "Precio instantáneo inventado, formato de lámina no confirmado, IA o integración fingida"
+    },
+    "arymar": {
+      "goal": "Reponer surtido mayorista con referencias y precios públicos observados",
+      "visual": "Azul petróleo tomado de la identidad, amarillo para comprar, catálogo compacto, búsqueda/SKU y carrito lateral.",
+      "interaction": "Catálogo buscable por nombre/SKU, filtros, cantidades, subtotal calculado, persistencia local, CSV y consulta por WhatsApp oficial",
+      "reject": "Cantidades de inventario en tiempo real, compra confirmada, productos farmacéuticos"
+    }
+  },
+  "assets": {
+    "girar-plasticos": {
+      "logo.png": "https://girarplasticos.co/wp-content/uploads/2023/01/Logo-pequeno-girar.png",
+      "organizadores.png": "https://girarplasticos.co/wp-content/uploads/2024/07/organizadores-1259-1.png",
+      "portacomidas.jpg": "https://girarplasticos.co/wp-content/uploads/2023/05/Combo-portacomidas-768x768.jpg",
+      "baldes.png": "https://girarplasticos.co/wp-content/uploads/2023/02/Combos-balde-6-y-3-e1676468819825-768x768.png",
+      "cocina.png": "https://girarplasticos.co/wp-content/uploads/2023/05/Combos-Escurridor-y-Cedazos-768x768.png"
+    },
+    "acrilicos-veypa": {
+      "logo.png": "https://veypaltda.com/wp-content/uploads/2024/03/cropped-logo-veypa-borde-blanco--291x59.png",
+      "cristal.jpg": "https://veypaltda.com/wp-content/uploads/2024/03/acrilico-cristal-wep-300x300.jpg",
+      "azul.jpg": "https://veypaltda.com/wp-content/uploads/2024/03/acrilico-azul-traslucido-L-089-300x300.jpg",
+      "naranja.jpg": "https://veypaltda.com/wp-content/uploads/2024/03/acrilico-naranja-fluorecente-L-032-300x300.jpg",
+      "negro.jpg": "https://veypaltda.com/wp-content/uploads/2024/03/lamina-acrilico-negro-solido-MF-300x300.jpg"
+    },
+    "distribuidora-arymar": {
+      "logo.jpg": "https://distribuidorarymar.com/wp-content/uploads/cropped-cropped-Logo-Arymar-1-1.jpg",
+      "dove.jpg": "https://distribuidorarymar.com/wp-content/uploads/4244-800x800.jpg",
+      "skala.jpeg": "https://distribuidorarymar.com/wp-content/uploads/WhatsApp-Image-2024-09-26-at-3.48.20-PM-800x800.jpeg",
+      "colgate.jpeg": "https://distribuidorarymar.com/wp-content/uploads/2422.jpeg",
+      "balance.jpeg": "https://distribuidorarymar.com/wp-content/uploads/5742-800x800.jpeg"
+    }
+  },
+  "qa": {
+    "status": "passed",
+    "at": "2026-11-02T01:21:43.421279+00:00",
+    "chromeDesktop": "Three pages visually reviewed, own photos and brand direction; fixed product blending to retain real colors.",
+    "chromeMobile": "Three pages visually reviewed at 390×844 override, actual content width 375px. document scrollWidth == clientWidth on all three. Restored viewport.",
+    "girar": "Selecting Cocina updates 2 lines and resulting WhatsApp URL. No message sent.",
+    "veypa": "4 pieces 500×500, stock1000×1000 gap0 => 1 sheet,100%,1m². 104 geometry cases verify count,bounds,no overlap and gap; 4 invalid input cases rejected.",
+    "arymar": "2 Dove => COP37,000, survives reload; search SKU3274 shows1 reference. Local cart only; no order sent.",
+    "syntax": "Node --check passed for all 3 apps; Veypa module imported in geometry tests.",
+    "screenshots": [
+      "girar-plasticos/qa/desktop.png",
+      "acrilicos-veypa/qa/desktop.png",
+      "distribuidora-arymar/qa/desktop.png"
+    ]
+  },
+  "products": {
+    "girar": [
+      {
+        "name": "Cajas organizadoras con tapa",
+        "capacities": "1, 2, 5 y 9 litros",
+        "source": "https://girarplasticos.co/tienda/caja-organizadora-con-tapa/"
+      },
+      {
+        "name": "Cocas Portacomidas",
+        "source": "https://girarplasticos.co/tienda/cocasportacomidas/"
+      },
+      {
+        "name": "Baldes con tapa 3 y 6 litros",
+        "source": "https://girarplasticos.co/tienda/"
+      }
+    ],
+    "veypa": {
+      "source": "https://veypaltda.com/laminas-acrilicas-uso-general/",
+      "materials": [
+        "Cristal",
+        "Azul translúcido L-089",
+        "Naranja fluorescente L-032",
+        "Negro sólido MF"
+      ],
+      "sheetSize": "Editable example 1200 × 2400 mm; NOT asserted as commercial catalog size",
+      "algorithm": "Maximum-rectangles packing with three ordering heuristics and two fit scores; choose lowest sheet count among six candidates; not guaranteed optimal"
+    },
+    "arymar": [
+      {
+        "name": "Shampoo Dove Nutrición Óleo 370 ml",
+        "sku": "4244",
+        "priceCOP": 18500,
+        "source": "https://distribuidorarymar.com/producto/shampoo-dove-nutricion-oleo370/"
+      },
+      {
+        "name": "Tratamiento Skala Mais Cachos 1000 g",
+        "sku": "3274",
+        "priceCOP": 19500,
+        "source": "https://distribuidorarymar.com/producto/tratamiento-skala-mais-cachos-x-1000g/"
+      },
+      {
+        "name": "Colgate Luminos White 75 ml",
+        "sku": "2422",
+        "priceCOP": 12204,
+        "source": "https://distribuidorarymar.com/producto/colgate-luminos-white-75-ml/"
+      },
+      {
+        "name": "Desodorante Balance Dama 70 g",
+        "sku": "5742",
+        "priceCOP": 7800,
+        "source": "https://distribuidorarymar.com/producto/desodorante-balance-70gr-dama/"
+      }
+    ]
+  },
+  "limitations": [
+    "Not official websites; no connected inventory, backend, payments, or AI.",
+    "Prices are observed public references, not live quotes; shipping and availability require business confirmation.",
+    "Veypa packing is preliminary rectangular planning; no tolerances, fixtures, equipment constraints or guaranteed optimal material use.",
+    "Only public product/business information. All outbound CTAs require a person to click and send in the destination.",
+    "No Git, deployment or outreach performed by this subtask."
+  ]
+}

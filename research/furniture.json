@@ -1,0 +1,180 @@
+{
+  "researchedAt": "2026-11-01",
+  "method": "Fuentes oficiales, páginas de producto y referentes reales. Refero sin suscripción; guías craft y anti-AI-slop leídas. Direct build autorizado por Samuel.",
+  "references": [
+    {
+      "url": "https://www.article.com/",
+      "role": "Compra por ambiente, producto protagonista y asesoría como salida de decisión"
+    },
+    {
+      "url": "https://www.tuftandpaw.com/",
+      "role": "Comunicación de producto felino directa, fotos de uso y navegación breve"
+    },
+    {
+      "url": "https://www.boconcept.com/en-us/",
+      "role": "Mobiliario como objeto de diseño; categorías, materiales y servicio de asesoría"
+    }
+  ],
+  "proposals": [
+    {
+      "slug": "saira-muebles",
+      "company": "Saira Muebles",
+      "choice": "Landing de conversión del Combo Río real",
+      "why": "Producto que reúne sala y comedor; la consulta necesita saber componentes, medidas y personalización. Hay fotos oficiales de ambiente y producto.",
+      "sources": [
+        "https://mueblessaira.com/products/combo-rio",
+        "https://mueblessaira.com/"
+      ],
+      "verifiedFacts": {
+        "priceCOP": 3135000,
+        "includes": [
+          "Sofá cama Mónaco 2 puestos",
+          "Base comedor Thiago 4 puestos",
+          "3 sillas Río",
+          "1 butaco Río"
+        ],
+        "dimensionsCm": {
+          "sofa": [
+            150,
+            95,
+            85
+          ],
+          "table": [
+            110,
+            79,
+            78
+          ],
+          "chair": [
+            47,
+            49,
+            102
+          ],
+          "bench": [
+            80,
+            40,
+            50
+          ]
+        }
+      },
+      "referenceLock": {
+        "primary": "Saira: fotografía cálida de ambiente y fabricación propia en Bogotá",
+        "borrow": "Article: una compra por ambiente, producto y medida próximos al CTA",
+        "preserve": [
+          "fotografía amplia real",
+          "verde profundo como acción",
+          "tipografía serif en titulares completos y sans en compra",
+          "composición asimétrica foto/texto",
+          "pocos elementos con aire"
+        ],
+        "reject": [
+          "grid de formularios",
+          "promesas de entrega no verificadas",
+          "mismo diseño que Modo/Kälida"
+        ]
+      },
+      "interaction": "Galería, selección visual de componente con medidas y consulta WhatsApp contextual; no checkout ni datos enviados automáticamente."
+    },
+    {
+      "slug": "modo-colombia",
+      "company": "Modo Colombia",
+      "choice": "Landing del Mododomo con guía de elección de entrada",
+      "why": "Objeto reconocible y aspiracional; la orientación y el muro importan antes de comprar. El gato real y el objeto comunican más que un esquema genérico.",
+      "sources": [
+        "https://www.modosas.com/tienda/productos-flotantes/mododomo/",
+        "https://www.modosas.com/conocenos/"
+      ],
+      "verifiedFacts": {
+        "priceRangeCOP": [
+          628773,
+          728773
+        ],
+        "dimensionsCm": [
+          47,
+          42,
+          42
+        ],
+        "orientations": [
+          "Entrada derecha",
+          "Entrada izquierda",
+          "Doble entrada"
+        ],
+        "includes": "Cojín interior"
+      },
+      "referenceLock": {
+        "primary": "Modo: producto curvo, acrílico y madera con gato en fotografía oficial",
+        "borrow": "Tuft & Paw: lenguaje breve felino, fotografía uso y selector cercano al producto",
+        "preserve": [
+          "fondo menta y tinta oscura",
+          "titulares sans redondeados grandes",
+          "encuadre redondo/arqueado para foto de gato",
+          "etiquetas compactas de medidas",
+          "orientaciones como selector visual"
+        ],
+        "reject": [
+          "iconos de gato decorativos por todas partes",
+          "render inventado",
+          "falso bot de IA"
+        ]
+      },
+      "interaction": "Cambio de fotografía, orientación de entrada y tipo de pared actualizan recomendación y consulta; recomendación por reglas explícitas, sin fingir IA."
+    },
+    {
+      "slug": "kalida-espacios",
+      "company": "Kälida Espacios Únicos",
+      "choice": "Galería comercial de sala con selección Mitchelli + Key + cojín 020",
+      "why": "La categoría actual de comedores tiene 0 productos. Sustituimos la idea por productos reales verificables de sala con posibilidad de armar una selección.",
+      "sources": [
+        "https://kalidaespacios.co/muebles/comedores/",
+        "https://kalidaespacios.co/p/silla-poltrona-patchwork-mitchelli/",
+        "https://kalidaespacios.co/p/mesa-de-centro-para-sala-key/",
+        "https://kalidaespacios.co/p/cojin-decorativo-patchwork-020/"
+      ],
+      "verifiedFacts": {
+        "pricesCOP": {
+          "Mitchelli patas tradicionales": 2670000,
+          "Mitchelli base patas": 2950000,
+          "Key": 2015000,
+          "Cojín 020": 230000
+        },
+        "priceConflictResolved": "Búsqueda de Key y cojín mostró caché antigua; HTML oficial actual consultado con curl confirma 2.015.000 y 230.000, en línea con la home."
+      },
+      "referenceLock": {
+        "primary": "Kälida: objetos patchwork y piezas fabricadas en Colombia",
+        "borrow": "BoConcept: escala de producto, claridad de materiales y asesoría",
+        "preserve": [
+          "lienzo blanco",
+          "títulos negros geométricos",
+          "color proveniente de producto patchwork",
+          "rejilla editorial irregular",
+          "selección con precio referencial visible"
+        ],
+        "reject": [
+          "comedor inexistente",
+          "disponibilidad inventada",
+          "mismo hero de Saira"
+        ]
+      },
+      "interaction": "Selección de 3 piezas, tipo de base y tono; total referencial calculado y consulta a asesor con selección. Nada se paga aquí."
+    }
+  ],
+  "verification": {
+    "date": "2026-11-01",
+    "status": "passed",
+    "checks": [
+      "JS syntax checks: 3 files",
+      "Assets locales y anchors: 3 landings sin faltantes",
+      "Chrome desktop: las 3 revisadas visualmente; foto, tipografía y jerarquía distintas",
+      "Saira: Mesa actualiza a 110 × 79 × 78 cm y CTA contextual",
+      "Modo: drywall activa recomendación de consulta sin confirmar compatibilidad",
+      "Kälida: tres piezas + base patas = 5.195.000 COP",
+      "Kälida: selección vacía quita href y muestra instrucción",
+      "Chrome móvil 390 solicitado / 375 disponibles: las tres sin overflow horizontal y 0 imágenes rotas",
+      "Viewport restaurado; no se enviaron mensajes, pedidos ni pagos"
+    ],
+    "limitations": [
+      "Precios son referencia a fecha de investigación; confirmación final en canal oficial",
+      "No se atribuye IA: Modo usa reglas informativas",
+      "Root gestiona publicación en GitHub y verificación del enlace público"
+    ]
+  }
+}

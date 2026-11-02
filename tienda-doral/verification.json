@@ -1,0 +1,12 @@
+{
+  "checkedAt": "2026-11-02T01:28:34.099Z",
+  "checks": 29,
+  "passed": 29,
+  "scope": "Pure business logic, variants, totals, export, HTML local resources, responsive rules, no automatic network/contact. Chrome visual QA delegated to parent.",
+  "slugs": [
+    "tienda-doral",
+    "lemon-shoes",
+    "calzado-megam",
+    "nabay"
+  ]
+}
