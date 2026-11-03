@@ -9,28 +9,28 @@
     "foreground": "#282321",
     "font": "Arial, sans-serif"
   },
-  "heroImage": "assets/catalog-1.webp",
+  "heroImage": "assets/bolsa-11.jpg",
   "products": [
     {
       "name": "Black Honey",
       "url": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-black-honey/",
       "description": "Proceso que conserva la miel del café durante parte del beneficiado.",
-      "image": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/WEBslider-black-honey.jpg",
-      "asset": "assets/catalog-1.webp"
+      "image": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/Group-11.jpg",
+      "asset": "assets/bolsa-11.jpg"
     },
     {
       "name": "Fully Washed",
       "url": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-fully-washed/",
       "description": "Café lavado de finca Bellavista, con tueste medio según su ficha.",
-      "image": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/WEBslider-fully-washed.jpg",
-      "asset": "assets/catalog-2.webp"
+      "image": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/Group-12.jpg",
+      "asset": "assets/bolsa-12.jpg"
     },
     {
       "name": "Geisha",
       "url": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-geisha/",
       "description": "Variedad Geisha; la ficha describe un perfil floral y delicado.",
-      "image": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/webgeisha2.jpg",
-      "asset": "assets/catalog-3.webp"
+      "image": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/Group-13.jpg",
+      "asset": "assets/bolsa-13.jpg"
     }
   ],
   "faqs": [
