@@ -1,0 +1,214 @@
+{
+  "company": "Autopartes de Santiago",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://autopartesdesantiago.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Autopartes de Santiago"
+    },
+    {
+      "url": "https://autopartesdesantiago.com/partes/ZFR6F-11",
+      "claim": "Ficha o línea publicada: Bujía NGK ZFR6F-11"
+    },
+    {
+      "url": "https://autopartesdesantiago.com/partes/ZFR6AGP",
+      "claim": "Ficha o línea publicada: Bujía NGK ZFR6AGP"
+    },
+    {
+      "url": "https://autopartesdesantiago.com/partes/ZFR5N",
+      "claim": "Ficha o línea publicada: Bujía NGK ZFR5N"
+    },
+    {
+      "url": "https://autopartesdesantiago.com/instalaciones",
+      "claim": "Proceso o información complementaria oficial"
+    },
+    {
+      "url": "https://autopartesdesantiago.com/partes",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "products": [
+    {
+      "name": "Bujía NGK ZFR6F-11",
+      "description": "Referencia identificada en el catálogo; aplicación por verificar.",
+      "url": "https://autopartesdesantiago.com/partes/ZFR6F-11",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autopartesdesantiago.firebasestorage.app/o/fotos%2FZFR6F-11-e36cd9fa-4d234982.jpg?alt=media&token=55c086f7-d925-4757-898b-23de0072d69e",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Bujía NGK ZFR6AGP",
+      "description": "Código de bujía publicado por el comercio; confirmar vehículo.",
+      "url": "https://autopartesdesantiago.com/partes/ZFR6AGP",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autopartesdesantiago.firebasestorage.app/o/fotos%2FZFR6AGP-1996fe01-2aa042e9.jpg?alt=media&token=af480d1f-eda7-41ce-9991-6e5ae5f30619",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Bujía NGK ZFR5N",
+      "description": "Referencia de encendido del catálogo; no universal.",
+      "url": "https://autopartesdesantiago.com/partes/ZFR5N",
+      "image": "https://firebasestorage.googleapis.com/v0/b/autopartesdesantiago.firebasestorage.app/o/fotos%2FZFR5N-9f4a1deb-97dea04a.jpg?alt=media&token=f5670ea9-cb6d-48b2-8eec-e4335b094ceb",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://autopartesdesantiago.com/images/parts-range.webp",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://firebasestorage.googleapis.com/v0/b/autopartesdesantiago.firebasestorage.app/o/fotos%2FZFR6F-11-e36cd9fa-4d234982.jpg?alt=media&token=55c086f7-d925-4757-898b-23de0072d69e",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://firebasestorage.googleapis.com/v0/b/autopartesdesantiago.firebasestorage.app/o/fotos%2FZFR6AGP-1996fe01-2aa042e9.jpg?alt=media&token=af480d1f-eda7-41ce-9991-6e5ae5f30619",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://firebasestorage.googleapis.com/v0/b/autopartesdesantiago.firebasestorage.app/o/fotos%2FZFR5N-9f4a1deb-97dea04a.jpg?alt=media&token=f5670ea9-cb6d-48b2-8eec-e4335b094ceb",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://autopartesdesantiago.com/",
+    "secondary": "https://www.rockauto.com/",
+    "layout": "garage",
+    "palette": [
+      "#c53a25",
+      "#f3f3ef",
+      "#1e2a31",
+      "#e5b34f"
+    ],
+    "typography": "'Space Grotesk',sans-serif",
+    "decisions": "Mostrador automotriz con navegación por solicitud, bloque técnico oscuro y códigos de pieza visibles; compatibilidad nunca inferida.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "El sitio ofrece búsqueda por vehículo y catálogo por tipo de refacción.",
+      "También publica instalación de parabrisas, cristales y otros accesorios.",
+      "La selección contiene códigos de producto; el código por sí solo no confirma compatibilidad con cualquier auto."
+    ],
+    "hypothesis": "Preparar solicitudes de piezas con suficientes datos antes de la verificación por el mostrador.",
+    "operation": "Mesa de verificación de refacciones",
+    "boundaries": [
+      "No existe una base de compatibilidad conectada.",
+      "Los productos se presentan sin precios ni inventario del catálogo para no congelar datos comerciales."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://autopartesdesantiago.com/images/parts-range.webp",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/autopartesdesantiago.firebasestorage.app/o/fotos%2FZFR6F-11-e36cd9fa-4d234982.jpg?alt=media&token=55c086f7-d925-4757-898b-23de0072d69e",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/autopartesdesantiago.firebasestorage.app/o/fotos%2FZFR6AGP-1996fe01-2aa042e9.jpg?alt=media&token=af480d1f-eda7-41ce-9991-6e5ae5f30619",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://firebasestorage.googleapis.com/v0/b/autopartesdesantiago.firebasestorage.app/o/fotos%2FZFR5N-9f4a1deb-97dea04a.jpg?alt=media&token=f5670ea9-cb6d-48b2-8eec-e4335b094ceb",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "autopartes-de-santiago",
+      "company": "Autopartes de Santiago",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "No existe una base de compatibilidad conectada.",
+        "Los productos se presentan sin precios ni inventario del catálogo para no congelar datos comerciales."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://autopartesdesantiago.com/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://autopartesdesantiago.com/partes/ZFR5N",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://autopartesdesantiago.com/partes/ZFR6AGP",
+        "status": 429,
+        "networkError": null
+      },
+      {
+        "url": "https://autopartesdesantiago.com/partes/ZFR6F-11",
+        "status": 429,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 107604
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 14090
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 11700
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 12720
+      }
+    ]
+  },
+  "publicOnly": true
+}

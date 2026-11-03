@@ -1,0 +1,166 @@
+{
+  "company": "GMC Refrigeración",
+  "language": "es",
+  "website": "https://gmcrefrigeracion.com/",
+  "description": "GMC Refrigeración · Refrigeración comercial y repuestos. La oferta separa cuartos fríos, racks, refrigeración comercial, mantenimiento y repuestos.",
+  "products": [
+    {
+      "name": "Cuartos fríos",
+      "url": "https://gmcrefrigeracion.com/cuartos-frios/",
+      "description": "Diseño, fabricación y montaje de espacios refrigerados.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Racks de refrigeración",
+      "url": "https://gmcrefrigeracion.com/racks-de-refrigeracion/",
+      "description": "Línea de equipos y proyectos publicada por GMC.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Mantenimiento y reparación",
+      "url": "https://gmcrefrigeracion.com/mantenimiento-cuartos-frios/",
+      "description": "Atención técnica y mantenimiento de instalaciones de refrigeración.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué equipos atienden?",
+      "answer": "El sitio presenta cuartos fríos, racks y refrigeración para supermercados, además de mantenimiento y repuestos.",
+      "keywords": [
+        "equipo",
+        "racks",
+        "cuarto"
+      ]
+    },
+    {
+      "question": "¿Necesito un diagnóstico para reportar?",
+      "answer": "No. Describe lo observado, la lectura y desde cuándo ocurre. El diagnóstico corresponde al técnico.",
+      "keywords": [
+        "diagnostico",
+        "falla"
+      ]
+    },
+    {
+      "question": "¿Qué temperatura es segura?",
+      "answer": "No podemos fijar un rango sin conocer producto y proceso. Usa el rango aprobado por tu responsable técnico y sanitario.",
+      "keywords": [
+        "temperatura",
+        "rango",
+        "segura"
+      ]
+    },
+    {
+      "question": "¿El reporte genera una visita?",
+      "answer": "No. La demo ordena información; el equipo debe confirmar agenda, cobertura y condiciones.",
+      "keywords": [
+        "visita",
+        "agenda"
+      ]
+    },
+    {
+      "question": "¿Qué pasa si la operación está detenida?",
+      "answer": "El escenario la pone antes en la cola de revisión humana. No promete tiempo de respuesta ni reparación.",
+      "keywords": [
+        "detenida",
+        "prioridad",
+        "urgente"
+      ]
+    },
+    {
+      "question": "¿Qué es Cuartos fríos?",
+      "answer": "Diseño, fabricación y montaje de espacios refrigerados. Ficha oficial: https://gmcrefrigeracion.com/cuartos-frios/",
+      "keywords": [
+        "cuartos fríos",
+        "cuartos",
+        "fríos"
+      ]
+    },
+    {
+      "question": "¿Qué es Racks de refrigeración?",
+      "answer": "Línea de equipos y proyectos publicada por GMC. Ficha oficial: https://gmcrefrigeracion.com/racks-de-refrigeracion/",
+      "keywords": [
+        "racks de refrigeración",
+        "racks",
+        "refrigeración"
+      ]
+    },
+    {
+      "question": "¿Qué es Mantenimiento y reparación?",
+      "answer": "Atención técnica y mantenimiento de instalaciones de refrigeración. Ficha oficial: https://gmcrefrigeracion.com/mantenimiento-cuartos-frios/",
+      "keywords": [
+        "mantenimiento y reparación",
+        "mantenimiento",
+        "reparación"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Priorización de solicitudes de refrigeración",
+    "steps": [
+      {
+        "key": "equipo",
+        "label": "Equipo",
+        "question": "¿Qué equipo y en qué ubicación requieren revisión?",
+        "required": true
+      },
+      {
+        "key": "observacion",
+        "label": "Observación",
+        "question": "¿Qué observas y desde cuándo? Describe sin intentar reparar.",
+        "required": true
+      },
+      {
+        "key": "lectura",
+        "label": "Lecturas",
+        "question": "¿Cuál es la lectura y cuál es el rango aprobado por el responsable del proceso?",
+        "required": true
+      },
+      {
+        "key": "impacto",
+        "label": "Impacto",
+        "question": "¿La operación está detenida, parcial o continúa?",
+        "required": true
+      },
+      {
+        "key": "atencion",
+        "label": "Atención",
+        "question": "¿Hay un responsable técnico que ya conozca el caso?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://gmcrefrigeracion.com/",
+      "claim": "Actividad, catálogo y canales oficiales de GMC Refrigeración"
+    },
+    {
+      "url": "https://gmcrefrigeracion.com/cuartos-frios/",
+      "claim": "Ficha o línea publicada: Cuartos fríos"
+    },
+    {
+      "url": "https://gmcrefrigeracion.com/racks-de-refrigeracion/",
+      "claim": "Ficha o línea publicada: Racks de refrigeración"
+    },
+    {
+      "url": "https://gmcrefrigeracion.com/mantenimiento-cuartos-frios/",
+      "claim": "Ficha o línea publicada: Mantenimiento y reparación"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#075d9c",
+    "background": "#f3f6f7",
+    "foreground": "#142a3a",
+    "font": "'Manrope',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

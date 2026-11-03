@@ -1,0 +1,30 @@
+{
+  "primary": {
+    "url": "https://www.petcornercr.com/",
+    "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+    "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+  },
+  "sector": {
+    "url": "https://ruffwear.com/collections/dog-harnesses",
+    "observedPattern": "Selección por uso y atributos de producto; guía comparativa antes de elegir talla."
+  },
+  "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+  "direction": {
+    "layout": "playful",
+    "headline": "Pequeños objetos.\nGrandes días juntos.",
+    "palette": [
+      "#bb416b",
+      "#fcf0f3",
+      "#472c44"
+    ],
+    "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+    "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+    "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+  },
+  "rejected": [
+    "Formularios como entrega principal",
+    "Testimonios o métricas inventados",
+    "Precios de catálogo copiados sin actualización",
+    "Mismo hero y misma composición para todas las empresas"
+  ]
+}

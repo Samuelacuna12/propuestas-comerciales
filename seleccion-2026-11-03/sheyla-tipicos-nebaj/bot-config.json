@@ -1,0 +1,178 @@
+{
+  "company": "Sheyla Típicos Nebaj",
+  "language": "es",
+  "website": "https://tipicosnebaj.com/",
+  "description": "Produce ropa típica, conjuntos y textiles artesanales; anuncia venta mayorista, minorista y pedidos personalizados.",
+  "theme": {
+    "accent": "#b92d57",
+    "background": "#fcf2e3",
+    "foreground": "#382e43",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Vestidos típicos bordados",
+      "url": "https://tipicosnebaj.com/",
+      "description": "Familia de prendas descrita y fotografiada en la web; consultar cada referencia al taller.",
+      "image": "https://img1.wsimg.com/isteam/ip/adfa5a7f-7d4f-43a3-bb1c-df3287285f79/IMG_5101.png/:/cr=t:8.48%25,l:0%25,w:100%25,h:75%25/rs=w:365,h:365,cg:true",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Sacos y camisas bordados",
+      "url": "https://tipicosnebaj.com/",
+      "description": "Prendas identificadas en el texto alternativo de la galería oficial.",
+      "image": "https://img1.wsimg.com/isteam/ip/adfa5a7f-7d4f-43a3-bb1c-df3287285f79/IMG_8331.jpeg/:/cr=t:0%25,l:0%25,w:79.84%25,h:100%25/rs=w:365,h:365,cg:true",
+      "asset": "assets/catalog-3.webp"
+    },
+    {
+      "name": "Llaveros textiles",
+      "url": "https://tipicosnebaj.com/",
+      "description": "Accesorios textiles observados en una imagen de la galería oficial; diseño y disponibilidad por consultar.",
+      "image": "https://img1.wsimg.com/isteam/ip/adfa5a7f-7d4f-43a3-bb1c-df3287285f79/IMG_5983.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25",
+      "asset": "assets/catalog-4.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Vestidos típicos bordados?",
+      "answer": "Familia de prendas descrita y fotografiada en la web; consultar cada referencia al taller.",
+      "keywords": [
+        "vestidos",
+        "típicos",
+        "bordados"
+      ]
+    },
+    {
+      "question": "¿Qué es Sacos y camisas bordados?",
+      "answer": "Prendas identificadas en el texto alternativo de la galería oficial.",
+      "keywords": [
+        "sacos",
+        "y",
+        "camisas",
+        "bordados"
+      ]
+    },
+    {
+      "question": "¿Qué es Llaveros textiles?",
+      "answer": "Accesorios textiles observados en una imagen de la galería oficial; diseño y disponibilidad por consultar.",
+      "keywords": [
+        "llaveros",
+        "textiles"
+      ]
+    },
+    {
+      "question": "¿Dónde nace el trabajo de Sheyla?",
+      "answer": "La empresa familiar se presenta desde Nebaj, Quiché, Guatemala.",
+      "keywords": [
+        "nace",
+        "el",
+        "trabajo",
+        "de",
+        "sheyla"
+      ]
+    },
+    {
+      "question": "¿Quién participa en la elaboración?",
+      "answer": "El sitio describe trabajo con mujeres artesanas y tejedoras Maya Ixiles.",
+      "keywords": [
+        "participa",
+        "en",
+        "la",
+        "elaboración"
+      ]
+    },
+    {
+      "question": "¿Atienden mayoreo?",
+      "answer": "La página anuncia venta por mayor y al detalle.",
+      "keywords": [
+        "mayoreo"
+      ]
+    },
+    {
+      "question": "¿Se pueden pedir diseños personalizados?",
+      "answer": "La web publica pedidos personalizados, sujetos a conversación y aprobación.",
+      "keywords": [
+        "pueden",
+        "pedir",
+        "diseños",
+        "personalizados"
+      ]
+    },
+    {
+      "question": "¿Hay un catálogo con SKU y existencias?",
+      "answer": "La página presenta familias e imágenes de prendas; no se verificó inventario por referencia.",
+      "keywords": [
+        "un",
+        "catálogo",
+        "con",
+        "sku",
+        "y",
+        "existencias"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Sheyla Típicos Nebaj",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Familia de prenda",
+        "question": "Indica familia de prenda.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Medidas por confirmar",
+        "question": "Indica medidas por confirmar.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Colores o detalles deseados",
+        "question": "Indica colores o detalles deseados.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Cantidad por pieza",
+        "question": "Indica cantidad por pieza.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Aprobación y fecha deseada",
+        "question": "Indica aprobación y fecha deseada.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://tipicosnebaj.com/",
+      "claim": "Empresa familiar de Nebaj, catálogo artesanal, pedidos personalizados y formulario de contacto."
+    },
+    {
+      "url": "https://tipicosnebaj.com/",
+      "claim": "Vestidos típicos bordados: Familia de prendas descrita y fotografiada en la web; consultar cada referencia al taller."
+    },
+    {
+      "url": "https://tipicosnebaj.com/",
+      "claim": "Sacos y camisas bordados: Prendas identificadas en el texto alternativo de la galería oficial."
+    },
+    {
+      "url": "https://tipicosnebaj.com/",
+      "claim": "Llaveros textiles: Accesorios textiles observados en una imagen de la galería oficial; diseño y disponibilidad por consultar."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "No se verificaron tres fichas individuales comprables con SKU. Se presentan únicamente servicios, materiales o familias publicados; catálogo detallado pendiente de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "company": "Succasa",
+  "language": "es",
+  "website": "https://succasa.com.gt/",
+  "description": "Catálogo de cajas, bandejas y otros empaques para alimentos; permite agregar referencias y cantidades a una cotización digital.",
+  "theme": {
+    "accent": "#bc5d37",
+    "background": "#faf0df",
+    "foreground": "#4a332b",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Caja pastel 10 × 10 × 4 Felicidades",
+      "url": "https://succasa.com.gt/product/caja-pastel-10104-felicidades-1-50/",
+      "description": "Referencia publicada con presentación 1/50; confirmar medidas y unidades al cotizar.",
+      "image": "https://succasa.com.gt/wp-content/uploads/2021/01/3200-1-scaled.jpg",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Caja pastel 10 × 10 × 4 blanca",
+      "url": "https://succasa.com.gt/product/caja-pastel-10104-blanca-1-50/",
+      "description": "Caja blanca publicada con presentación 1/50.",
+      "image": "https://succasa.com.gt/wp-content/uploads/2021/01/3205-1-scaled.jpg",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Caja pastel 12 × 12 × 4 blanca",
+      "url": "https://succasa.com.gt/product/caja-pastel-12124-blanca-1-50/",
+      "description": "Caja blanca de otra medida, publicada con presentación 1/50.",
+      "image": "https://succasa.com.gt/wp-content/uploads/2021/01/3206-1-scaled.jpg",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Caja pastel 10 × 10 × 4 Felicidades?",
+      "answer": "Referencia publicada con presentación 1/50; confirmar medidas y unidades al cotizar.",
+      "keywords": [
+        "caja",
+        "pastel",
+        "10",
+        "10",
+        "4",
+        "felicidades"
+      ]
+    },
+    {
+      "question": "¿Qué es Caja pastel 10 × 10 × 4 blanca?",
+      "answer": "Caja blanca publicada con presentación 1/50.",
+      "keywords": [
+        "caja",
+        "pastel",
+        "10",
+        "10",
+        "4",
+        "blanca"
+      ]
+    },
+    {
+      "question": "¿Qué es Caja pastel 12 × 12 × 4 blanca?",
+      "answer": "Caja blanca de otra medida, publicada con presentación 1/50.",
+      "keywords": [
+        "caja",
+        "pastel",
+        "12",
+        "12",
+        "4",
+        "blanca"
+      ]
+    },
+    {
+      "question": "¿Atienden compras al mayoreo?",
+      "answer": "El catálogo se presenta como mayoreo de empaques para alimentos.",
+      "keywords": [
+        "compras",
+        "al",
+        "mayoreo"
+      ]
+    },
+    {
+      "question": "¿Cómo se cotiza?",
+      "answer": "La web permite agregar productos y cantidades a una solicitud digital.",
+      "keywords": [
+        "se",
+        "cotiza"
+      ]
+    },
+    {
+      "question": "¿Qué otros empaques tienen?",
+      "answer": "El catálogo incluye cajas de pizza, lienzos antigrasa, moldes y papel aluminio.",
+      "keywords": [
+        "otros",
+        "empaques",
+        "tienen"
+      ]
+    },
+    {
+      "question": "¿Dónde están?",
+      "answer": "La página de cotización publica ubicación en Mixco, Guatemala.",
+      "keywords": [
+        "están"
+      ]
+    },
+    {
+      "question": "¿El cálculo confirma precio o disponibilidad?",
+      "answer": "No. La solicitud oficial debe confirmar presentación, medidas, existencias y precio final.",
+      "keywords": [
+        "cálculo",
+        "confirma",
+        "precio",
+        "o",
+        "disponibilidad"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Succasa",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Tipo y medida de caja",
+        "question": "Indica tipo y medida de caja.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Cantidad de productos a empacar",
+        "question": "Indica cantidad de productos a empacar.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Reserva deseada",
+        "question": "Indica reserva deseada.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Presentación comercial a confirmar",
+        "question": "Indica presentación comercial a confirmar.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Zona de entrega",
+        "question": "Indica zona de entrega.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://succasa.com.gt/mayoreo-empaques-para-alimentos/",
+      "claim": "Catálogo mayorista y armado de cotización por cantidades."
+    },
+    {
+      "url": "https://succasa.com.gt/quote-request/",
+      "claim": "Flujo de cotización y contacto comercial con dirección en Mixco."
+    },
+    {
+      "url": "https://succasa.com.gt/product/caja-pastel-10104-felicidades-1-50/",
+      "claim": "Caja pastel 10 × 10 × 4 Felicidades: Referencia publicada con presentación 1/50; confirmar medidas y unidades al cotizar."
+    },
+    {
+      "url": "https://succasa.com.gt/product/caja-pastel-10104-blanca-1-50/",
+      "claim": "Caja pastel 10 × 10 × 4 blanca: Caja blanca publicada con presentación 1/50."
+    },
+    {
+      "url": "https://succasa.com.gt/product/caja-pastel-12124-blanca-1-50/",
+      "claim": "Caja pastel 12 × 12 × 4 blanca: Caja blanca de otra medida, publicada con presentación 1/50."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "company": "Pata Firme",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://patafirme.mx/",
+      "claim": "Actividad, catálogo y canales oficiales de Pata Firme"
+    },
+    {
+      "url": "https://patafirme.mx/#catalogo",
+      "claim": "Ficha o línea publicada: Silla tejida"
+    }
+  ],
+  "products": [
+    {
+      "name": "Silla tejida",
+      "url": "https://patafirme.mx/#catalogo",
+      "description": "Asiento publicado con dos opciones de tejido; medidas finales por confirmar.",
+      "image": "https://patafirme.mx/#catalogo",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Silla triángulo",
+      "url": "https://patafirme.mx/#catalogo",
+      "description": "El catálogo declara 42 cm de ancho, 38 de fondo y 81 de alto.",
+      "image": "https://patafirme.mx/#catalogo",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Banco",
+      "url": "https://patafirme.mx/#catalogo",
+      "description": "Pieza de asiento fabricada bajo pedido; medida a consultar.",
+      "image": "https://patafirme.mx/#catalogo",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://patafirme.mx/",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://patafirme.mx/",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://patafirme.mx/",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://patafirme.mx/",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://patafirme.mx/",
+    "secondary": "https://www.muuto.com/",
+    "layout": "maker",
+    "palette": [
+      "#b53e29",
+      "#f5f2e8",
+      "#282d27",
+      "#d7b466"
+    ],
+    "typography": "'Space Grotesk',sans-serif",
+    "decisions": "Cuaderno de fabricante fiel al lenguaje directo de Pata Firme: fotografías reales incrustadas, líneas técnicas y poca decoración.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "El taller se ubica en Coyoacán y fabrica bajo pedido.",
+      "El sitio explica revisión de uso, medidas, madera y acabado antes de cotizar.",
+      "El catálogo público incluye Silla tejida, Silla triángulo, Banco y otros muebles con fotos incrustadas."
+    ],
+    "hypothesis": "Preparar solicitudes de ajuste de muebles con una referencia y dimensiones explícitas.",
+    "operation": "Explorador de medidas antes de cotizar",
+    "boundaries": [
+      "Las fotos fueron extraídas del HTML público oficial, sin generar muebles ficticios.",
+      "El plano es una envolvente rectangular; no un modelo estructural del mueble."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://patafirme.mx/",
+        "file": "assets/hero.img",
+        "status": 200
+      },
+      {
+        "url": "https://patafirme.mx/",
+        "file": "assets/product-1.img",
+        "status": 200
+      },
+      {
+        "url": "https://patafirme.mx/",
+        "file": "assets/product-2.img",
+        "status": 200
+      },
+      {
+        "url": "https://patafirme.mx/",
+        "file": "assets/product-3.img",
+        "status": 200
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "pata-firme",
+      "company": "Pata Firme",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "Las fotos fueron extraídas del HTML público oficial, sin generar muebles ficticios.",
+        "El plano es una envolvente rectangular; no un modelo estructural del mueble."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://patafirme.mx/",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 53064
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 67471
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 53064
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 37744
+      }
+    ]
+  },
+  "publicOnly": true
+}

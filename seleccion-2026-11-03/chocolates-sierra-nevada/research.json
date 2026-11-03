@@ -1,0 +1,190 @@
+{
+  "company": "Chocolates Sierra Nevada",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "es",
+  "sources": [
+    {
+      "url": "https://chocolatesierranevada.com/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://chocolatesierranevada.com/comprar/chocolate-dubai-pistacho.html",
+      "claim": "Chocolate Nazarí estilo Dubai: Chocolate Nazarí estilo Dubai con pistacho; revisa ingredientes y alérgenos en la ficha."
+    },
+    {
+      "url": "https://chocolatesierranevada.com/comprar/tableta-chocolate-negro-100.html",
+      "claim": "Tableta de Chocolate Negro 100% 100 g: Tableta de chocolate negro 100%, en formato de 100 g."
+    },
+    {
+      "url": "https://chocolatesierranevada.com/comprar/bombon-higo-brandy.html",
+      "claim": "Bombones de higo al Brandy: Bombones elaborados con higos y Brandy; contiene alcohol."
+    },
+    {
+      "url": "https://chocolatesierranevada.com/la-fabrica/",
+      "claim": "Fábrica artesanal, origen y catálogo."
+    },
+    {
+      "url": "https://chocolatesierranevada.com/",
+      "claim": "Venta online y comercialización B2B."
+    },
+    {
+      "url": "https://chocolatesierranevada.com/contacto/",
+      "claim": "Ubicación Pitres y contacto para pedidos de empresa."
+    }
+  ],
+  "products": [
+    {
+      "name": "Chocolate Nazarí estilo Dubai",
+      "url": "https://chocolatesierranevada.com/comprar/chocolate-dubai-pistacho.html",
+      "description": "Chocolate Nazarí estilo Dubai con pistacho; revisa ingredientes y alérgenos en la ficha.",
+      "image": "https://chocolatesierranevada.com/img/productos/t1/chocolate-estilo-dubai-chocolates-sierra-nevada-18.png",
+      "asset": "assets/product-1.png"
+    },
+    {
+      "name": "Tableta de Chocolate Negro 100% 100 g",
+      "url": "https://chocolatesierranevada.com/comprar/tableta-chocolate-negro-100.html",
+      "description": "Tableta de chocolate negro 100%, en formato de 100 g.",
+      "image": "https://chocolatesierranevada.com/img/productos/t1/tableta-chocolate-negro-100-43.png",
+      "asset": "assets/product-2.png"
+    },
+    {
+      "name": "Bombones de higo al Brandy",
+      "url": "https://chocolatesierranevada.com/comprar/bombon-higo-brandy.html",
+      "description": "Bombones elaborados con higos y Brandy; contiene alcohol.",
+      "image": "https://chocolatesierranevada.com/img/productos/t1/bombones-higo-brandy-chocolates-sierra-nevada-36.png",
+      "asset": "assets/product-3.png"
+    }
+  ],
+  "images": [
+    {
+      "product": "Chocolate Nazarí estilo Dubai",
+      "url": "https://chocolatesierranevada.com/img/productos/t1/chocolate-estilo-dubai-chocolates-sierra-nevada-18.png",
+      "local": "assets/product-1.png",
+      "mime": "image/png",
+      "bytes": 218520,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://chocolatesierranevada.com/comprar/chocolate-dubai-pistacho.html"
+    },
+    {
+      "product": "Tableta de Chocolate Negro 100% 100 g",
+      "url": "https://chocolatesierranevada.com/img/productos/t1/tableta-chocolate-negro-100-43.png",
+      "local": "assets/product-2.png",
+      "mime": "image/png",
+      "bytes": 171816,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://chocolatesierranevada.com/comprar/tableta-chocolate-negro-100.html"
+    },
+    {
+      "product": "Bombones de higo al Brandy",
+      "url": "https://chocolatesierranevada.com/img/productos/t1/bombones-higo-brandy-chocolates-sierra-nevada-36.png",
+      "local": "assets/product-3.png",
+      "mime": "image/png",
+      "bytes": 123170,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://chocolatesierranevada.com/comprar/bombon-higo-brandy.html"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://chocolatesierranevada.com/",
+    "secondary": "https://davidstea.com/",
+    "boundedBorrowing": "Selección sensorial por ocasión con ingredientes separados de promesas.",
+    "layout": "editorial",
+    "palette": {
+      "accent": "#7e2a26",
+      "background": "#faf0df"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Calcula piezas por regalo y unidades de preparación. Los alérgenos, conservación y disponibilidad se validan con la ficha oficial."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://chocolatesierranevada.com/comprar/chocolate-dubai-pistacho.html",
+        "httpOk": true
+      },
+      {
+        "url": "https://chocolatesierranevada.com/comprar/tableta-chocolate-negro-100.html",
+        "httpOk": true
+      },
+      {
+        "url": "https://chocolatesierranevada.com/comprar/bombon-higo-brandy.html",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

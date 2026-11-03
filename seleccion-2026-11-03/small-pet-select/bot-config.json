@@ -1,0 +1,184 @@
+{
+  "company": "Small Pet Select",
+  "language": "en",
+  "website": "https://shop.smallpetselect.com/",
+  "description": "Explore hay and bedding, then plan a refill from the amount your household actually uses.",
+  "products": [
+    {
+      "name": "2nd Cutting Timothy Hay",
+      "url": "https://shop.smallpetselect.com/products/2nd-cutting-timothy-hay",
+      "description": "Second-cutting Timothy hay with a leafy texture and soft stems.",
+      "image": "https://shop.smallpetselect.com/cdn/shop/files/125_Small-Pet-Select.jpg?v=1758301203&width=1024",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Sampler Hay Box",
+      "url": "https://shop.smallpetselect.com/products/sampler-hay-box",
+      "description": "A hay sampler intended to compare the included hay varieties.",
+      "image": "https://shop.smallpetselect.com/cdn/shop/files/421.jpg?v=1741870935&width=3000",
+      "asset": "assets/product-2-mobile.jpg"
+    },
+    {
+      "name": "Golden Wheat Straw Bedding",
+      "url": "https://shop.smallpetselect.com/products/golden-wheat-straw-bedding",
+      "description": "Wheat-straw bedding, distinct from a feeding-hay product.",
+      "image": "https://shop.smallpetselect.com/cdn/shop/files/listing1.jpg?v=1775685708&width=1500",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How is the official catalog organized?",
+      "answer": "Small Pet Select organizes shopping by pet and product category.",
+      "keywords": [
+        "official",
+        "catalog",
+        "organized"
+      ]
+    },
+    {
+      "question": "Are hay and bedding the same product category?",
+      "answer": "Hay, bedding, food and enrichment have separate catalog sections.",
+      "keywords": [
+        "bedding",
+        "same",
+        "product",
+        "category"
+      ]
+    },
+    {
+      "question": "Does this change Autoship?",
+      "answer": "The site offers an Autoship route; this preview does not enroll or change a subscription.",
+      "keywords": [
+        "does",
+        "this",
+        "change",
+        "autoship"
+      ]
+    },
+    {
+      "question": "What is 2nd Cutting Timothy Hay?",
+      "answer": "Second-cutting Timothy hay with a leafy texture and soft stems. Official product: https://shop.smallpetselect.com/products/2nd-cutting-timothy-hay",
+      "keywords": [
+        "cutting",
+        "timothy"
+      ]
+    },
+    {
+      "question": "What is Sampler Hay Box?",
+      "answer": "A hay sampler intended to compare the included hay varieties. Official product: https://shop.smallpetselect.com/products/sampler-hay-box",
+      "keywords": [
+        "sampler"
+      ]
+    },
+    {
+      "question": "What is Golden Wheat Straw Bedding?",
+      "answer": "Wheat-straw bedding, distinct from a feeding-hay product. Official product: https://shop.smallpetselect.com/products/golden-wheat-straw-bedding",
+      "keywords": [
+        "golden",
+        "wheat",
+        "straw",
+        "bedding"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://contact.gorgias.help/en-US/forms/zhhaokey",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Hay & bedding stock planner",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Are you looking for hay, a hay sampler or bedding?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How much do you currently have on hand?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "How much does your household normally use in a week, and how many weeks are you planning for?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Which product format or Autoship question should the official team review?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://shop.smallpetselect.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://shop.smallpetselect.com/products/2nd-cutting-timothy-hay",
+      "claim": "2nd Cutting Timothy Hay: Second-cutting Timothy hay with a leafy texture and soft stems."
+    },
+    {
+      "url": "https://shop.smallpetselect.com/products/sampler-hay-box",
+      "claim": "Sampler Hay Box: A hay sampler intended to compare the included hay varieties."
+    },
+    {
+      "url": "https://shop.smallpetselect.com/products/golden-wheat-straw-bedding",
+      "claim": "Golden Wheat Straw Bedding: Wheat-straw bedding, distinct from a feeding-hay product."
+    },
+    {
+      "url": "https://shop.smallpetselect.com/pages/about-small-pet-select",
+      "claim": "Empresa familiar, origen y catálogo; enlace oficial al formulario de contacto."
+    },
+    {
+      "url": "https://shop.smallpetselect.com/",
+      "claim": "Tienda estadounidense, autoship y canal mayorista."
+    },
+    {
+      "url": "https://contact.gorgias.help/en-US/forms/zhhaokey",
+      "claim": "Formulario comercial enlazado desde la web oficial."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Estimate days of coverage and refill quantities from observed household use. This is inventory planning, not feeding or veterinary advice."
+  ],
+  "theme": {
+    "accent": "#425f2a",
+    "background": "#f6f7eb",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

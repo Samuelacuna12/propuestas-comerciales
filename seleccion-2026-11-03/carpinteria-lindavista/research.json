@@ -1,0 +1,190 @@
+{
+  "company": "Carpintería Lindavista",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://carpinterialindavista.com.mx/",
+      "claim": "Actividad, catálogo y canales oficiales de Carpintería Lindavista"
+    },
+    {
+      "url": "https://carpinterialindavista.com.mx/proyectos.html",
+      "claim": "Ficha o línea publicada: Clóset a medida · proyecto 01"
+    },
+    {
+      "url": "https://carpinterialindavista.com.mx/faq.html",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "products": [
+    {
+      "name": "Clóset a medida · proyecto 01",
+      "url": "https://carpinterialindavista.com.mx/proyectos.html",
+      "description": "Pieza fotografiada en la galería oficial del taller; diseño y material se consultan.",
+      "image": "https://carpinterialindavista.com.mx/assets/work-01.webp",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Cómoda · proyecto 02",
+      "url": "https://carpinterialindavista.com.mx/proyectos.html",
+      "description": "Trabajo publicado en el portafolio; sirve como referencia visual, no SKU de stock.",
+      "image": "https://carpinterialindavista.com.mx/assets/work-02.webp",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Base de cama · proyecto 03",
+      "url": "https://carpinterialindavista.com.mx/proyectos.html",
+      "description": "Ejemplo de fabricación del taller, sujeto a especificación para cada espacio.",
+      "image": "https://carpinterialindavista.com.mx/assets/work-03.webp",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://carpinterialindavista.com.mx/assets/work-01.webp",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://carpinterialindavista.com.mx/assets/work-01.webp",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://carpinterialindavista.com.mx/assets/work-02.webp",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://carpinterialindavista.com.mx/assets/work-03.webp",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://carpinterialindavista.com.mx/",
+    "secondary": "https://www.muuto.com/",
+    "layout": "workshop",
+    "palette": [
+      "#88552f",
+      "#f4efe5",
+      "#2e2e25",
+      "#c7ab7f"
+    ],
+    "typography": "'Playfair Display',Georgia,serif",
+    "decisions": "Cuaderno de taller con fotografía de un proyecto a sangre, márgenes amplios y galería de proyectos, acompañado de planta orientativa.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "El sitio describe un taller familiar que diseña, fabrica e instala.",
+      "La oferta incluye cómodas, buffeteras, burós, mesas, camas y proyectos especiales.",
+      "Las preguntas frecuentes piden tipo de mueble, medidas, referencia y presupuesto orientativo para cotizar."
+    ],
+    "hypothesis": "Preparar mejor la primera conversación de un mueble a medida sin sustituir el levantamiento del taller.",
+    "operation": "Ficha de espacio para mueble a medida",
+    "boundaries": [
+      "La galería no publica nombres de modelo: las piezas se describen por su tipo visible y número de proyecto, sin inventar madera o dimensiones."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://carpinterialindavista.com.mx/assets/work-01.webp",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://carpinterialindavista.com.mx/assets/work-01.webp",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://carpinterialindavista.com.mx/assets/work-02.webp",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://carpinterialindavista.com.mx/assets/work-03.webp",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "carpinteria-lindavista",
+      "company": "Carpintería Lindavista",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "La galería no publica nombres de modelo: las piezas se describen por su tipo visible y número de proyecto, sin inventar madera o dimensiones."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://carpinterialindavista.com.mx/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://carpinterialindavista.com.mx/proyectos.html",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 77164
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 77164
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 71350
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 117062
+      }
+    ]
+  },
+  "publicOnly": true
+}

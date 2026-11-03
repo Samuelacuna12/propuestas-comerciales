@@ -1,0 +1,182 @@
+{
+  "company": "Mountain Rose Herbs",
+  "language": "en",
+  "website": "https://mountainroseherbs.com/",
+  "description": "Browse three named botanicals and prepare a measured stock worksheet for non-medical project planning.",
+  "products": [
+    {
+      "name": "Chamomile Flowers Organic",
+      "url": "https://mountainroseherbs.com/chamomile-flowers",
+      "description": "Organic German chamomile flowers, listed as Matricaria chamomilla.",
+      "image": "https://cdn11.bigcommerce.com/s-8466dwhhql/images/stencil/1280x1280/products/579/5325/Chamomile_Flowers__96047.1773771201.jpg?c=1",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Peppermint Leaf Organic",
+      "url": "https://mountainroseherbs.com/peppermint-leaf",
+      "description": "Organic peppermint leaf, listed as Mentha × piperita.",
+      "image": "https://cdn11.bigcommerce.com/s-8466dwhhql/images/stencil/1280x1280/products/807/5041/Peppermint_Website__66256.1763411623.jpg?c=1",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Hibiscus Flowers Organic",
+      "url": "https://mountainroseherbs.com/hibiscus-flowers-cut",
+      "description": "Hibiscus flowers from the botanical ingredient catalog.",
+      "image": "https://cdn11.bigcommerce.com/s-8466dwhhql/images/stencil/1280x1280/products/700/5007/Hibiscus_Cut_Website__16394.1762465061.jpg?c=1",
+      "asset": "assets/product-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What does the catalog cover?",
+      "answer": "The catalog separates herbs, spices, teas and other ingredient categories.",
+      "keywords": [
+        "what",
+        "does",
+        "catalog",
+        "cover"
+      ]
+    },
+    {
+      "question": "Is a wholesale route available?",
+      "answer": "A wholesale hub is linked from the official site.",
+      "keywords": [
+        "wholesale",
+        "route",
+        "available"
+      ]
+    },
+    {
+      "question": "Where can I check handling details?",
+      "answer": "The site publishes quality-control, ordering and product-care resources.",
+      "keywords": [
+        "where",
+        "check",
+        "handling",
+        "details"
+      ]
+    },
+    {
+      "question": "What is Chamomile Flowers Organic?",
+      "answer": "Organic German chamomile flowers, listed as Matricaria chamomilla. Official product: https://mountainroseherbs.com/chamomile-flowers",
+      "keywords": [
+        "chamomile",
+        "flowers",
+        "organic"
+      ]
+    },
+    {
+      "question": "What is Peppermint Leaf Organic?",
+      "answer": "Organic peppermint leaf, listed as Mentha × piperita. Official product: https://mountainroseherbs.com/peppermint-leaf",
+      "keywords": [
+        "peppermint",
+        "leaf",
+        "organic"
+      ]
+    },
+    {
+      "question": "What is Hibiscus Flowers Organic?",
+      "answer": "Hibiscus flowers from the botanical ingredient catalog. Official product: https://mountainroseherbs.com/hibiscus-flowers-cut",
+      "keywords": [
+        "hibiscus",
+        "flowers",
+        "organic"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://mountainroseherbs.com/about/contact",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Botanical materials worksheet",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Which botanical and product format are you considering?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many project batches are you preparing?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "How many grams does your existing recipe require per batch, and how much do you have?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Do you need the official ingredient, handling or allergen information?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://mountainroseherbs.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://mountainroseherbs.com/chamomile-flowers",
+      "claim": "Chamomile Flowers Organic: Organic German chamomile flowers, listed as Matricaria chamomilla."
+    },
+    {
+      "url": "https://mountainroseherbs.com/peppermint-leaf",
+      "claim": "Peppermint Leaf Organic: Organic peppermint leaf, listed as Mentha × piperita."
+    },
+    {
+      "url": "https://mountainroseherbs.com/hibiscus-flowers-cut",
+      "claim": "Hibiscus Flowers Organic: Hibiscus flowers from the botanical ingredient catalog."
+    },
+    {
+      "url": "https://mountainroseherbs.com/about/our-beginnings/",
+      "claim": "Propiedad, operación y sede en Eugene."
+    },
+    {
+      "url": "https://mountainroseherbs.com/about/contact",
+      "claim": "Atención comercial y acceso al canal mayorista."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Scale a user-provided material requirement and reserve; no dosage, therapeutic recommendation or medical recipe."
+  ],
+  "theme": {
+    "accent": "#3e5b36",
+    "background": "#f5f4eb",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

@@ -1,0 +1,204 @@
+{
+  "company": "GMC Refrigeración",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://gmcrefrigeracion.com/",
+      "claim": "Actividad, catálogo y canales oficiales de GMC Refrigeración"
+    },
+    {
+      "url": "https://gmcrefrigeracion.com/cuartos-frios/",
+      "claim": "Ficha o línea publicada: Cuartos fríos"
+    },
+    {
+      "url": "https://gmcrefrigeracion.com/racks-de-refrigeracion/",
+      "claim": "Ficha o línea publicada: Racks de refrigeración"
+    },
+    {
+      "url": "https://gmcrefrigeracion.com/mantenimiento-cuartos-frios/",
+      "claim": "Ficha o línea publicada: Mantenimiento y reparación"
+    }
+  ],
+  "products": [
+    {
+      "name": "Cuartos fríos",
+      "url": "https://gmcrefrigeracion.com/cuartos-frios/",
+      "description": "Diseño, fabricación y montaje de espacios refrigerados.",
+      "image": "https://gmcrefrigeracion.com/_astro/aerosan-nave.CJkNxHXM_Z1TX28E.jpg",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Racks de refrigeración",
+      "url": "https://gmcrefrigeracion.com/racks-de-refrigeracion/",
+      "description": "Línea de equipos y proyectos publicada por GMC.",
+      "image": "https://gmcrefrigeracion.com/_astro/rack-montaje.UjVVoMNv_3UVdw.jpg",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Mantenimiento y reparación",
+      "url": "https://gmcrefrigeracion.com/mantenimiento-cuartos-frios/",
+      "description": "Atención técnica y mantenimiento de instalaciones de refrigeración.",
+      "image": "https://gmcrefrigeracion.com/_astro/detalle-compresor.CZ8y8idU_Z2fJ4rF.jpg",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://gmcrefrigeracion.com/_astro/compresor.pgxrv0bC_2cByxq.jpg",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://gmcrefrigeracion.com/_astro/aerosan-nave.CJkNxHXM_Z1TX28E.jpg",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://gmcrefrigeracion.com/_astro/rack-montaje.UjVVoMNv_3UVdw.jpg",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://gmcrefrigeracion.com/_astro/detalle-compresor.CZ8y8idU_Z2fJ4rF.jpg",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://gmcrefrigeracion.com/",
+    "secondary": "https://www.carrier.com/us/en/commercial/equipment-controls/",
+    "layout": "technical",
+    "palette": [
+      "#075d9c",
+      "#f3f6f7",
+      "#142a3a",
+      "#8dbacb"
+    ],
+    "typography": "'Manrope',sans-serif",
+    "decisions": "Mesa técnica azul y gris, fotografía de técnicos y proyectos, navegación por equipo y panel de reporte con prioridad explicada.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "La oferta separa cuartos fríos, racks, refrigeración comercial, mantenimiento y repuestos.",
+      "Su proceso publicado contempla visita, diseño, montaje y mantenimiento.",
+      "La página de mantenimiento plantea bitácora y revisión del equipo."
+    ],
+    "hypothesis": "Entregar al responsable técnico reportes más completos y una cola de revisión orientativa.",
+    "operation": "Priorización de solicitudes de refrigeración",
+    "boundaries": [
+      "La prioridad es una regla demostrativa, no diagnóstico ni criterio de inocuidad."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://gmcrefrigeracion.com/_astro/compresor.pgxrv0bC_2cByxq.jpg",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://gmcrefrigeracion.com/_astro/aerosan-nave.CJkNxHXM_Z1TX28E.jpg",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://gmcrefrigeracion.com/_astro/rack-montaje.UjVVoMNv_3UVdw.jpg",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://gmcrefrigeracion.com/_astro/detalle-compresor.CZ8y8idU_Z2fJ4rF.jpg",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "gmc-refrigeracion",
+      "company": "GMC Refrigeración",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "La prioridad es una regla demostrativa, no diagnóstico ni criterio de inocuidad."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://gmcrefrigeracion.com/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://gmcrefrigeracion.com/cuartos-frios/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://gmcrefrigeracion.com/mantenimiento-cuartos-frios/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://gmcrefrigeracion.com/racks-de-refrigeracion/",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 171236
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 195146
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 183768
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 47078
+      }
+    ]
+  },
+  "publicOnly": true
+}

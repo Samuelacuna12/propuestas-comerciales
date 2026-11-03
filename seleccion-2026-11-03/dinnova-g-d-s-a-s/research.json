@@ -1,0 +1,196 @@
+{
+  "company": "D’Innova G&D S.A.S.",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://dinnova.com.co/",
+      "claim": "Actividad, catálogo y canales oficiales de D’Innova"
+    },
+    {
+      "url": "https://dinnova.com.co/portafolio/",
+      "claim": "Ficha o línea publicada: Cocinas integrales"
+    },
+    {
+      "url": "https://dinnova.com.co/servicios/",
+      "claim": "Ficha o línea publicada: Closets y vestieres"
+    }
+  ],
+  "products": [
+    {
+      "name": "Cocinas integrales",
+      "url": "https://dinnova.com.co/portafolio/",
+      "description": "Fabricación e instalación de cocinas; medidas y materiales por proyecto.",
+      "image": "https://dinnova.com.co/wp-content/uploads/2019/09/7-1-1024x683.jpg",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Closets y vestieres",
+      "url": "https://dinnova.com.co/servicios/",
+      "description": "Carpintería para guardar y organizar, dentro de las líneas publicadas.",
+      "image": "https://dinnova.com.co/wp-content/uploads/2019/09/16-1024x704.jpg",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Muebles de baño",
+      "url": "https://dinnova.com.co/portafolio/",
+      "description": "Muebles de carpintería arquitectónica presentados en el portafolio.",
+      "image": "https://dinnova.com.co/wp-content/uploads/2019/09/4-1024x892.jpg",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://dinnova.com.co/wp-content/uploads/2019/09/7-1-1024x683.jpg",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://dinnova.com.co/wp-content/uploads/2019/09/7-1-1024x683.jpg",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://dinnova.com.co/wp-content/uploads/2019/09/16-1024x704.jpg",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://dinnova.com.co/wp-content/uploads/2019/09/4-1024x892.jpg",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://dinnova.com.co/",
+    "secondary": "https://www.muuto.com/",
+    "layout": "architecture",
+    "palette": [
+      "#9e492d",
+      "#f3f1eb",
+      "#242722",
+      "#d7b899"
+    ],
+    "typography": "'Manrope',sans-serif",
+    "decisions": "Portafolio arquitectónico con gran imagen horizontal, tipografía geométrica y fotografías separadas por espacio; herramienta de huella en planta.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "D’Innova se presenta como una empresa familiar tolimense.",
+      "Su oferta incluye fabricación e instalación de cocina, closet, baño, puertas y muebles especiales.",
+      "El portafolio está dividido por espacios; el alcance se define por proyecto."
+    ],
+    "hypothesis": "Preparar consultas de carpintería con medidas y restricciones antes de la revisión técnica.",
+    "operation": "Estudio preliminar de distribución",
+    "boundaries": [
+      "La simulación no calcula estructura, anclajes, instalaciones ni ergonomía certificada."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://dinnova.com.co/wp-content/uploads/2019/09/7-1-1024x683.jpg",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://dinnova.com.co/wp-content/uploads/2019/09/7-1-1024x683.jpg",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://dinnova.com.co/wp-content/uploads/2019/09/16-1024x704.jpg",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://dinnova.com.co/wp-content/uploads/2019/09/4-1024x892.jpg",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "dinnova-g-d-s-a-s",
+      "company": "D’Innova G&D S.A.S.",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Renamed architecture-flow to avoid a body layout class collision; rechecked desktop/mobile.",
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "La simulación no calcula estructura, anclajes, instalaciones ni ergonomía certificada."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://dinnova.com.co/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://dinnova.com.co/portafolio/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://dinnova.com.co/servicios/",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 71286
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 71286
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 43424
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 48704
+      }
+    ]
+  },
+  "publicOnly": true
+}

@@ -1,0 +1,185 @@
+{
+  "company": "Modern Sprout",
+  "language": "en",
+  "website": "https://modernsprout.com/",
+  "description": "Explore grow kits, a growframe and plant food, then prepare a gifting allocation for your team or event.",
+  "products": [
+    {
+      "name": "Holiday Garden Jars",
+      "url": "https://modernsprout.com/products/garden-jars-holiday",
+      "description": "Seasonal garden-jar kits using a passive hydroponic system.",
+      "image": "https://modernsprout.com/cdn/shop/files/MS-GJ-GR-LFS-PLT-02.jpg?v=1790272311&width=1024",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Portrait Growframe - Matte White",
+      "url": "https://modernsprout.com/products/portrait-growframe-matte-white",
+      "description": "A wall-mounted growframe with a full-spectrum light and timer.",
+      "image": "https://modernsprout.com/cdn/shop/products/MS-GL-1011_6.jpg?v=1569879319&width=1024",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Dissolving Plant Food Sheets",
+      "url": "https://modernsprout.com/products/dissolving-plant-food-sheets",
+      "description": "Dissolving plant-food sheets; follow the official dilution and use instructions.",
+      "image": "https://modernsprout.com/cdn/shop/files/MS-PN-1005-BKG-PLT-02.jpg?v=1786459859&width=1024",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What product categories are available?",
+      "answer": "Modern Sprout offers grow kits, grow lights and plant-care products.",
+      "keywords": [
+        "what",
+        "product",
+        "categories",
+        "available"
+      ]
+    },
+    {
+      "question": "Can I shop by gifting occasion?",
+      "answer": "The site separates gifts by recipient and occasion.",
+      "keywords": [
+        "shop",
+        "gifting",
+        "occasion"
+      ]
+    },
+    {
+      "question": "Are these three items one confirmed kit?",
+      "answer": "A grow kit, a growframe and plant food perform different roles; their compatibility needs the official instructions.",
+      "keywords": [
+        "these",
+        "three",
+        "items",
+        "confirmed",
+        "kit"
+      ]
+    },
+    {
+      "question": "What is Holiday Garden Jars?",
+      "answer": "Seasonal garden-jar kits using a passive hydroponic system. Official product: https://modernsprout.com/products/garden-jars-holiday",
+      "keywords": [
+        "holiday",
+        "garden",
+        "jars"
+      ]
+    },
+    {
+      "question": "What is Portrait Growframe - Matte White?",
+      "answer": "A wall-mounted growframe with a full-spectrum light and timer. Official product: https://modernsprout.com/products/portrait-growframe-matte-white",
+      "keywords": [
+        "portrait",
+        "growframe",
+        "matte",
+        "white"
+      ]
+    },
+    {
+      "question": "What is Dissolving Plant Food Sheets?",
+      "answer": "Dissolving plant-food sheets; follow the official dilution and use instructions. Official product: https://modernsprout.com/products/dissolving-plant-food-sheets",
+      "keywords": [
+        "dissolving",
+        "plant",
+        "food",
+        "sheets"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://modernsprout.com/pages/contact",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Grow-gift allocation planner",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Are you interested in a grow kit, growframe or plant-care item?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many recipients are you preparing gifts for?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "Would each recipient receive one item or a combination?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Which light, plant or kit-inclusion details should the team confirm?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://modernsprout.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://modernsprout.com/products/garden-jars-holiday",
+      "claim": "Holiday Garden Jars: Seasonal garden-jar kits using a passive hydroponic system."
+    },
+    {
+      "url": "https://modernsprout.com/products/portrait-growframe-matte-white",
+      "claim": "Portrait Growframe - Matte White: A wall-mounted growframe with a full-spectrum light and timer."
+    },
+    {
+      "url": "https://modernsprout.com/products/dissolving-plant-food-sheets",
+      "claim": "Dissolving Plant Food Sheets: Dissolving plant-food sheets; follow the official dilution and use instructions."
+    },
+    {
+      "url": "https://modernsprout.com/pages/our-story",
+      "claim": "Origen de la marca y categorías de producto."
+    },
+    {
+      "url": "https://modernsprout.com/pages/contact",
+      "claim": "Atención y sede comercial Chicago; enlace a regalos corporativos."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Allocate kits per recipient, calculate total items and whole fulfillment groups, and record any items still needing confirmation."
+  ],
+  "theme": {
+    "accent": "#286d53",
+    "background": "#eff7ee",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

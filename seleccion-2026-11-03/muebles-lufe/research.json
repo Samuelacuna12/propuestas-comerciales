@@ -1,0 +1,190 @@
+{
+  "company": "Muebles LUFE",
+  "reviewedAt": "2026-11-03T15:28:50.531531+00:00",
+  "language": "es",
+  "sources": [
+    {
+      "url": "https://muebleslufe.com/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://muebleslufe.com/mesitas-de-noche/mesita-noche-gau-cajon",
+      "claim": "GAU mesita de noche con cajón: Mesita GAU con cajón de almacenaje, fabricada en madera maciza natural."
+    },
+    {
+      "url": "https://muebleslufe.com/espejos-y-decoracion-pared/goi-estante-pared-84x21",
+      "claim": "GOI estante de pared 84 × 21: Estante GOI de pared, de 84 × 21 cm, en madera maciza natural."
+    },
+    {
+      "url": "https://muebleslufe.com/escritorios-mesas-estudio/escritorio-buru-120x55",
+      "claim": "BURU escritorio 120 × 55: Escritorio BURU de 120 × 55 cm, en madera."
+    },
+    {
+      "url": "https://muebleslufe.com/filosofia-lufe",
+      "claim": "Fabricación local en Aizarnazabal y venta sin intermediarios."
+    },
+    {
+      "url": "https://muebleslufe.com/",
+      "claim": "Catálogo de muebles, accesorios y montaje."
+    },
+    {
+      "url": "https://muebleslufe.com/contacto",
+      "claim": "Contacto comercial oficial."
+    }
+  ],
+  "products": [
+    {
+      "name": "GAU mesita de noche con cajón",
+      "url": "https://muebleslufe.com/mesitas-de-noche/mesita-noche-gau-cajon",
+      "description": "Mesita GAU con cajón de almacenaje, fabricada en madera maciza natural.",
+      "image": "https://media2.muebleslufe.com/13185-large_default/mesita-noche-gau-cajon.jpg",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "GOI estante de pared 84 × 21",
+      "url": "https://muebleslufe.com/espejos-y-decoracion-pared/goi-estante-pared-84x21",
+      "description": "Estante GOI de pared, de 84 × 21 cm, en madera maciza natural.",
+      "image": "https://media.muebleslufe.com/11432-large_default/goi-estante-pared-84x21.jpg",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "BURU escritorio 120 × 55",
+      "url": "https://muebleslufe.com/escritorios-mesas-estudio/escritorio-buru-120x55",
+      "description": "Escritorio BURU de 120 × 55 cm, en madera.",
+      "image": "https://media1.muebleslufe.com/12232-large_default/escritorio-buru-120x55.jpg",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "GAU mesita de noche con cajón",
+      "url": "https://media2.muebleslufe.com/13185-large_default/mesita-noche-gau-cajon.jpg",
+      "local": "assets/product-1.jpg",
+      "mime": "image/jpeg",
+      "bytes": 57573,
+      "verifiedAt": "2026-11-03T15:28:50.531531+00:00",
+      "sourcePage": "https://muebleslufe.com/mesitas-de-noche/mesita-noche-gau-cajon"
+    },
+    {
+      "product": "GOI estante de pared 84 × 21",
+      "url": "https://media.muebleslufe.com/11432-large_default/goi-estante-pared-84x21.jpg",
+      "local": "assets/product-2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 66155,
+      "verifiedAt": "2026-11-03T15:28:50.531531+00:00",
+      "sourcePage": "https://muebleslufe.com/espejos-y-decoracion-pared/goi-estante-pared-84x21"
+    },
+    {
+      "product": "BURU escritorio 120 × 55",
+      "url": "https://media1.muebleslufe.com/12232-large_default/escritorio-buru-120x55.jpg",
+      "local": "assets/product-3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 48914,
+      "verifiedAt": "2026-11-03T15:28:50.531531+00:00",
+      "sourcePage": "https://muebleslufe.com/escritorios-mesas-estudio/escritorio-buru-120x55"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://muebleslufe.com/",
+    "secondary": "https://grovemade.com/",
+    "boundedBorrowing": "Vista de habitación y lectura dimensional sin ocultar las piezas.",
+    "layout": "architect",
+    "palette": {
+      "accent": "#435631",
+      "background": "#f5f3eb"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Calcula la huella rectangular según medidas introducidas y compara con el espacio. No verifica cargas, anclajes, circulación ni montaje."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://muebleslufe.com/mesitas-de-noche/mesita-noche-gau-cajon",
+        "httpOk": true
+      },
+      {
+        "url": "https://muebleslufe.com/espejos-y-decoracion-pared/goi-estante-pared-84x21",
+        "httpOk": true
+      },
+      {
+        "url": "https://muebleslufe.com/escritorios-mesas-estudio/escritorio-buru-120x55",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

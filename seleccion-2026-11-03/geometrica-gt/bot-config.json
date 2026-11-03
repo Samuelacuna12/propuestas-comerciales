@@ -1,0 +1,169 @@
+{
+  "company": "Geométrica GT",
+  "language": "es",
+  "website": "https://geometricagt.com/",
+  "description": "Presenta muebles a medida y restauración, con llamada a solicitar cotización y contacto comercial.",
+  "theme": {
+    "accent": "#bd553a",
+    "background": "#efefea",
+    "foreground": "#213d3c",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Clóset con puertas corredizas",
+      "url": "https://geometricagt.com/producto/closet-con-puertas-corredizas/",
+      "description": "Diseño publicado con puertas corredizas, sujeto a medidas del proyecto.",
+      "image": "https://geometricagt.com/wp-content/uploads/2026/06/ChatGPT-Image-30-jun-2026-13_35_40-682x1024.png",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Clóset personalizado",
+      "url": "https://geometricagt.com/producto/closet-personalizado/",
+      "description": "Propuesta de clóset con área de colgado y organización central.",
+      "image": "https://geometricagt.com/wp-content/uploads/2026/06/ChatGPT-Image-30-jun-2026-13_08_40-682x1024.png",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Cocina personalizada",
+      "url": "https://geometricagt.com/producto/cocina-personalizada/",
+      "description": "Conjunto a medida con gabinetes altos, bajos y cubierta continua.",
+      "image": "https://geometricagt.com/wp-content/uploads/2026/06/ChatGPT-Image-30-jun-2026-12_53_15-768x1024.png",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Clóset con puertas corredizas?",
+      "answer": "Diseño publicado con puertas corredizas, sujeto a medidas del proyecto.",
+      "keywords": [
+        "clóset",
+        "con",
+        "puertas",
+        "corredizas"
+      ]
+    },
+    {
+      "question": "¿Qué es Clóset personalizado?",
+      "answer": "Propuesta de clóset con área de colgado y organización central.",
+      "keywords": [
+        "clóset",
+        "personalizado"
+      ]
+    },
+    {
+      "question": "¿Qué es Cocina personalizada?",
+      "answer": "Conjunto a medida con gabinetes altos, bajos y cubierta continua.",
+      "keywords": [
+        "cocina",
+        "personalizada"
+      ]
+    },
+    {
+      "question": "¿Hacen muebles a medida?",
+      "answer": "La web presenta fabricación personalizada para diferentes ambientes.",
+      "keywords": [
+        "muebles",
+        "a",
+        "medida"
+      ]
+    },
+    {
+      "question": "¿También restauran muebles?",
+      "answer": "El sitio publica restauración dentro de sus servicios.",
+      "keywords": [
+        "restauran",
+        "muebles"
+      ]
+    },
+    {
+      "question": "¿Qué ambientes trabajan?",
+      "answer": "El catálogo incluye cocina, dormitorio, baño y muebles de apoyo.",
+      "keywords": [
+        "ambientes",
+        "trabajan"
+      ]
+    },
+    {
+      "question": "¿Dónde opera Geométrica?",
+      "answer": "La página publica contacto en Ciudad de Guatemala.",
+      "keywords": [
+        "opera",
+        "geométrica"
+      ]
+    },
+    {
+      "question": "¿Cómo se solicita el proyecto?",
+      "answer": "La web invita a cotizar; medidas, materiales y alcance se revisan con su equipo.",
+      "keywords": [
+        "se",
+        "solicita",
+        "el",
+        "proyecto"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Geométrica GT",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Ambiente o mueble",
+        "question": "Indica ambiente o mueble.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Proyecto nuevo o restauración",
+        "question": "Indica proyecto nuevo o restauración.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Medidas principales",
+        "question": "Indica medidas principales.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Material o acabado deseado",
+        "question": "Indica material o acabado deseado.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Fotos y acceso disponibles",
+        "question": "Indica fotos y acceso disponibles.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://geometricagt.com/",
+      "claim": "Servicios de mobiliario, cotización y contacto en Ciudad de Guatemala."
+    },
+    {
+      "url": "https://geometricagt.com/producto/closet-con-puertas-corredizas/",
+      "claim": "Clóset con puertas corredizas: Diseño publicado con puertas corredizas, sujeto a medidas del proyecto."
+    },
+    {
+      "url": "https://geometricagt.com/producto/closet-personalizado/",
+      "claim": "Clóset personalizado: Propuesta de clóset con área de colgado y organización central."
+    },
+    {
+      "url": "https://geometricagt.com/producto/cocina-personalizada/",
+      "claim": "Cocina personalizada: Conjunto a medida con gabinetes altos, bajos y cubierta continua."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

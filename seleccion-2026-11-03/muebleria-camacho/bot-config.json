@@ -1,0 +1,178 @@
+{
+  "company": "Mueblería Camacho",
+  "language": "es",
+  "website": "https://muebleria-camacho.pymestorebac.com/",
+  "description": "Fabricación a medida en madera; catálogo para hogar, oficina y mobiliario Montessori, con envíos nacionales.",
+  "theme": {
+    "accent": "#984e29",
+    "background": "#eee7da",
+    "foreground": "#343528",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Cambiador de laurel, 3 gavetas",
+      "url": "https://muebleria-camacho.pymestorebac.com/producto/cambiador-3-laurel-100cm-x-100cm-40cm",
+      "description": "Ficha publicada con medidas 100 × 100 × 40 cm y tres gavetas.",
+      "image": "https://files.tiendageo.prd.geopagos.io/muebleria-camacho/assets/images/generic/9f975403ccc4acd8209dcc23bc440b0b.PNG?f=contain&p=center&w=600&h=600",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Torre plegable gris",
+      "url": "https://muebleria-camacho.pymestorebac.com/producto/torre-de-aprendizaje-plegable-ndash-gris",
+      "description": "Torre de aprendizaje plegable; consultar indicaciones de uso al fabricante.",
+      "image": "https://files.tiendageo.prd.geopagos.io/muebleria-camacho/assets/images/generic/4c0e1266a03cec8497c801df4f75a8b2.JPG?f=contain&p=center&w=600&h=600",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Torre plegable natural",
+      "url": "https://muebleria-camacho.pymestorebac.com/producto/torre-de-aprendizaje-plegable-ndash-madera-natural-90cm-x-40cm-x-40cm",
+      "description": "Ficha publicada con medidas 90 × 40 × 40 cm; acabado natural.",
+      "image": "https://files.tiendageo.prd.geopagos.io/muebleria-camacho/assets/images/generic/e6c5498ca3ce8d9f0aded953c9152a41.JPG?f=contain&p=center&w=600&h=600",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Cambiador de laurel, 3 gavetas?",
+      "answer": "Ficha publicada con medidas 100 × 100 × 40 cm y tres gavetas.",
+      "keywords": [
+        "cambiador",
+        "de",
+        "laurel",
+        "3",
+        "gavetas"
+      ]
+    },
+    {
+      "question": "¿Qué es Torre plegable gris?",
+      "answer": "Torre de aprendizaje plegable; consultar indicaciones de uso al fabricante.",
+      "keywords": [
+        "torre",
+        "plegable",
+        "gris"
+      ]
+    },
+    {
+      "question": "¿Qué es Torre plegable natural?",
+      "answer": "Ficha publicada con medidas 90 × 40 × 40 cm; acabado natural.",
+      "keywords": [
+        "torre",
+        "plegable",
+        "natural"
+      ]
+    },
+    {
+      "question": "¿Es un taller familiar?",
+      "answer": "La página de historia presenta un negocio familiar de fabricación en madera.",
+      "keywords": [
+        "un",
+        "taller",
+        "familiar"
+      ]
+    },
+    {
+      "question": "¿Trabajan medidas personalizadas?",
+      "answer": "La empresa anuncia muebles a medida y opciones de acabado.",
+      "keywords": [
+        "medidas",
+        "personalizadas"
+      ]
+    },
+    {
+      "question": "¿Qué categorías hay?",
+      "answer": "El catálogo se organiza en Montessori, Hogar y Oficina.",
+      "keywords": [
+        "categorías",
+        "hay"
+      ]
+    },
+    {
+      "question": "¿Qué maderas publica el catálogo?",
+      "answer": "La web menciona cedro, pino y laurel; cada pieza debe confirmar su material.",
+      "keywords": [
+        "maderas",
+        "publica",
+        "el",
+        "catálogo"
+      ]
+    },
+    {
+      "question": "¿Dónde se gestiona un pedido?",
+      "answer": "La tienda oficial ofrece compra y un formulario de contacto para consultas.",
+      "keywords": [
+        "se",
+        "gestiona",
+        "un",
+        "pedido"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Mueblería Camacho",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Mueble o ambiente",
+        "question": "Indica mueble o ambiente.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Cantidad de piezas",
+        "question": "Indica cantidad de piezas.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Medidas del espacio",
+        "question": "Indica medidas del espacio.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Madera y acabado preferidos",
+        "question": "Indica madera y acabado preferidos.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Acceso para entrega",
+        "question": "Indica acceso para entrega.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://muebleria-camacho.pymestorebac.com/pages/nosotros",
+      "claim": "Negocio familiar, producción personalizada en madera, categorías y cobertura Costa Rica."
+    },
+    {
+      "url": "https://muebleria-camacho.pymestorebac.com/contact",
+      "claim": "Formulario oficial de contacto comercial."
+    },
+    {
+      "url": "https://muebleria-camacho.pymestorebac.com/producto/cambiador-3-laurel-100cm-x-100cm-40cm",
+      "claim": "Cambiador de laurel, 3 gavetas: Ficha publicada con medidas 100 × 100 × 40 cm y tres gavetas."
+    },
+    {
+      "url": "https://muebleria-camacho.pymestorebac.com/producto/torre-de-aprendizaje-plegable-ndash-gris",
+      "claim": "Torre plegable gris: Torre de aprendizaje plegable; consultar indicaciones de uso al fabricante."
+    },
+    {
+      "url": "https://muebleria-camacho.pymestorebac.com/producto/torre-de-aprendizaje-plegable-ndash-madera-natural-90cm-x-40cm-x-40cm",
+      "claim": "Torre plegable natural: Ficha publicada con medidas 90 × 40 × 40 cm; acabado natural."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

@@ -1,0 +1,184 @@
+{
+  "company": "Balvi",
+  "language": "es",
+  "website": "https://www.balvi.com/es",
+  "description": "Un joyero, una lámpara y un marcapáginas. Descubre objetos con personalidad y prepara una selección de regalos.",
+  "products": [
+    {
+      "name": "Candy Drops Jewelry Box",
+      "url": "https://www.balvi.com/products/candy-drops-jewelry-box",
+      "description": "Joyero Candy Drops inspirado en una caja de caramelos, con interior aterciopelado y compartimentos.",
+      "image": "https://www.balvi.com/cdn/shop/files/21255829_28327E_Drops_Jewelry_Box_Yellow.jpg?v=1785845944&width=1024",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Magma Sunrise Lava Lamp",
+      "url": "https://www.balvi.com/products/magma-sunrise-lava-lamp",
+      "description": "Lámpara de lava Magma Sunrise con colores azul y amarillo y acabado metálico.",
+      "image": "https://www.balvi.com/cdn/shop/files/22217297_28331_Magma_Lava_Lamp_Blue_-_Yellow_8a2fe9c7-ac36-4da6-8392-c26bca426fb9.jpg?v=1785907848&width=1024",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Cool Cat Bookmark",
+      "url": "https://www.balvi.com/products/cool-cat-bookmark",
+      "description": "Marcapáginas Cool Cat con un gato y gafas; consulta las variantes en su ficha.",
+      "image": "https://www.balvi.com/cdn/shop/files/22217254_28350_Fluffy_Cool_Cats_Bookmark_Yellow.jpg?v=1788790322&width=1024",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cómo se organiza el catálogo?",
+      "answer": "El catálogo organiza objetos por cocina, escritorio, decoración y lifestyle.",
+      "keywords": [
+        "cómo",
+        "organiza",
+        "catálogo"
+      ]
+    },
+    {
+      "question": "¿Hay una sección de regalos?",
+      "answer": "Balvi publica una sección específica de regalos.",
+      "keywords": [
+        "hay",
+        "sección",
+        "regalos"
+      ]
+    },
+    {
+      "question": "¿Qué se confirma en una ficha?",
+      "answer": "Las fichas tienen referencias y características propias; una selección no confirma compatibilidad o disponibilidad.",
+      "keywords": [
+        "qué",
+        "confirma",
+        "ficha"
+      ]
+    },
+    {
+      "question": "¿Qué es Candy Drops Jewelry Box?",
+      "answer": "Joyero Candy Drops inspirado en una caja de caramelos, con interior aterciopelado y compartimentos. Ficha oficial: https://www.balvi.com/products/candy-drops-jewelry-box",
+      "keywords": [
+        "candy",
+        "drops",
+        "jewelry"
+      ]
+    },
+    {
+      "question": "¿Qué es Magma Sunrise Lava Lamp?",
+      "answer": "Lámpara de lava Magma Sunrise con colores azul y amarillo y acabado metálico. Ficha oficial: https://www.balvi.com/products/magma-sunrise-lava-lamp",
+      "keywords": [
+        "magma",
+        "sunrise",
+        "lava",
+        "lamp"
+      ]
+    },
+    {
+      "question": "¿Qué es Cool Cat Bookmark?",
+      "answer": "Marcapáginas Cool Cat con un gato y gafas; consulta las variantes en su ficha. Ficha oficial: https://www.balvi.com/products/cool-cat-bookmark",
+      "keywords": [
+        "cool",
+        "bookmark"
+      ]
+    },
+    {
+      "question": "¿Qué precio y disponibilidad tiene mi selección?",
+      "answer": "Confirma precio, variantes y disponibilidad en las fichas oficiales. Esta propuesta no tiene acceso al inventario ni confirma reservas.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "¿Cómo continúo con una consulta real?",
+      "answer": "Prepara el resumen local y revísalo antes de usar el canal oficial: https://www.balvi.com/pages/contact",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Planificador de surtido de regalos",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selección",
+        "question": "¿Qué objeto te interesa: joyero, lámpara o marcapáginas?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Cantidad",
+        "question": "¿Para cuántas personas preparas regalos?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Detalles",
+        "question": "¿Quieres el mismo objeto para todos o un reparto por referencias?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "Por confirmar",
+        "question": "¿Qué variante, material o presentación quieres confirmar?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief para revisión humana"
+  },
+  "sources": [
+    {
+      "url": "https://www.balvi.com/es",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://www.balvi.com/products/candy-drops-jewelry-box",
+      "claim": "Candy Drops Jewelry Box: Joyero Candy Drops inspirado en una caja de caramelos, con interior aterciopelado y compartimentos."
+    },
+    {
+      "url": "https://www.balvi.com/products/magma-sunrise-lava-lamp",
+      "claim": "Magma Sunrise Lava Lamp: Lámpara de lava Magma Sunrise con colores azul y amarillo y acabado metálico."
+    },
+    {
+      "url": "https://www.balvi.com/products/cool-cat-bookmark",
+      "claim": "Cool Cat Bookmark: Marcapáginas Cool Cat con un gato y gafas; consulta las variantes en su ficha."
+    },
+    {
+      "url": "https://www.balvi.com/es",
+      "claim": "Catálogo en español, venta online y recambios."
+    },
+    {
+      "url": "https://www.balvi.com/pages/about",
+      "claim": "Origen de la marca en Barcelona."
+    },
+    {
+      "url": "https://www.balvi.com/pages/contact",
+      "claim": "Canal mayorista y sede comercial en El Prat de Llobregat."
+    }
+  ],
+  "boundaries": [
+    "Demostración local basada en reglas; no es una IA conectada al negocio.",
+    "No acceso a pedidos, clientes, pagos ni stock.",
+    "No confirmar precios, entrega, compatibilidad o políticas no verificadas.",
+    "Calcula piezas por destinatarios y crea un reparto por producto para revisar; sin crear un pedido o prometer existencias."
+  ],
+  "theme": {
+    "accent": "#b61d38",
+    "background": "#fff3e1",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

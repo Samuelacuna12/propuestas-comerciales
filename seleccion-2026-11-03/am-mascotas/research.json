@@ -1,0 +1,200 @@
+{
+  "company": "AM Mascotas",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://ammascotas.com/",
+      "claim": "Actividad, catálogo y canales oficiales de AM Mascotas"
+    },
+    {
+      "url": "https://ammascotas.com/products/absorfluid-absorbente-orina-mascotas",
+      "claim": "Ficha o línea publicada: Absorfluid 120 g"
+    },
+    {
+      "url": "https://ammascotas.com/products/arnes-pechera-perros",
+      "claim": "Ficha o línea publicada: Arnés pechera"
+    },
+    {
+      "url": "https://ammascotas.com/products/bebedero-comedero-colapsable-mascotas",
+      "claim": "Ficha o línea publicada: Bebedero colapsable"
+    }
+  ],
+  "products": [
+    {
+      "name": "Absorfluid 120 g",
+      "description": "Absorbente en polvo para limpieza de orina de mascotas.",
+      "url": "https://ammascotas.com/products/absorfluid-absorbente-orina-mascotas",
+      "image": "https://ammascotas.com/cdn/shop/files/Absorfluid_a50100ff-e8dc-498f-9786-e35879f97bb8.jpg?v=1786568273&width=1400",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Arnés pechera",
+      "description": "Accesorio ajustable de paseo; ficha de 35 × 21,9 cm.",
+      "url": "https://ammascotas.com/products/arnes-pechera-perros",
+      "image": "https://ammascotas.com/cdn/shop/files/Arnes-pechera-1-1.webp?v=1781832683&width=1400",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Bebedero colapsable",
+      "description": "Recipiente plegable de silicona de 6 cm de alto y 11,6 cm de diámetro.",
+      "url": "https://ammascotas.com/products/bebedero-comedero-colapsable-mascotas",
+      "image": "https://ammascotas.com/cdn/shop/files/BebederoComederoColapsable.jpg?v=1785874372&width=1400",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://ammascotas.com/cdn/shop/files/BebederoComederoColapsable.jpg?v=1785874372&width=1400",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://ammascotas.com/cdn/shop/files/Absorfluid_a50100ff-e8dc-498f-9786-e35879f97bb8.jpg?v=1786568273&width=1400",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://ammascotas.com/cdn/shop/files/Arnes-pechera-1-1.webp?v=1781832683&width=1400",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://ammascotas.com/cdn/shop/files/BebederoComederoColapsable.jpg?v=1785874372&width=1400",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://ammascotas.com/",
+    "secondary": "https://www.chewy.com/",
+    "layout": "wholesale",
+    "palette": [
+      "#e44527",
+      "#fff8ee",
+      "#222923",
+      "#f1dc6e"
+    ],
+    "typography": "Arial, sans-serif",
+    "decisions": "Catálogo por necesidad y recompra visible; acento coral del universo de mascota, tarjetas amplias sin precios copiados.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "El sitio distingue compras de hogares y consultas de pet shops mayoristas.",
+      "Hay catálogo de accesorios para perros, gatos y otras mascotas, con fichas por referencia.",
+      "La fabricación y el punto comercial se presentan en Bogotá."
+    ],
+    "hypothesis": "Facilitar que un pet shop prepare una reposición consistente antes de solicitar precio y disponibilidad.",
+    "operation": "Mesa de reposición mayorista",
+    "boundaries": [],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://ammascotas.com/cdn/shop/files/BebederoComederoColapsable.jpg?v=1785874372&width=1400",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://ammascotas.com/cdn/shop/files/Absorfluid_a50100ff-e8dc-498f-9786-e35879f97bb8.jpg?v=1786568273&width=1400",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://ammascotas.com/cdn/shop/files/Arnes-pechera-1-1.webp?v=1781832683&width=1400",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://ammascotas.com/cdn/shop/files/BebederoComederoColapsable.jpg?v=1785874372&width=1400",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "am-mascotas",
+      "company": "AM Mascotas",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": true,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": []
+    },
+    "officialLinks": [
+      {
+        "url": "https://ammascotas.com/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://ammascotas.com/products/absorfluid-absorbente-orina-mascotas",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://ammascotas.com/products/arnes-pechera-perros",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://ammascotas.com/products/bebedero-comedero-colapsable-mascotas",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 19338
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 38154
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 25564
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 19338
+      }
+    ]
+  },
+  "publicOnly": true
+}

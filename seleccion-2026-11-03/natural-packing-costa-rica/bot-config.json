@@ -1,0 +1,156 @@
+{
+  "company": "Natural Packing Costa Rica",
+  "language": "es",
+  "website": "https://natural-packing.com/",
+  "description": "Ofrece bolsas ecológicas y recoge solicitudes con empresa, tipo de bolsa y mensaje.",
+  "theme": {
+    "accent": "#416a3b",
+    "background": "#f1f4e9",
+    "foreground": "#263429",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Opciones con fécula de maíz",
+      "url": "https://natural-packing.com/productos/",
+      "description": "El sitio presenta esta materia prima de origen vegetal y solicita evaluar composición, uso y disposición.",
+      "image": "https://natural-packing.com/wp-content/uploads/2026/10/cropped-002-materias-primas-6.jpg",
+      "asset": "assets/catalog-1.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Opciones con fécula de maíz?",
+      "answer": "El sitio presenta esta materia prima de origen vegetal y solicita evaluar composición, uso y disposición.",
+      "keywords": [
+        "opciones",
+        "con",
+        "fécula",
+        "de",
+        "maíz"
+      ]
+    },
+    {
+      "question": "¿Qué materia prima presentan?",
+      "answer": "La web explica opciones de empaque elaboradas con fécula de maíz.",
+      "keywords": [
+        "materia",
+        "prima",
+        "presentan"
+      ]
+    },
+    {
+      "question": "¿Publican tres referencias con precio?",
+      "answer": "No se verificaron tres fichas comprables; esta muestra no inventa referencias ni precios.",
+      "keywords": [
+        "tres",
+        "referencias",
+        "con",
+        "precio"
+      ]
+    },
+    {
+      "question": "¿Qué debo indicar para cotizar?",
+      "answer": "La página solicita empresa, tipo de bolsa y mensaje.",
+      "keywords": [
+        "debo",
+        "indicar",
+        "para",
+        "cotizar"
+      ]
+    },
+    {
+      "question": "¿Se puede consultar personalización?",
+      "answer": "Su página de productos invita a consultar opciones según especificaciones disponibles.",
+      "keywords": [
+        "puede",
+        "consultar",
+        "personalización"
+      ]
+    },
+    {
+      "question": "¿Dónde opera Natural Packing?",
+      "answer": "Publica Desamparados, San José, Costa Rica.",
+      "keywords": [
+        "opera",
+        "natural",
+        "packing"
+      ]
+    },
+    {
+      "question": "¿La disposición depende del entorno?",
+      "answer": "Sí. La explicación del material indica que biodegradación y compostaje dependen de composición y condiciones.",
+      "keywords": [
+        "disposición",
+        "depende",
+        "del",
+        "entorno"
+      ]
+    },
+    {
+      "question": "¿Qué aspectos conviene evaluar?",
+      "answer": "Su página enumera uso, dimensiones, desempeño, presentación y volumen.",
+      "keywords": [
+        "aspectos",
+        "conviene",
+        "evaluar"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Natural Packing Costa Rica",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Uso previsto",
+        "question": "Indica uso previsto.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Dimensiones de bolsa",
+        "question": "Indica dimensiones de bolsa.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Volumen por período",
+        "question": "Indica volumen por período.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Personalización requerida",
+        "question": "Indica personalización requerida.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Condiciones de disposición a consultar",
+        "question": "Indica condiciones de disposición a consultar.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://natural-packing.com/cotizaciones/",
+      "claim": "Formulario de cotización y sede en San Rafael Arriba de Desamparados, Costa Rica."
+    },
+    {
+      "url": "https://natural-packing.com/productos/",
+      "claim": "Opciones con fécula de maíz: El sitio presenta esta materia prima de origen vegetal y solicita evaluar composición, uso y disposición."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "No se verificaron tres fichas individuales comprables con SKU. Se presentan únicamente servicios, materiales o familias publicados; catálogo detallado pendiente de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

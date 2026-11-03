@@ -1,0 +1,184 @@
+{
+  "company": "Green Paper Products",
+  "language": "en",
+  "website": "https://greenpaperproducts.com/",
+  "description": "Explore three cold-cup formats and model the quantities for a service period before checking the official catalog.",
+  "products": [
+    {
+      "name": "9 oz Cold Cup | Corn Plastic | Made in USA",
+      "url": "https://greenpaperproducts.com/products/disposable-compostable-10ounce-cups-gc9",
+      "description": "Clear 9 oz PLA cold cup; the listing identifies US manufacture.",
+      "image": "https://cdn.shopify.com/s/files/1/0612/3690/4162/products/compostable-cold-cup-med-GC9.jpg?v=1769629751",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "16 oz Cold Cup | Clear | Certified Compostable",
+      "url": "https://greenpaperproducts.com/products/disposable-compostable-clear-16oz-world-centric-cups-cp-cs-16",
+      "description": "World Centric 16 oz clear PLA cup for cold beverages.",
+      "image": "https://cdn.shopify.com/s/files/1/0612/3690/4162/files/CP-CS-16.jpg?v=1769540876",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "12 oz NoTree® Paper Cold Cup | Brown | Compostable",
+      "url": "https://greenpaperproducts.com/products/compostable-12oz-no-tree-paper-cold-cup-cu-su-12c",
+      "description": "12 oz NoTree cold cup in brown bamboo paper with a bio-based lining.",
+      "image": "https://cdn.shopify.com/s/files/1/0612/3690/4162/products/CU-SU-12C_330.jpg?v=1769544929",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Are these for hot or cold drinks?",
+      "answer": "The official store organizes cups by hot and cold use.",
+      "keywords": [
+        "these",
+        "cold",
+        "drinks"
+      ]
+    },
+    {
+      "question": "Is a lid automatically included?",
+      "answer": "Lids have a separate category; compatibility must be checked against the chosen cup.",
+      "keywords": [
+        "automatically",
+        "included"
+      ]
+    },
+    {
+      "question": "How should disposal claims be checked?",
+      "answer": "The site provides samples and composting information; disposal depends on facilities and product certification.",
+      "keywords": [
+        "should",
+        "disposal",
+        "claims",
+        "checked"
+      ]
+    },
+    {
+      "question": "What is 9 oz Cold Cup | Corn Plastic | Made in USA?",
+      "answer": "Clear 9 oz PLA cold cup; the listing identifies US manufacture. Official product: https://greenpaperproducts.com/products/disposable-compostable-10ounce-cups-gc9",
+      "keywords": [
+        "cold",
+        "corn",
+        "plastic",
+        "made"
+      ]
+    },
+    {
+      "question": "What is 16 oz Cold Cup | Clear | Certified Compostable?",
+      "answer": "World Centric 16 oz clear PLA cup for cold beverages. Official product: https://greenpaperproducts.com/products/disposable-compostable-clear-16oz-world-centric-cups-cp-cs-16",
+      "keywords": [
+        "cold",
+        "clear",
+        "certified",
+        "compostable"
+      ]
+    },
+    {
+      "question": "What is 12 oz NoTree® Paper Cold Cup | Brown | Compostable?",
+      "answer": "12 oz NoTree cold cup in brown bamboo paper with a bio-based lining. Official product: https://greenpaperproducts.com/products/compostable-12oz-no-tree-paper-cold-cup-cu-su-12c",
+      "keywords": [
+        "notree®",
+        "paper",
+        "cold",
+        "brown",
+        "compostable"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://greenpaperproducts.com/contact",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Café cup replenishment worksheet",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Which cold-cup size or material are you considering?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many drinks will you serve each day, and for how many days?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "How many cups do you have on hand, and what case quantity does the chosen listing show?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Do you also need a matching lid or a sample before ordering?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://greenpaperproducts.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://greenpaperproducts.com/products/disposable-compostable-10ounce-cups-gc9",
+      "claim": "9 oz Cold Cup | Corn Plastic | Made in USA: Clear 9 oz PLA cold cup; the listing identifies US manufacture."
+    },
+    {
+      "url": "https://greenpaperproducts.com/products/disposable-compostable-clear-16oz-world-centric-cups-cp-cs-16",
+      "claim": "16 oz Cold Cup | Clear | Certified Compostable: World Centric 16 oz clear PLA cup for cold beverages."
+    },
+    {
+      "url": "https://greenpaperproducts.com/products/compostable-12oz-no-tree-paper-cold-cup-cu-su-12c",
+      "claim": "12 oz NoTree® Paper Cold Cup | Brown | Compostable: 12 oz NoTree cold cup in brown bamboo paper with a bio-based lining."
+    },
+    {
+      "url": "https://greenpaperproducts.com/about-us",
+      "claim": "Empresa pequeña familiar, equipo y catálogo de suministros."
+    },
+    {
+      "url": "https://greenpaperproducts.com/contact",
+      "claim": "Contacto comercial y dirección Highland Heights."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Calculate cups needed from daily drinks and service days; deduct the stock you enter and round to a confirmed case quantity."
+  ],
+  "theme": {
+    "accent": "#2f6c3b",
+    "background": "#f2f7ee",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

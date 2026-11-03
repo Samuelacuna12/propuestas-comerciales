@@ -1,0 +1,162 @@
+{
+  "company": "D’Innova G&D S.A.S.",
+  "language": "es",
+  "website": "https://dinnova.com.co/",
+  "description": "D’Innova G&D S.A.S. · Carpintería arquitectónica. D’Innova se presenta como una empresa familiar tolimense.",
+  "products": [
+    {
+      "name": "Cocinas integrales",
+      "url": "https://dinnova.com.co/portafolio/",
+      "description": "Fabricación e instalación de cocinas; medidas y materiales por proyecto.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Closets y vestieres",
+      "url": "https://dinnova.com.co/servicios/",
+      "description": "Carpintería para guardar y organizar, dentro de las líneas publicadas.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Muebles de baño",
+      "url": "https://dinnova.com.co/portafolio/",
+      "description": "Muebles de carpintería arquitectónica presentados en el portafolio.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Fabrican e instalan?",
+      "answer": "La página de servicios incluye ambas actividades para cocinas, closets, puertas y muebles de baño.",
+      "keywords": [
+        "instalacion",
+        "fabrican"
+      ]
+    },
+    {
+      "question": "¿Qué materiales trabajan?",
+      "answer": "La presentación menciona madera y aglomerados. El material y herraje de un proyecto se cotizan después de definir el uso.",
+      "keywords": [
+        "material",
+        "madera",
+        "aglomerado"
+      ]
+    },
+    {
+      "question": "¿Trabajan solo en Ibagué?",
+      "answer": "La web sitúa su operación en Ibagué y documenta proyectos en otras ciudades. La cobertura de un caso nuevo debe confirmarse.",
+      "keywords": [
+        "ibague",
+        "ciudad",
+        "cobertura"
+      ]
+    },
+    {
+      "question": "¿El simulador resuelve instalaciones?",
+      "answer": "No. Agua, gas, electricidad, anclajes y condiciones del muro requieren levantamiento y revisión profesional.",
+      "keywords": [
+        "instalaciones",
+        "gas",
+        "electricidad"
+      ]
+    },
+    {
+      "question": "¿Puedo cotizar con estas medidas?",
+      "answer": "Sirven como punto de partida. El equipo debe confirmar medidas finales, acabados y alcance antes de fabricar.",
+      "keywords": [
+        "cotizar",
+        "medida",
+        "plano"
+      ]
+    },
+    {
+      "question": "¿Qué es Cocinas integrales?",
+      "answer": "Fabricación e instalación de cocinas; medidas y materiales por proyecto. Ficha oficial: https://dinnova.com.co/portafolio/",
+      "keywords": [
+        "cocinas integrales",
+        "cocinas",
+        "integrales"
+      ]
+    },
+    {
+      "question": "¿Qué es Closets y vestieres?",
+      "answer": "Carpintería para guardar y organizar, dentro de las líneas publicadas. Ficha oficial: https://dinnova.com.co/servicios/",
+      "keywords": [
+        "closets y vestieres",
+        "closets",
+        "vestieres"
+      ]
+    },
+    {
+      "question": "¿Qué es Muebles de baño?",
+      "answer": "Muebles de carpintería arquitectónica presentados en el portafolio. Ficha oficial: https://dinnova.com.co/portafolio/",
+      "keywords": [
+        "muebles de baño",
+        "muebles"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Estudio preliminar de distribución",
+    "steps": [
+      {
+        "key": "pieza",
+        "label": "Pieza",
+        "question": "¿Qué mueble o línea te interesa y para qué uso?",
+        "required": true
+      },
+      {
+        "key": "espacio",
+        "label": "Espacio",
+        "question": "¿Cuánto mide el espacio disponible, de ancho y fondo?",
+        "required": true
+      },
+      {
+        "key": "medidas",
+        "label": "Mueble",
+        "question": "¿Qué medidas aproximadas imaginas para la pieza?",
+        "required": true
+      },
+      {
+        "key": "acceso",
+        "label": "Restricciones",
+        "question": "¿Hay puertas, instalaciones, escaleras o restricciones de acceso que deban revisarse?",
+        "required": true
+      },
+      {
+        "key": "acabado",
+        "label": "Acabado",
+        "question": "¿Tienes una referencia de material o acabado?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://dinnova.com.co/",
+      "claim": "Actividad, catálogo y canales oficiales de D’Innova"
+    },
+    {
+      "url": "https://dinnova.com.co/portafolio/",
+      "claim": "Ficha o línea publicada: Cocinas integrales"
+    },
+    {
+      "url": "https://dinnova.com.co/servicios/",
+      "claim": "Ficha o línea publicada: Closets y vestieres"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#9e492d",
+    "background": "#f3f1eb",
+    "foreground": "#242722",
+    "font": "'Manrope',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

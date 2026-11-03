@@ -1,0 +1,127 @@
+{
+  "company": "Rose Joyería",
+  "reviewedAt": "2026-11-03",
+  "website": "https://rosejoyeriacr.com/",
+  "publicFacts": [
+    {
+      "url": "https://rosejoyeriacr.com/",
+      "claim": "Oferta de joyería y grabado, sección pública de contacto, dirección en Naranjo y declaración de empresa familiar. Lectura web y comprobación HTTP 200 realizadas el 3 de noviembre de 2026."
+    },
+    {
+      "url": "https://rosejoyeriacr.com/faq",
+      "claim": "Empresa familiar en Naranjo, pedidos online, venta mayorista y WhatsApp general comercial publicado."
+    },
+    {
+      "url": "https://rosejoyeriacr.com/tienda",
+      "claim": "Página pública de tienda con filtros de orden y precio; no se comprobó una transacción."
+    },
+    {
+      "url": "https://rosejoyeriacr.com/tienda",
+      "claim": "Joyería de la colección Rose: Colección publicada de joyería; la composición se debe confirmar para cada pieza."
+    },
+    {
+      "url": "https://rosejoyeriacr.com/faq",
+      "claim": "Grabado personalizado: Servicio de grabado con nombres, fechas o frases según la pieza elegida."
+    }
+  ],
+  "products": [
+    {
+      "name": "Joyería de la colección Rose",
+      "description": "Colección publicada de joyería; la composición se debe confirmar para cada pieza.",
+      "url": "https://rosejoyeriacr.com/tienda",
+      "image": "https://rosejoyeriacr.com/assets/portadarose-CyDcBgkl.jpeg",
+      "kind": "servicio o colección, sin SKU"
+    },
+    {
+      "name": "Grabado personalizado",
+      "description": "Servicio de grabado con nombres, fechas o frases según la pieza elegida.",
+      "url": "https://rosejoyeriacr.com/faq",
+      "image": "https://rosejoyeriacr.com/assets/grabados-B_i7ggai.jpeg",
+      "kind": "servicio o colección, sin SKU"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://rosejoyeriacr.com/assets/portadarose-CyDcBgkl.jpeg",
+      "sourcePage": "https://rosejoyeriacr.com/tienda",
+      "use": "Joyería de la colección Rose"
+    },
+    {
+      "url": "https://rosejoyeriacr.com/assets/grabados-B_i7ggai.jpeg",
+      "sourcePage": "https://rosejoyeriacr.com/faq",
+      "use": "Grabado personalizado"
+    },
+    {
+      "url": "https://rosejoyeriacr.com/assets/portadarose-CyDcBgkl.jpeg",
+      "sourcePage": "https://rosejoyeriacr.com/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://rosejoyeriacr.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://www.everlane.com/collections/womens-all",
+      "observedPattern": "Fotografía protagonista y detalle de corte o uso antes de seleccionar."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "jewelry",
+      "headline": "Una pieza.\nAlgo que decir.",
+      "palette": [
+        "#865c35",
+        "#faf6ee",
+        "#303324"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Estudio de aprobación de grabado",
+      "reason": "Una revisión del texto antes de cotizar podría evitar errores de nombres, fechas y aprobación del diseño.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "No se verificaron tres fichas individuales comprables con SKU. Se presentan únicamente servicios, materiales o familias publicados; catálogo detallado pendiente de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 5,
+      "passed": 5,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 2,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

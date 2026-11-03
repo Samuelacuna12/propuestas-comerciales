@@ -1,0 +1,167 @@
+{
+  "company": "Rose Joyería",
+  "language": "es",
+  "website": "https://rosejoyeriacr.com/",
+  "description": "Ofrece joyería, grabados personalizados y tienda en línea; sus preguntas frecuentes describen pedidos por carrito, venta mayorista y visitas con cita.",
+  "theme": {
+    "accent": "#865c35",
+    "background": "#faf6ee",
+    "foreground": "#303324",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Joyería de la colección Rose",
+      "url": "https://rosejoyeriacr.com/tienda",
+      "description": "Colección publicada de joyería; la composición se debe confirmar para cada pieza.",
+      "image": "https://rosejoyeriacr.com/assets/portadarose-CyDcBgkl.jpeg",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Grabado personalizado",
+      "url": "https://rosejoyeriacr.com/faq",
+      "description": "Servicio de grabado con nombres, fechas o frases según la pieza elegida.",
+      "image": "https://rosejoyeriacr.com/assets/grabados-B_i7ggai.jpeg",
+      "asset": "assets/catalog-2.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Joyería de la colección Rose?",
+      "answer": "Colección publicada de joyería; la composición se debe confirmar para cada pieza.",
+      "keywords": [
+        "joyería",
+        "de",
+        "la",
+        "colección",
+        "rose"
+      ]
+    },
+    {
+      "question": "¿Qué es Grabado personalizado?",
+      "answer": "Servicio de grabado con nombres, fechas o frases según la pieza elegida.",
+      "keywords": [
+        "grabado",
+        "personalizado"
+      ]
+    },
+    {
+      "question": "¿Es una empresa familiar?",
+      "answer": "Sus preguntas frecuentes describen una empresa familiar en Naranjo, Alajuela.",
+      "keywords": [
+        "una",
+        "empresa",
+        "familiar"
+      ]
+    },
+    {
+      "question": "¿Cómo se compra?",
+      "answer": "La web indica elegir piezas en la tienda y avanzar con el carrito.",
+      "keywords": [
+        "se",
+        "compra"
+      ]
+    },
+    {
+      "question": "¿Atienden pedidos mayoristas?",
+      "answer": "Las preguntas frecuentes indican que se pueden solicitar opciones de mayoreo.",
+      "keywords": [
+        "pedidos",
+        "mayoristas"
+      ]
+    },
+    {
+      "question": "¿Puedo visitar la tienda?",
+      "answer": "La página de preguntas frecuentes indica coordinar una cita.",
+      "keywords": [
+        "visitar",
+        "la",
+        "tienda"
+      ]
+    },
+    {
+      "question": "¿Hacen envíos nacionales?",
+      "answer": "Su FAQ publica envíos por Correos de Costa Rica o encomienda.",
+      "keywords": [
+        "envíos",
+        "nacionales"
+      ]
+    },
+    {
+      "question": "¿Qué materiales mencionan?",
+      "answer": "La web menciona acero inoxidable y piezas bañadas en oro; confirmar composición de la referencia elegida.",
+      "keywords": [
+        "materiales",
+        "mencionan"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Rose Joyería",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Pieza de interés",
+        "question": "¿Qué pieza de joyería te interesa?",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Texto exacto del grabado",
+        "question": "Indica texto exacto del grabado.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Cantidad de piezas",
+        "question": "Indica cantidad de piezas.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Fecha deseada por confirmar",
+        "question": "Indica fecha deseada por confirmar.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Aprobación del arte requerida",
+        "question": "Indica aprobación del arte requerida.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://rosejoyeriacr.com/",
+      "claim": "Oferta de joyería y grabado, sección pública de contacto, dirección en Naranjo y declaración de empresa familiar. Lectura web y comprobación HTTP 200 realizadas el 3 de noviembre de 2026."
+    },
+    {
+      "url": "https://rosejoyeriacr.com/faq",
+      "claim": "Empresa familiar en Naranjo, pedidos online, venta mayorista y WhatsApp general comercial publicado."
+    },
+    {
+      "url": "https://rosejoyeriacr.com/tienda",
+      "claim": "Página pública de tienda con filtros de orden y precio; no se comprobó una transacción."
+    },
+    {
+      "url": "https://rosejoyeriacr.com/tienda",
+      "claim": "Joyería de la colección Rose: Colección publicada de joyería; la composición se debe confirmar para cada pieza."
+    },
+    {
+      "url": "https://rosejoyeriacr.com/faq",
+      "claim": "Grabado personalizado: Servicio de grabado con nombres, fechas o frases según la pieza elegida."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "No se verificaron tres fichas individuales comprables con SKU. Se presentan únicamente servicios, materiales o familias publicados; catálogo detallado pendiente de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

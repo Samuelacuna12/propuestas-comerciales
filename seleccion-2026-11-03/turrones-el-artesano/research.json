@@ -1,0 +1,202 @@
+{
+  "company": "Turrones El Artesano",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "es",
+  "sources": [
+    {
+      "url": "https://elartesano.es/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://tiendaturron.com/product/turron-crema-de-pistacho-y-almendra-calidad-suprema/",
+      "claim": "Turrón Crema de Pistacho y Almendra Calidad Suprema: Turrón blando de pistacho y almendra, en formato de 150 g."
+    },
+    {
+      "url": "https://tiendaturron.com/product/turron-imperial-de-pistacho-calidad-suprema/",
+      "claim": "Turrón Imperial de Pistacho Calidad Suprema: Turrón duro de pistacho y almendra, en formato de 150 g."
+    },
+    {
+      "url": "https://tiendaturron.com/product/turron-de-brownie/",
+      "claim": "Turrón de Brownie: Turrón inspirado en brownie, con cacao y nueces, en formato de 130 g."
+    },
+    {
+      "url": "https://elartesano.es/historia/",
+      "claim": "Origen familiar del fabricante."
+    },
+    {
+      "url": "https://elartesano.es/contactar/",
+      "claim": "Sede Jijona, atención y enlace a tienda oficial."
+    },
+    {
+      "url": "https://tiendaturron.com/",
+      "claim": "Tienda online del fabricante."
+    }
+  ],
+  "products": [
+    {
+      "name": "Turrón Crema de Pistacho y Almendra Calidad Suprema",
+      "url": "https://tiendaturron.com/product/turron-crema-de-pistacho-y-almendra-calidad-suprema/",
+      "description": "Turrón blando de pistacho y almendra, en formato de 150 g.",
+      "image": "https://tiendaturron.com/wp-content/uploads/2026/05/045Nadia-Fuster-Fotografia-23-06-2026-Crema-de-pistacho-y-almendra-200-g-scaled.jpg",
+      "asset": "assets/product-1-optimized.jpg"
+    },
+    {
+      "name": "Turrón Imperial de Pistacho Calidad Suprema",
+      "url": "https://tiendaturron.com/product/turron-imperial-de-pistacho-calidad-suprema/",
+      "description": "Turrón duro de pistacho y almendra, en formato de 150 g.",
+      "image": "https://tiendaturron.com/wp-content/uploads/2026/05/039Nadia-Fuster-Fotografia-23-06-2026-Imperial-pistacho-200-g-scaled.jpg",
+      "asset": "assets/product-2-optimized.jpg"
+    },
+    {
+      "name": "Turrón de Brownie",
+      "url": "https://tiendaturron.com/product/turron-de-brownie/",
+      "description": "Turrón inspirado en brownie, con cacao y nueces, en formato de 130 g.",
+      "image": "https://tiendaturron.com/wp-content/uploads/2026/05/021Nadia-Fuster-Fotografia-23-06-2026-Brownie-130-g-scaled.jpg",
+      "asset": "assets/product-3-optimized.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "Turrón Crema de Pistacho y Almendra Calidad Suprema",
+      "url": "https://tiendaturron.com/wp-content/uploads/2026/05/045Nadia-Fuster-Fotografia-23-06-2026-Crema-de-pistacho-y-almendra-200-g-scaled.jpg",
+      "local": "assets/product-1-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 167551,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://tiendaturron.com/product/turron-crema-de-pistacho-y-almendra-calidad-suprema/",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 505076
+      }
+    },
+    {
+      "product": "Turrón Imperial de Pistacho Calidad Suprema",
+      "url": "https://tiendaturron.com/wp-content/uploads/2026/05/039Nadia-Fuster-Fotografia-23-06-2026-Imperial-pistacho-200-g-scaled.jpg",
+      "local": "assets/product-2-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 181553,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://tiendaturron.com/product/turron-imperial-de-pistacho-calidad-suprema/",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 525194
+      }
+    },
+    {
+      "product": "Turrón de Brownie",
+      "url": "https://tiendaturron.com/wp-content/uploads/2026/05/021Nadia-Fuster-Fotografia-23-06-2026-Brownie-130-g-scaled.jpg",
+      "local": "assets/product-3-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 122207,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://tiendaturron.com/product/turron-de-brownie/",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 351781
+      }
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://elartesano.es/",
+    "secondary": "https://davidstea.com/",
+    "boundedBorrowing": "Edición de regalos con producto protagonista e información de ingredientes visible.",
+    "layout": "editorial",
+    "palette": {
+      "accent": "#8c242b",
+      "background": "#faf1df"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Calcula tabletas por lote y destinatarios. La revisión humana confirma alérgenos, formato, conservación y disponibilidad antes de comprar."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://tiendaturron.com/product/turron-crema-de-pistacho-y-almendra-calidad-suprema/",
+        "httpOk": true
+      },
+      {
+        "url": "https://tiendaturron.com/product/turron-imperial-de-pistacho-calidad-suprema/",
+        "httpOk": true
+      },
+      {
+        "url": "https://tiendaturron.com/product/turron-de-brownie/",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

@@ -1,0 +1,167 @@
+{
+  "company": "Fabricarte",
+  "language": "es",
+  "website": "https://fabricarte.squarespace.com/",
+  "description": "Diseña y fabrica mobiliario residencial y comercial, cocinas y clósets por proyecto.",
+  "theme": {
+    "accent": "#936347",
+    "background": "#f6f4ef",
+    "foreground": "#252724",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Proyectos residenciales",
+      "url": "https://fabricarte.squarespace.com/residenciales",
+      "description": "Cocinas, clósets, baños y mobiliario hecho a medida.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5e3b032e73fa6516dafa70c0/d55cee8b-a7e3-4fb1-8e4f-a8b17eed5ad6/CasaPA_BAJA_066.jpg",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Proyectos de hospitalidad",
+      "url": "https://fabricarte.squarespace.com/hospitalidad",
+      "description": "Mobiliario para espacios de hospitalidad; galería oficial de proyectos.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5e3b032e73fa6516dafa70c0/5ea58f00-2158-453e-9149-746a4fc06949/03.jpg",
+      "asset": "assets/catalog-3.webp"
+    },
+    {
+      "name": "Proyectos comerciales",
+      "url": "https://fabricarte.squarespace.com/comerciales",
+      "description": "Recepciones, exhibición y otros elementos para espacios comerciales.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5e3b032e73fa6516dafa70c0/230180fb-6fe7-4878-bb05-b06ab735baf0/D52A9693_FNL.JPG",
+      "asset": "assets/catalog-4.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Proyectos residenciales?",
+      "answer": "Cocinas, clósets, baños y mobiliario hecho a medida.",
+      "keywords": [
+        "proyectos",
+        "residenciales"
+      ]
+    },
+    {
+      "question": "¿Qué es Proyectos de hospitalidad?",
+      "answer": "Mobiliario para espacios de hospitalidad; galería oficial de proyectos.",
+      "keywords": [
+        "proyectos",
+        "de",
+        "hospitalidad"
+      ]
+    },
+    {
+      "question": "¿Qué es Proyectos comerciales?",
+      "answer": "Recepciones, exhibición y otros elementos para espacios comerciales.",
+      "keywords": [
+        "proyectos",
+        "comerciales"
+      ]
+    },
+    {
+      "question": "¿Fabrican a medida?",
+      "answer": "Sí. La empresa describe manufactura de mobiliario y elementos arquitectónicos personalizados.",
+      "keywords": [
+        "a",
+        "medida"
+      ]
+    },
+    {
+      "question": "¿Trabajan elementos empotrados?",
+      "answer": "Su oferta incluye muebles empotrados, enchapes y elementos de paredes y cielos.",
+      "keywords": [
+        "elementos",
+        "empotrados"
+      ]
+    },
+    {
+      "question": "¿También hacen muebles sueltos?",
+      "answer": "El sitio menciona camas, mesas de noche y mesas de café, entre otros.",
+      "keywords": [
+        "hacen",
+        "muebles",
+        "sueltos"
+      ]
+    },
+    {
+      "question": "¿Dónde están?",
+      "answer": "La empresa publica San José, Costa Rica como ubicación.",
+      "keywords": [
+        "están"
+      ]
+    },
+    {
+      "question": "¿Cómo se inicia un proyecto?",
+      "answer": "Su página invita a describir los requerimientos al equipo; esta muestra prepara esa conversación.",
+      "keywords": [
+        "se",
+        "inicia",
+        "un",
+        "proyecto"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Fabricarte",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Tipo de espacio",
+        "question": "Indica tipo de espacio.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Piezas requeridas",
+        "question": "Indica piezas requeridas.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Medidas disponibles",
+        "question": "Indica medidas disponibles.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Material y acabado deseados",
+        "question": "Indica material y acabado deseados.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Planos o fotos disponibles",
+        "question": "Indica planos o fotos disponibles.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://fabricarte.squarespace.com/",
+      "claim": "Empresa familiar, fabricación a medida, contacto comercial y localización San José, Costa Rica."
+    },
+    {
+      "url": "https://fabricarte.squarespace.com/residenciales",
+      "claim": "Proyectos residenciales: Cocinas, clósets, baños y mobiliario hecho a medida."
+    },
+    {
+      "url": "https://fabricarte.squarespace.com/hospitalidad",
+      "claim": "Proyectos de hospitalidad: Mobiliario para espacios de hospitalidad; galería oficial de proyectos."
+    },
+    {
+      "url": "https://fabricarte.squarespace.com/comerciales",
+      "claim": "Proyectos comerciales: Recepciones, exhibición y otros elementos para espacios comerciales."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

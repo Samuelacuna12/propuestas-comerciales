@@ -1,0 +1,204 @@
+{
+  "company": "Comercializadora Empaques Bogotá",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://empaquesbogota.com.co/",
+      "claim": "Actividad, catálogo y canales oficiales de Empaques Bogotá"
+    },
+    {
+      "url": "https://empaquesbogota.com.co/producto/sushi-top-estandar/",
+      "claim": "Ficha o línea publicada: Sushi Top Estándar"
+    },
+    {
+      "url": "https://empaquesbogota.com.co/producto/sushi-japon/",
+      "claim": "Ficha o línea publicada: Sushi Japón"
+    },
+    {
+      "url": "https://empaquesbogota.com.co/producto/sushi-caja-bocados/",
+      "claim": "Ficha o línea publicada: Sushi caja bocados"
+    }
+  ],
+  "products": [
+    {
+      "name": "Sushi Top Estándar",
+      "description": "Formato publicado en la línea Sushi y Arroz chino.",
+      "url": "https://empaquesbogota.com.co/producto/sushi-top-estandar/",
+      "image": "https://empaquesbogota.com.co/wp-content/uploads/2026/08/TOP1-scaled.jpg",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Sushi Japón",
+      "description": "Presentación de empaque de la colección de sushi.",
+      "url": "https://empaquesbogota.com.co/producto/sushi-japon/",
+      "image": "https://empaquesbogota.com.co/wp-content/uploads/2026/08/sushi-japon-scaled.jpg",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Sushi caja bocados",
+      "description": "Referencia para presentación de bocados; medidas por confirmar.",
+      "url": "https://empaquesbogota.com.co/producto/sushi-caja-bocados/",
+      "image": "https://empaquesbogota.com.co/wp-content/uploads/2026/08/bocsdo-scaled.jpg",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://empaquesbogota.com.co/wp-content/uploads/2026/08/TOP1-scaled.jpg",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://empaquesbogota.com.co/wp-content/uploads/2026/08/TOP1-scaled.jpg",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://empaquesbogota.com.co/wp-content/uploads/2026/08/sushi-japon-scaled.jpg",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://empaquesbogota.com.co/wp-content/uploads/2026/08/bocsdo-scaled.jpg",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://empaquesbogota.com.co/",
+    "secondary": "https://packhelp.com/",
+    "layout": "food",
+    "palette": [
+      "#b54620",
+      "#fcf4e2",
+      "#333019",
+      "#f1ca5d"
+    ],
+    "typography": "'Manrope',sans-serif",
+    "decisions": "Catálogo visual de alimentos con título editorial ancho, amarillo cálido, fotos sobre superficies claras y guía de recompra por formato.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "La tienda organiza empaques por uso alimentario y por tipo de presentación.",
+      "El catálogo incluye sushi, tortas, bolsas kraft y cajas con ventana.",
+      "Las tres fichas seleccionadas identifican el producto, pero no publican todas sus medidas ni una tarifa verificable."
+    ],
+    "hypothesis": "Permitir que un restaurante prepare una reposición por referencia sin perder la relación entre consumo y empaque.",
+    "operation": "Reposición de empaques por servicio",
+    "boundaries": [
+      "No se verificó capacidad alimentaria, temperatura máxima ni medidas de las tres referencias de sushi."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://empaquesbogota.com.co/wp-content/uploads/2026/08/TOP1-scaled.jpg",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://empaquesbogota.com.co/wp-content/uploads/2026/08/TOP1-scaled.jpg",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://empaquesbogota.com.co/wp-content/uploads/2026/08/sushi-japon-scaled.jpg",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://empaquesbogota.com.co/wp-content/uploads/2026/08/bocsdo-scaled.jpg",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "comercializadora-empaques-bogota",
+      "company": "Comercializadora Empaques Bogotá",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "No se verificó capacidad alimentaria, temperatura máxima ni medidas de las tres referencias de sushi."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://empaquesbogota.com.co/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://empaquesbogota.com.co/producto/sushi-caja-bocados/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://empaquesbogota.com.co/producto/sushi-japon/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://empaquesbogota.com.co/producto/sushi-top-estandar/",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 66902
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 66902
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 63282
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 56050
+      }
+    ]
+  },
+  "publicOnly": true
+}

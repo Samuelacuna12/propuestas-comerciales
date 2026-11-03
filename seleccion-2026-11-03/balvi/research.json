@@ -1,0 +1,190 @@
+{
+  "company": "Balvi",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "es",
+  "sources": [
+    {
+      "url": "https://www.balvi.com/es",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://www.balvi.com/products/candy-drops-jewelry-box",
+      "claim": "Candy Drops Jewelry Box: Joyero Candy Drops inspirado en una caja de caramelos, con interior aterciopelado y compartimentos."
+    },
+    {
+      "url": "https://www.balvi.com/products/magma-sunrise-lava-lamp",
+      "claim": "Magma Sunrise Lava Lamp: Lámpara de lava Magma Sunrise con colores azul y amarillo y acabado metálico."
+    },
+    {
+      "url": "https://www.balvi.com/products/cool-cat-bookmark",
+      "claim": "Cool Cat Bookmark: Marcapáginas Cool Cat con un gato y gafas; consulta las variantes en su ficha."
+    },
+    {
+      "url": "https://www.balvi.com/es",
+      "claim": "Catálogo en español, venta online y recambios."
+    },
+    {
+      "url": "https://www.balvi.com/pages/about",
+      "claim": "Origen de la marca en Barcelona."
+    },
+    {
+      "url": "https://www.balvi.com/pages/contact",
+      "claim": "Canal mayorista y sede comercial en El Prat de Llobregat."
+    }
+  ],
+  "products": [
+    {
+      "name": "Candy Drops Jewelry Box",
+      "url": "https://www.balvi.com/products/candy-drops-jewelry-box",
+      "description": "Joyero Candy Drops inspirado en una caja de caramelos, con interior aterciopelado y compartimentos.",
+      "image": "https://www.balvi.com/cdn/shop/files/21255829_28327E_Drops_Jewelry_Box_Yellow.jpg?v=1785845944&width=1024",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Magma Sunrise Lava Lamp",
+      "url": "https://www.balvi.com/products/magma-sunrise-lava-lamp",
+      "description": "Lámpara de lava Magma Sunrise con colores azul y amarillo y acabado metálico.",
+      "image": "https://www.balvi.com/cdn/shop/files/22217297_28331_Magma_Lava_Lamp_Blue_-_Yellow_8a2fe9c7-ac36-4da6-8392-c26bca426fb9.jpg?v=1785907848&width=1024",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Cool Cat Bookmark",
+      "url": "https://www.balvi.com/products/cool-cat-bookmark",
+      "description": "Marcapáginas Cool Cat con un gato y gafas; consulta las variantes en su ficha.",
+      "image": "https://www.balvi.com/cdn/shop/files/22217254_28350_Fluffy_Cool_Cats_Bookmark_Yellow.jpg?v=1788790322&width=1024",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "Candy Drops Jewelry Box",
+      "url": "https://www.balvi.com/cdn/shop/files/21255829_28327E_Drops_Jewelry_Box_Yellow.jpg?v=1785845944&width=1024",
+      "local": "assets/product-1.jpg",
+      "mime": "image/jpeg",
+      "bytes": 116486,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://www.balvi.com/products/candy-drops-jewelry-box"
+    },
+    {
+      "product": "Magma Sunrise Lava Lamp",
+      "url": "https://www.balvi.com/cdn/shop/files/22217297_28331_Magma_Lava_Lamp_Blue_-_Yellow_8a2fe9c7-ac36-4da6-8392-c26bca426fb9.jpg?v=1785907848&width=1024",
+      "local": "assets/product-2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 40244,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://www.balvi.com/products/magma-sunrise-lava-lamp"
+    },
+    {
+      "product": "Cool Cat Bookmark",
+      "url": "https://www.balvi.com/cdn/shop/files/22217254_28350_Fluffy_Cool_Cats_Bookmark_Yellow.jpg?v=1788790322&width=1024",
+      "local": "assets/product-3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 54081,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://www.balvi.com/products/cool-cat-bookmark"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://www.balvi.com/es",
+    "secondary": "https://www.papermart.com/",
+    "boundedBorrowing": "Exploración rápida por uso con color reservado a la selección.",
+    "layout": "playful",
+    "palette": {
+      "accent": "#b61d38",
+      "background": "#fff3e1"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Calcula piezas por destinatarios y crea un reparto por producto para revisar; sin crear un pedido o prometer existencias."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://www.balvi.com/products/candy-drops-jewelry-box",
+        "httpOk": true
+      },
+      {
+        "url": "https://www.balvi.com/products/magma-sunrise-lava-lamp",
+        "httpOk": true
+      },
+      {
+        "url": "https://www.balvi.com/products/cool-cat-bookmark",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

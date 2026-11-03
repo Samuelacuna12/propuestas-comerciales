@@ -1,0 +1,193 @@
+{
+  "company": "Envaselia",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "es",
+  "sources": [
+    {
+      "url": "https://www.envaselia.com/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://www.envaselia-shop.com/envases-pet/115-envase-pet-60ml-m1-cilindrico-20415-transparente.html",
+      "claim": "Envase PET 60ml M1 cilíndrico 20/415 transparente - Resistente y Reciclable para Cosméticos y Muestras | Envaselia: Envase PET transparente de 60 ml, forma cilíndrica y cuello 20/415."
+    },
+    {
+      "url": "https://www.envaselia-shop.com/envases-pet-cosmetica/116-envase-pet-100ml-m1-conico-24410-transparente.html",
+      "claim": "Envase PET 100ml M1 cónico 24/410 transparente - Resistente y Reciclable para Cosméticos y Muestras | Envaselia: Envase PET transparente de 100 ml, forma cónica y cuello 24/410."
+    },
+    {
+      "url": "https://www.envaselia-shop.com/inicio/40-envase-pet-250ml-m3-cilindrico-24410-transparente.html",
+      "claim": "Envase PET 250ml cuello 24/410 - Ligero y Reciclable | Envaselia: Envase PET transparente de 250 ml, forma cilíndrica y cuello 24/410."
+    },
+    {
+      "url": "https://www.envaselia.com/",
+      "claim": "Origen, catálogo, soluciones a medida y enlace a tienda."
+    },
+    {
+      "url": "https://www.envaselia.com/contacto.htm",
+      "claim": "Sede Getafe, contacto comercial y ruta de pedidos pequeños."
+    }
+  ],
+  "products": [
+    {
+      "name": "Envase PET 60 ml M1 cilíndrico 20/415 transparente",
+      "url": "https://www.envaselia-shop.com/envases-pet/115-envase-pet-60ml-m1-cilindrico-20415-transparente.html",
+      "description": "Envase PET transparente de 60 ml, forma cilíndrica y cuello 20/415.",
+      "image": "https://www.envaselia-shop.com/755-product_zoom/envase-pet-60ml-m1-cilindrico-20415-transparente.jpg",
+      "asset": "assets/product-1-optimized.jpg",
+      "originalPageTitle": "Envase PET 60ml M1 cilíndrico 20/415 transparente - Resistente y Reciclable para Cosméticos y Muestras | Envaselia"
+    },
+    {
+      "name": "Envase PET 100 ml M1 cónico 24/410 transparente",
+      "url": "https://www.envaselia-shop.com/envases-pet-cosmetica/116-envase-pet-100ml-m1-conico-24410-transparente.html",
+      "description": "Envase PET transparente de 100 ml, forma cónica y cuello 24/410.",
+      "image": "https://www.envaselia-shop.com/756-product_zoom/envase-pet-100ml-m1-conico-24410-transparente.jpg",
+      "asset": "assets/product-2.png",
+      "originalPageTitle": "Envase PET 100ml M1 cónico 24/410 transparente - Resistente y Reciclable para Cosméticos y Muestras | Envaselia"
+    },
+    {
+      "name": "Envase PET 250 ml cuello 24/410",
+      "url": "https://www.envaselia-shop.com/inicio/40-envase-pet-250ml-m3-cilindrico-24410-transparente.html",
+      "description": "Envase PET transparente de 250 ml, forma cilíndrica y cuello 24/410.",
+      "image": "https://www.envaselia-shop.com/1200-product_zoom/envase-pet-250ml-m3-cilindrico-24410-transparente.jpg",
+      "asset": "assets/product-3.jpg",
+      "originalPageTitle": "Envase PET 250ml cuello 24/410 - Ligero y Reciclable | Envaselia"
+    }
+  ],
+  "images": [
+    {
+      "product": "Envase PET 60ml M1 cilíndrico 20/415 transparente - Resistente y Reciclable para Cosméticos y Muestras | Envaselia",
+      "url": "https://www.envaselia-shop.com/755-product_zoom/envase-pet-60ml-m1-cilindrico-20415-transparente.jpg",
+      "local": "assets/product-1-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 43314,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://www.envaselia-shop.com/envases-pet/115-envase-pet-60ml-m1-cilindrico-20415-transparente.html",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 388191
+      }
+    },
+    {
+      "product": "Envase PET 100ml M1 cónico 24/410 transparente - Resistente y Reciclable para Cosméticos y Muestras | Envaselia",
+      "url": "https://www.envaselia-shop.com/756-product_zoom/envase-pet-100ml-m1-conico-24410-transparente.jpg",
+      "local": "assets/product-2.png",
+      "mime": "image/png",
+      "bytes": 72378,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://www.envaselia-shop.com/envases-pet-cosmetica/116-envase-pet-100ml-m1-conico-24410-transparente.html"
+    },
+    {
+      "product": "Envase PET 250ml cuello 24/410 - Ligero y Reciclable | Envaselia",
+      "url": "https://www.envaselia-shop.com/1200-product_zoom/envase-pet-250ml-m3-cilindrico-24410-transparente.jpg",
+      "local": "assets/product-3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 40885,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://www.envaselia-shop.com/inicio/40-envase-pet-250ml-m3-cilindrico-24410-transparente.html"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://www.envaselia.com/",
+    "secondary": "https://www.papermart.com/",
+    "boundedBorrowing": "Lectura técnica rápida con capacidad y cierre separados.",
+    "layout": "technical",
+    "palette": {
+      "accent": "#17657b",
+      "background": "#eef6f7"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Convierte volumen de lote a número de envases con margen introducido por el usuario. Compatibilidad de contenido, cierre y proceso requiere validación."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://www.envaselia-shop.com/envases-pet/115-envase-pet-60ml-m1-cilindrico-20415-transparente.html",
+        "httpOk": true
+      },
+      {
+        "url": "https://www.envaselia-shop.com/envases-pet-cosmetica/116-envase-pet-100ml-m1-conico-24410-transparente.html",
+        "httpOk": true
+      },
+      {
+        "url": "https://www.envaselia-shop.com/inicio/40-envase-pet-250ml-m3-cilindrico-24410-transparente.html",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": true
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

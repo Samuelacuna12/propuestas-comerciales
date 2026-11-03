@@ -1,0 +1,180 @@
+{
+  "company": "Sizmo Caps",
+  "language": "es",
+  "website": "https://sizmoclub.com/",
+  "description": "Marca de gorras con colecciones y carrito; su historia describe confección en Guatemala y trabajo para marcas.",
+  "theme": {
+    "accent": "#58c2e4",
+    "background": "#eceff1",
+    "foreground": "#111c23",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Gorra Oficial de Guatemala",
+      "url": "https://sizmoclub.com/products/gorra-oficial-guatemala",
+      "description": "Gorra negra con detalles celestes y bordado; revisar variantes oficiales.",
+      "image": "https://sizmoclub.com/cdn/shop/files/GORRA-OFICIAL-GAUTEMALA-11.png?v=1779468500&width=1920",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Pin Escudo de Armas",
+      "url": "https://sizmoclub.com/products/pinescudo",
+      "description": "Pin metálico con el Escudo de Armas de Guatemala.",
+      "image": "https://sizmoclub.com/cdn/shop/files/ESCUO-2.png?v=1787850132&width=1920",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Pin Camioneta",
+      "url": "https://sizmoclub.com/products/pincamioneta",
+      "description": "Pin metálico inspirado en la camioneta guatemalteca.",
+      "image": "https://sizmoclub.com/cdn/shop/files/CAMINOTE-TA1.png?v=1787849959&width=1920",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Gorra Oficial de Guatemala?",
+      "answer": "Gorra negra con detalles celestes y bordado; revisar variantes oficiales.",
+      "keywords": [
+        "gorra",
+        "oficial",
+        "de",
+        "guatemala"
+      ]
+    },
+    {
+      "question": "¿Qué es Pin Escudo de Armas?",
+      "answer": "Pin metálico con el Escudo de Armas de Guatemala.",
+      "keywords": [
+        "pin",
+        "escudo",
+        "de",
+        "armas"
+      ]
+    },
+    {
+      "question": "¿Qué es Pin Camioneta?",
+      "answer": "Pin metálico inspirado en la camioneta guatemalteca.",
+      "keywords": [
+        "pin",
+        "camioneta"
+      ]
+    },
+    {
+      "question": "¿La historia de la marca es familiar?",
+      "answer": "La página de historia relata un origen familiar en confección.",
+      "keywords": [
+        "historia",
+        "de",
+        "la",
+        "marca",
+        "es",
+        "familiar"
+      ]
+    },
+    {
+      "question": "¿Dónde se desarrolla la marca?",
+      "answer": "Su historia sitúa la confección y evolución de la marca en Guatemala.",
+      "keywords": [
+        "se",
+        "desarrolla",
+        "la",
+        "marca"
+      ]
+    },
+    {
+      "question": "¿Qué colecciones aparecen?",
+      "answer": "La tienda presenta, entre otras, la Gorra Oficial de Guatemala y colecciones de gorras.",
+      "keywords": [
+        "colecciones",
+        "aparecen"
+      ]
+    },
+    {
+      "question": "¿Puedo comprar pines por separado?",
+      "answer": "El catálogo publica fichas individuales de pines.",
+      "keywords": [
+        "comprar",
+        "pines",
+        "por",
+        "separado"
+      ]
+    },
+    {
+      "question": "¿Dónde se compra?",
+      "answer": "La tienda oficial dispone de carrito; condiciones y disponibilidad se confirman allí.",
+      "keywords": [
+        "se",
+        "compra"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Sizmo Caps",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Gorra o accesorio",
+        "question": "Indica gorra o accesorio.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Número de sets",
+        "question": "Indica número de sets.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Piezas por set",
+        "question": "Indica piezas por set.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Variantes deseadas",
+        "question": "Indica variantes deseadas.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Destino y fecha requerida",
+        "question": "Indica destino y fecha requerida.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://sizmoclub.com/pages/historia",
+      "claim": "Historia familiar, evolución hacia gorras y operación guatemalteca."
+    },
+    {
+      "url": "https://sizmoclub.com/pages/contact",
+      "claim": "Página oficial de contacto comercial."
+    },
+    {
+      "url": "https://sizmoclub.com/products/gorra-oficial-guatemala",
+      "claim": "Gorra Oficial de Guatemala: Gorra negra con detalles celestes y bordado; revisar variantes oficiales."
+    },
+    {
+      "url": "https://sizmoclub.com/products/pinescudo",
+      "claim": "Pin Escudo de Armas: Pin metálico con el Escudo de Armas de Guatemala."
+    },
+    {
+      "url": "https://sizmoclub.com/products/pincamioneta",
+      "claim": "Pin Camioneta: Pin metálico inspirado en la camioneta guatemalteca."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "company": "ELEMENTO Guatemala",
+  "language": "es",
+  "website": "https://elemento.com.gt/",
+  "description": "Diseña prendas fabricadas en Guatemala; tienda con categorías, carrito y colección bajo pedido.",
+  "theme": {
+    "accent": "#8b4f31",
+    "background": "#f6f0e8",
+    "foreground": "#262b23",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Jacket Valeria",
+      "url": "https://elemento.com.gt/product/jacket-valeria/",
+      "description": "Chaqueta holgada con cuello mandarín y bolsillos delanteros.",
+      "image": "https://elemento.com.gt/wp-content/uploads/2025/04/Jacket-Valeria-Negro-ELEMENTO.jpg",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Top Lucía",
+      "url": "https://elemento.com.gt/product/top-lucia/",
+      "description": "Top de corte recto con amarre en el escote y mangas cortas.",
+      "image": "https://elemento.com.gt/wp-content/uploads/2025/04/Top-Lucia-Avena-Frontal-ELEMENTO.jpg",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Jeans Ana",
+      "url": "https://elemento.com.gt/product/jeans-ana/",
+      "description": "Jeans de tiro alto y corte acampanado con bolsillos.",
+      "image": "https://elemento.com.gt/wp-content/uploads/2025/04/Jeans-Ana-Indigo-ELEMENTO.jpg",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Jacket Valeria?",
+      "answer": "Chaqueta holgada con cuello mandarín y bolsillos delanteros.",
+      "keywords": [
+        "jacket",
+        "valeria"
+      ]
+    },
+    {
+      "question": "¿Qué es Top Lucía?",
+      "answer": "Top de corte recto con amarre en el escote y mangas cortas.",
+      "keywords": [
+        "top",
+        "lucía"
+      ]
+    },
+    {
+      "question": "¿Qué es Jeans Ana?",
+      "answer": "Jeans de tiro alto y corte acampanado con bolsillos.",
+      "keywords": [
+        "jeans",
+        "ana"
+      ]
+    },
+    {
+      "question": "¿Dónde se confeccionan las prendas?",
+      "answer": "La marca indica manufactura en Guatemala.",
+      "keywords": [
+        "se",
+        "confeccionan",
+        "las",
+        "prendas"
+      ]
+    },
+    {
+      "question": "¿Hay una colección bajo pedido?",
+      "answer": "La tienda publica una categoría Bajo Pedido; sus condiciones deben confirmarse por prenda.",
+      "keywords": [
+        "una",
+        "colección",
+        "bajo",
+        "pedido"
+      ]
+    },
+    {
+      "question": "¿Qué otras prendas venden?",
+      "answer": "El menú incluye camiseras, tops, jackets, pantalones, faldas, vestidos y accesorios.",
+      "keywords": [
+        "otras",
+        "prendas",
+        "venden"
+      ]
+    },
+    {
+      "question": "¿Cómo cuido la prenda?",
+      "answer": "La página recomienda seguir su etiqueta de cuidado; no generalizar entre materiales.",
+      "keywords": [
+        "cuido",
+        "la",
+        "prenda"
+      ]
+    },
+    {
+      "question": "¿Cómo se compra?",
+      "answer": "La tienda oficial permite elegir prendas y avanzar con el carrito.",
+      "keywords": [
+        "se",
+        "compra"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para ELEMENTO Guatemala",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Prenda elegida",
+        "question": "¿Qué prenda te interesa?",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Talla por confirmar",
+        "question": "Indica talla por confirmar.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Color preferido",
+        "question": "Indica color preferido.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Cantidad por prenda",
+        "question": "Indica cantidad por prenda.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Compra de línea o consulta bajo pedido",
+        "question": "Indica compra de línea o consulta bajo pedido.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://elemento.com.gt/nosotros/",
+      "claim": "Origen familiar, gestión local, manufactura y tienda con categoría bajo pedido."
+    },
+    {
+      "url": "https://elemento.com.gt/contacto/",
+      "claim": "Página comercial oficial."
+    },
+    {
+      "url": "https://elemento.com.gt/product/jacket-valeria/",
+      "claim": "Jacket Valeria: Chaqueta holgada con cuello mandarín y bolsillos delanteros."
+    },
+    {
+      "url": "https://elemento.com.gt/product/top-lucia/",
+      "claim": "Top Lucía: Top de corte recto con amarre en el escote y mangas cortas."
+    },
+    {
+      "url": "https://elemento.com.gt/product/jeans-ana/",
+      "claim": "Jeans Ana: Jeans de tiro alto y corte acampanado con bolsillos."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

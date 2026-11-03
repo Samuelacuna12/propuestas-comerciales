@@ -1,0 +1,183 @@
+{
+  "company": "Family Pet Guatemala",
+  "language": "es",
+  "website": "https://familypetgt.com/",
+  "description": "Tienda con carrito, variantes y pago online; publica entregas en la capital y envíos a departamentos.",
+  "theme": {
+    "accent": "#007969",
+    "background": "#e9f2e9",
+    "foreground": "#123f3c",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Chuckit! Ultra Squeaker Ball",
+      "url": "https://familypetgt.com/producto/chuckit-ultra-squeaker-ball/",
+      "description": "Pelota con sonido; comprobar tamaño y uso en la ficha oficial.",
+      "image": "https://familypetgt.com/wp-content/uploads/2025/11/JUG-057.jpg",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "SELECT perros mini y pequeños",
+      "url": "https://familypetgt.com/producto/select-perros-razas-mini-y-pequenas/",
+      "description": "Alimento de la categoría publicada para razas mini y pequeñas; no constituye recomendación nutricional.",
+      "image": "https://familypetgt.com/wp-content/uploads/2025/11/ALI-073.jpg",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Collar Sunburst con hebilla de hueso",
+      "url": "https://familypetgt.com/producto/collar-sunburst-3-8-con-hebilla-forma-de-hueso-rosado-celeste-azul/",
+      "description": "Collar de 3/8 de pulgada, publicado en rosado, celeste y azul.",
+      "image": "https://familypetgt.com/wp-content/uploads/2025/11/ACC-001.jpg",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Chuckit! Ultra Squeaker Ball?",
+      "answer": "Pelota con sonido; comprobar tamaño y uso en la ficha oficial.",
+      "keywords": [
+        "chuckit",
+        "ultra",
+        "squeaker",
+        "ball"
+      ]
+    },
+    {
+      "question": "¿Qué es SELECT perros mini y pequeños?",
+      "answer": "Alimento de la categoría publicada para razas mini y pequeñas; no constituye recomendación nutricional.",
+      "keywords": [
+        "select",
+        "perros",
+        "mini",
+        "y",
+        "pequeños"
+      ]
+    },
+    {
+      "question": "¿Qué es Collar Sunburst con hebilla de hueso?",
+      "answer": "Collar de 3/8 de pulgada, publicado en rosado, celeste y azul.",
+      "keywords": [
+        "collar",
+        "sunburst",
+        "con",
+        "hebilla",
+        "de",
+        "hueso"
+      ]
+    },
+    {
+      "question": "¿Hay productos para perros y gatos?",
+      "answer": "El catálogo incluye categorías para ambas mascotas.",
+      "keywords": [
+        "productos",
+        "para",
+        "perros",
+        "y",
+        "gatos"
+      ]
+    },
+    {
+      "question": "¿La tienda tiene variantes?",
+      "answer": "Las fichas muestran opciones de presentación o talla según producto.",
+      "keywords": [
+        "tienda",
+        "tiene",
+        "variantes"
+      ]
+    },
+    {
+      "question": "¿Puedo comprar en línea?",
+      "answer": "El sitio incluye carrito y proceso de compra.",
+      "keywords": [
+        "comprar",
+        "en",
+        "línea"
+      ]
+    },
+    {
+      "question": "¿Envían fuera de la capital?",
+      "answer": "La web anuncia envíos a departamentos; confirmar cobertura en la compra.",
+      "keywords": [
+        "fuera",
+        "de",
+        "la",
+        "capital"
+      ]
+    },
+    {
+      "question": "¿El plan sustituye al veterinario?",
+      "answer": "No. Usa un consumo introducido por el usuario y no prescribe alimentos ni dosis.",
+      "keywords": [
+        "plan",
+        "sustituye",
+        "al",
+        "veterinario"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Family Pet Guatemala",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Producto de uso habitual",
+        "question": "Indica producto de uso habitual.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Presentación exacta",
+        "question": "Indica presentación exacta.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Cantidad restante",
+        "question": "Indica cantidad restante.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Consumo diario conocido",
+        "question": "Indica consumo diario conocido.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Plazo estimado para reponer",
+        "question": "Indica plazo estimado para reponer.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://familypetgt.com/",
+      "claim": "Catálogo, compra por carrito, cobertura de entrega y formulario comercial visibles."
+    },
+    {
+      "url": "https://familypetgt.com/producto/chuckit-ultra-squeaker-ball/",
+      "claim": "Chuckit! Ultra Squeaker Ball: Pelota con sonido; comprobar tamaño y uso en la ficha oficial."
+    },
+    {
+      "url": "https://familypetgt.com/producto/select-perros-razas-mini-y-pequenas/",
+      "claim": "SELECT perros mini y pequeños: Alimento de la categoría publicada para razas mini y pequeñas; no constituye recomendación nutricional."
+    },
+    {
+      "url": "https://familypetgt.com/producto/collar-sunburst-3-8-con-hebilla-forma-de-hueso-rosado-celeste-azul/",
+      "claim": "Collar Sunburst con hebilla de hueso: Collar de 3/8 de pulgada, publicado en rosado, celeste y azul."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "El cálculo no prescribe consumo, alimento ni medicación. Solo usa cantidades introducidas por quien realiza la prueba.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

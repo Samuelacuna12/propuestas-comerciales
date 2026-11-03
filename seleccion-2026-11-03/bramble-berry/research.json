@@ -1,0 +1,192 @@
+{
+  "company": "Bramble Berry",
+  "reviewedAt": "2026-11-03T15:28:50.531531+00:00",
+  "language": "en",
+  "sources": [
+    {
+      "url": "https://www.brambleberry.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-olive-oil-melt-and-pour-soap-base/V000764.html",
+      "claim": "SFIC Olive Oil Melt And Pour Soap Base: Melt-and-pour soap base with added olive oil; follow the official melting and use instructions."
+    },
+    {
+      "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-goat-milk-melt-and-pour-soap-base/V000754.html",
+      "claim": "SFIC Goat Milk Melt And Pour Soap Base: Ready-made soap base containing liquid goat milk; confirm ingredients before use."
+    },
+    {
+      "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-shea-melt-and-pour-soap-base/V000756.html",
+      "claim": "SFIC Shea Melt And Pour Soap Base: Shea melt-and-pour base from the SFIC range; review the ingredient and handling information."
+    },
+    {
+      "url": "https://www.brambleberry.com/aboutus.html",
+      "claim": "Fundadora, más de 90 empleados y catálogo de insumos."
+    },
+    {
+      "url": "https://www.brambleberry.com/contactus",
+      "claim": "Atención comercial y acceso a marca privada."
+    }
+  ],
+  "products": [
+    {
+      "name": "SFIC Olive Oil Melt And Pour Soap Base",
+      "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-olive-oil-melt-and-pour-soap-base/V000764.html",
+      "description": "Melt-and-pour soap base with added olive oil; follow the official melting and use instructions.",
+      "image": "https://www.brambleberry.com/on/demandware.static/-/Sites-brambleberry-master-catalog/default/dwff156f39/images/large/ingredients/bases/soap/main/SFICOliveOilMeltAndPourSoapBase_SOAP11_Main_2018.07.BrambleBerry.Brent.day4-863-Edit.jpg",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "SFIC Goat Milk Melt And Pour Soap Base",
+      "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-goat-milk-melt-and-pour-soap-base/V000754.html",
+      "description": "Ready-made soap base containing liquid goat milk; confirm ingredients before use.",
+      "image": "https://www.brambleberry.com/on/demandware.static/-/Sites-brambleberry-master-catalog/default/dw20a6db10/images/large/ingredients/bases/soap/main/SFICGoatMilkMeltAndPourSoapBase_MP02-25_Main_2018.07.BrambleBerry.Brent.day4-742-Edit.jpg",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "SFIC Shea Melt And Pour Soap Base",
+      "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-shea-melt-and-pour-soap-base/V000756.html",
+      "description": "Shea melt-and-pour base from the SFIC range; review the ingredient and handling information.",
+      "image": "https://www.brambleberry.com/on/demandware.static/-/Sites-brambleberry-master-catalog/default/dw51a1df56/images/large/ingredients/bases/soap/main/SFICSheaMeltAndPourSoapBase_SOAP03_Main_2018.07.BrambleBerry.Brent.day4-850-Edit.jpg",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "SFIC Olive Oil Melt And Pour Soap Base",
+      "url": "https://www.brambleberry.com/on/demandware.static/-/Sites-brambleberry-master-catalog/default/dwff156f39/images/large/ingredients/bases/soap/main/SFICOliveOilMeltAndPourSoapBase_SOAP11_Main_2018.07.BrambleBerry.Brent.day4-863-Edit.jpg",
+      "local": "assets/product-1.jpg",
+      "mime": "image/jpeg",
+      "bytes": 7999,
+      "verifiedAt": "2026-11-03T15:28:50.531531+00:00",
+      "sourcePage": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-olive-oil-melt-and-pour-soap-base/V000764.html"
+    },
+    {
+      "product": "SFIC Goat Milk Melt And Pour Soap Base",
+      "url": "https://www.brambleberry.com/on/demandware.static/-/Sites-brambleberry-master-catalog/default/dw20a6db10/images/large/ingredients/bases/soap/main/SFICGoatMilkMeltAndPourSoapBase_MP02-25_Main_2018.07.BrambleBerry.Brent.day4-742-Edit.jpg",
+      "local": "assets/product-2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 11948,
+      "verifiedAt": "2026-11-03T15:28:50.531531+00:00",
+      "sourcePage": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-goat-milk-melt-and-pour-soap-base/V000754.html"
+    },
+    {
+      "product": "SFIC Shea Melt And Pour Soap Base",
+      "url": "https://www.brambleberry.com/on/demandware.static/-/Sites-brambleberry-master-catalog/default/dw51a1df56/images/large/ingredients/bases/soap/main/SFICSheaMeltAndPourSoapBase_SOAP03_Main_2018.07.BrambleBerry.Brent.day4-850-Edit.jpg",
+      "local": "assets/product-3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 9040,
+      "verifiedAt": "2026-11-03T15:28:50.531531+00:00",
+      "sourcePage": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-shea-melt-and-pour-soap-base/V000756.html"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://www.brambleberry.com/",
+    "secondary": "https://www.purlsoho.com/",
+    "boundedBorrowing": "Teaching and materials discovery next to products; clean technical batch controls.",
+    "layout": "lab",
+    "palette": {
+      "accent": "#9b466a",
+      "background": "#fff8fc"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Estimate base mass from bar count and mold weight. No lye, fragrance dosage or cosmetic safety formula is generated."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-olive-oil-melt-and-pour-soap-base/V000764.html",
+        "httpOk": false,
+        "webToolVerified": true,
+        "verificationMethod": "Official page opened through web tool"
+      },
+      {
+        "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-goat-milk-melt-and-pour-soap-base/V000754.html",
+        "httpOk": false,
+        "webToolVerified": true,
+        "verificationMethod": "Official page opened through web tool"
+      },
+      {
+        "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-shea-melt-and-pour-soap-base/V000756.html",
+        "httpOk": false,
+        "webToolVerified": true,
+        "verificationMethod": "Official page opened through web tool"
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

@@ -1,0 +1,30 @@
+{
+  "primary": {
+    "url": "https://tallercastillo.tienda/",
+    "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+    "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+  },
+  "sector": {
+    "url": "https://www.singer.com/collections/sewing-machines",
+    "observedPattern": "Separación por tipo de máquina y consulta de modelo exacto para accesorios."
+  },
+  "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+  "direction": {
+    "layout": "workshop",
+    "headline": "Que tu siguiente\npuntada siga.",
+    "palette": [
+      "#b8292c",
+      "#f5f2ed",
+      "#242c35"
+    ],
+    "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+    "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+    "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+  },
+  "rejected": [
+    "Formularios como entrega principal",
+    "Testimonios o métricas inventados",
+    "Precios de catálogo copiados sin actualización",
+    "Mismo hero y misma composición para todas las empresas"
+  ]
+}

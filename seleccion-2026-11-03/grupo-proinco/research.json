@@ -1,0 +1,138 @@
+{
+  "company": "Grupo Proinco",
+  "reviewedAt": "2026-11-03",
+  "website": "https://grupoproincogt.com/",
+  "publicFacts": [
+    {
+      "url": "https://grupoproincogt.com/es/nosotros.html",
+      "claim": "Origen familiar, producción y distribución de soluciones plásticas, ubicación Ciudad de Guatemala."
+    },
+    {
+      "url": "https://grupoproincogt.com/es/contactenos.html",
+      "claim": "Formulario y canales comerciales oficiales."
+    },
+    {
+      "url": "https://grupoproincogt.com/es/bolsas-plasticas-transparentes.html",
+      "claim": "Bolsas transparentes: Familia con distintos sellos, medidas y materiales según requerimiento."
+    },
+    {
+      "url": "https://grupoproincogt.com/es/bolsas-plasticas-impresas.html",
+      "claim": "Bolsas impresas: Impresión de logo o diseño; requiere revisar y aprobar el arte."
+    },
+    {
+      "url": "https://grupoproincogt.com/es/fabricacion-de-bolsas-plasticas-con-cierre-hermetico.html",
+      "claim": "Bolsas con cierre hermético: Ficha de cierre hermético con opciones de impresión y perforación por consulta."
+    }
+  ],
+  "products": [
+    {
+      "name": "Bolsas transparentes",
+      "url": "https://grupoproincogt.com/es/bolsas-plasticas-transparentes.html",
+      "description": "Familia con distintos sellos, medidas y materiales según requerimiento.",
+      "image": "https://grupoproincogt.com/assets/img/productos/bolsa-transparentes-1.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Bolsas impresas",
+      "url": "https://grupoproincogt.com/es/bolsas-plasticas-impresas.html",
+      "description": "Impresión de logo o diseño; requiere revisar y aprobar el arte.",
+      "image": "https://grupoproincogt.com/assets/img/productos/bolsas-impresas-1.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Bolsas con cierre hermético",
+      "url": "https://grupoproincogt.com/es/fabricacion-de-bolsas-plasticas-con-cierre-hermetico.html",
+      "description": "Ficha de cierre hermético con opciones de impresión y perforación por consulta.",
+      "image": "https://grupoproincogt.com/assets/img/productos/cierre-hermetico-1.jpg",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://grupoproincogt.com/assets/img/productos/bolsa-transparentes-1.jpg",
+      "sourcePage": "https://grupoproincogt.com/es/bolsas-plasticas-transparentes.html",
+      "use": "Bolsas transparentes"
+    },
+    {
+      "url": "https://grupoproincogt.com/assets/img/productos/bolsas-impresas-1.jpg",
+      "sourcePage": "https://grupoproincogt.com/es/bolsas-plasticas-impresas.html",
+      "use": "Bolsas impresas"
+    },
+    {
+      "url": "https://grupoproincogt.com/assets/img/productos/cierre-hermetico-1.jpg",
+      "sourcePage": "https://grupoproincogt.com/es/fabricacion-de-bolsas-plasticas-con-cierre-hermetico.html",
+      "use": "Bolsas con cierre hermético"
+    },
+    {
+      "url": "https://grupoproincogt.com/assets/img/productos/bolsa-transparentes-1.jpg",
+      "sourcePage": "https://grupoproincogt.com/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://grupoproincogt.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://packhelp.com/",
+      "observedPattern": "Entradas por formato y aplicación; especificación del empaque antes de la cotización."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "industrial",
+      "headline": "La especificación\nva primero.",
+      "palette": [
+        "#167ba9",
+        "#f0f5f7",
+        "#173242"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Ficha de lote para bolsas",
+      "reason": "Normalizar medidas, volumen e impresión podría reducir solicitudes sin datos suficientes para cotizar fabricación.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 9,
+      "passed": 9,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

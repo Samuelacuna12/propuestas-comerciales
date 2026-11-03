@@ -1,0 +1,212 @@
+{
+  "company": "Cajas y Empaques CG S.A.S.",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://www.cajascyg.shop/",
+      "claim": "Actividad, catálogo y canales oficiales de Cajas & Empaques CG"
+    },
+    {
+      "url": "https://www.cajascyg.shop/productos",
+      "claim": "Ficha o línea publicada: Cajas corporativas personalizadas"
+    },
+    {
+      "url": "https://www.cajascyg.shop/insumos",
+      "claim": "Ficha o línea publicada: Plástico burbuja"
+    },
+    {
+      "url": "https://www.cajascyg.shop/cotizaciones",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "products": [
+    {
+      "name": "Cajas corporativas personalizadas",
+      "url": "https://www.cajascyg.shop/productos",
+      "description": "Formato a medida para presentación y protección. Dimensiones y resistencia a validar.",
+      "image": ""
+    },
+    {
+      "name": "Cajas de archivo X200 y X300",
+      "url": "https://www.cajascyg.shop/productos",
+      "description": "Línea de organización documental publicada en el catálogo.",
+      "image": ""
+    },
+    {
+      "name": "Plástico burbuja",
+      "url": "https://www.cajascyg.shop/insumos",
+      "description": "Material de protección listado como insumo de embalaje.",
+      "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sCIGFXjNDZI6PiSN6nIPUVvn_pe1J0tCJr3ccs2cmN-5xZbhcO_C1LnkD_woYktQ_wbz3MLBhw7KrBBfDV8M3a5vOfYvHfi3ilxWG0zBpI7zWBNIlETfRM76RoTWGWmKa2nKgh2xsptTnQpGwfZgBrM4JuVI_JQqz7omRvtHlJ7FXNiwoy-QpyEdhgpN3bb9nog5C64g3ecpw9qwWD31HCM37R-Qh0nC15_N5N=w1280",
+      "localImage": "assets/product-3.img"
+    },
+    {
+      "name": "Vinipel / stretch film",
+      "url": "https://www.cajascyg.shop/insumos",
+      "description": "Insumo para envolver cargas y paquetes.",
+      "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sp2rd21hQ1q_mkluPlqxrsX2rZWAgy4-PKDwuFpfXTtzOJ7SvwJvM8XEqRSHKuiiX5TCheae3UwsqRqSDdjqiiexQmf9gAtUj093Io0Z7cfo2T0BTXRVr1BFQ6ZzSDBvwV-b5dkmfVtiC-wnzYoWT_jN2tPPj1vrMWewGcD9pyArh-hcHOsBjlmg=w1280",
+      "localImage": "assets/product-4.img"
+    },
+    {
+      "name": "Cinta de embalaje",
+      "url": "https://www.cajascyg.shop/insumos",
+      "description": "Cinta para cierre de empaque; especificación a confirmar.",
+      "image": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vQ1fmGk3bRJj_7VK_1TEjBSacfpP9WDipLRbS2UPVBOwE8ceu0-E7SM8ygBhjtY3r2LyJ7Pw3omk9aao4DoYPcs9tlOyaWJIs7nNMd4_-S_izdDJPD_Lxz6dKLoTYyVK3u_ATpL5VP_-IDuWAjv7RsNJ5H6LMtm4nA8f3eXrnxk8mGXbwOoEE18gMWcBigEcWY8_SBFdwD0r9sAeNu9d3QqBMG3PbrgMKUGDxt=w1280",
+      "localImage": "assets/product-5.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sCIGFXjNDZI6PiSN6nIPUVvn_pe1J0tCJr3ccs2cmN-5xZbhcO_C1LnkD_woYktQ_wbz3MLBhw7KrBBfDV8M3a5vOfYvHfi3ilxWG0zBpI7zWBNIlETfRM76RoTWGWmKa2nKgh2xsptTnQpGwfZgBrM4JuVI_JQqz7omRvtHlJ7FXNiwoy-QpyEdhgpN3bb9nog5C64g3ecpw9qwWD31HCM37R-Qh0nC15_N5N=w1280",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sCIGFXjNDZI6PiSN6nIPUVvn_pe1J0tCJr3ccs2cmN-5xZbhcO_C1LnkD_woYktQ_wbz3MLBhw7KrBBfDV8M3a5vOfYvHfi3ilxWG0zBpI7zWBNIlETfRM76RoTWGWmKa2nKgh2xsptTnQpGwfZgBrM4JuVI_JQqz7omRvtHlJ7FXNiwoy-QpyEdhgpN3bb9nog5C64g3ecpw9qwWD31HCM37R-Qh0nC15_N5N=w1280",
+      "localPath": "assets/product-3.img"
+    },
+    {
+      "sourceUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sp2rd21hQ1q_mkluPlqxrsX2rZWAgy4-PKDwuFpfXTtzOJ7SvwJvM8XEqRSHKuiiX5TCheae3UwsqRqSDdjqiiexQmf9gAtUj093Io0Z7cfo2T0BTXRVr1BFQ6ZzSDBvwV-b5dkmfVtiC-wnzYoWT_jN2tPPj1vrMWewGcD9pyArh-hcHOsBjlmg=w1280",
+      "localPath": "assets/product-4.img"
+    },
+    {
+      "sourceUrl": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vQ1fmGk3bRJj_7VK_1TEjBSacfpP9WDipLRbS2UPVBOwE8ceu0-E7SM8ygBhjtY3r2LyJ7Pw3omk9aao4DoYPcs9tlOyaWJIs7nNMd4_-S_izdDJPD_Lxz6dKLoTYyVK3u_ATpL5VP_-IDuWAjv7RsNJ5H6LMtm4nA8f3eXrnxk8mGXbwOoEE18gMWcBigEcWY8_SBFdwD0r9sAeNu9d3QqBMG3PbrgMKUGDxt=w1280",
+      "localPath": "assets/product-5.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://www.cajascyg.shop/",
+    "secondary": "https://packhelp.com/",
+    "layout": "blueprint",
+    "palette": [
+      "#08733d",
+      "#f3f1e8",
+      "#16362a",
+      "#d99e53"
+    ],
+    "typography": "Arial, sans-serif",
+    "decisions": "Arquitectura técnica de catálogo por uso; plano de líneas y medidas dominante, fotos oficiales de insumos junto a especificación.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "La oferta incluye cajas personalizadas, troqueladas, archivo X200/X300 y embalaje para ecommerce.",
+      "El catálogo distingue corrugado Clave 620, Clave 720, microcorrugado y doble pared.",
+      "La cotización se solicita con la empresa; no se encontró tarifa pública aplicable a una caja a medida."
+    ],
+    "hypothesis": "Recibir solicitudes de empaque con dimensiones y uso más completos para reducir aclaraciones antes de cotizar.",
+    "operation": "Mesa técnica de empaque",
+    "boundaries": [
+      "Las cajas publicadas no tienen fotos de producto individual verificables; se usan fotos oficiales de insumos y esquemas rotulados."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sCIGFXjNDZI6PiSN6nIPUVvn_pe1J0tCJr3ccs2cmN-5xZbhcO_C1LnkD_woYktQ_wbz3MLBhw7KrBBfDV8M3a5vOfYvHfi3ilxWG0zBpI7zWBNIlETfRM76RoTWGWmKa2nKgh2xsptTnQpGwfZgBrM4JuVI_JQqz7omRvtHlJ7FXNiwoy-QpyEdhgpN3bb9nog5C64g3ecpw9qwWD31HCM37R-Qh0nC15_N5N=w1280",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sCIGFXjNDZI6PiSN6nIPUVvn_pe1J0tCJr3ccs2cmN-5xZbhcO_C1LnkD_woYktQ_wbz3MLBhw7KrBBfDV8M3a5vOfYvHfi3ilxWG0zBpI7zWBNIlETfRM76RoTWGWmKa2nKgh2xsptTnQpGwfZgBrM4JuVI_JQqz7omRvtHlJ7FXNiwoy-QpyEdhgpN3bb9nog5C64g3ecpw9qwWD31HCM37R-Qh0nC15_N5N=w1280",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72sp2rd21hQ1q_mkluPlqxrsX2rZWAgy4-PKDwuFpfXTtzOJ7SvwJvM8XEqRSHKuiiX5TCheae3UwsqRqSDdjqiiexQmf9gAtUj093Io0Z7cfo2T0BTXRVr1BFQ6ZzSDBvwV-b5dkmfVtiC-wnzYoWT_jN2tPPj1vrMWewGcD9pyArh-hcHOsBjlmg=w1280",
+        "file": "assets/product-4.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://lh7-us.googleusercontent.com/sitesv-images-rt/AMxu72vQ1fmGk3bRJj_7VK_1TEjBSacfpP9WDipLRbS2UPVBOwE8ceu0-E7SM8ygBhjtY3r2LyJ7Pw3omk9aao4DoYPcs9tlOyaWJIs7nNMd4_-S_izdDJPD_Lxz6dKLoTYyVK3u_ATpL5VP_-IDuWAjv7RsNJ5H6LMtm4nA8f3eXrnxk8mGXbwOoEE18gMWcBigEcWY8_SBFdwD0r9sAeNu9d3QqBMG3PbrgMKUGDxt=w1280",
+        "file": "assets/product-5.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "cajas-y-empaques-cg-s-a-s",
+      "company": "Cajas y Empaques CG S.A.S.",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Official imagery recovered from rendered official website through Chrome pageAssets.",
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "Las cajas publicadas no tienen fotos de producto individual verificables; se usan fotos oficiales de insumos y esquemas rotulados."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://www.cajascyg.shop/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.cajascyg.shop/insumos",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.cajascyg.shop/productos",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/product-4.img",
+        "bytes": 9716
+      },
+      {
+        "file": "assets/hero.img",
+        "bytes": 79364
+      },
+      {
+        "file": "assets/product-5.img",
+        "bytes": 49178
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 79364
+      }
+    ]
+  },
+  "publicOnly": true
+}

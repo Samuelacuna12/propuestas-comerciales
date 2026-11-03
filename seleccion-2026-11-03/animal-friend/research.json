@@ -1,0 +1,139 @@
+{
+  "company": "Animal Friend",
+  "reviewedAt": "2026-11-03",
+  "website": "https://animalfriendcr.com/",
+  "publicFacts": [
+    {
+      "url": "https://animalfriendcr.com/nosotros/",
+      "claim": "Modelo mayorista y minorista, categorías, operación y envíos en Costa Rica."
+    },
+    {
+      "url": "https://animalfriendcr.com/contactenos/",
+      "claim": "Formulario comercial y ubicación San José, Costa Rica."
+    },
+    {
+      "url": "https://animalfriendcr.com/producto/ruffwear-dirtbag-seat-cover-nuevo/",
+      "claim": "Ruffwear Dirtbag Seat Cover: Cobertor para el asiento del vehículo; la ficha presenta montaje tipo banco o hamaca."
+    },
+    {
+      "url": "https://animalfriendcr.com/producto/capa-impermeable-para-perrros/",
+      "claim": "Ruffwear Sun Shower: Capa para lluvia con opciones de talla en la ficha oficial."
+    },
+    {
+      "url": "https://animalfriendcr.com/producto/pechera-para-perro-ruffwear-flagline/",
+      "claim": "Ruffwear Flagline: Pechera Ruffwear con ajuste; revisar medidas y variantes antes de comprar."
+    }
+  ],
+  "products": [
+    {
+      "name": "Ruffwear Dirtbag Seat Cover",
+      "url": "https://animalfriendcr.com/producto/ruffwear-dirtbag-seat-cover-nuevo/",
+      "description": "Cobertor para el asiento del vehículo; la ficha presenta montaje tipo banco o hamaca.",
+      "image": "https://animalfriendcr.com/wp-content/uploads/2024/09/dirt-bag-4.webp",
+      "kind": "product"
+    },
+    {
+      "name": "Ruffwear Sun Shower",
+      "url": "https://animalfriendcr.com/producto/capa-impermeable-para-perrros/",
+      "description": "Capa para lluvia con opciones de talla en la ficha oficial.",
+      "image": "https://animalfriendcr.com/wp-content/uploads/2024/05/capa-impermeable-para-perros-ruffwear.webp",
+      "kind": "product"
+    },
+    {
+      "name": "Ruffwear Flagline",
+      "url": "https://animalfriendcr.com/producto/pechera-para-perro-ruffwear-flagline/",
+      "description": "Pechera Ruffwear con ajuste; revisar medidas y variantes antes de comprar.",
+      "image": "https://animalfriendcr.com/wp-content/uploads/2024/03/Flagline-1--jpg.webp",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://animalfriendcr.com/wp-content/uploads/2024/09/dirt-bag-4.webp",
+      "sourcePage": "https://animalfriendcr.com/producto/ruffwear-dirtbag-seat-cover-nuevo/",
+      "use": "Ruffwear Dirtbag Seat Cover"
+    },
+    {
+      "url": "https://animalfriendcr.com/wp-content/uploads/2024/05/capa-impermeable-para-perros-ruffwear.webp",
+      "sourcePage": "https://animalfriendcr.com/producto/capa-impermeable-para-perrros/",
+      "use": "Ruffwear Sun Shower"
+    },
+    {
+      "url": "https://animalfriendcr.com/wp-content/uploads/2024/03/Flagline-1--jpg.webp",
+      "sourcePage": "https://animalfriendcr.com/producto/pechera-para-perro-ruffwear-flagline/",
+      "use": "Ruffwear Flagline"
+    },
+    {
+      "url": "https://animalfriendcr.com/wp-content/uploads/2024/09/dirt-bag-4.webp",
+      "sourcePage": "https://animalfriendcr.com/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://animalfriendcr.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://ruffwear.com/collections/dog-harnesses",
+      "observedPattern": "Selección por uso y atributos de producto; guía comparativa antes de elegir talla."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "adventure",
+      "headline": "La próxima aventura\nempieza juntos.",
+      "palette": [
+        "#dc4829",
+        "#f1f0e7",
+        "#173b38"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Organizador de equipo para paseo",
+      "reason": "Una lista de equipo por perro podría reducir consultas incompletas sobre tallas y accesorios.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 9,
+      "passed": 9,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage.",
+    "qaCorrection": "2026-11-03: ajustado tras QA; ver decision-ledger.json. Pendiente retest visual del coordinador."
+  }
+}

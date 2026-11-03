@@ -1,0 +1,185 @@
+{
+  "company": "Muebles LUFE",
+  "language": "es",
+  "website": "https://muebleslufe.com/",
+  "description": "Una mesita, un estante y un escritorio: explora una combinación real y comprueba tu espacio antes de seguir.",
+  "products": [
+    {
+      "name": "GAU mesita de noche con cajón",
+      "url": "https://muebleslufe.com/mesitas-de-noche/mesita-noche-gau-cajon",
+      "description": "Mesita GAU con cajón de almacenaje, fabricada en madera maciza natural.",
+      "image": "https://media2.muebleslufe.com/13185-large_default/mesita-noche-gau-cajon.jpg",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "GOI estante de pared 84 × 21",
+      "url": "https://muebleslufe.com/espejos-y-decoracion-pared/goi-estante-pared-84x21",
+      "description": "Estante GOI de pared, de 84 × 21 cm, en madera maciza natural.",
+      "image": "https://media.muebleslufe.com/11432-large_default/goi-estante-pared-84x21.jpg",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "BURU escritorio 120 × 55",
+      "url": "https://muebleslufe.com/escritorios-mesas-estudio/escritorio-buru-120x55",
+      "description": "Escritorio BURU de 120 × 55 cm, en madera.",
+      "image": "https://media1.muebleslufe.com/12232-large_default/escritorio-buru-120x55.jpg",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuál es el material protagonista?",
+      "answer": "LUFE vende muebles de madera natural directamente desde fábrica.",
+      "keywords": [
+        "cuál",
+        "material",
+        "protagonista"
+      ]
+    },
+    {
+      "question": "¿Cómo puedo buscar un mueble?",
+      "answer": "El catálogo se puede explorar por producto o estancia.",
+      "keywords": [
+        "cómo",
+        "puedo",
+        "buscar",
+        "mueble"
+      ]
+    },
+    {
+      "question": "¿Qué debo revisar antes de montarlo?",
+      "answer": "Las fichas publican medidas y rutas de montaje; deben comprobarse para la variante elegida.",
+      "keywords": [
+        "qué",
+        "debo",
+        "revisar",
+        "antes",
+        "montarlo"
+      ]
+    },
+    {
+      "question": "¿Qué es GAU mesita de noche con cajón?",
+      "answer": "Mesita GAU con cajón de almacenaje, fabricada en madera maciza natural. Ficha oficial: https://muebleslufe.com/mesitas-de-noche/mesita-noche-gau-cajon",
+      "keywords": [
+        "mesita",
+        "noche",
+        "cajón"
+      ]
+    },
+    {
+      "question": "¿Qué es GOI estante de pared 84 × 21?",
+      "answer": "Estante GOI de pared, de 84 × 21 cm, en madera maciza natural. Ficha oficial: https://muebleslufe.com/espejos-y-decoracion-pared/goi-estante-pared-84x21",
+      "keywords": [
+        "estante",
+        "pared"
+      ]
+    },
+    {
+      "question": "¿Qué es BURU escritorio 120 × 55?",
+      "answer": "Escritorio BURU de 120 × 55 cm, en madera. Ficha oficial: https://muebleslufe.com/escritorios-mesas-estudio/escritorio-buru-120x55",
+      "keywords": [
+        "buru",
+        "escritorio"
+      ]
+    },
+    {
+      "question": "¿Qué precio y disponibilidad tiene mi selección?",
+      "answer": "Confirma precio, variantes y disponibilidad en las fichas oficiales. Esta propuesta no tiene acceso al inventario ni confirma reservas.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "¿Cómo continúo con una consulta real?",
+      "answer": "Prepara el resumen local y revísalo antes de usar el canal oficial: https://muebleslufe.com/contacto",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Ficha de espacio y mobiliario",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selección",
+        "question": "¿Quieres revisar la mesita GAU, el estante GOI o el escritorio BURU?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Cantidad",
+        "question": "¿Cuántas piezas necesitas y para qué estancia?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Detalles",
+        "question": "¿Qué ancho y fondo tiene el espacio disponible?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "Por confirmar",
+        "question": "¿Qué medidas, montaje o tipo de pared necesitas confirmar antes de elegir?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief para revisión humana"
+  },
+  "sources": [
+    {
+      "url": "https://muebleslufe.com/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://muebleslufe.com/mesitas-de-noche/mesita-noche-gau-cajon",
+      "claim": "GAU mesita de noche con cajón: Mesita GAU con cajón de almacenaje, fabricada en madera maciza natural."
+    },
+    {
+      "url": "https://muebleslufe.com/espejos-y-decoracion-pared/goi-estante-pared-84x21",
+      "claim": "GOI estante de pared 84 × 21: Estante GOI de pared, de 84 × 21 cm, en madera maciza natural."
+    },
+    {
+      "url": "https://muebleslufe.com/escritorios-mesas-estudio/escritorio-buru-120x55",
+      "claim": "BURU escritorio 120 × 55: Escritorio BURU de 120 × 55 cm, en madera."
+    },
+    {
+      "url": "https://muebleslufe.com/filosofia-lufe",
+      "claim": "Fabricación local en Aizarnazabal y venta sin intermediarios."
+    },
+    {
+      "url": "https://muebleslufe.com/",
+      "claim": "Catálogo de muebles, accesorios y montaje."
+    },
+    {
+      "url": "https://muebleslufe.com/contacto",
+      "claim": "Contacto comercial oficial."
+    }
+  ],
+  "boundaries": [
+    "Demostración local basada en reglas; no es una IA conectada al negocio.",
+    "No acceso a pedidos, clientes, pagos ni stock.",
+    "No confirmar precios, entrega, compatibilidad o políticas no verificadas.",
+    "Calcula la huella rectangular según medidas introducidas y compara con el espacio. No verifica cargas, anclajes, circulación ni montaje."
+  ],
+  "theme": {
+    "accent": "#435631",
+    "background": "#f5f3eb",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

@@ -1,0 +1,155 @@
+{
+  "company": "Moto Servicio Martínez",
+  "language": "es",
+  "website": "https://www.msm.mx/",
+  "description": "Moto Servicio Martínez · Repuestos y accesorios de motocicleta. La página Nosotros describe una empresa familiar y una refaccionaria en Guadalajara.",
+  "products": [
+    {
+      "name": "Refacciones para motocicleta",
+      "url": "https://www.msm.mx/catalogo.php",
+      "description": "Línea comercial declarada en su página Nosotros; las referencias individuales requieren consulta.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Accesorios para motocicleta",
+      "url": "https://www.msm.mx/nosotros.php",
+      "description": "Oferta declarada de accesorios. No se atribuyen marcas, códigos o compatibilidades sin catálogo verificable.",
+      "image": "assets/product-2.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué vende MSM?",
+      "answer": "Su sitio declara refacciones y accesorios para motocicleta.",
+      "keywords": [
+        "venden",
+        "refaccion",
+        "accesorio"
+      ]
+    },
+    {
+      "question": "¿Dónde opera?",
+      "answer": "La web ubica la refaccionaria en la colonia Moderna de Guadalajara, Jalisco.",
+      "keywords": [
+        "guadalajara",
+        "ubicacion"
+      ]
+    },
+    {
+      "question": "¿Se verificaron tres referencias?",
+      "answer": "No. El catálogo accesible no mostró SKU individuales; no se inventaron productos ni precios.",
+      "keywords": [
+        "catalogo",
+        "sku",
+        "referencias"
+      ]
+    },
+    {
+      "question": "¿Puedo consultar sin código?",
+      "answer": "Sí. Prepara marca, modelo, año, cilindrada o motor y la pieza requerida para que el comercio revise.",
+      "keywords": [
+        "sin codigo",
+        "no se"
+      ]
+    },
+    {
+      "question": "¿La moto queda agendada?",
+      "answer": "No. La demo no reserva cita, inventario ni servicio; solo prepara datos de consulta.",
+      "keywords": [
+        "cita",
+        "agendar",
+        "servicio"
+      ]
+    },
+    {
+      "question": "¿Puedo asumir compatibilidad por cilindrada?",
+      "answer": "No. La cilindrada es un dato adicional; la aplicación debe validarse por modelo, año y pieza.",
+      "keywords": [
+        "compatible",
+        "cilindrada"
+      ]
+    },
+    {
+      "question": "¿Qué es Refacciones para motocicleta?",
+      "answer": "Línea comercial declarada en su página Nosotros; las referencias individuales requieren consulta. Ficha oficial: https://www.msm.mx/catalogo.php",
+      "keywords": [
+        "refacciones para motocicleta",
+        "refacciones",
+        "motocicleta"
+      ]
+    },
+    {
+      "question": "¿Qué es Accesorios para motocicleta?",
+      "answer": "Oferta declarada de accesorios. No se atribuyen marcas, códigos o compatibilidades sin catálogo verificable. Ficha oficial: https://www.msm.mx/nosotros.php",
+      "keywords": [
+        "accesorios para motocicleta",
+        "accesorios",
+        "motocicleta"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Solicitud técnica de refacción para moto",
+    "steps": [
+      {
+        "key": "vehiculo",
+        "label": "Vehículo",
+        "question": "¿Cuál es la marca, modelo y año del vehículo?",
+        "required": true
+      },
+      {
+        "key": "motor",
+        "label": "Motor",
+        "question": "¿Cuál es el motor o la cilindrada?",
+        "required": true
+      },
+      {
+        "key": "pieza",
+        "label": "Refacción",
+        "question": "¿Qué pieza necesitas y cuál es su código si lo conoces?",
+        "required": true
+      },
+      {
+        "key": "posicion",
+        "label": "Aplicación",
+        "question": "¿Es de algún lado o posición específica?",
+        "required": true
+      },
+      {
+        "key": "cantidad",
+        "label": "Cantidad",
+        "question": "¿Cuántas unidades necesitas y en qué ciudad?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://www.msm.mx/",
+      "claim": "Actividad, catálogo y canales oficiales de Moto Servicio Martínez"
+    },
+    {
+      "url": "https://www.msm.mx/catalogo.php",
+      "claim": "Ficha o línea publicada: Refacciones para motocicleta"
+    },
+    {
+      "url": "https://www.msm.mx/nosotros.php",
+      "claim": "Ficha o línea publicada: Accesorios para motocicleta"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#bf2f26",
+    "background": "#f2f2ed",
+    "foreground": "#292c2f",
+    "font": "'Space Grotesk',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

@@ -1,0 +1,193 @@
+{
+  "company": "ClearBags",
+  "language": "en",
+  "website": "https://www.clearbags.com/",
+  "description": "Compare verified bag formats and prepare dimensions and quantities for the official packaging team.",
+  "products": [
+    {
+      "name": "Crystal Clear Protective Closure Bags B4X6PC · 100 pack",
+      "url": "https://www.clearbags.com/4-1-4-x-6-1-8-flap-crystal-clear-protective-closure-bags-100-pieces-b4x6pc.html",
+      "description": "Protective-closure clear bags, 4¼ × 6⅛ inches, in packs of 100.",
+      "image": "https://www.clearbags.com/media/catalog/product/b/4/b4x6pc-flap-seal-bag-3.jpg?height=360&image-type=small_image&store=default&width=360",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Crystal Clear Flap Bags B4B5 · 100 pack",
+      "url": "https://www.clearbags.com/4-5-16-x-5-11-16-flap-crystal-clear-110x145.html",
+      "description": "Flap-seal clear bags, 4⁵⁄₁₆ × 5¹¹⁄₁₆ inches, in packs of 100.",
+      "image": "https://www.clearbags.com/media/catalog/product/b/4/b4b5-flap-seal-bags-1.jpg?height=360&image-type=small_image&store=default&width=360",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Crystal Clear Angled Flap Bags B75CT · 100 pack",
+      "url": "https://www.clearbags.com/5-7-16-x-7-1-4-cut-angled-flap-138x184.html",
+      "description": "Angled-flap clear bags, 5⁷⁄₁₆ × 7¼ inches, in packs of 100.",
+      "image": "https://www.clearbags.com/media/catalog/product/c/r/crystal-clear-bags-b75ct-1.jpg?height=360&image-type=small_image&store=default&width=360",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do these bags close?",
+      "answer": "The selected Crystal Clear Bags use resealable protective or flap closures.",
+      "keywords": [
+        "these",
+        "bags",
+        "close"
+      ]
+    },
+    {
+      "question": "Where are dimensions and pack counts?",
+      "answer": "Official specifications identify dimensions and packs of 100.",
+      "keywords": [
+        "where",
+        "dimensions",
+        "pack",
+        "counts"
+      ]
+    },
+    {
+      "question": "Can I request a sample or custom option?",
+      "answer": "The website offers samples, volume quotations and custom packaging routes.",
+      "keywords": [
+        "request",
+        "sample",
+        "custom",
+        "option"
+      ]
+    },
+    {
+      "question": "What is Crystal Clear Protective Closure Bags B4X6PC · 100 pack?",
+      "answer": "Protective-closure clear bags, 4¼ × 6⅛ inches, in packs of 100. Official product: https://www.clearbags.com/4-1-4-x-6-1-8-flap-crystal-clear-protective-closure-bags-100-pieces-b4x6pc.html",
+      "keywords": [
+        "crystal",
+        "clear",
+        "protective",
+        "closure",
+        "bags",
+        "b4x6pc",
+        "pack"
+      ]
+    },
+    {
+      "question": "What is Crystal Clear Flap Bags B4B5 · 100 pack?",
+      "answer": "Flap-seal clear bags, 4⁵⁄₁₆ × 5¹¹⁄₁₆ inches, in packs of 100. Official product: https://www.clearbags.com/4-5-16-x-5-11-16-flap-crystal-clear-110x145.html",
+      "keywords": [
+        "crystal",
+        "clear",
+        "flap",
+        "bags",
+        "b4b5",
+        "pack"
+      ]
+    },
+    {
+      "question": "What is Crystal Clear Angled Flap Bags B75CT · 100 pack?",
+      "answer": "Angled-flap clear bags, 5⁷⁄₁₆ × 7¼ inches, in packs of 100. Official product: https://www.clearbags.com/5-7-16-x-7-1-4-cut-angled-flap-138x184.html",
+      "keywords": [
+        "crystal",
+        "clear",
+        "angled",
+        "flap",
+        "bags",
+        "b75ct",
+        "pack"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://www.clearbags.com/contact-us",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Print packaging fit check",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Which print, card or flat item do you want to package?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many pieces do you need to prepare?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "What are the item’s width and height, and which bag format are you considering?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Do you need a sample, a different closure or a custom quote?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://www.clearbags.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://www.clearbags.com/4-1-4-x-6-1-8-flap-crystal-clear-protective-closure-bags-100-pieces-b4x6pc.html",
+      "claim": "Crystal Clear Protective Closure Bags B4X6PC · 100 pack: Protective-closure clear bags, 4¼ × 6⅛ inches, in packs of 100."
+    },
+    {
+      "url": "https://www.clearbags.com/4-5-16-x-5-11-16-flap-crystal-clear-110x145.html",
+      "claim": "Crystal Clear Flap Bags B4B5 · 100 pack: Flap-seal clear bags, 4⁵⁄₁₆ × 5¹¹⁄₁₆ inches, in packs of 100."
+    },
+    {
+      "url": "https://www.clearbags.com/5-7-16-x-7-1-4-cut-angled-flap-138x184.html",
+      "claim": "Crystal Clear Angled Flap Bags B75CT · 100 pack: Angled-flap clear bags, 5⁷⁄₁₆ × 7¼ inches, in packs of 100."
+    },
+    {
+      "url": "https://www.clearbags.com/",
+      "claim": "Empresa familiar y operación de catálogo, muestras y personalización; atención en inglés y chat multilingüe."
+    },
+    {
+      "url": "https://www.clearbags.com/contact-us",
+      "claim": "Ubicaciones comerciales y formulario de atención."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Compare an item’s flat dimensions plus a user-entered clearance with user-confirmed usable bag dimensions; round quantities to packs."
+  ],
+  "theme": {
+    "accent": "#15609a",
+    "background": "#f3f8fc",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

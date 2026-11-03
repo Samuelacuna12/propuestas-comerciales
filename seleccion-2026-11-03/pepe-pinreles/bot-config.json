@@ -1,0 +1,178 @@
+{
+  "company": "Pepe Pinreles",
+  "language": "es",
+  "website": "https://pepepinreles.com/",
+  "description": "Una selección de diseños reales y un organizador de regalos que separa referencias y cantidades.",
+  "products": [
+    {
+      "name": "La Sentencia",
+      "url": "https://pepepinreles.com/calcetines-sentencia.html",
+      "description": "Calcetines de la colección Semana Santa dedicados a La Sentencia.",
+      "image": "https://pepepinreles.com/7067-large_default/calcetines-sentencia.jpg",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Caifás San Gonzalo",
+      "url": "https://pepepinreles.com/calcetines-san-gonzalo.html",
+      "description": "Diseño de calcetines de San Gonzalo; consulta la talla de la variante oficial.",
+      "image": "https://pepepinreles.com/6998-large_default/calcetines-san-gonzalo.jpg",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Torrijas",
+      "url": "https://pepepinreles.com/calcetines-torrijas.html",
+      "description": "Calcetines con diseño de torrijas de la Confitería La Campana de Sevilla.",
+      "image": "https://pepepinreles.com/7111-large_default/calcetines-torrijas.jpg",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cómo puedo buscar un diseño?",
+      "answer": "La tienda organiza calcetines por temas como ciudades, gastronomía y tradiciones.",
+      "keywords": [
+        "cómo",
+        "puedo",
+        "buscar",
+        "diseño"
+      ]
+    },
+    {
+      "question": "¿Hay colecciones infantiles?",
+      "answer": "Hay rutas diferenciadas para adultos y niños.",
+      "keywords": [
+        "hay",
+        "colecciones",
+        "infantiles"
+      ]
+    },
+    {
+      "question": "¿Todos los diseños tienen las mismas tallas?",
+      "answer": "Cada diseño tiene una ficha propia; tallas y disponibilidad se comprueban allí.",
+      "keywords": [
+        "todos",
+        "diseños",
+        "tienen",
+        "mismas",
+        "tallas"
+      ]
+    },
+    {
+      "question": "¿Qué es La Sentencia?",
+      "answer": "Calcetines de la colección Semana Santa dedicados a La Sentencia. Ficha oficial: https://pepepinreles.com/calcetines-sentencia.html",
+      "keywords": [
+        "sentencia"
+      ]
+    },
+    {
+      "question": "¿Qué es Caifás San Gonzalo?",
+      "answer": "Diseño de calcetines de San Gonzalo; consulta la talla de la variante oficial. Ficha oficial: https://pepepinreles.com/calcetines-san-gonzalo.html",
+      "keywords": [
+        "caifás",
+        "gonzalo"
+      ]
+    },
+    {
+      "question": "¿Qué es Torrijas?",
+      "answer": "Calcetines con diseño de torrijas de la Confitería La Campana de Sevilla. Ficha oficial: https://pepepinreles.com/calcetines-torrijas.html",
+      "keywords": [
+        "torrijas"
+      ]
+    },
+    {
+      "question": "¿Qué precio y disponibilidad tiene mi selección?",
+      "answer": "Confirma precio, variantes y disponibilidad en las fichas oficiales. Esta propuesta no tiene acceso al inventario ni confirma reservas.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "¿Cómo continúo con una consulta real?",
+      "answer": "Prepara el resumen local y revísalo antes de usar el canal oficial: https://pepepinreles.com/contacto",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Organizador de regalos por diseño",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selección",
+        "question": "¿Qué diseño te interesa: La Sentencia, Caifás San Gonzalo o Torrijas?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Cantidad",
+        "question": "¿Cuántas personas recibirán el regalo?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Detalles",
+        "question": "¿Cuántos pares por persona y qué tallas necesitas revisar?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "Por confirmar",
+        "question": "¿Quieres el mismo diseño para todos o una combinación?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief para revisión humana"
+  },
+  "sources": [
+    {
+      "url": "https://pepepinreles.com/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://pepepinreles.com/calcetines-sentencia.html",
+      "claim": "La Sentencia: Calcetines de la colección Semana Santa dedicados a La Sentencia."
+    },
+    {
+      "url": "https://pepepinreles.com/calcetines-san-gonzalo.html",
+      "claim": "Caifás San Gonzalo: Diseño de calcetines de San Gonzalo; consulta la talla de la variante oficial."
+    },
+    {
+      "url": "https://pepepinreles.com/calcetines-torrijas.html",
+      "claim": "Torrijas: Calcetines con diseño de torrijas de la Confitería La Campana de Sevilla."
+    },
+    {
+      "url": "https://pepepinreles.com/",
+      "claim": "Catálogo, colecciones, packs y compra online."
+    },
+    {
+      "url": "https://pepepinreles.com/contacto",
+      "claim": "Oficina Sevilla y contacto comercial."
+    }
+  ],
+  "boundaries": [
+    "Demostración local basada en reglas; no es una IA conectada al negocio.",
+    "No acceso a pedidos, clientes, pagos ni stock.",
+    "No confirmar precios, entrega, compatibilidad o políticas no verificadas.",
+    "Agrupa cantidades por destinatarios y pares por regalo; guarda cada diseño por separado sin inventar tallas disponibles."
+  ],
+  "theme": {
+    "accent": "#bc2436",
+    "background": "#fff4d4",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

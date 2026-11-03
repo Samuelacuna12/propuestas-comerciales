@@ -1,0 +1,179 @@
+{
+  "company": "Astigarraga Kit Line",
+  "language": "es",
+  "website": "https://www.astikitline.com/es/",
+  "description": "Explora tres familias de estanterías y prepara una propuesta de surtido con cantidades claras para revisar con el equipo.",
+  "products": [
+    {
+      "name": "Nova NVET50.99",
+      "url": "https://www.astikitline.com/es/productos/estanterias/nova/",
+      "description": "Referencia NVET50.99 de la familia de estanterías Nova.",
+      "image": "https://www.astikitline.com/wp-content/uploads/xnvet50-99.png.pagespeed.ic.SzPmhhQ5Yx.png",
+      "asset": "assets/product-1.png"
+    },
+    {
+      "name": "Dinamic Cubos DMC500.99",
+      "url": "https://www.astikitline.com/es/productos/estanterias/dinamic-cubos/",
+      "description": "Referencia DMC500.99 de la familia modular Dinamic Cubos.",
+      "image": "https://www.astikitline.com/wp-content/uploads/dmc500-99.png",
+      "asset": "assets/product-2.png"
+    },
+    {
+      "name": "Gala GAL480.99",
+      "url": "https://www.astikitline.com/es/productos/estanterias/gala/",
+      "description": "Referencia GAL480.99 de la familia Gala de estanterías de pino macizo.",
+      "image": "https://www.astikitline.com/wp-content/uploads/g48000-99.png",
+      "asset": "assets/product-3.png"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué fabrica la empresa?",
+      "answer": "Astigarraga diseña, fabrica y distribuye muebles de pino macizo.",
+      "keywords": [
+        "qué",
+        "fabrica",
+        "empresa"
+      ]
+    },
+    {
+      "question": "¿Hay una ruta para distribuidores?",
+      "answer": "La web distingue rutas para distribuidores, particulares y empresas.",
+      "keywords": [
+        "hay",
+        "ruta",
+        "para",
+        "distribuidores"
+      ]
+    },
+    {
+      "question": "¿Qué referencias se muestran?",
+      "answer": "Se muestran NVET50.99, DMC500.99 y GAL480.99, referencias de las familias Nova, Dinamic Cubos y Gala.",
+      "keywords": [
+        "qué",
+        "referencias",
+        "muestran"
+      ]
+    },
+    {
+      "question": "¿Qué es Nova NVET50.99?",
+      "answer": "Referencia NVET50.99 de la familia de estanterías Nova. Ficha oficial: https://www.astikitline.com/es/productos/estanterias/nova/",
+      "keywords": [
+        "nova",
+        "nvet50.99"
+      ]
+    },
+    {
+      "question": "¿Qué es Dinamic Cubos DMC500.99?",
+      "answer": "Referencia DMC500.99 de la familia modular Dinamic Cubos. Ficha oficial: https://www.astikitline.com/es/productos/estanterias/dinamic-cubos/",
+      "keywords": [
+        "dinamic",
+        "cubos",
+        "dmc500.99"
+      ]
+    },
+    {
+      "question": "¿Qué es Gala GAL480.99?",
+      "answer": "Referencia GAL480.99 de la familia Gala de estanterías de pino macizo. Ficha oficial: https://www.astikitline.com/es/productos/estanterias/gala/",
+      "keywords": [
+        "gala",
+        "gal480.99"
+      ]
+    },
+    {
+      "question": "¿Qué precio y disponibilidad tiene mi selección?",
+      "answer": "Confirma precio, variantes y disponibilidad en las fichas oficiales. Esta propuesta no tiene acceso al inventario ni confirma reservas.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "¿Cómo continúo con una consulta real?",
+      "answer": "Prepara el resumen local y revísalo antes de usar el canal oficial: https://www.astikitline.com/es/contacto/",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Planificador de surtido por punto de venta",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selección",
+        "question": "¿Qué referencia o familia te interesa: Nova, Dinamic o Gala?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Cantidad",
+        "question": "¿Para cuántos puntos de venta o espacios preparas la selección?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Detalles",
+        "question": "¿Cuántas unidades de cada referencia quieres incluir?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "Por confirmar",
+        "question": "¿Qué medidas, acabados o condiciones de distribución quieres confirmar?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief para revisión humana"
+  },
+  "sources": [
+    {
+      "url": "https://www.astikitline.com/es/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://www.astikitline.com/es/productos/estanterias/nova/",
+      "claim": "Nova NVET50.99: Referencia NVET50.99 de la familia de estanterías Nova."
+    },
+    {
+      "url": "https://www.astikitline.com/es/productos/estanterias/dinamic-cubos/",
+      "claim": "Dinamic Cubos DMC500.99: Referencia DMC500.99 de la familia modular Dinamic Cubos."
+    },
+    {
+      "url": "https://www.astikitline.com/es/productos/estanterias/gala/",
+      "claim": "Gala GAL480.99: Referencia GAL480.99 de la familia Gala de estanterías de pino macizo."
+    },
+    {
+      "url": "https://www.astikitline.com/es/actualidad/astigarraga-kit-line-el-corazon-de-una-cultura-basada-en-la-confianza/",
+      "claim": "Empresa familiar, plantilla y fabricación."
+    },
+    {
+      "url": "https://www.astikitline.com/es/contacto/",
+      "claim": "Catálogo, distribuidores y sede Azpeitia."
+    }
+  ],
+  "boundaries": [
+    "Demostración local basada en reglas; no es una IA conectada al negocio.",
+    "No acceso a pedidos, clientes, pagos ni stock.",
+    "No confirmar precios, entrega, compatibilidad o políticas no verificadas.",
+    "Calcula unidades por establecimientos y unidades por exposición. No interpreta una familia como una referencia concreta ni confirma existencias."
+  ],
+  "theme": {
+    "accent": "#485c36",
+    "background": "#f4f4ee",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.png"
+}

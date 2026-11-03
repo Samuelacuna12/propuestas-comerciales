@@ -1,0 +1,212 @@
+{
+  "company": "Taller LU’UM",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://tallerluum.myshopify.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Taller LU’UM"
+    },
+    {
+      "url": "https://tallerluum.myshopify.com/products/antenumbra-trazo",
+      "claim": "Ficha o línea publicada: Antenumbra trazo"
+    },
+    {
+      "url": "https://tallerluum.myshopify.com/products/bernal-colgante",
+      "claim": "Ficha o línea publicada: Bernal Colgante"
+    },
+    {
+      "url": "https://tallerluum.myshopify.com/products/eclipse",
+      "claim": "Ficha o línea publicada: Eclipse"
+    },
+    {
+      "url": "https://tallerluum.myshopify.com/apps/frequently-asked-questions",
+      "claim": "Proceso o información complementaria oficial"
+    },
+    {
+      "url": "https://tallerluum.myshopify.com/collections/luminarias",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "products": [
+    {
+      "name": "Antenumbra trazo",
+      "description": "Luminaria con mástil de nogal y disco de terrazo; ficha de Ø75 × 200 cm.",
+      "url": "https://tallerluum.myshopify.com/products/antenumbra-trazo",
+      "image": "https://tallerluum.myshopify.com/cdn/shop/files/IMG_2443.jpg?v=1793248796",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Bernal Colgante",
+      "description": "Lámpara de mimbre natural; 25 cm de diámetro y 19 cm de alto, según ficha.",
+      "url": "https://tallerluum.myshopify.com/products/bernal-colgante",
+      "image": "https://tallerluum.myshopify.com/cdn/shop/files/004_0b535a19-783e-45bd-895a-2af8bcd484e3.jpg?v=1686340542",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Eclipse",
+      "description": "Discos de cobre martelinado con base de cedro; variantes por diámetro.",
+      "url": "https://tallerluum.myshopify.com/products/eclipse",
+      "image": "https://tallerluum.myshopify.com/cdn/shop/products/IMG_0423.jpg?v=1658971358",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://tallerluum.myshopify.com/cdn/shop/files/IMG_2443.jpg?v=1793248796",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://tallerluum.myshopify.com/cdn/shop/files/IMG_2443.jpg?v=1793248796",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://tallerluum.myshopify.com/cdn/shop/files/004_0b535a19-783e-45bd-895a-2af8bcd484e3.jpg?v=1686340542",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://tallerluum.myshopify.com/cdn/shop/products/IMG_0423.jpg?v=1658971358",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://tallerluum.myshopify.com/",
+    "secondary": "https://www.muuto.com/",
+    "layout": "gallery",
+    "palette": [
+      "#7f4c30",
+      "#f7f4ed",
+      "#302e29",
+      "#c7a882"
+    ],
+    "typography": "'Playfair Display',Georgia,serif",
+    "decisions": "Galería de objetos con imágenes verticales, serif contenida y espacio de exhibición, conectada a una lista de proyecto por ambiente.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "LU’UM desarrolla objetos con diseñadores y artesanos.",
+      "La tienda publica luminarias, sillas, textiles, utilitarios y decoración.",
+      "La FAQ contempla personalización, cotizaciones de interiorismo y revisión de entrega según cada producto."
+    ],
+    "hypothesis": "Preparar propuestas de interiorismo con una lista clara de piezas, ambientes y personalizaciones.",
+    "operation": "Lista de piezas por ambiente",
+    "boundaries": [
+      "La lista no sustituye un proyecto eléctrico ni un cálculo lumínico."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://tallerluum.myshopify.com/cdn/shop/files/IMG_2443.jpg?v=1793248796",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://tallerluum.myshopify.com/cdn/shop/files/IMG_2443.jpg?v=1793248796",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://tallerluum.myshopify.com/cdn/shop/files/004_0b535a19-783e-45bd-895a-2af8bcd484e3.jpg?v=1686340542",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://tallerluum.myshopify.com/cdn/shop/products/IMG_0423.jpg?v=1658971358",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "taller-luum",
+      "company": "Taller LU’UM",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": true,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "La lista no sustituye un proyecto eléctrico ni un cálculo lumínico."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://tallerluum.myshopify.com/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://tallerluum.myshopify.com/products/antenumbra-trazo",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://tallerluum.myshopify.com/products/bernal-colgante",
+        "status": 429,
+        "networkError": null
+      },
+      {
+        "url": "https://tallerluum.myshopify.com/products/eclipse",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 75998
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 75998
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 49822
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 91438
+      }
+    ]
+  },
+  "publicOnly": true
+}

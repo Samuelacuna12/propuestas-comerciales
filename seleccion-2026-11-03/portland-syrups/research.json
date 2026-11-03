@@ -1,0 +1,200 @@
+{
+  "company": "Portland Syrups",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "en",
+  "sources": [
+    {
+      "url": "https://beveragemixers.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://beveragemixers.com/products/cinnamon-brown-sugar-syrup",
+      "claim": "Cinnamon Brown Sugar Syrup: Cinnamon and brown-sugar syrup for drinks; a separate official recipe section gives serving ideas."
+    },
+    {
+      "url": "https://beveragemixers.com/products/spicy-paloma-syrup",
+      "claim": "Spicy Paloma Syrup: A spicy Paloma syrup from the official beverage-mixer range."
+    },
+    {
+      "url": "https://beveragemixers.com/products/winter-flavors-sampler-set",
+      "claim": "Winter Flavors Sampler Set: A seasonal sampler of winter flavors; check the listing for its included bottles."
+    },
+    {
+      "url": "https://beveragemixers.com/pages/why-portland-syrups",
+      "claim": "Equipo menor de 30, fabricación y operación en Portland."
+    },
+    {
+      "url": "https://beveragemixers.com/",
+      "claim": "Ecommerce, suscripciones, marca privada y canal mayorista."
+    },
+    {
+      "url": "https://beveragemixers.com/pages/contact-us",
+      "claim": "Página de atención comercial oficial."
+    }
+  ],
+  "products": [
+    {
+      "name": "Cinnamon Brown Sugar Syrup",
+      "url": "https://beveragemixers.com/products/cinnamon-brown-sugar-syrup",
+      "description": "Cinnamon and brown-sugar syrup for drinks; a separate official recipe section gives serving ideas.",
+      "image": "https://beveragemixers.com/cdn/shop/files/12oz_cinnamonbrownsugar_knockout.png?v=1790719267&width=1920",
+      "asset": "assets/product-1-mobile-optimized.jpg"
+    },
+    {
+      "name": "Spicy Paloma Syrup",
+      "url": "https://beveragemixers.com/products/spicy-paloma-syrup",
+      "description": "A spicy Paloma syrup from the official beverage-mixer range.",
+      "image": "https://beveragemixers.com/cdn/shop/files/Spicy_Paloma_12oz_03d1f27c-9bf7-497b-ac3f-c0c6af4fca1b.png?v=1747773558&width=1920",
+      "asset": "assets/product-2-optimized.jpg"
+    },
+    {
+      "name": "Winter Flavors Sampler Set",
+      "url": "https://beveragemixers.com/products/winter-flavors-sampler-set",
+      "description": "A seasonal sampler of winter flavors; check the listing for its included bottles.",
+      "image": "https://beveragemixers.com/cdn/shop/files/Winter_Syrup_Sampler-KO.png?v=1791577868&width=1920",
+      "asset": "assets/product-3-mobile.png"
+    }
+  ],
+  "images": [
+    {
+      "product": "Cinnamon Brown Sugar Syrup",
+      "url": "https://beveragemixers.com/cdn/shop/files/12oz_cinnamonbrownsugar_knockout.png?v=1790719267&width=1920",
+      "local": "assets/product-1-mobile-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 153961,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://beveragemixers.com/products/cinnamon-brown-sugar-syrup",
+      "downloadUrl": "https://beveragemixers.com/cdn/shop/files/12oz_cinnamonbrownsugar_knockout.png?v=1790719267&width=900&format=webp",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 784583
+      }
+    },
+    {
+      "product": "Spicy Paloma Syrup",
+      "url": "https://beveragemixers.com/cdn/shop/files/Spicy_Paloma_12oz_03d1f27c-9bf7-497b-ac3f-c0c6af4fca1b.png?v=1747773558&width=1920",
+      "local": "assets/product-2-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 167570,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://beveragemixers.com/products/spicy-paloma-syrup",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 655434
+      }
+    },
+    {
+      "product": "Winter Flavors Sampler Set",
+      "url": "https://beveragemixers.com/cdn/shop/files/Winter_Syrup_Sampler-KO.png?v=1791577868&width=1920",
+      "local": "assets/product-3-mobile.png",
+      "mime": "image/png",
+      "bytes": 281226,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://beveragemixers.com/products/winter-flavors-sampler-set",
+      "downloadUrl": "https://beveragemixers.com/cdn/shop/files/Winter_Syrup_Sampler-KO.png?v=1791577868&width=900&format=webp"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://beveragemixers.com/",
+    "secondary": "https://davidstea.com/",
+    "boundedBorrowing": "Flavor discovery by occasion with a visible service-planning path.",
+    "layout": "menu",
+    "palette": {
+      "accent": "#9f3d23",
+      "background": "#fff3df"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Multiply drinks by user-entered syrup dosage, apply the selected allowance and round to bottle capacity entered from the label."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://beveragemixers.com/products/cinnamon-brown-sugar-syrup",
+        "httpOk": true
+      },
+      {
+        "url": "https://beveragemixers.com/products/spicy-paloma-syrup",
+        "httpOk": true
+      },
+      {
+        "url": "https://beveragemixers.com/products/winter-flavors-sampler-set",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

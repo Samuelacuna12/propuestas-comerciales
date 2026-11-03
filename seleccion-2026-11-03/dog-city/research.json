@@ -1,0 +1,150 @@
+{
+  "company": "Dog City",
+  "reviewedAt": "2026-11-03",
+  "website": "https://www.dog-gt.com/",
+  "publicFacts": [
+    {
+      "url": "https://www.dog-gt.com/",
+      "claim": "Catálogo de mascotas, ecommerce, cobertura nacional y contacto comercial."
+    },
+    {
+      "url": "https://www.dog-gt.com/ubicaciones",
+      "claim": "Sucursales y oficinas en Ciudad de Guatemala y Mixco."
+    },
+    {
+      "url": "https://www.dog-gt.com/products/belcando-baseline-young",
+      "claim": "Belcando Baseline Young: Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar."
+    },
+    {
+      "url": "https://www.dog-gt.com/products/belcando-baseline-joker-gf",
+      "claim": "Belcando Baseline Joker GF: Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar."
+    },
+    {
+      "url": "https://www.dog-gt.com/products/belcando-baseline-buddy",
+      "claim": "Belcando Baseline Buddy: Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar."
+    },
+    {
+      "url": "https://www.dog-gt.com/products/belcando",
+      "claim": "Catálogo oficial indexado muestra Young, Joker GF y Buddy. Fichas individuales exponen metadatos; información ampliada depende de carga dinámica."
+    }
+  ],
+  "products": [
+    {
+      "name": "Belcando Baseline Young",
+      "url": "https://www.dog-gt.com/products/belcando-baseline-young",
+      "description": "Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar.",
+      "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/29462425/products/613396254/5914972066.webp",
+      "kind": "product"
+    },
+    {
+      "name": "Belcando Baseline Joker GF",
+      "url": "https://www.dog-gt.com/products/belcando-baseline-joker-gf",
+      "description": "Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar.",
+      "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/29462425/5519015469.webp",
+      "kind": "product"
+    },
+    {
+      "name": "Belcando Baseline Buddy",
+      "url": "https://www.dog-gt.com/products/belcando-baseline-buddy",
+      "description": "Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar.",
+      "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/29462425/5506035464.webp",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://d2j6dbq0eux0bg.cloudfront.net/images/29462425/products/613396254/5914972066.webp",
+      "sourcePage": "https://www.dog-gt.com/products/belcando-baseline-young",
+      "use": "Belcando Baseline Young"
+    },
+    {
+      "url": "https://d2j6dbq0eux0bg.cloudfront.net/images/29462425/5519015469.webp",
+      "sourcePage": "https://www.dog-gt.com/products/belcando-baseline-joker-gf",
+      "use": "Belcando Baseline Joker GF"
+    },
+    {
+      "url": "https://d2j6dbq0eux0bg.cloudfront.net/images/29462425/5506035464.webp",
+      "sourcePage": "https://www.dog-gt.com/products/belcando-baseline-buddy",
+      "use": "Belcando Baseline Buddy"
+    },
+    {
+      "url": "https://d2j6dbq0eux0bg.cloudfront.net/images/29462425/products/613396254/5914972066.webp",
+      "sourcePage": "https://www.dog-gt.com/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://www.dog-gt.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://ruffwear.com/collections/dog-harnesses",
+      "observedPattern": "Selección por uso y atributos de producto; guía comparativa antes de elegir talla."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "petcare",
+      "headline": "Su rutina merece\nun buen plan.",
+      "palette": [
+        "#dc6645",
+        "#f1f3f6",
+        "#17344c"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Calendario de reposición de mascotas",
+      "reason": "Un cálculo de cobertura con consumo indicado por el comprador podría apoyar recordatorios de recompra autorizados.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "El catálogo carga parte del detalle de forma dinámica. No se infieren dosis, presentación ni adecuación nutricional.",
+    "El cálculo no prescribe consumo, alimento ni medicación. Solo usa cantidades introducidas por quien realiza la prueba."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 9,
+      "passed": 8,
+      "transientFailures": [
+        {
+          "url": "https://www.dog-gt.com/ubicaciones",
+          "status": 0,
+          "note": "Lectura GET previa disponible; fallo en comprobación HEAD final."
+        }
+      ]
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

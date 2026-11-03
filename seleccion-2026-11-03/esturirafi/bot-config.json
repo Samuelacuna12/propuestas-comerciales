@@ -1,0 +1,198 @@
+{
+  "company": "Esturirafi",
+  "language": "es",
+  "website": "https://www.esturirafi.com/tienda/",
+  "description": "Explora tres básicos del hogar y prepara la próxima reposición según lo que utilizas de verdad.",
+  "products": [
+    {
+      "name": "Estropajo vegetal de luffa • Esturirafi",
+      "url": "https://www.esturirafi.com/tienda/producto/estropajo-vegetal-de-luffa/",
+      "description": "Estropajo vegetal de luffa cultivada en Galicia, según su ficha.",
+      "image": "https://www.esturirafi.com/tienda/wp-content/uploads/2019/01/estropajo-luffa-nuevo-1.jpg",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Detergente líquido para lavadora en cápsulas hidrosolubles ecológicas | 20 monodosis • Esturirafi",
+      "url": "https://www.esturirafi.com/tienda/producto/capsulas-hidrosolubles-ecologicas-detergente-liquido-para-lavadora/",
+      "description": "Detergente para lavadora presentado en 20 cápsulas monodosis.",
+      "image": "https://www.esturirafi.com/tienda/wp-content/uploads/2020/09/detergente-lavadora-dichayhecho-ecolabel.jpg",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Jabón tradicional de Marsella ecológico | 300g • Esturirafi",
+      "url": "https://www.esturirafi.com/tienda/producto/jabon-marsella-ecologico-solido/",
+      "description": "Jabón de Marsella sólido en formato de 300 g.",
+      "image": "https://www.esturirafi.com/tienda/wp-content/uploads/2019/01/pure-olive-marseille-soap-cube-300g.jpg",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué categorías ofrece la tienda?",
+      "answer": "Esturirafi organiza el catálogo en cuidado personal, hogar y otros usos.",
+      "keywords": [
+        "qué",
+        "categorías",
+        "ofrece",
+        "tienda"
+      ]
+    },
+    {
+      "question": "¿Todo se repone de la misma forma?",
+      "answer": "Las fichas distinguen formatos reutilizables y consumibles.",
+      "keywords": [
+        "todo",
+        "repone",
+        "misma",
+        "forma"
+      ]
+    },
+    {
+      "question": "¿Qué formato tiene el detergente seleccionado?",
+      "answer": "El detergente seleccionado se presenta en 20 monodosis; los otros formatos tienen unidades diferentes.",
+      "keywords": [
+        "qué",
+        "formato",
+        "tiene",
+        "detergente",
+        "seleccionado"
+      ]
+    },
+    {
+      "question": "¿Qué es Estropajo vegetal de luffa • Esturirafi?",
+      "answer": "Estropajo vegetal de luffa cultivada en Galicia, según su ficha. Ficha oficial: https://www.esturirafi.com/tienda/producto/estropajo-vegetal-de-luffa/",
+      "keywords": [
+        "estropajo",
+        "vegetal",
+        "luffa",
+        "esturirafi"
+      ]
+    },
+    {
+      "question": "¿Qué es Detergente líquido para lavadora en cápsulas hidrosolubles ecológicas | 20 monodosis • Esturirafi?",
+      "answer": "Detergente para lavadora presentado en 20 cápsulas monodosis. Ficha oficial: https://www.esturirafi.com/tienda/producto/capsulas-hidrosolubles-ecologicas-detergente-liquido-para-lavadora/",
+      "keywords": [
+        "detergente",
+        "líquido",
+        "para",
+        "lavadora",
+        "cápsulas",
+        "hidrosolubles",
+        "ecológicas",
+        "monodosis",
+        "esturirafi"
+      ]
+    },
+    {
+      "question": "¿Qué es Jabón tradicional de Marsella ecológico | 300g • Esturirafi?",
+      "answer": "Jabón de Marsella sólido en formato de 300 g. Ficha oficial: https://www.esturirafi.com/tienda/producto/jabon-marsella-ecologico-solido/",
+      "keywords": [
+        "jabón",
+        "tradicional",
+        "marsella",
+        "ecológico",
+        "300g",
+        "esturirafi"
+      ]
+    },
+    {
+      "question": "¿Qué precio y disponibilidad tiene mi selección?",
+      "answer": "Confirma precio, variantes y disponibilidad en las fichas oficiales. Esta propuesta no tiene acceso al inventario ni confirma reservas.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "¿Cómo continúo con una consulta real?",
+      "answer": "Prepara el resumen local y revísalo antes de usar el canal oficial: https://www.esturirafi.com/contacto",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Planificador de reposición del hogar",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selección",
+        "question": "¿Buscas luffa, detergente en cápsulas o jabón de Marsella?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Cantidad",
+        "question": "¿Cuántas semanas de uso quieres cubrir?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Detalles",
+        "question": "¿Cuántas unidades utilizas normalmente por semana y cuántas tienes?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "Por confirmar",
+        "question": "¿Necesitas revisar el modo de uso o el formato antes de elegir?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief para revisión humana"
+  },
+  "sources": [
+    {
+      "url": "https://www.esturirafi.com/tienda/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://www.esturirafi.com/tienda/producto/estropajo-vegetal-de-luffa/",
+      "claim": "Estropajo vegetal de luffa • Esturirafi: Estropajo vegetal de luffa cultivada en Galicia, según su ficha."
+    },
+    {
+      "url": "https://www.esturirafi.com/tienda/producto/capsulas-hidrosolubles-ecologicas-detergente-liquido-para-lavadora/",
+      "claim": "Detergente líquido para lavadora en cápsulas hidrosolubles ecológicas | 20 monodosis • Esturirafi: Detergente para lavadora presentado en 20 cápsulas monodosis."
+    },
+    {
+      "url": "https://www.esturirafi.com/tienda/producto/jabon-marsella-ecologico-solido/",
+      "claim": "Jabón tradicional de Marsella ecológico | 300g • Esturirafi: Jabón de Marsella sólido en formato de 300 g."
+    },
+    {
+      "url": "https://www.esturirafi.com/tienda/quienes-somos/",
+      "claim": "Historia, categorías y sede Vigo."
+    },
+    {
+      "url": "https://www.esturirafi.com/tienda/",
+      "claim": "Tienda operativa con catálogo y packs."
+    },
+    {
+      "url": "https://www.esturirafi.com/contacto",
+      "claim": "Contacto oficial."
+    }
+  ],
+  "boundaries": [
+    "Demostración local basada en reglas; no es una IA conectada al negocio.",
+    "No acceso a pedidos, clientes, pagos ni stock.",
+    "No confirmar precios, entrega, compatibilidad o políticas no verificadas.",
+    "Calcula consumo previsto y cantidad a reponer a partir de hábitos introducidos por el usuario; sin atribuir eficacia o certificaciones no verificadas."
+  ],
+  "theme": {
+    "accent": "#3b654c",
+    "background": "#f4f7f0",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

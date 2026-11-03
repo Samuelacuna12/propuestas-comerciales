@@ -1,0 +1,161 @@
+{
+  "company": "Sanfara S.A.S.",
+  "language": "es",
+  "website": "https://sanfarasas.com/",
+  "description": "Sanfara S.A.S. · Fabricación de calzado. Sanfara publica catálogo por dama, caballero y tipo de calzado.",
+  "products": [
+    {
+      "name": "CH-7042",
+      "url": "https://sanfarasas.com/producto/ch-7042",
+      "description": "Referencia deportiva de caballero; ficha con tallas 36 a 44.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "CM-8040",
+      "url": "https://sanfarasas.com/producto/cm-80",
+      "description": "Referencia casual de dama en cuero; ficha con tallas 34 a 41.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "CH-7036",
+      "url": "https://sanfarasas.com/producto/ch-7036",
+      "description": "Referencia deportiva blanca de caballero; ficha con tallas 36 a 44.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Atienden dotación empresarial?",
+      "answer": "El sitio incluye una sección de dotación y consulta mayorista. Las condiciones se confirman con Sanfara.",
+      "keywords": [
+        "dotacion",
+        "empresa"
+      ]
+    },
+    {
+      "question": "¿Las referencias son de seguridad industrial?",
+      "answer": "No se verificó certificación de seguridad industrial para esta selección. No deben presentarse como EPP.",
+      "keywords": [
+        "seguridad",
+        "industrial",
+        "epp"
+      ]
+    },
+    {
+      "question": "¿Todas tienen las mismas tallas?",
+      "answer": "No. CH-7042 y CH-7036 publican 36–44; CM-8040 publica 34–41.",
+      "keywords": [
+        "talla",
+        "rango"
+      ]
+    },
+    {
+      "question": "¿Quién confirma inventario?",
+      "answer": "El canal oficial. La matriz no consulta existencias ni reserva pares.",
+      "keywords": [
+        "stock",
+        "inventario"
+      ]
+    },
+    {
+      "question": "¿Puedo cambiar una talla?",
+      "answer": "La web publica condiciones de cambios y garantía. Revisa la política vigente y el caso con la empresa.",
+      "keywords": [
+        "cambio",
+        "garantia"
+      ]
+    },
+    {
+      "question": "¿Qué es CH-7042?",
+      "answer": "Referencia deportiva de caballero; ficha con tallas 36 a 44. Ficha oficial: https://sanfarasas.com/producto/ch-7042",
+      "keywords": [
+        "ch-7042",
+        "ch-7042"
+      ]
+    },
+    {
+      "question": "¿Qué es CM-8040?",
+      "answer": "Referencia casual de dama en cuero; ficha con tallas 34 a 41. Ficha oficial: https://sanfarasas.com/producto/cm-80",
+      "keywords": [
+        "cm-8040",
+        "cm-8040"
+      ]
+    },
+    {
+      "question": "¿Qué es CH-7036?",
+      "answer": "Referencia deportiva blanca de caballero; ficha con tallas 36 a 44. Ficha oficial: https://sanfarasas.com/producto/ch-7036",
+      "keywords": [
+        "ch-7036",
+        "ch-7036"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Consolidación de tallas para dotación",
+    "steps": [
+      {
+        "key": "referencia",
+        "label": "Referencia",
+        "question": "¿Qué modelo o línea quieres consultar?",
+        "required": true
+      },
+      {
+        "key": "tallas",
+        "label": "Tallas y unidades",
+        "question": "¿Cuántos pares necesitas por talla?",
+        "required": true
+      },
+      {
+        "key": "uso",
+        "label": "Uso",
+        "question": "¿Es compra individual, surtido, colección o dotación?",
+        "required": true
+      },
+      {
+        "key": "variante",
+        "label": "Variantes",
+        "question": "¿Qué colores, materiales o acabados necesitas validar?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿En qué ciudad se entregaría?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://sanfarasas.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Sanfara"
+    },
+    {
+      "url": "https://sanfarasas.com/producto/ch-7042",
+      "claim": "Ficha o línea publicada: CH-7042"
+    },
+    {
+      "url": "https://sanfarasas.com/producto/cm-80",
+      "claim": "Ficha o línea publicada: CM-8040"
+    },
+    {
+      "url": "https://sanfarasas.com/producto/ch-7036",
+      "claim": "Ficha o línea publicada: CH-7036"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#663e2b",
+    "background": "#f4f0e8",
+    "foreground": "#282522",
+    "font": "'Manrope',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

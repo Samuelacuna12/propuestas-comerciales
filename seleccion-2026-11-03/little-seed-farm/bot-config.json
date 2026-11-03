@@ -1,0 +1,185 @@
+{
+  "company": "Little Seed Farm",
+  "language": "en",
+  "website": "https://littleseedfarm.com/",
+  "description": "Compare three deodorant options and prepare a replenishment plan from your own household routine.",
+  "products": [
+    {
+      "name": "Activated Charcoal Deodorant Cream",
+      "url": "https://littleseedfarm.com/products/activated-charcoal-deodorant-organic-natural",
+      "description": "Deodorant cream with activated charcoal and a mint-herbal scent.",
+      "image": "https://littleseedfarm.com/cdn/shop/files/Activated-Charcoal-Deo-Jar-Box_2104df33-d195-40f5-aa71-8c9b92fac389_3000x.png?v=1756409639",
+      "asset": "assets/product-1-mobile-optimized.jpg"
+    },
+    {
+      "name": "Lavender Deodorant Cream",
+      "url": "https://littleseedfarm.com/products/lavender-deodorant-cream-organic-natural",
+      "description": "Lavender deodorant cream with eucalyptus; presented in a glass jar.",
+      "image": "https://littleseedfarm.com/cdn/shop/files/Lavender-Deo-Jar-Box_b09f728a-9bfb-4b68-9a16-990d952c47ac_3000x.png?v=1756410590",
+      "asset": "assets/product-2-mobile-optimized.jpg"
+    },
+    {
+      "name": "Unscented Deodorant Cream",
+      "url": "https://littleseedfarm.com/products/unscented-deodorant-cream-organic-natural-sensitive-skin",
+      "description": "Deodorant cream without essential oils; the base ingredients retain a light natural scent.",
+      "image": "https://littleseedfarm.com/cdn/shop/files/Unscented-Deo-Jar-Box_ac432e22-2ead-4666-95c7-fe4b4011cea5_3000x.png?v=1756409288",
+      "asset": "assets/product-3-mobile-optimized.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is there an unscented option?",
+      "answer": "The store offers scented and unscented deodorant creams.",
+      "keywords": [
+        "there",
+        "unscented",
+        "option"
+      ]
+    },
+    {
+      "question": "Can I explore a smaller format?",
+      "answer": "Samples, travel formats and starter kits have official catalog sections.",
+      "keywords": [
+        "explore",
+        "smaller",
+        "format"
+      ]
+    },
+    {
+      "question": "Is the catalog limited to deodorant?",
+      "answer": "The website has separate skincare and body-care categories.",
+      "keywords": [
+        "catalog",
+        "limited",
+        "deodorant"
+      ]
+    },
+    {
+      "question": "What is Activated Charcoal Deodorant Cream?",
+      "answer": "Deodorant cream with activated charcoal and a mint-herbal scent. Official product: https://littleseedfarm.com/products/activated-charcoal-deodorant-organic-natural",
+      "keywords": [
+        "activated",
+        "charcoal",
+        "deodorant",
+        "cream"
+      ]
+    },
+    {
+      "question": "What is Lavender Deodorant Cream?",
+      "answer": "Lavender deodorant cream with eucalyptus; presented in a glass jar. Official product: https://littleseedfarm.com/products/lavender-deodorant-cream-organic-natural",
+      "keywords": [
+        "lavender",
+        "deodorant",
+        "cream"
+      ]
+    },
+    {
+      "question": "What is Unscented Deodorant Cream?",
+      "answer": "Deodorant cream without essential oils; the base ingredients retain a light natural scent. Official product: https://littleseedfarm.com/products/unscented-deodorant-cream-organic-natural-sensitive-skin",
+      "keywords": [
+        "unscented",
+        "deodorant",
+        "cream"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://littleseedfarm.com/pages/contact-us",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Household care replenishment",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Would you like activated charcoal, lavender or unscented deodorant?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many jars are you planning for?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "How long does a jar usually last in your household, and how many do you already have?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Would you prefer to check a sample or starter-kit option first?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://littleseedfarm.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://littleseedfarm.com/products/activated-charcoal-deodorant-organic-natural",
+      "claim": "Activated Charcoal Deodorant Cream: Deodorant cream with activated charcoal and a mint-herbal scent."
+    },
+    {
+      "url": "https://littleseedfarm.com/products/lavender-deodorant-cream-organic-natural",
+      "claim": "Lavender Deodorant Cream: Lavender deodorant cream with eucalyptus; presented in a glass jar."
+    },
+    {
+      "url": "https://littleseedfarm.com/products/unscented-deodorant-cream-organic-natural-sensitive-skin",
+      "claim": "Unscented Deodorant Cream: Deodorant cream without essential oils; the base ingredients retain a light natural scent."
+    },
+    {
+      "url": "https://littleseedfarm.com/pages/about-little-seed-farm",
+      "claim": "Fundadores, origen local y canal mayorista."
+    },
+    {
+      "url": "https://littleseedfarm.com/",
+      "claim": "Tienda, muestras, recargas y packs."
+    },
+    {
+      "url": "https://littleseedfarm.com/pages/contact-us",
+      "claim": "Contacto comercial oficial."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Convert a user’s actual usage rate into a planning quantity, with scent selection and stock deduction. No skin diagnosis."
+  ],
+  "theme": {
+    "accent": "#44613c",
+    "background": "#f6f6ee",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1-mobile-optimized.jpg"
+}

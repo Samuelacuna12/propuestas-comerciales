@@ -1,0 +1,161 @@
+{
+  "company": "TOLO Café",
+  "language": "es",
+  "website": "https://www.tolo.cafe/",
+  "description": "TOLO Café · Café de especialidad. TOLO publica cafetería, tienda, app de pedido anticipado y atención de mayoreo.",
+  "products": [
+    {
+      "name": "Bueno",
+      "url": "https://www.tolo.cafe/mx/shop/items/bueno-cafe-estilo-tradicional",
+      "description": "Café lavado, tueste medio oscuro y perfil de chocolate, piloncillo y nueces.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Bien Loco",
+      "url": "https://www.tolo.cafe/mx/shop/items/bien-loco-cafe-estilo-experimental",
+      "description": "Selección de procesos experimentales y tueste medio claro.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Matcha ceremonial · 50 g",
+      "url": "https://www.tolo.cafe/mx/shop/items/matcha-ceremonial",
+      "description": "Matcha japonés de la tienda; se cotiza aparte del plan de consumo de café.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Atienden mayoreo?",
+      "answer": "La web contempla suministro para cafés, restaurantes y oficinas, con condiciones por confirmar.",
+      "keywords": [
+        "mayoreo",
+        "oficina",
+        "restaurante"
+      ]
+    },
+    {
+      "question": "¿Qué diferencia Bueno y Bien Loco?",
+      "answer": "Bueno se presenta como lavado de tueste medio oscuro; Bien Loco como selección experimental de tueste medio claro.",
+      "keywords": [
+        "bueno",
+        "bien loco",
+        "perfil"
+      ]
+    },
+    {
+      "question": "¿El plan incluye matcha?",
+      "answer": "No. El cálculo usa gramos de café. El matcha aparece como producto real, pero requiere su propia dosis y revisión.",
+      "keywords": [
+        "matcha"
+      ]
+    },
+    {
+      "question": "¿La app ya recibe pedidos?",
+      "answer": "El sitio enlaza su app oficial para pedir por adelantado. Esta propuesta no está conectada a esa app.",
+      "keywords": [
+        "app",
+        "pedir"
+      ]
+    },
+    {
+      "question": "¿Se programa una entrega al calcular?",
+      "answer": "No. Se prepara un consumo estimado para confirmar presentaciones, calendario y condiciones con TOLO.",
+      "keywords": [
+        "entrega",
+        "calcular"
+      ]
+    },
+    {
+      "question": "¿Qué es Bueno?",
+      "answer": "Café lavado, tueste medio oscuro y perfil de chocolate, piloncillo y nueces. Ficha oficial: https://www.tolo.cafe/mx/shop/items/bueno-cafe-estilo-tradicional",
+      "keywords": [
+        "bueno",
+        "bueno"
+      ]
+    },
+    {
+      "question": "¿Qué es Bien Loco?",
+      "answer": "Selección de procesos experimentales y tueste medio claro. Ficha oficial: https://www.tolo.cafe/mx/shop/items/bien-loco-cafe-estilo-experimental",
+      "keywords": [
+        "bien loco"
+      ]
+    },
+    {
+      "question": "¿Qué es Matcha ceremonial · 50 g?",
+      "answer": "Matcha japonés de la tienda; se cotiza aparte del plan de consumo de café. Ficha oficial: https://www.tolo.cafe/mx/shop/items/matcha-ceremonial",
+      "keywords": [
+        "matcha ceremonial · 50 g",
+        "matcha",
+        "ceremonial"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Plan de consumo para café y oficina",
+    "steps": [
+      {
+        "key": "cafe",
+        "label": "Café",
+        "question": "¿Qué café o perfil te interesa?",
+        "required": true
+      },
+      {
+        "key": "consumo",
+        "label": "Consumo",
+        "question": "¿Cuántas tazas preparas por día y con qué dosis aproximada?",
+        "required": true
+      },
+      {
+        "key": "metodo",
+        "label": "Método",
+        "question": "¿Cómo lo preparas y necesitas grano o molienda?",
+        "required": true
+      },
+      {
+        "key": "frecuencia",
+        "label": "Frecuencia",
+        "question": "¿Para cuántos días quieres comprar?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿En qué ciudad lo recibirías?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://www.tolo.cafe/",
+      "claim": "Actividad, catálogo y canales oficiales de TOLO"
+    },
+    {
+      "url": "https://www.tolo.cafe/mx/shop/items/bueno-cafe-estilo-tradicional",
+      "claim": "Ficha o línea publicada: Bueno"
+    },
+    {
+      "url": "https://www.tolo.cafe/mx/shop/items/bien-loco-cafe-estilo-experimental",
+      "claim": "Ficha o línea publicada: Bien Loco"
+    },
+    {
+      "url": "https://www.tolo.cafe/mx/shop/items/matcha-ceremonial",
+      "claim": "Ficha o línea publicada: Matcha ceremonial · 50 g"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#e53d23",
+    "background": "#fff6e5",
+    "foreground": "#202e32",
+    "font": "'Space Grotesk',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

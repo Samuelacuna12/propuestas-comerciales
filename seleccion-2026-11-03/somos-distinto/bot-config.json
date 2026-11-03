@@ -1,0 +1,172 @@
+{
+  "company": "Somos Distinto",
+  "language": "es",
+  "website": "https://somosdistinto.com/",
+  "description": "Somos Distinto · Calzado artesanal. La tienda organiza piezas por alpargatas, bailarinas, sandalias y mocasines.",
+  "products": [
+    {
+      "name": "Canastas tejidas negro",
+      "url": "https://somosdistinto.com/products/canastas-negras",
+      "description": "Sandalias de tiras de cuero entrelazadas a mano, con suela plana.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Guane crudo",
+      "url": "https://somosdistinto.com/products/cotiza-guane-crudo",
+      "description": "Cotiza artesanal con algodón, refuerzos de cuero y suela de caucho.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Florian Fiesta",
+      "url": "https://somosdistinto.com/products/florian-fiesta",
+      "description": "Referencia de bailarinas publicada en la selección de la tienda.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿De qué están hechas las Canastas?",
+      "answer": "La ficha describe tiras de cuero tejidas a mano y plantilla forrada en cuero.",
+      "keywords": [
+        "canastas",
+        "cuero"
+      ]
+    },
+    {
+      "question": "¿Qué distingue Guane crudo?",
+      "answer": "La ficha menciona algodón tejido a mano, refuerzos de cuero y suela de caucho.",
+      "keywords": [
+        "guane",
+        "algodon"
+      ]
+    },
+    {
+      "question": "¿Puedo elegir talla solo con el largo del pie?",
+      "answer": "Conviene contrastar la medida con la guía específica de la marca. Esta demo no calcula una talla sin esa referencia.",
+      "keywords": [
+        "medidas"
+      ]
+    },
+    {
+      "question": "¿Cómo cuido el calzado?",
+      "answer": "Consulta el apartado de cuidados de la referencia; no todas las combinaciones de material requieren lo mismo.",
+      "keywords": [
+        "cuidados",
+        "lavar"
+      ]
+    },
+    {
+      "question": "¿Puedo consultar cambios?",
+      "answer": "Las fichas enlazan políticas de cambio, garantía y envío. La aceptación se confirma según condición de la pieza.",
+      "keywords": [
+        "cambio",
+        "garantia"
+      ]
+    },
+    {
+      "question": "¿La matriz reserva talla?",
+      "answer": "No. Solo organiza cantidades y lleva a la tienda oficial para verificar cada variante.",
+      "keywords": [
+        "reserva",
+        "stock",
+        "talla"
+      ]
+    },
+    {
+      "question": "¿Qué es Canastas tejidas negro?",
+      "answer": "Sandalias de tiras de cuero entrelazadas a mano, con suela plana. Ficha oficial: https://somosdistinto.com/products/canastas-negras",
+      "keywords": [
+        "canastas tejidas negro",
+        "canastas",
+        "tejidas",
+        "negro"
+      ]
+    },
+    {
+      "question": "¿Qué es Guane crudo?",
+      "answer": "Cotiza artesanal con algodón, refuerzos de cuero y suela de caucho. Ficha oficial: https://somosdistinto.com/products/cotiza-guane-crudo",
+      "keywords": [
+        "guane crudo",
+        "guane",
+        "crudo"
+      ]
+    },
+    {
+      "question": "¿Qué es Florian Fiesta?",
+      "answer": "Referencia de bailarinas publicada en la selección de la tienda. Ficha oficial: https://somosdistinto.com/products/florian-fiesta",
+      "keywords": [
+        "florian fiesta",
+        "florian",
+        "fiesta"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Selección de referencias y tallas",
+    "steps": [
+      {
+        "key": "referencia",
+        "label": "Referencia",
+        "question": "¿Qué modelo o línea quieres consultar?",
+        "required": true
+      },
+      {
+        "key": "tallas",
+        "label": "Tallas y unidades",
+        "question": "¿Cuántos pares necesitas por talla?",
+        "required": true
+      },
+      {
+        "key": "uso",
+        "label": "Uso",
+        "question": "¿Es compra individual, surtido, colección o dotación?",
+        "required": true
+      },
+      {
+        "key": "variante",
+        "label": "Variantes",
+        "question": "¿Qué colores, materiales o acabados necesitas validar?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿En qué ciudad se entregaría?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://somosdistinto.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Somos Distinto"
+    },
+    {
+      "url": "https://somosdistinto.com/products/canastas-negras",
+      "claim": "Ficha o línea publicada: Canastas tejidas negro"
+    },
+    {
+      "url": "https://somosdistinto.com/products/cotiza-guane-crudo",
+      "claim": "Ficha o línea publicada: Guane crudo"
+    },
+    {
+      "url": "https://somosdistinto.com/products/florian-fiesta",
+      "claim": "Ficha o línea publicada: Florian Fiesta"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#9f3127",
+    "background": "#f7efe3",
+    "foreground": "#3b2924",
+    "font": "'Playfair Display',Georgia,serif"
+  },
+  "heroImage": "assets/hero.img"
+}

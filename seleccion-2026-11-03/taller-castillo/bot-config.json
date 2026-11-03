@@ -1,0 +1,182 @@
+{
+  "company": "Taller Castillo",
+  "language": "es",
+  "website": "https://tallercastillo.tienda/",
+  "description": "Empresa de máquinas de coser con tienda online de equipos, accesorios y repuestos, y servicios de mantenimiento y reparación.",
+  "theme": {
+    "accent": "#b8292c",
+    "background": "#f5f2ed",
+    "foreground": "#242c35",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Jack A2C-C",
+      "url": "https://tallercastillo.tienda/producto/maquina-de-coser-plana-jack-a2c-c-con-corte-de-hilo-110v-mueble-con-rodines/",
+      "description": "Máquina plana industrial; la ficha publica 110 V y corte de hilo.",
+      "image": "https://tallercastillo.tienda/wp-content/uploads/2026/07/A2C-C.png",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Singer Overlock S0105",
+      "url": "https://tallercastillo.tienda/producto/maquina-overlock-singer-s0105/",
+      "description": "Máquina overlock Singer S0105 del catálogo oficial.",
+      "image": "https://tallercastillo.tienda/wp-content/uploads/2023/05/overlock-s0105-1-1.jpg",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Singer 4423 Heavy Duty",
+      "url": "https://tallercastillo.tienda/producto/singer-4423-maquina-de-coser-heavy-duty-costa-rica/",
+      "description": "Máquina de coser Singer 4423 Heavy Duty del catálogo oficial.",
+      "image": "https://tallercastillo.tienda/wp-content/uploads/2022/04/51JFZ7U25-L._AC_SL1100_.jpg",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Jack A2C-C?",
+      "answer": "Máquina plana industrial; la ficha publica 110 V y corte de hilo.",
+      "keywords": [
+        "jack",
+        "a2c",
+        "c"
+      ]
+    },
+    {
+      "question": "¿Qué es Singer Overlock S0105?",
+      "answer": "Máquina overlock Singer S0105 del catálogo oficial.",
+      "keywords": [
+        "singer",
+        "overlock",
+        "s0105"
+      ]
+    },
+    {
+      "question": "¿Qué es Singer 4423 Heavy Duty?",
+      "answer": "Máquina de coser Singer 4423 Heavy Duty del catálogo oficial.",
+      "keywords": [
+        "singer",
+        "4423",
+        "heavy",
+        "duty"
+      ]
+    },
+    {
+      "question": "¿Ofrecen reparación?",
+      "answer": "La empresa publica servicios de reparación y mantenimiento de máquinas de coser.",
+      "keywords": [
+        "reparación"
+      ]
+    },
+    {
+      "question": "¿Venden repuestos?",
+      "answer": "La tienda tiene agujas, bobinas y otros accesorios o repuestos.",
+      "keywords": [
+        "repuestos"
+      ]
+    },
+    {
+      "question": "¿Dónde está el taller?",
+      "answer": "Su sitio corporativo publica establecimiento en Alajuela.",
+      "keywords": [
+        "está",
+        "el",
+        "taller"
+      ]
+    },
+    {
+      "question": "¿Cómo confirmo un repuesto?",
+      "answer": "La consulta oficial admite preguntas sobre máquinas y repuestos; se requiere validar el modelo exacto.",
+      "keywords": [
+        "confirmo",
+        "un",
+        "repuesto"
+      ]
+    },
+    {
+      "question": "¿Puedo comprar una máquina online?",
+      "answer": "Las fichas de la tienda incluyen opciones de compra; verificar condiciones en el sitio oficial.",
+      "keywords": [
+        "comprar",
+        "una",
+        "máquina",
+        "online"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Taller Castillo",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Marca y modelo exactos",
+        "question": "¿Cuál es la marca y el modelo de tu máquina?",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Síntoma observado",
+        "question": "Indica síntoma observado.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Servicio o repuesto requerido",
+        "question": "Indica servicio o repuesto requerido.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Foto de placa disponible",
+        "question": "Indica foto de placa disponible.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Urgencia y uso del equipo",
+        "question": "Indica urgencia y uso del equipo.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://tallercastillo.tienda/nosotros/",
+      "claim": "Empresa familiar costarricense dedicada a máquinas de coser y reparación, con venta online."
+    },
+    {
+      "url": "https://tallercastillo.tienda/tienda-2/",
+      "claim": "Catálogo de 218 resultados, incluyendo agujas, bobinas y repuestos."
+    },
+    {
+      "url": "https://tallercastillo.tienda/contacto/",
+      "claim": "Página comercial de consultas sobre máquinas, repuestos y servicio."
+    },
+    {
+      "url": "https://tallercastillocr.com/",
+      "claim": "Sitio del mismo Taller Castillo, con nombre y teléfono comercial coincidentes, publica establecimiento en Alajuela."
+    },
+    {
+      "url": "https://tallercastillo.tienda/producto/maquina-de-coser-plana-jack-a2c-c-con-corte-de-hilo-110v-mueble-con-rodines/",
+      "claim": "Jack A2C-C: Máquina plana industrial; la ficha publica 110 V y corte de hilo."
+    },
+    {
+      "url": "https://tallercastillo.tienda/producto/maquina-overlock-singer-s0105/",
+      "claim": "Singer Overlock S0105: Máquina overlock Singer S0105 del catálogo oficial."
+    },
+    {
+      "url": "https://tallercastillo.tienda/producto/singer-4423-maquina-de-coser-heavy-duty-costa-rica/",
+      "claim": "Singer 4423 Heavy Duty: Máquina de coser Singer 4423 Heavy Duty del catálogo oficial."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

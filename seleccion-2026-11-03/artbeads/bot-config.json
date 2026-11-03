@@ -1,0 +1,188 @@
+{
+  "company": "Artbeads",
+  "language": "en",
+  "website": "https://artbeads.com/",
+  "description": "Explore three bead blends, build a materials list, and take a better-prepared project to the official store.",
+  "products": [
+    {
+      "name": "Artbeads Designer Keylime 8\\0 Round TOHO Blend",
+      "url": "https://artbeads.com/artbeads-designer-keylime-8-0-round-toho-blend/",
+      "description": "Green and frosted-white TOHO seed bead blend, in size 8/0.",
+      "image": "https://cdn11.bigcommerce.com/s-lt5zoeqrfu/products/63878/images/98246/125__07788.1793051247.386.513.png?c=1",
+      "asset": "assets/product-1.png"
+    },
+    {
+      "name": "Artbeads Designer Bluefrost 8\\0 Round TOHO Blend",
+      "url": "https://artbeads.com/artbeads-designer-bluefrost-8-0-round-toho-blend/",
+      "description": "A size 8/0 TOHO mix with blue, lavender and frosted-white tones.",
+      "image": "https://cdn11.bigcommerce.com/s-lt5zoeqrfu/products/63829/images/98236/117__80135.1793049196.386.513.png?c=1",
+      "asset": "assets/product-2.png"
+    },
+    {
+      "name": "Artbeads Wildwood MiniDuo Blend",
+      "url": "https://artbeads.com/miniduo-blend-032/",
+      "description": "MiniDuo blend in earthy greens, charcoal and warm metallic tones.",
+      "image": "https://cdn11.bigcommerce.com/s-lt5zoeqrfu/products/63519/images/97185/032__78365.1789160506.386.513.JPG?c=1",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What can I shop for?",
+      "answer": "The catalog separates beads, findings, wire, tools and kits.",
+      "keywords": [
+        "what",
+        "shop",
+        "for"
+      ]
+    },
+    {
+      "question": "Is there project guidance?",
+      "answer": "The Design Studio provides jewelry tutorials and technique resources.",
+      "keywords": [
+        "there",
+        "project",
+        "guidance"
+      ]
+    },
+    {
+      "question": "Are all these blends the same format?",
+      "answer": "The three selected blends have different colors and bead formats; they are not interchangeable by default.",
+      "keywords": [
+        "these",
+        "blends",
+        "same",
+        "format"
+      ]
+    },
+    {
+      "question": "What is Artbeads Designer Keylime 8\\0 Round TOHO Blend?",
+      "answer": "Green and frosted-white TOHO seed bead blend, in size 8/0. Official product: https://artbeads.com/artbeads-designer-keylime-8-0-round-toho-blend/",
+      "keywords": [
+        "artbeads",
+        "designer",
+        "keylime",
+        "round",
+        "toho",
+        "blend"
+      ]
+    },
+    {
+      "question": "What is Artbeads Designer Bluefrost 8\\0 Round TOHO Blend?",
+      "answer": "A size 8/0 TOHO mix with blue, lavender and frosted-white tones. Official product: https://artbeads.com/artbeads-designer-bluefrost-8-0-round-toho-blend/",
+      "keywords": [
+        "artbeads",
+        "designer",
+        "bluefrost",
+        "round",
+        "toho",
+        "blend"
+      ]
+    },
+    {
+      "question": "What is Artbeads Wildwood MiniDuo Blend?",
+      "answer": "MiniDuo blend in earthy greens, charcoal and warm metallic tones. Official product: https://artbeads.com/miniduo-blend-032/",
+      "keywords": [
+        "artbeads",
+        "wildwood",
+        "miniduo",
+        "blend"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://artbeads.com/customer-service/",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Jewelry workshop materials planner",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Which bead blend are you considering, and what are you making?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many pieces or workshop projects are you planning?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "How many grams does your pattern use per project, and how much material do you already have?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Are there bead sizes, hole counts or color details you want the team to confirm?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://artbeads.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://artbeads.com/artbeads-designer-keylime-8-0-round-toho-blend/",
+      "claim": "Artbeads Designer Keylime 8\\0 Round TOHO Blend: Green and frosted-white TOHO seed bead blend, in size 8/0."
+    },
+    {
+      "url": "https://artbeads.com/artbeads-designer-bluefrost-8-0-round-toho-blend/",
+      "claim": "Artbeads Designer Bluefrost 8\\0 Round TOHO Blend: A size 8/0 TOHO mix with blue, lavender and frosted-white tones."
+    },
+    {
+      "url": "https://artbeads.com/miniduo-blend-032/",
+      "claim": "Artbeads Wildwood MiniDuo Blend: MiniDuo blend in earthy greens, charcoal and warm metallic tones."
+    },
+    {
+      "url": "https://artbeads.com/about-us/",
+      "claim": "Origen familiar y actividad en insumos de joyería."
+    },
+    {
+      "url": "https://artbeads.com/customer-service/",
+      "claim": "Catálogo y acceso oficial de soporte comercial."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Convert a class size and grams per project into a measured bead requirement, with a user-selected allowance and stock deduction."
+  ],
+  "theme": {
+    "accent": "#733b76",
+    "background": "#faf8fc",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.png"
+}

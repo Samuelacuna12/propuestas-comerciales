@@ -1,0 +1,204 @@
+{
+  "company": "Somos Distinto",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://somosdistinto.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Somos Distinto"
+    },
+    {
+      "url": "https://somosdistinto.com/products/canastas-negras",
+      "claim": "Ficha o línea publicada: Canastas tejidas negro"
+    },
+    {
+      "url": "https://somosdistinto.com/products/cotiza-guane-crudo",
+      "claim": "Ficha o línea publicada: Guane crudo"
+    },
+    {
+      "url": "https://somosdistinto.com/products/florian-fiesta",
+      "claim": "Ficha o línea publicada: Florian Fiesta"
+    }
+  ],
+  "products": [
+    {
+      "name": "Canastas tejidas negro",
+      "description": "Sandalias de tiras de cuero entrelazadas a mano, con suela plana.",
+      "url": "https://somosdistinto.com/products/canastas-negras",
+      "image": "https://somosdistinto.com/cdn/shop/files/2_8c156980-f97d-4bba-82a2-b0f9cd0dd793.jpg?v=1777470775",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Guane crudo",
+      "description": "Cotiza artesanal con algodón, refuerzos de cuero y suela de caucho.",
+      "url": "https://somosdistinto.com/products/cotiza-guane-crudo",
+      "image": "https://somosdistinto.com/cdn/shop/files/crudo1_352b5a59-efc7-4698-9d0a-5746a972fe90.jpg?v=1777411680",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Florian Fiesta",
+      "url": "https://somosdistinto.com/products/florian-fiesta",
+      "description": "Referencia de bailarinas publicada en la selección de la tienda.",
+      "image": "https://somosdistinto.com/cdn/shop/files/fiesta-1.jpg?v=1777481513&width=533",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://somosdistinto.com/cdn/shop/files/Sandalias3.jpg?v=1791675961&width=3840",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://somosdistinto.com/cdn/shop/files/2_8c156980-f97d-4bba-82a2-b0f9cd0dd793.jpg?v=1777470775",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://somosdistinto.com/cdn/shop/files/crudo1_352b5a59-efc7-4698-9d0a-5746a972fe90.jpg?v=1777411680",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://somosdistinto.com/cdn/shop/files/fiesta-1.jpg?v=1777481513&width=533",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://somosdistinto.com/",
+    "secondary": "https://www.shoepassion.com/",
+    "layout": "artisan",
+    "palette": [
+      "#9f3127",
+      "#f7efe3",
+      "#3b2924",
+      "#dba87d"
+    ],
+    "typography": "'Playfair Display',Georgia,serif",
+    "decisions": "Lookbook artesanal: titulares serif amplios, fotografías verticales y ritmo de colección alternado, en lugar de grilla de descuentos.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "La tienda organiza piezas por alpargatas, bailarinas, sandalias y mocasines.",
+      "Las fichas describen materiales y trabajo artesanal de las referencias.",
+      "Existen guías y políticas de cuidado, cambios y envío en el sitio oficial."
+    ],
+    "hypothesis": "Ayudar a ordenar una selección y resolver talla o disponibilidad antes de continuar en el ecommerce oficial.",
+    "operation": "Selección de referencias y tallas",
+    "boundaries": [
+      "La ficha Florian Fiesta estuvo limitada en la consulta; nombre e imagen se verificaron en la portada. No se amplían materiales sin fuente."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://somosdistinto.com/cdn/shop/files/Sandalias3.jpg?v=1791675961&width=3840",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://somosdistinto.com/cdn/shop/files/2_8c156980-f97d-4bba-82a2-b0f9cd0dd793.jpg?v=1777470775",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://somosdistinto.com/cdn/shop/files/crudo1_352b5a59-efc7-4698-9d0a-5746a972fe90.jpg?v=1777411680",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://somosdistinto.com/cdn/shop/files/fiesta-1.jpg?v=1777481513&width=533",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "somos-distinto",
+      "company": "Somos Distinto",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "La ficha Florian Fiesta estuvo limitada en la consulta; nombre e imagen se verificaron en la portada. No se amplían materiales sin fuente."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://somosdistinto.com/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://somosdistinto.com/products/canastas-negras",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://somosdistinto.com/products/cotiza-guane-crudo",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://somosdistinto.com/products/florian-fiesta",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 245656
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 16166
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 29160
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 6574
+      }
+    ]
+  },
+  "publicOnly": true
+}

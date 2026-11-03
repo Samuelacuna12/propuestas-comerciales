@@ -1,0 +1,212 @@
+{
+  "company": "Mascoteate",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://www.mascoteate.com.co/",
+      "claim": "Actividad, catálogo y canales oficiales de Mascotéate"
+    },
+    {
+      "url": "https://www.mascoteate.com.co/product-page/pechera-doble-faz-flores-primavera",
+      "claim": "Ficha o línea publicada: Pechera doble faz Flores primavera"
+    },
+    {
+      "url": "https://www.mascoteate.com.co/product-page/collar-flores-primavera",
+      "claim": "Ficha o línea publicada: Collar Flores primavera"
+    },
+    {
+      "url": "https://www.mascoteate.com.co/product-page/pañoleta-doble-faz-flores-primavera",
+      "claim": "Ficha o línea publicada: Pañoleta doble faz Flores primavera"
+    },
+    {
+      "url": "https://www.mascoteate.com.co/colecci-n-naturaleza",
+      "claim": "Proceso o información complementaria oficial"
+    },
+    {
+      "url": "https://www.mascoteate.com.co/guia-de-tallas",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "products": [
+    {
+      "name": "Pechera doble faz Flores primavera",
+      "description": "Pechera reversible; la ficha solicita medidas de cuello y pecho.",
+      "url": "https://www.mascoteate.com.co/product-page/pechera-doble-faz-flores-primavera",
+      "image": "https://static.wixstatic.com/media/ca76f3_776449a2bc714349bbb47878b6176282~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Collar Flores primavera",
+      "description": "Collar con rangos de talla XS a XL publicados.",
+      "url": "https://www.mascoteate.com.co/product-page/collar-flores-primavera",
+      "image": "https://static.wixstatic.com/media/ca76f3_59ca99994c1a427d9a67e23bed93a467~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Pañoleta doble faz Flores primavera",
+      "description": "Pañoleta de tela antifluido, con tamaños S, M y L.",
+      "url": "https://www.mascoteate.com.co/product-page/pañoleta-doble-faz-flores-primavera",
+      "image": "https://static.wixstatic.com/media/ca76f3_2d88cf514bc24a53bb8a0e775fbf40d2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/ca76f3_776449a2bc714349bbb47878b6176282~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/ca76f3_776449a2bc714349bbb47878b6176282~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/ca76f3_59ca99994c1a427d9a67e23bed93a467~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/ca76f3_2d88cf514bc24a53bb8a0e775fbf40d2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://www.mascoteate.com.co/",
+    "secondary": "https://www.chewy.com/",
+    "layout": "petstudio",
+    "palette": [
+      "#ac2d56",
+      "#fff4e9",
+      "#3f2635",
+      "#f3bf51"
+    ],
+    "typography": "'Manrope',sans-serif",
+    "decisions": "Estudio de accesorios con rosa frambuesa y amarillo, fotos de colección coordinada; medida y conjunto por delante del catálogo masivo.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "La marca organiza accesorios por tipo y por colección.",
+      "La guía pide medir cuello y pecho, no elegir únicamente por raza.",
+      "El collar Flores primavera publica rangos; varias tallas se superponen."
+    ],
+    "hypothesis": "Reducir la ambigüedad al preparar una consulta de talla y combinación de accesorios.",
+    "operation": "Asistente de medidas y combinación",
+    "boundaries": [
+      "El rango del collar no se transfiere a pecheras. El ajuste requiere revisión humana."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://static.wixstatic.com/media/ca76f3_776449a2bc714349bbb47878b6176282~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/ca76f3_776449a2bc714349bbb47878b6176282~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/ca76f3_59ca99994c1a427d9a67e23bed93a467~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/ca76f3_2d88cf514bc24a53bb8a0e775fbf40d2~mv2.jpg/v1/fit/w_500,h_500,q_90/file.jpg",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "mascoteate",
+      "company": "Mascoteate",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "El rango del collar no se transfiere a pecheras. El ajuste requiere revisión humana."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://www.mascoteate.com.co/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.mascoteate.com.co/product-page/collar-flores-primavera",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.mascoteate.com.co/product-page/pañoleta-doble-faz-flores-primavera",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.mascoteate.com.co/product-page/pechera-doble-faz-flores-primavera",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 41316
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 41316
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 13660
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 23874
+      }
+    ]
+  },
+  "publicOnly": true
+}

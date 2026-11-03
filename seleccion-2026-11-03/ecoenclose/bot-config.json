@@ -1,0 +1,183 @@
+{
+  "company": "EcoEnclose",
+  "language": "en",
+  "website": "https://www.ecoenclose.com/",
+  "description": "Prepare a packaging brief with quantities, dimensions and artwork readiness before requesting a quote.",
+  "products": [
+    {
+      "name": "Recycled Poly Mailers",
+      "url": "https://www.ecoenclose.com/shop/poly-mailers/",
+      "description": "Recycled LDPE mailers with a tear strip and two adhesive strips for reuse.",
+      "image": "https://cdn11.bigcommerce.com/s-rd0ndag3a6/images/stencil/original/image-manager/rpm-stock-1000x1000.jpg?t=1785964628",
+      "asset": "assets/product-1.webp"
+    },
+    {
+      "name": "RCS100 Poly Mailers",
+      "url": "https://www.ecoenclose.com/shop/rcs100-poly-mailers/",
+      "description": "A distinct RCS100-certified recycled poly-mailer range; check the official size and customization options.",
+      "image": "https://cdn11.bigcommerce.com/s-rd0ndag3a6/images/stencil/original/image-manager/rpmrcs-500x500-v3.jpg?t=1717467376",
+      "asset": "assets/product-2.webp"
+    },
+    {
+      "name": "Paper Apparel Mailers",
+      "url": "https://www.ecoenclose.com/shop/apparel-mailers/",
+      "description": "Recycled-paper apparel mailers with creasing for expansion, designed for soft goods.",
+      "image": "https://cdn11.bigcommerce.com/s-rd0ndag3a6/images/stencil/original/image-manager/pap-fsc-500x500.jpg?t=1731949985",
+      "asset": "assets/product-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What packaging families are offered?",
+      "answer": "EcoEnclose offers paper and poly mailers, boxes and protective packaging.",
+      "keywords": [
+        "what",
+        "packaging",
+        "families",
+        "offered"
+      ]
+    },
+    {
+      "question": "Where do custom orders start?",
+      "answer": "The site separates stock shopping from custom and high-volume enquiries.",
+      "keywords": [
+        "where",
+        "custom",
+        "orders",
+        "start"
+      ]
+    },
+    {
+      "question": "Can I review a sample and artwork requirements?",
+      "answer": "Samples and artwork guidelines have their own official routes.",
+      "keywords": [
+        "review",
+        "sample",
+        "artwork",
+        "requirements"
+      ]
+    },
+    {
+      "question": "What is Recycled Poly Mailers?",
+      "answer": "Recycled LDPE mailers with a tear strip and two adhesive strips for reuse. Official product: https://www.ecoenclose.com/shop/poly-mailers/",
+      "keywords": [
+        "recycled",
+        "poly",
+        "mailers"
+      ]
+    },
+    {
+      "question": "What is RCS100 Poly Mailers?",
+      "answer": "A distinct RCS100-certified recycled poly-mailer range; check the official size and customization options. Official product: https://www.ecoenclose.com/shop/rcs100-poly-mailers/",
+      "keywords": [
+        "rcs100",
+        "poly",
+        "mailers"
+      ]
+    },
+    {
+      "question": "What is Paper Apparel Mailers?",
+      "answer": "Recycled-paper apparel mailers with creasing for expansion, designed for soft goods. Official product: https://www.ecoenclose.com/shop/apparel-mailers/",
+      "keywords": [
+        "paper",
+        "apparel",
+        "mailers"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://www.ecoenclose.com/contact-us/",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Mailer specification preflight",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Are you considering recycled poly, RCS100 poly or paper apparel mailers?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many shipments are you planning?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "What are the item dimensions, and will you need room for protective material?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Do you want stock packaging, samples or a custom-printed option?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://www.ecoenclose.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://www.ecoenclose.com/shop/poly-mailers/",
+      "claim": "Recycled Poly Mailers: Recycled LDPE mailers with a tear strip and two adhesive strips for reuse."
+    },
+    {
+      "url": "https://www.ecoenclose.com/shop/rcs100-poly-mailers/",
+      "claim": "RCS100 Poly Mailers: A distinct RCS100-certified recycled poly-mailer range; check the official size and customization options."
+    },
+    {
+      "url": "https://www.ecoenclose.com/shop/apparel-mailers/",
+      "claim": "Paper Apparel Mailers: Recycled-paper apparel mailers with creasing for expansion, designed for soft goods."
+    },
+    {
+      "url": "https://www.ecoenclose.com/about-us",
+      "claim": "Empresa familiar, catálogo y operación de personalización."
+    },
+    {
+      "url": "https://www.ecoenclose.com/contact-us/",
+      "claim": "Atención comercial y ubicación Louisville; pedidos de catálogo y fabricados bajo pedido."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Check entered usable dimensions, clearance and quantities; record whether artwork is ready before a human reviews a quote."
+  ],
+  "theme": {
+    "accent": "#17614b",
+    "background": "#f0f5f0",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.webp"
+}

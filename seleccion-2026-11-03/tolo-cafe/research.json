@@ -1,0 +1,204 @@
+{
+  "company": "TOLO Café",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://www.tolo.cafe/",
+      "claim": "Actividad, catálogo y canales oficiales de TOLO"
+    },
+    {
+      "url": "https://www.tolo.cafe/mx/shop/items/bueno-cafe-estilo-tradicional",
+      "claim": "Ficha o línea publicada: Bueno"
+    },
+    {
+      "url": "https://www.tolo.cafe/mx/shop/items/bien-loco-cafe-estilo-experimental",
+      "claim": "Ficha o línea publicada: Bien Loco"
+    },
+    {
+      "url": "https://www.tolo.cafe/mx/shop/items/matcha-ceremonial",
+      "claim": "Ficha o línea publicada: Matcha ceremonial · 50 g"
+    }
+  ],
+  "products": [
+    {
+      "name": "Bueno",
+      "description": "Café lavado, tueste medio oscuro y perfil de chocolate, piloncillo y nueces.",
+      "url": "https://www.tolo.cafe/mx/shop/items/bueno-cafe-estilo-tradicional",
+      "image": "https://cdn.sanity.io/images/m1zo6pvi/production/282a5446d71a810a69260eb799c57b3980771df6-2048x2048.jpg?w=800&auto=format",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Bien Loco",
+      "description": "Selección de procesos experimentales y tueste medio claro.",
+      "url": "https://www.tolo.cafe/mx/shop/items/bien-loco-cafe-estilo-experimental",
+      "image": "https://cdn.sanity.io/images/m1zo6pvi/production/4a220f188652dcbf08cc9df3700964d427c8d08d-2048x2048.jpg?w=800&auto=format",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Matcha ceremonial · 50 g",
+      "description": "Matcha japonés de la tienda; se cotiza aparte del plan de consumo de café.",
+      "url": "https://www.tolo.cafe/mx/shop/items/matcha-ceremonial",
+      "image": "https://cdn.shopify.com/s/files/1/0809/9653/2443/files/GeneratedImageAugust09_2026-4_26PM.jpg?v=1786332185&width=800",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://www.tolo.cafe/cdn-cgi/image/format=auto,quality=85,width=550/assets/coffee-extraction-Cu_ukpNs.png",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://cdn.sanity.io/images/m1zo6pvi/production/282a5446d71a810a69260eb799c57b3980771df6-2048x2048.jpg?w=800&auto=format",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://cdn.sanity.io/images/m1zo6pvi/production/4a220f188652dcbf08cc9df3700964d427c8d08d-2048x2048.jpg?w=800&auto=format",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://cdn.shopify.com/s/files/1/0809/9653/2443/files/GeneratedImageAugust09_2026-4_26PM.jpg?v=1786332185&width=800",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://www.tolo.cafe/",
+    "secondary": "https://onyxcoffeelab.com/collections/coffee",
+    "layout": "boldcoffee",
+    "palette": [
+      "#e53d23",
+      "#fff6e5",
+      "#202e32",
+      "#efbd42"
+    ],
+    "typography": "'Space Grotesk',sans-serif",
+    "decisions": "Café mexicano directo: título apilado de gran escala, rojo y amarillo, imagen de preparación junto a plan de barra, distinto a una tienda de bolsas.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "TOLO publica cafetería, tienda, app de pedido anticipado y atención de mayoreo.",
+      "La oferta de mayoreo contempla cafés, restaurantes y oficinas.",
+      "Las fichas separan perfiles de café y presentan formatos por referencia."
+    ],
+    "hypothesis": "Preparar conversaciones de suministro con consumo y frecuencia estimados, complementando los canales existentes.",
+    "operation": "Plan de consumo para café y oficina",
+    "boundaries": [
+      "La calculadora es solo para café; no se extrapola la dosis al matcha."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://www.tolo.cafe/cdn-cgi/image/format=auto,quality=85,width=550/assets/coffee-extraction-Cu_ukpNs.png",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://cdn.sanity.io/images/m1zo6pvi/production/282a5446d71a810a69260eb799c57b3980771df6-2048x2048.jpg?w=800&auto=format",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://cdn.sanity.io/images/m1zo6pvi/production/4a220f188652dcbf08cc9df3700964d427c8d08d-2048x2048.jpg?w=800&auto=format",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://cdn.shopify.com/s/files/1/0809/9653/2443/files/GeneratedImageAugust09_2026-4_26PM.jpg?v=1786332185&width=800",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "tolo-cafe",
+      "company": "TOLO Café",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "La calculadora es solo para café; no se extrapola la dosis al matcha."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://www.tolo.cafe/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.tolo.cafe/mx/shop/items/bien-loco-cafe-estilo-experimental",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.tolo.cafe/mx/shop/items/bueno-cafe-estilo-tradicional",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.tolo.cafe/mx/shop/items/matcha-ceremonial",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 31232
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 20884
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 24112
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 18432
+      }
+    ]
+  },
+  "publicOnly": true
+}

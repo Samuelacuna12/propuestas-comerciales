@@ -1,0 +1,184 @@
+{
+  "company": "Minimalism Brand",
+  "language": "es",
+  "website": "https://minimalismbrand.com/",
+  "description": "Camisetas, bóxers y una mochila. Una selección esencial con un plan de cantidades que no decide por ti.",
+  "products": [
+    {
+      "name": "Camiseta algodón orgánico - Pack 3 uds",
+      "url": "https://minimalismbrand.com/products/camiseta-algodon-organicox3",
+      "description": "Pack de tres camisetas de algodón orgánico; tallas y colores se eligen en la tienda oficial.",
+      "image": "https://minimalismbrand.com/cdn/shop/files/pack-tres-camisetas-algodon-organico-sin-logos_1500x.jpg?v=1718022802",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Calzoncillos Bóxers Orgánicos | Pack 3 uds",
+      "url": "https://minimalismbrand.com/products/calzoncillos-organicos-x3-1",
+      "description": "Pack de tres bóxers: la ficha declara 95% algodón orgánico y 5% elastano.",
+      "image": "https://minimalismbrand.com/cdn/shop/files/pack-tres-calzoncillos-boxer-algodon-organico-1_1500x.jpg?v=1732704123",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Mochila 360",
+      "url": "https://minimalismbrand.com/products/mochila-minimalism",
+      "description": "Mochila 360 de la colección de accesorios; consulta medidas y compartimentos en su ficha.",
+      "image": "https://minimalismbrand.com/cdn/shop/files/360-backpack-mochila-sostenible-minimalista-eco_1500x.jpg?v=1701700741",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuál es el enfoque de la marca?",
+      "answer": "La marca presenta ropa sin logos y básicos de uso continuado.",
+      "keywords": [
+        "cuál",
+        "enfoque",
+        "marca"
+      ]
+    },
+    {
+      "question": "¿Existen packs?",
+      "answer": "La web ofrece packs de camisetas y ropa interior.",
+      "keywords": [
+        "existen",
+        "packs"
+      ]
+    },
+    {
+      "question": "¿La talla se comparte entre referencias?",
+      "answer": "Cada ficha mantiene sus tallas y composición; no se extrapolan entre referencias.",
+      "keywords": [
+        "talla",
+        "comparte",
+        "entre",
+        "referencias"
+      ]
+    },
+    {
+      "question": "¿Qué es Camiseta algodón orgánico - Pack 3 uds?",
+      "answer": "Pack de tres camisetas de algodón orgánico; tallas y colores se eligen en la tienda oficial. Ficha oficial: https://minimalismbrand.com/products/camiseta-algodon-organicox3",
+      "keywords": [
+        "camiseta",
+        "algodón",
+        "orgánico",
+        "pack"
+      ]
+    },
+    {
+      "question": "¿Qué es Calzoncillos Bóxers Orgánicos | Pack 3 uds?",
+      "answer": "Pack de tres bóxers: la ficha declara 95% algodón orgánico y 5% elastano. Ficha oficial: https://minimalismbrand.com/products/calzoncillos-organicos-x3-1",
+      "keywords": [
+        "calzoncillos",
+        "bóxers",
+        "orgánicos",
+        "pack"
+      ]
+    },
+    {
+      "question": "¿Qué es Mochila 360?",
+      "answer": "Mochila 360 de la colección de accesorios; consulta medidas y compartimentos en su ficha. Ficha oficial: https://minimalismbrand.com/products/mochila-minimalism",
+      "keywords": [
+        "mochila"
+      ]
+    },
+    {
+      "question": "¿Qué precio y disponibilidad tiene mi selección?",
+      "answer": "Confirma precio, variantes y disponibilidad en las fichas oficiales. Esta propuesta no tiene acceso al inventario ni confirma reservas.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "¿Cómo continúo con una consulta real?",
+      "answer": "Prepara el resumen local y revísalo antes de usar el canal oficial: https://minimalismbrand.com/pages/contacto",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Planificador de básicos por uso",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selección",
+        "question": "¿Te interesan camisetas, bóxers o la mochila 360?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Cantidad",
+        "question": "¿Para cuántas personas o conjuntos estás preparando la selección?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Detalles",
+        "question": "¿Qué cantidades, tallas y colores quieres revisar en la tienda?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "Por confirmar",
+        "question": "¿Qué composición, medidas o detalles de la ficha necesitas confirmar?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief para revisión humana"
+  },
+  "sources": [
+    {
+      "url": "https://minimalismbrand.com/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://minimalismbrand.com/products/camiseta-algodon-organicox3",
+      "claim": "Camiseta algodón orgánico - Pack 3 uds: Pack de tres camisetas de algodón orgánico; tallas y colores se eligen en la tienda oficial."
+    },
+    {
+      "url": "https://minimalismbrand.com/products/calzoncillos-organicos-x3-1",
+      "claim": "Calzoncillos Bóxers Orgánicos | Pack 3 uds: Pack de tres bóxers: la ficha declara 95% algodón orgánico y 5% elastano."
+    },
+    {
+      "url": "https://minimalismbrand.com/products/mochila-minimalism",
+      "claim": "Mochila 360: Mochila 360 de la colección de accesorios; consulta medidas y compartimentos en su ficha."
+    },
+    {
+      "url": "https://minimalismbrand.com/",
+      "claim": "Catálogo de básicos y packs; web española con opción inglesa."
+    },
+    {
+      "url": "https://minimalismbrand.com/pages/contacto",
+      "claim": "Atención sobre tallas y pedidos."
+    },
+    {
+      "url": "https://minimalismbrand.com/pages/aviso-legal",
+      "claim": "Sede y entidad comercial."
+    }
+  ],
+  "boundaries": [
+    "Demostración local basada en reglas; no es una IA conectada al negocio.",
+    "No acceso a pedidos, clientes, pagos ni stock.",
+    "No confirmar precios, entrega, compatibilidad o políticas no verificadas.",
+    "Organiza unidades por personas o conjuntos, descuenta las que ya se tienen y calcula packs de tamaño confirmado por ficha."
+  ],
+  "theme": {
+    "accent": "#202020",
+    "background": "#f6f6f4",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

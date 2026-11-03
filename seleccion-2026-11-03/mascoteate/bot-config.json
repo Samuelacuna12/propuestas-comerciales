@@ -1,0 +1,180 @@
+{
+  "company": "Mascoteate",
+  "language": "es",
+  "website": "https://www.mascoteate.com.co/",
+  "description": "Mascoteate · Accesorios para mascotas. La marca organiza accesorios por tipo y por colección.",
+  "products": [
+    {
+      "name": "Pechera doble faz Flores primavera",
+      "url": "https://www.mascoteate.com.co/product-page/pechera-doble-faz-flores-primavera",
+      "description": "Pechera reversible; la ficha solicita medidas de cuello y pecho.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Collar Flores primavera",
+      "url": "https://www.mascoteate.com.co/product-page/collar-flores-primavera",
+      "description": "Collar con rangos de talla XS a XL publicados.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Pañoleta doble faz Flores primavera",
+      "url": "https://www.mascoteate.com.co/product-page/pañoleta-doble-faz-flores-primavera",
+      "description": "Pañoleta de tela antifluido, con tamaños S, M y L.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué mido para una pechera?",
+      "answer": "La ficha solicita cuello y pecho. La talla final se confirma con esas dos medidas.",
+      "keywords": [
+        "pechera",
+        "pecho",
+        "medir"
+      ]
+    },
+    {
+      "question": "¿El collar tiene tallas superpuestas?",
+      "answer": "Sí. Los rangos publicados se superponen; el sistema muestra alternativas en vez de asegurar una talla única.",
+      "keywords": [
+        "talla",
+        "rango",
+        "collar"
+      ]
+    },
+    {
+      "question": "¿Qué rangos usa el simulador?",
+      "answer": "Para Collar Flores primavera: XS 19–30, S 20–35, M 26–45, L 30–60 y XL 55–75 cm de cuello.",
+      "keywords": [
+        "xs",
+        "xl",
+        "centimetros"
+      ]
+    },
+    {
+      "question": "¿Puedo elegir por la raza?",
+      "answer": "La medida real es el dato útil. La guía oficial pide medir al animal antes de comprar.",
+      "keywords": [
+        "raza",
+        "peso"
+      ]
+    },
+    {
+      "question": "¿El set está reservado?",
+      "answer": "No. La combinación y las tallas se preparan localmente; precio, disponibilidad y ajuste requieren confirmación.",
+      "keywords": [
+        "set",
+        "reservado",
+        "stock"
+      ]
+    },
+    {
+      "question": "¿Qué es Pechera doble faz Flores primavera?",
+      "answer": "Pechera reversible; la ficha solicita medidas de cuello y pecho. Ficha oficial: https://www.mascoteate.com.co/product-page/pechera-doble-faz-flores-primavera",
+      "keywords": [
+        "pechera doble faz flores primavera",
+        "pechera",
+        "doble",
+        "flores",
+        "primavera"
+      ]
+    },
+    {
+      "question": "¿Qué es Collar Flores primavera?",
+      "answer": "Collar con rangos de talla XS a XL publicados. Ficha oficial: https://www.mascoteate.com.co/product-page/collar-flores-primavera",
+      "keywords": [
+        "collar flores primavera",
+        "collar",
+        "flores",
+        "primavera"
+      ]
+    },
+    {
+      "question": "¿Qué es Pañoleta doble faz Flores primavera?",
+      "answer": "Pañoleta de tela antifluido, con tamaños S, M y L. Ficha oficial: https://www.mascoteate.com.co/product-page/pañoleta-doble-faz-flores-primavera",
+      "keywords": [
+        "pañoleta doble faz flores primavera",
+        "pañoleta",
+        "doble",
+        "flores",
+        "primavera"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Asistente de medidas y combinación",
+    "steps": [
+      {
+        "key": "accesorio",
+        "label": "Accesorio",
+        "question": "¿Quieres collar, pechera o pañoleta?",
+        "required": true
+      },
+      {
+        "key": "diseno",
+        "label": "Diseño",
+        "question": "¿Qué diseño de la colección te interesa?",
+        "required": true
+      },
+      {
+        "key": "cuello",
+        "label": "Cuello",
+        "question": "¿Cuánto mide el contorno del cuello en centímetros?",
+        "required": true
+      },
+      {
+        "key": "pecho",
+        "label": "Pecho",
+        "question": "¿Cuánto mide el pecho? Para pechera es necesario revisarlo.",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿A qué ciudad iría la solicitud?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://www.mascoteate.com.co/",
+      "claim": "Actividad, catálogo y canales oficiales de Mascotéate"
+    },
+    {
+      "url": "https://www.mascoteate.com.co/product-page/pechera-doble-faz-flores-primavera",
+      "claim": "Ficha o línea publicada: Pechera doble faz Flores primavera"
+    },
+    {
+      "url": "https://www.mascoteate.com.co/product-page/collar-flores-primavera",
+      "claim": "Ficha o línea publicada: Collar Flores primavera"
+    },
+    {
+      "url": "https://www.mascoteate.com.co/product-page/pañoleta-doble-faz-flores-primavera",
+      "claim": "Ficha o línea publicada: Pañoleta doble faz Flores primavera"
+    },
+    {
+      "url": "https://www.mascoteate.com.co/colecci-n-naturaleza",
+      "claim": "Proceso o información complementaria oficial"
+    },
+    {
+      "url": "https://www.mascoteate.com.co/guia-de-tallas",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#ac2d56",
+    "background": "#fff4e9",
+    "foreground": "#3f2635",
+    "font": "'Manrope',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

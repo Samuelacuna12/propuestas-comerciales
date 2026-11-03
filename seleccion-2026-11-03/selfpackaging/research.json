@@ -1,0 +1,211 @@
+{
+  "company": "SelfPackaging",
+  "reviewedAt": "2026-11-03T15:33:46.509170+00:00",
+  "language": "es",
+  "sources": [
+    {
+      "url": "https://selfpackaging.es/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://selfpackaging.es/cajas-de-carton/72-caja-plana-para-invitaciones.html",
+      "claim": "Caja plana para invitaciones · Ref. 2210: Caja plana para invitaciones; la ficha permite seleccionar talla y color."
+    },
+    {
+      "url": "https://selfpackaging.es/cajas-de-carton/3187-caja-para-envios-alargadas.html",
+      "claim": "Caja para envíos alargada: Caja alargada para envíos, con formato y partes seleccionables."
+    },
+    {
+      "url": "https://selfpackaging.es/cajas-de-carton/3542-caja-de-cerillas.html",
+      "claim": "Caja tipo cerillas: Caja tipo cerillas con caja interior y faja como partes del modelo."
+    },
+    {
+      "url": "https://selfpackaging.es/",
+      "claim": "Catálogo y fabricación local en Barcelona."
+    },
+    {
+      "url": "https://selfpackaging.es/cajas-a-medida",
+      "claim": "Solicitud comercial de packaging personalizado."
+    }
+  ],
+  "products": [
+    {
+      "name": "Caja plana para invitaciones · Ref. 2210",
+      "url": "https://selfpackaging.es/cajas-de-carton/72-caja-plana-para-invitaciones.html",
+      "description": "Caja plana para invitaciones; la ficha permite seleccionar talla y color.",
+      "image": "https://cache2.selfpackaging.com/1163375-large_default/caja-plana-para-invitaciones.webp",
+      "asset": "assets/product-1.webp"
+    },
+    {
+      "name": "Caja para envíos alargada",
+      "url": "https://selfpackaging.es/cajas-de-carton/3187-caja-para-envios-alargadas.html",
+      "description": "Caja alargada para envíos, con formato y partes seleccionables.",
+      "image": "https://cache2.selfpackaging.com/49448-large_default/caja-para-envios-alargadas.webp",
+      "asset": "assets/product-2.webp"
+    },
+    {
+      "name": "Caja tipo cerillas",
+      "url": "https://selfpackaging.es/cajas-de-carton/3542-caja-de-cerillas.html",
+      "description": "Caja tipo cerillas con caja interior y faja como partes del modelo.",
+      "image": "https://cache2.selfpackaging.com/1182327-large_default/caja-de-cerillas.webp",
+      "asset": "assets/product-3.webp"
+    }
+  ],
+  "images": [
+    {
+      "product": "Caja plana para invitaciones · Ref. 2210",
+      "url": "https://cache2.selfpackaging.com/1163375-large_default/caja-plana-para-invitaciones.webp",
+      "local": "assets/product-1.webp",
+      "mime": "image/webp",
+      "bytes": 2454,
+      "httpVerified": false,
+      "sourcePage": "https://selfpackaging.es/cajas-de-carton/72-caja-plana-para-invitaciones.html",
+      "browserVerified": true,
+      "verificationMethod": "Official product page in Chrome; pageAssets observed resource export",
+      "verifiedAt": "2026-11-03T15:39:19.826317+00:00"
+    },
+    {
+      "product": "Caja para envíos alargada",
+      "url": "https://cache2.selfpackaging.com/49448-large_default/caja-para-envios-alargadas.webp",
+      "local": "assets/product-2.webp",
+      "mime": "image/webp",
+      "bytes": 3422,
+      "httpVerified": false,
+      "sourcePage": "https://selfpackaging.es/cajas-de-carton/3187-caja-para-envios-alargadas.html",
+      "browserVerified": true,
+      "verificationMethod": "Official product page in Chrome; pageAssets observed resource export",
+      "verifiedAt": "2026-11-03T15:39:19.826317+00:00"
+    },
+    {
+      "product": "Caja tipo cerillas",
+      "url": "https://cache2.selfpackaging.com/1182327-large_default/caja-de-cerillas.webp",
+      "local": "assets/product-3.webp",
+      "mime": "image/webp",
+      "bytes": 2378,
+      "httpVerified": false,
+      "sourcePage": "https://selfpackaging.es/cajas-de-carton/3542-caja-de-cerillas.html",
+      "browserVerified": true,
+      "verificationMethod": "Official product page in Chrome; pageAssets observed resource export",
+      "verifiedAt": "2026-11-03T15:39:19.826317+00:00"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://selfpackaging.es/",
+    "secondary": "https://www.papermart.com/",
+    "boundedBorrowing": "Formas y dimensiones como navegación; vista clara del packaging abierto.",
+    "layout": "atelier",
+    "palette": {
+      "accent": "#cb4b30",
+      "background": "#fff5ed"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Comprueba encaje rectangular según medidas útiles y holgura introducidas. Registra cantidad y diseño, sin aprobar un troquel o una impresión."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    },
+    {
+      "decision": "Three-dimensional fit",
+      "reason": "Verified S internal dimensions from the three official pages; tests all six axis permutations with clearance on every side. Dimensions remain editable and do not replace a physical test."
+    }
+  ],
+  "tests": {
+    "imageHttp": "CLI returned403; all three official WebP images verified and exported from Chrome observed assets.",
+    "productPages": [
+      {
+        "url": "https://selfpackaging.es/cajas-de-carton/72-caja-plana-para-invitaciones.html",
+        "httpOk": false,
+        "browserVerified": true,
+        "verificationMethod": "Chrome visible product page",
+        "verifiedAt": "2026-11-03T15:39:19.826317+00:00",
+        "webToolVerified": true
+      },
+      {
+        "url": "https://selfpackaging.es/cajas-de-carton/3187-caja-para-envios-alargadas.html",
+        "httpOk": false,
+        "browserVerified": true,
+        "verificationMethod": "Chrome visible product page",
+        "verifiedAt": "2026-11-03T15:39:19.826317+00:00",
+        "webToolVerified": true
+      },
+      {
+        "url": "https://selfpackaging.es/cajas-de-carton/3542-caja-de-cerillas.html",
+        "httpOk": false,
+        "browserVerified": true,
+        "verificationMethod": "Chrome visible product page",
+        "verifiedAt": "2026-11-03T15:39:19.826317+00:00",
+        "webToolVerified": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

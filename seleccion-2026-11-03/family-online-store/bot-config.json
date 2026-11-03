@@ -1,0 +1,185 @@
+{
+  "company": "Family Online Store",
+  "language": "es",
+  "website": "https://familyonlinecr.com/",
+  "description": "Comercio electrónico de productos importados ya disponibles en Costa Rica, con entrega nacional y atención por canal comercial.",
+  "theme": {
+    "accent": "#1666b2",
+    "background": "#f3f7fb",
+    "foreground": "#142a42",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Batidora de mano 250 W",
+      "url": "https://familyonlinecr.com/product/batidora-de-mano-250w-voltaje-120v-con-cuchillas-de-acero-inoxidable-y-accesorios-para-preparaciones-varias/",
+      "description": "Batidora de mano de 250 W y 120 V; revisar accesorios en ficha oficial.",
+      "image": "https://familyonlinecr.com/wp-content/uploads/2026/10/chatgpt-19-1.webp",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Hervidor Luma Bella 2,5 L",
+      "url": "https://familyonlinecr.com/product/hervidor-electrico-luma-bella-lb-59029-de-2-5-litros-y-1500-w-color-crema/",
+      "description": "Modelo LB-59029, capacidad de 2,5 litros y potencia publicada de 1500 W.",
+      "image": "https://familyonlinecr.com/wp-content/uploads/2026/09/fec71782-7d89-4e46-820e-968ef7192b23.webp",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Sartén de acero inoxidable 22 cm",
+      "url": "https://familyonlinecr.com/product/sarten-de-acero-inoxidable-316-con-capacidad-de-2-litros-diametro-22-cm-y-mango-de-aluminio-para-cocina/",
+      "description": "Sartén de 22 cm y capacidad publicada de 2 litros.",
+      "image": "https://familyonlinecr.com/wp-content/uploads/2026/10/unnamed-1.webp",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Batidora de mano 250 W?",
+      "answer": "Batidora de mano de 250 W y 120 V; revisar accesorios en ficha oficial.",
+      "keywords": [
+        "batidora",
+        "de",
+        "mano",
+        "250",
+        "w"
+      ]
+    },
+    {
+      "question": "¿Qué es Hervidor Luma Bella 2,5 L?",
+      "answer": "Modelo LB-59029, capacidad de 2,5 litros y potencia publicada de 1500 W.",
+      "keywords": [
+        "hervidor",
+        "luma",
+        "bella",
+        "2",
+        "5",
+        "l"
+      ]
+    },
+    {
+      "question": "¿Qué es Sartén de acero inoxidable 22 cm?",
+      "answer": "Sartén de 22 cm y capacidad publicada de 2 litros.",
+      "keywords": [
+        "sartén",
+        "de",
+        "acero",
+        "inoxidable",
+        "22",
+        "cm"
+      ]
+    },
+    {
+      "question": "¿Desde dónde opera Family?",
+      "answer": "Es una empresa familiar de Ciudad Quesada, San Carlos, Costa Rica.",
+      "keywords": [
+        "dónde",
+        "opera",
+        "family"
+      ]
+    },
+    {
+      "question": "¿Los productos se compran online?",
+      "answer": "Sí. La tienda oficial tiene carrito y proceso de pago.",
+      "keywords": [
+        "productos",
+        "se",
+        "compran",
+        "online"
+      ]
+    },
+    {
+      "question": "¿Hacen envíos en Costa Rica?",
+      "answer": "La página de la empresa anuncia envío nacional; las condiciones se revisan en la tienda.",
+      "keywords": [
+        "envíos",
+        "en",
+        "costa",
+        "rica"
+      ]
+    },
+    {
+      "question": "¿Qué más puedo encontrar?",
+      "answer": "El catálogo incluye hogar, herramientas, jardín, tecnología y artículos para mascotas.",
+      "keywords": [
+        "más",
+        "puedo",
+        "encontrar"
+      ]
+    },
+    {
+      "question": "¿Dónde reviso garantía?",
+      "answer": "Las fichas enlazan la página oficial de garantía; la cobertura depende del caso.",
+      "keywords": [
+        "reviso",
+        "garantía"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Family Online Store",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Ambiente a equipar",
+        "question": "Indica ambiente a equipar.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Artículos elegidos",
+        "question": "Indica artículos elegidos.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Cantidad por artículo",
+        "question": "Indica cantidad por artículo.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Compatibilidad eléctrica o medidas",
+        "question": "Indica compatibilidad eléctrica o medidas.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Zona de entrega",
+        "question": "Indica zona de entrega.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://familyonlinecr.com/tienda/pagina/sobre-nosotros/",
+      "claim": "Empresa familiar, ubicación, categorías y operación de venta en línea."
+    },
+    {
+      "url": "https://familyonlinecr.com/tienda/pagina/contacto/",
+      "claim": "Página oficial de contacto."
+    },
+    {
+      "url": "https://familyonlinecr.com/product/batidora-de-mano-250w-voltaje-120v-con-cuchillas-de-acero-inoxidable-y-accesorios-para-preparaciones-varias/",
+      "claim": "Batidora de mano 250 W: Batidora de mano de 250 W y 120 V; revisar accesorios en ficha oficial."
+    },
+    {
+      "url": "https://familyonlinecr.com/product/hervidor-electrico-luma-bella-lb-59029-de-2-5-litros-y-1500-w-color-crema/",
+      "claim": "Hervidor Luma Bella 2,5 L: Modelo LB-59029, capacidad de 2,5 litros y potencia publicada de 1500 W."
+    },
+    {
+      "url": "https://familyonlinecr.com/product/sarten-de-acero-inoxidable-316-con-capacidad-de-2-litros-diametro-22-cm-y-mango-de-aluminio-para-cocina/",
+      "claim": "Sartén de acero inoxidable 22 cm: Sartén de 22 cm y capacidad publicada de 2 litros."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

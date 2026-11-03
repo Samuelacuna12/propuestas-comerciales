@@ -1,0 +1,134 @@
+{
+  "company": "JKS Mobiliario para Oficina",
+  "reviewedAt": "2026-11-03",
+  "website": "https://www.muebles-jks.com/",
+  "publicFacts": [
+    {
+      "url": "https://www.muebles-jks.com/",
+      "claim": "Manufactura en Mixco, categorías, precios y proceso público para cotizar."
+    },
+    {
+      "url": "https://www.muebles-jks.com/p-archivo-lateral-de-2-gavetas.html",
+      "claim": "Archivo lateral de 2 gavetas: Archivo metálico lateral; confirmar dimensiones y unidad con JKS."
+    },
+    {
+      "url": "https://www.muebles-jks.com/p-silla-de-espera-jks-301.html",
+      "claim": "Silla de espera JKS-301: Silla de espera con asiento y respaldo de polipropileno, base metálica."
+    },
+    {
+      "url": "https://www.muebles-jks.com/p-silla-ejecutiva-con-brazos-jks-72.html",
+      "claim": "Silla ejecutiva con brazos JKS-72: Silla ejecutiva con brazos, respaldo de malla y altura de asiento regulable."
+    }
+  ],
+  "products": [
+    {
+      "name": "Archivo lateral de 2 gavetas",
+      "url": "https://www.muebles-jks.com/p-archivo-lateral-de-2-gavetas.html",
+      "description": "Archivo metálico lateral; confirmar dimensiones y unidad con JKS.",
+      "image": "https://www.muebles-jks.com/assets/jks/products/archivos/archivo-lateral-de-2-gavetas__1874__01.jpeg",
+      "kind": "product"
+    },
+    {
+      "name": "Silla de espera JKS-301",
+      "url": "https://www.muebles-jks.com/p-silla-de-espera-jks-301.html",
+      "description": "Silla de espera con asiento y respaldo de polipropileno, base metálica.",
+      "image": "https://www.muebles-jks.com/assets/jks/products/sillas/silla-de-espera-jks-301__1607__01.webp",
+      "kind": "product"
+    },
+    {
+      "name": "Silla ejecutiva con brazos JKS-72",
+      "url": "https://www.muebles-jks.com/p-silla-ejecutiva-con-brazos-jks-72.html",
+      "description": "Silla ejecutiva con brazos, respaldo de malla y altura de asiento regulable.",
+      "image": "https://www.muebles-jks.com/assets/jks/products/sillas/silla-ejecutiva-con-brazos-jks-72__1597__01.webp",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.muebles-jks.com/assets/jks/products/archivos/archivo-lateral-de-2-gavetas__1874__01.jpeg",
+      "sourcePage": "https://www.muebles-jks.com/p-archivo-lateral-de-2-gavetas.html",
+      "use": "Archivo lateral de 2 gavetas"
+    },
+    {
+      "url": "https://www.muebles-jks.com/assets/jks/products/sillas/silla-de-espera-jks-301__1607__01.webp",
+      "sourcePage": "https://www.muebles-jks.com/p-silla-de-espera-jks-301.html",
+      "use": "Silla de espera JKS-301"
+    },
+    {
+      "url": "https://www.muebles-jks.com/assets/jks/products/sillas/silla-ejecutiva-con-brazos-jks-72__1597__01.webp",
+      "sourcePage": "https://www.muebles-jks.com/p-silla-ejecutiva-con-brazos-jks-72.html",
+      "use": "Silla ejecutiva con brazos JKS-72"
+    },
+    {
+      "url": "https://www.muebles-jks.com/assets/jks/products/archivos/archivo-lateral-de-2-gavetas__1874__01.jpeg",
+      "sourcePage": "https://www.muebles-jks.com/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://www.muebles-jks.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://www.muuto.com/",
+      "observedPattern": "Galerías de producto y ambientes con dimensiones y consulta por proyecto."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "office",
+      "headline": "Una oficina\nlista para trabajar.",
+      "palette": [
+        "#126986",
+        "#eaf0f3",
+        "#18303e"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Equipamiento por zona de oficina",
+      "reason": "Agrupar referencias y cantidades por zona podría facilitar cotizaciones corporativas y revisión de instalación.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 7,
+      "passed": 7,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

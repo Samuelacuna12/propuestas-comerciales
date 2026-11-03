@@ -1,0 +1,173 @@
+{
+  "company": "JKS Mobiliario para Oficina",
+  "language": "es",
+  "website": "https://www.muebles-jks.com/",
+  "description": "Fabricante de sillas, escritorios, archivos, lockers y estanterías; catálogo con precios y solicitud de cotización por productos.",
+  "theme": {
+    "accent": "#126986",
+    "background": "#eaf0f3",
+    "foreground": "#18303e",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Archivo lateral de 2 gavetas",
+      "url": "https://www.muebles-jks.com/p-archivo-lateral-de-2-gavetas.html",
+      "description": "Archivo metálico lateral; confirmar dimensiones y unidad con JKS.",
+      "image": "https://www.muebles-jks.com/assets/jks/products/archivos/archivo-lateral-de-2-gavetas__1874__01.jpeg",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Silla de espera JKS-301",
+      "url": "https://www.muebles-jks.com/p-silla-de-espera-jks-301.html",
+      "description": "Silla de espera con asiento y respaldo de polipropileno, base metálica.",
+      "image": "https://www.muebles-jks.com/assets/jks/products/sillas/silla-de-espera-jks-301__1607__01.webp",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Silla ejecutiva con brazos JKS-72",
+      "url": "https://www.muebles-jks.com/p-silla-ejecutiva-con-brazos-jks-72.html",
+      "description": "Silla ejecutiva con brazos, respaldo de malla y altura de asiento regulable.",
+      "image": "https://www.muebles-jks.com/assets/jks/products/sillas/silla-ejecutiva-con-brazos-jks-72__1597__01.webp",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Archivo lateral de 2 gavetas?",
+      "answer": "Archivo metálico lateral; confirmar dimensiones y unidad con JKS.",
+      "keywords": [
+        "archivo",
+        "lateral",
+        "de",
+        "2",
+        "gavetas"
+      ]
+    },
+    {
+      "question": "¿Qué es Silla de espera JKS-301?",
+      "answer": "Silla de espera con asiento y respaldo de polipropileno, base metálica.",
+      "keywords": [
+        "silla",
+        "de",
+        "espera",
+        "jks",
+        "301"
+      ]
+    },
+    {
+      "question": "¿Qué es Silla ejecutiva con brazos JKS-72?",
+      "answer": "Silla ejecutiva con brazos, respaldo de malla y altura de asiento regulable.",
+      "keywords": [
+        "silla",
+        "ejecutiva",
+        "con",
+        "brazos",
+        "jks",
+        "72"
+      ]
+    },
+    {
+      "question": "¿Dónde fabrican?",
+      "answer": "La empresa publica una planta en Mixco, Guatemala.",
+      "keywords": [
+        "fabrican"
+      ]
+    },
+    {
+      "question": "¿Cómo se solicita cotización?",
+      "answer": "El sitio pide referencias, cantidades y ubicación de entrega para confirmar condiciones.",
+      "keywords": [
+        "se",
+        "solicita",
+        "cotización"
+      ]
+    },
+    {
+      "question": "¿Coordinan instalación?",
+      "answer": "Su FAQ anuncia entrega e instalación coordinada; costo según ubicación y volumen.",
+      "keywords": [
+        "instalación"
+      ]
+    },
+    {
+      "question": "¿Emiten factura?",
+      "answer": "La FAQ indica que emiten factura y solicitan datos de facturación al cotizar.",
+      "keywords": [
+        "factura"
+      ]
+    },
+    {
+      "question": "¿Aceptan órdenes de compra?",
+      "answer": "La página indica atención a compras corporativas e institucionales; el proceso se consulta al equipo.",
+      "keywords": [
+        "órdenes",
+        "de",
+        "compra"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para JKS Mobiliario para Oficina",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Área de oficina",
+        "question": "Indica área de oficina.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Referencias elegidas",
+        "question": "Indica referencias elegidas.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Cantidad por referencia",
+        "question": "Indica cantidad por referencia.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Ubicación de instalación",
+        "question": "Indica ubicación de instalación.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Medidas y accesos disponibles",
+        "question": "Indica medidas y accesos disponibles.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://www.muebles-jks.com/",
+      "claim": "Manufactura en Mixco, categorías, precios y proceso público para cotizar."
+    },
+    {
+      "url": "https://www.muebles-jks.com/p-archivo-lateral-de-2-gavetas.html",
+      "claim": "Archivo lateral de 2 gavetas: Archivo metálico lateral; confirmar dimensiones y unidad con JKS."
+    },
+    {
+      "url": "https://www.muebles-jks.com/p-silla-de-espera-jks-301.html",
+      "claim": "Silla de espera JKS-301: Silla de espera con asiento y respaldo de polipropileno, base metálica."
+    },
+    {
+      "url": "https://www.muebles-jks.com/p-silla-ejecutiva-con-brazos-jks-72.html",
+      "claim": "Silla ejecutiva con brazos JKS-72: Silla ejecutiva con brazos, respaldo de malla y altura de asiento regulable."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

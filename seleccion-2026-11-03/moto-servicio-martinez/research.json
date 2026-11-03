@@ -1,0 +1,174 @@
+{
+  "company": "Moto Servicio Martínez",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://www.msm.mx/",
+      "claim": "Actividad, catálogo y canales oficiales de Moto Servicio Martínez"
+    },
+    {
+      "url": "https://www.msm.mx/catalogo.php",
+      "claim": "Ficha o línea publicada: Refacciones para motocicleta"
+    },
+    {
+      "url": "https://www.msm.mx/nosotros.php",
+      "claim": "Ficha o línea publicada: Accesorios para motocicleta"
+    }
+  ],
+  "products": [
+    {
+      "name": "Refacciones para motocicleta",
+      "url": "https://www.msm.mx/catalogo.php",
+      "description": "Línea comercial declarada en su página Nosotros; las referencias individuales requieren consulta.",
+      "image": "https://www.msm.mx/images/slider/refacciones1.jpg",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Accesorios para motocicleta",
+      "url": "https://www.msm.mx/nosotros.php",
+      "description": "Oferta declarada de accesorios. No se atribuyen marcas, códigos o compatibilidades sin catálogo verificable.",
+      "image": "https://www.msm.mx/images/slider/refacciones3.jpg",
+      "localImage": "assets/product-2.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://www.msm.mx/images/slider/msm_fente.jpg",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://www.msm.mx/images/slider/refacciones1.jpg",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://www.msm.mx/images/slider/refacciones3.jpg",
+      "localPath": "assets/product-2.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://www.msm.mx/",
+    "secondary": "https://www.rockauto.com/",
+    "layout": "moto",
+    "palette": [
+      "#bf2f26",
+      "#f2f2ed",
+      "#292c2f",
+      "#d4b546"
+    ],
+    "typography": "'Space Grotesk',sans-serif",
+    "decisions": "Mostrador de moto, tipografía técnica y fotografía real del catálogo visual; flujo enfocado en identificación, sin construir SKU inexistentes.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "La página Nosotros describe una empresa familiar y una refaccionaria en Guadalajara.",
+      "La actividad declarada es comercializar refacciones y accesorios de motocicleta.",
+      "La página pública de catálogo no mostró referencias individuales durante la revisión."
+    ],
+    "hypothesis": "Mejorar la información de una consulta inicial aun cuando el comprador no conozca el código de su pieza.",
+    "operation": "Solicitud técnica de refacción para moto",
+    "boundaries": [
+      "Solo dos líneas de negocio verificables; faltan referencias individuales y catálogo autorizado."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://www.msm.mx/images/slider/msm_fente.jpg",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://www.msm.mx/images/slider/refacciones1.jpg",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://www.msm.mx/images/slider/refacciones3.jpg",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "moto-servicio-martinez",
+      "company": "Moto Servicio Martínez",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": "not_applicable"
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "Solo dos líneas de negocio verificables; faltan referencias individuales y catálogo autorizado."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://www.msm.mx/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.msm.mx/catalogo.php",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.msm.mx/nosotros.php",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 39158
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 24360
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 28624
+      }
+    ]
+  },
+  "publicOnly": true
+}

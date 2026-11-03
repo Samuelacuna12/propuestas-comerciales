@@ -1,0 +1,160 @@
+{
+  "company": "KAFO",
+  "language": "es",
+  "website": "https://kafo.cafe/",
+  "description": "KAFO · Café de especialidad. KAFO ofrece cafés por origen y variantes de molienda.",
+  "products": [
+    {
+      "name": "Blend KAFO Reserva · 454 g",
+      "url": "https://kafo.cafe/producto/blend-de-la-casa-2/",
+      "description": "Mezcla de variedades de Toledo y Sandoná, tostión media.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Blend de la Casa · 454 g",
+      "url": "https://kafo.cafe/producto/blend-de-la-casa/",
+      "description": "Perfil descrito con panela y cítricos; variantes de molienda.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Bourbon Amarillo · Toledo 454 g",
+      "url": "https://kafo.cafe/producto/kfbans/",
+      "description": "Origen Norte de Santander; notas descritas de mandarina, flores y panela.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué molienda elijo?",
+      "answer": "La ficha KAFO orienta grano para quien tiene molino, media para goteo y gruesa para inmersión. Ajusta según equipo y gusto.",
+      "keywords": [
+        "molienda",
+        "grano"
+      ]
+    },
+    {
+      "question": "¿Cuánto trae esta selección?",
+      "answer": "Las tres fichas revisadas indican 454 g. Revisa la variante final al comprar.",
+      "keywords": [
+        "peso",
+        "454",
+        "bolsa"
+      ]
+    },
+    {
+      "question": "¿Dónde está la tienda?",
+      "answer": "La web la ubica en Belmira Plaza, sector Cedritos, Bogotá.",
+      "keywords": [
+        "tienda",
+        "bogota",
+        "cedritos"
+      ]
+    },
+    {
+      "question": "¿La receta garantiza un sabor?",
+      "answer": "No. Es una cuenta de proporciones. Molienda, agua, método y café cambian el resultado.",
+      "keywords": [
+        "receta",
+        "sabor"
+      ]
+    },
+    {
+      "question": "¿Puedo usar otro método?",
+      "answer": "Sí. El sistema permite modificar dosis y proporción; la receta inicial es ilustrativa.",
+      "keywords": [
+        "metodo",
+        "v60",
+        "prensa"
+      ]
+    },
+    {
+      "question": "¿Qué es Blend KAFO Reserva · 454 g?",
+      "answer": "Mezcla de variedades de Toledo y Sandoná, tostión media. Ficha oficial: https://kafo.cafe/producto/blend-de-la-casa-2/",
+      "keywords": [
+        "blend kafo reserva · 454 g",
+        "blend",
+        "reserva"
+      ]
+    },
+    {
+      "question": "¿Qué es Blend de la Casa · 454 g?",
+      "answer": "Perfil descrito con panela y cítricos; variantes de molienda. Ficha oficial: https://kafo.cafe/producto/blend-de-la-casa/",
+      "keywords": [
+        "blend de la casa · 454 g",
+        "blend"
+      ]
+    },
+    {
+      "question": "¿Qué es Bourbon Amarillo · Toledo 454 g?",
+      "answer": "Origen Norte de Santander; notas descritas de mandarina, flores y panela. Ficha oficial: https://kafo.cafe/producto/kfbans/",
+      "keywords": [
+        "bourbon amarillo · toledo 454 g",
+        "bourbon",
+        "amarillo",
+        "toledo"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Mesa de receta y rendimiento de café",
+    "steps": [
+      {
+        "key": "cafe",
+        "label": "Café",
+        "question": "¿Qué referencia de café quieres preparar?",
+        "required": true
+      },
+      {
+        "key": "metodo",
+        "label": "Método",
+        "question": "¿Qué método o equipo usas?",
+        "required": true
+      },
+      {
+        "key": "dosis",
+        "label": "Dosis",
+        "question": "¿Cuántos gramos de café usarás por preparación?",
+        "required": true
+      },
+      {
+        "key": "molienda",
+        "label": "Molienda",
+        "question": "¿Tienes molino o necesitas consultar una molienda?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://kafo.cafe/",
+      "claim": "Actividad, catálogo y canales oficiales de KAFO"
+    },
+    {
+      "url": "https://kafo.cafe/producto/blend-de-la-casa-2/",
+      "claim": "Ficha o línea publicada: Blend KAFO Reserva · 454 g"
+    },
+    {
+      "url": "https://kafo.cafe/producto/blend-de-la-casa/",
+      "claim": "Ficha o línea publicada: Blend de la Casa · 454 g"
+    },
+    {
+      "url": "https://kafo.cafe/producto/kfbans/",
+      "claim": "Ficha o línea publicada: Bourbon Amarillo · Toledo 454 g"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#176879",
+    "background": "#f0f1e9",
+    "foreground": "#183e45",
+    "font": "'Space Grotesk',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

@@ -1,0 +1,135 @@
+{
+  "company": "Fabricarte",
+  "reviewedAt": "2026-11-03",
+  "website": "https://fabricarte.squarespace.com/",
+  "publicFacts": [
+    {
+      "url": "https://fabricarte.squarespace.com/",
+      "claim": "Empresa familiar, fabricación a medida, contacto comercial y localización San José, Costa Rica."
+    },
+    {
+      "url": "https://fabricarte.squarespace.com/residenciales",
+      "claim": "Proyectos residenciales: Cocinas, clósets, baños y mobiliario hecho a medida."
+    },
+    {
+      "url": "https://fabricarte.squarespace.com/hospitalidad",
+      "claim": "Proyectos de hospitalidad: Mobiliario para espacios de hospitalidad; galería oficial de proyectos."
+    },
+    {
+      "url": "https://fabricarte.squarespace.com/comerciales",
+      "claim": "Proyectos comerciales: Recepciones, exhibición y otros elementos para espacios comerciales."
+    }
+  ],
+  "products": [
+    {
+      "name": "Proyectos residenciales",
+      "url": "https://fabricarte.squarespace.com/residenciales",
+      "description": "Cocinas, clósets, baños y mobiliario hecho a medida.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5e3b032e73fa6516dafa70c0/d55cee8b-a7e3-4fb1-8e4f-a8b17eed5ad6/CasaPA_BAJA_066.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Proyectos de hospitalidad",
+      "url": "https://fabricarte.squarespace.com/hospitalidad",
+      "description": "Mobiliario para espacios de hospitalidad; galería oficial de proyectos.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5e3b032e73fa6516dafa70c0/5ea58f00-2158-453e-9149-746a4fc06949/03.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Proyectos comerciales",
+      "url": "https://fabricarte.squarespace.com/comerciales",
+      "description": "Recepciones, exhibición y otros elementos para espacios comerciales.",
+      "image": "https://images.squarespace-cdn.com/content/v1/5e3b032e73fa6516dafa70c0/230180fb-6fe7-4878-bb05-b06ab735baf0/D52A9693_FNL.JPG",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/5e3b032e73fa6516dafa70c0/d55cee8b-a7e3-4fb1-8e4f-a8b17eed5ad6/CasaPA_BAJA_066.jpg",
+      "sourcePage": "https://fabricarte.squarespace.com/residenciales",
+      "use": "Proyectos residenciales"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/5e3b032e73fa6516dafa70c0/5ea58f00-2158-453e-9149-746a4fc06949/03.jpg",
+      "sourcePage": "https://fabricarte.squarespace.com/hospitalidad",
+      "use": "Proyectos de hospitalidad"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/5e3b032e73fa6516dafa70c0/230180fb-6fe7-4878-bb05-b06ab735baf0/D52A9693_FNL.JPG",
+      "sourcePage": "https://fabricarte.squarespace.com/comerciales",
+      "use": "Proyectos comerciales"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/5e3b032e73fa6516dafa70c0/1600706534952-JZX4GQG6QCBPX1V9NGLJ/slider1_new.jpg",
+      "sourcePage": "https://fabricarte.squarespace.com/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://fabricarte.squarespace.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://www.muuto.com/",
+      "observedPattern": "Galerías de producto y ambientes con dimensiones y consulta por proyecto."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "architecture",
+      "headline": "Espacios que\nse construyen\na medida.",
+      "palette": [
+        "#936347",
+        "#f6f4ef",
+        "#252724"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Mesa de alcance para mobiliario",
+      "reason": "Organizar medidas, ambiente y aprobación de acabados podría hacer más clara la transición de consulta a proyecto.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 8,
+      "passed": 8,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 4,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage.",
+    "qaCorrection": "2026-11-03: ajustado tras QA; ver decision-ledger.json. Pendiente retest visual del coordinador."
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "company": "ETEREA Designs",
+  "language": "es",
+  "website": "https://www.etereadesigns.com/",
+  "description": "Colecciones de mobiliario y fabricación a medida; ofrece producción para proyectos comerciales y marcas de muebles.",
+  "theme": {
+    "accent": "#904b3f",
+    "background": "#e9e6df",
+    "foreground": "#2d2925",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Mesa Onda Glass",
+      "url": "https://www.etereadesigns.com/mesa-onda-glass",
+      "description": "Vidrio templado y bases de roble; medida publicada 240 × 110 × 75 cm.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6543ca5ed45a9610699b5993/85c2b7b7-27bf-48fe-9383-685e2a5aa120/Eterea_011.jpg",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Mesa Onda Oak",
+      "url": "https://www.etereadesigns.com/mesa-onda-glass-1",
+      "description": "Mesa de la colección Onda; consultar tamaño y acabados en la ficha oficial.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6543ca5ed45a9610699b5993/6bc03140-7654-487d-b27b-7f0a5d0b6b63/Eterea_014.jpg",
+      "asset": "assets/catalog-3.webp"
+    },
+    {
+      "name": "Mesa Lateral Onda",
+      "url": "https://www.etereadesigns.com/mesa-onda-glass-1-1",
+      "description": "Mesa lateral de la colección Onda; selección para completar el ambiente.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6543ca5ed45a9610699b5993/983c13f1-d374-417a-a959-754791553bbe/Eterea_008.jpg",
+      "asset": "assets/catalog-4.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Mesa Onda Glass?",
+      "answer": "Vidrio templado y bases de roble; medida publicada 240 × 110 × 75 cm.",
+      "keywords": [
+        "mesa",
+        "onda",
+        "glass"
+      ]
+    },
+    {
+      "question": "¿Qué es Mesa Onda Oak?",
+      "answer": "Mesa de la colección Onda; consultar tamaño y acabados en la ficha oficial.",
+      "keywords": [
+        "mesa",
+        "onda",
+        "oak"
+      ]
+    },
+    {
+      "question": "¿Qué es Mesa Lateral Onda?",
+      "answer": "Mesa lateral de la colección Onda; selección para completar el ambiente.",
+      "keywords": [
+        "mesa",
+        "lateral",
+        "onda"
+      ]
+    },
+    {
+      "question": "¿Ofrecen muebles a medida?",
+      "answer": "La página de servicios anuncia fabricación a medida.",
+      "keywords": [
+        "muebles",
+        "a",
+        "medida"
+      ]
+    },
+    {
+      "question": "¿Puedo consultar otro acabado?",
+      "answer": "La ficha Onda Glass indica otros acabados disponibles por consulta.",
+      "keywords": [
+        "consultar",
+        "otro",
+        "acabado"
+      ]
+    },
+    {
+      "question": "¿Fabrican para proyectos comerciales?",
+      "answer": "La página de servicios presenta producción para proyectos y marcas de muebles.",
+      "keywords": [
+        "para",
+        "proyectos",
+        "comerciales"
+      ]
+    },
+    {
+      "question": "¿Dónde están?",
+      "answer": "La página de contacto publica zona 15, Ciudad de Guatemala.",
+      "keywords": [
+        "están"
+      ]
+    },
+    {
+      "question": "¿Hay precio de compra en esta muestra?",
+      "answer": "No. La ficha oficial invita a consultar precio y especificaciones con ETEREA.",
+      "keywords": [
+        "precio",
+        "de",
+        "compra",
+        "en",
+        "esta",
+        "muestra"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para ETEREA Designs",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Pieza o proyecto",
+        "question": "Indica pieza o proyecto.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Medidas del ambiente",
+        "question": "Indica medidas del ambiente.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Cantidad y dimensiones deseadas",
+        "question": "Indica cantidad y dimensiones deseadas.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Acabado preferido",
+        "question": "Indica acabado preferido.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Accesos e instalación",
+        "question": "Indica accesos e instalación.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://www.etereadesigns.com/servicios",
+      "claim": "Fabricación a medida, fabricación para marcas y catálogo de colecciones."
+    },
+    {
+      "url": "https://www.etereadesigns.com/contacto",
+      "claim": "Contacto comercial y dirección en Ciudad de Guatemala."
+    },
+    {
+      "url": "https://www.etereadesigns.com/mesa-onda-glass",
+      "claim": "Mesa Onda Glass: Vidrio templado y bases de roble; medida publicada 240 × 110 × 75 cm."
+    },
+    {
+      "url": "https://www.etereadesigns.com/mesa-onda-glass-1",
+      "claim": "Mesa Onda Oak: Mesa de la colección Onda; consultar tamaño y acabados en la ficha oficial."
+    },
+    {
+      "url": "https://www.etereadesigns.com/mesa-onda-glass-1-1",
+      "claim": "Mesa Lateral Onda: Mesa lateral de la colección Onda; selección para completar el ambiente."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

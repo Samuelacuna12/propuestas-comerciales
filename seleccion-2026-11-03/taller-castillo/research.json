@@ -1,0 +1,146 @@
+{
+  "company": "Taller Castillo",
+  "reviewedAt": "2026-11-03",
+  "website": "https://tallercastillo.tienda/",
+  "publicFacts": [
+    {
+      "url": "https://tallercastillo.tienda/nosotros/",
+      "claim": "Empresa familiar costarricense dedicada a máquinas de coser y reparación, con venta online."
+    },
+    {
+      "url": "https://tallercastillo.tienda/tienda-2/",
+      "claim": "Catálogo de 218 resultados, incluyendo agujas, bobinas y repuestos."
+    },
+    {
+      "url": "https://tallercastillo.tienda/contacto/",
+      "claim": "Página comercial de consultas sobre máquinas, repuestos y servicio."
+    },
+    {
+      "url": "https://tallercastillocr.com/",
+      "claim": "Sitio del mismo Taller Castillo, con nombre y teléfono comercial coincidentes, publica establecimiento en Alajuela."
+    },
+    {
+      "url": "https://tallercastillo.tienda/producto/maquina-de-coser-plana-jack-a2c-c-con-corte-de-hilo-110v-mueble-con-rodines/",
+      "claim": "Jack A2C-C: Máquina plana industrial; la ficha publica 110 V y corte de hilo."
+    },
+    {
+      "url": "https://tallercastillo.tienda/producto/maquina-overlock-singer-s0105/",
+      "claim": "Singer Overlock S0105: Máquina overlock Singer S0105 del catálogo oficial."
+    },
+    {
+      "url": "https://tallercastillo.tienda/producto/singer-4423-maquina-de-coser-heavy-duty-costa-rica/",
+      "claim": "Singer 4423 Heavy Duty: Máquina de coser Singer 4423 Heavy Duty del catálogo oficial."
+    }
+  ],
+  "products": [
+    {
+      "name": "Jack A2C-C",
+      "url": "https://tallercastillo.tienda/producto/maquina-de-coser-plana-jack-a2c-c-con-corte-de-hilo-110v-mueble-con-rodines/",
+      "description": "Máquina plana industrial; la ficha publica 110 V y corte de hilo.",
+      "image": "https://tallercastillo.tienda/wp-content/uploads/2026/07/A2C-C.png",
+      "kind": "product"
+    },
+    {
+      "name": "Singer Overlock S0105",
+      "url": "https://tallercastillo.tienda/producto/maquina-overlock-singer-s0105/",
+      "description": "Máquina overlock Singer S0105 del catálogo oficial.",
+      "image": "https://tallercastillo.tienda/wp-content/uploads/2023/05/overlock-s0105-1-1.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Singer 4423 Heavy Duty",
+      "url": "https://tallercastillo.tienda/producto/singer-4423-maquina-de-coser-heavy-duty-costa-rica/",
+      "description": "Máquina de coser Singer 4423 Heavy Duty del catálogo oficial.",
+      "image": "https://tallercastillo.tienda/wp-content/uploads/2022/04/51JFZ7U25-L._AC_SL1100_.jpg",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://tallercastillo.tienda/wp-content/uploads/2026/07/A2C-C.png",
+      "sourcePage": "https://tallercastillo.tienda/producto/maquina-de-coser-plana-jack-a2c-c-con-corte-de-hilo-110v-mueble-con-rodines/",
+      "use": "Jack A2C-C"
+    },
+    {
+      "url": "https://tallercastillo.tienda/wp-content/uploads/2023/05/overlock-s0105-1-1.jpg",
+      "sourcePage": "https://tallercastillo.tienda/producto/maquina-overlock-singer-s0105/",
+      "use": "Singer Overlock S0105"
+    },
+    {
+      "url": "https://tallercastillo.tienda/wp-content/uploads/2022/04/51JFZ7U25-L._AC_SL1100_.jpg",
+      "sourcePage": "https://tallercastillo.tienda/producto/singer-4423-maquina-de-coser-heavy-duty-costa-rica/",
+      "use": "Singer 4423 Heavy Duty"
+    },
+    {
+      "url": "https://tallercastillo.tienda/wp-content/uploads/2026/07/A2C-C.png",
+      "sourcePage": "https://tallercastillo.tienda/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://tallercastillo.tienda/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://www.singer.com/collections/sewing-machines",
+      "observedPattern": "Separación por tipo de máquina y consulta de modelo exacto para accesorios."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "workshop",
+      "headline": "Que tu siguiente\npuntada siga.",
+      "palette": [
+        "#b8292c",
+        "#f5f2ed",
+        "#242c35"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Tablero de ingreso a servicio técnico",
+      "reason": "Registrar modelo, síntoma y evidencias podría evitar ingresos incompletos y ayudar a priorizar la revisión técnica.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 11,
+      "passed": 11,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

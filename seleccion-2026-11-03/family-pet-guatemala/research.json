@@ -1,0 +1,135 @@
+{
+  "company": "Family Pet Guatemala",
+  "reviewedAt": "2026-11-03",
+  "website": "https://familypetgt.com/",
+  "publicFacts": [
+    {
+      "url": "https://familypetgt.com/",
+      "claim": "Catálogo, compra por carrito, cobertura de entrega y formulario comercial visibles."
+    },
+    {
+      "url": "https://familypetgt.com/producto/chuckit-ultra-squeaker-ball/",
+      "claim": "Chuckit! Ultra Squeaker Ball: Pelota con sonido; comprobar tamaño y uso en la ficha oficial."
+    },
+    {
+      "url": "https://familypetgt.com/producto/select-perros-razas-mini-y-pequenas/",
+      "claim": "SELECT perros mini y pequeños: Alimento de la categoría publicada para razas mini y pequeñas; no constituye recomendación nutricional."
+    },
+    {
+      "url": "https://familypetgt.com/producto/collar-sunburst-3-8-con-hebilla-forma-de-hueso-rosado-celeste-azul/",
+      "claim": "Collar Sunburst con hebilla de hueso: Collar de 3/8 de pulgada, publicado en rosado, celeste y azul."
+    }
+  ],
+  "products": [
+    {
+      "name": "Chuckit! Ultra Squeaker Ball",
+      "url": "https://familypetgt.com/producto/chuckit-ultra-squeaker-ball/",
+      "description": "Pelota con sonido; comprobar tamaño y uso en la ficha oficial.",
+      "image": "https://familypetgt.com/wp-content/uploads/2025/11/JUG-057.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "SELECT perros mini y pequeños",
+      "url": "https://familypetgt.com/producto/select-perros-razas-mini-y-pequenas/",
+      "description": "Alimento de la categoría publicada para razas mini y pequeñas; no constituye recomendación nutricional.",
+      "image": "https://familypetgt.com/wp-content/uploads/2025/11/ALI-073.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Collar Sunburst con hebilla de hueso",
+      "url": "https://familypetgt.com/producto/collar-sunburst-3-8-con-hebilla-forma-de-hueso-rosado-celeste-azul/",
+      "description": "Collar de 3/8 de pulgada, publicado en rosado, celeste y azul.",
+      "image": "https://familypetgt.com/wp-content/uploads/2025/11/ACC-001.jpg",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://familypetgt.com/wp-content/uploads/2025/11/JUG-057.jpg",
+      "sourcePage": "https://familypetgt.com/producto/chuckit-ultra-squeaker-ball/",
+      "use": "Chuckit! Ultra Squeaker Ball"
+    },
+    {
+      "url": "https://familypetgt.com/wp-content/uploads/2025/11/ALI-073.jpg",
+      "sourcePage": "https://familypetgt.com/producto/select-perros-razas-mini-y-pequenas/",
+      "use": "SELECT perros mini y pequeños"
+    },
+    {
+      "url": "https://familypetgt.com/wp-content/uploads/2025/11/ACC-001.jpg",
+      "sourcePage": "https://familypetgt.com/producto/collar-sunburst-3-8-con-hebilla-forma-de-hueso-rosado-celeste-azul/",
+      "use": "Collar Sunburst con hebilla de hueso"
+    },
+    {
+      "url": "https://familypetgt.com/wp-content/uploads/2025/11/JUG-057.jpg",
+      "sourcePage": "https://familypetgt.com/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://familypetgt.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://ruffwear.com/collections/dog-harnesses",
+      "observedPattern": "Selección por uso y atributos de producto; guía comparativa antes de elegir talla."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "friendly",
+      "headline": "Lo suyo,\na tiempo.",
+      "palette": [
+        "#007969",
+        "#e9f2e9",
+        "#123f3c"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Plan de cobertura y recompra",
+      "reason": "Calcular días de cobertura con datos del comprador podría ayudar a anticipar compras sin recomendar dietas ni inferir necesidades.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "El cálculo no prescribe consumo, alimento ni medicación. Solo usa cantidades introducidas por quien realiza la prueba."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 7,
+      "passed": 7,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

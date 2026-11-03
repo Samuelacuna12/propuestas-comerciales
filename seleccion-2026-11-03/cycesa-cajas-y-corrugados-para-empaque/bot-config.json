@@ -1,0 +1,170 @@
+{
+  "company": "CYCESA — Cajas y Corrugados para Empaque",
+  "language": "es",
+  "website": "https://www.cycesa.mx/",
+  "description": "CYCESA — Cajas y Corrugados para Empaque · Empaques de cartón corrugado. CYCESA ofrece empaques estándar y desarrollo personalizado.",
+  "products": [
+    {
+      "name": "Caja de pizza octagonal · 35 × 35 × 4 cm",
+      "url": "https://www.cycesa.mx/cat%C3%A1logo",
+      "description": "Medida nominal publicada en el catálogo; el simulador usa su envolvente rectangular.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Caja de pizza cuadrada · 36 × 36 × 4 cm",
+      "url": "https://www.cycesa.mx/cat%C3%A1logo",
+      "description": "Formato cuadrado publicado para pizza.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Caja de rosca rectangular · 42 × 32 × 7,5 cm",
+      "url": "https://www.cycesa.mx/cat%C3%A1logo",
+      "description": "Formato tipo almeja del catálogo oficial.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Se puede personalizar el empaque?",
+      "answer": "La página Crea tu producto describe opciones de forma, cartón, impresión y entrega.",
+      "keywords": [
+        "personalizar",
+        "impresion"
+      ]
+    },
+    {
+      "question": "¿Qué formatos hay para pizza?",
+      "answer": "El catálogo publica octagonal 35×35×4 cm y cuadrada 36×36×4 cm.",
+      "keywords": [
+        "pizza",
+        "medida"
+      ]
+    },
+    {
+      "question": "¿La caja octagonal se calcula exacta?",
+      "answer": "La demo usa su rectángulo envolvente. No genera el troquel ni optimiza el encaje de octágonos.",
+      "keywords": [
+        "octagonal",
+        "troquel"
+      ]
+    },
+    {
+      "question": "¿Cómo se elige resistencia?",
+      "answer": "Se revisan contenido, peso, manejo y condiciones ambientales con el equipo; el cálculo geométrico no la determina.",
+      "keywords": [
+        "resistencia",
+        "peso"
+      ]
+    },
+    {
+      "question": "¿Qué implica entrega entarimada?",
+      "answer": "La guía oficial distingue flejado, entarimado y emplayado. La cotización debe indicar qué modalidad se requiere.",
+      "keywords": [
+        "entrega",
+        "tarima",
+        "flejado"
+      ]
+    },
+    {
+      "question": "¿Qué es Caja de pizza octagonal · 35 × 35 × 4 cm?",
+      "answer": "Medida nominal publicada en el catálogo; el simulador usa su envolvente rectangular. Ficha oficial: https://www.cycesa.mx/cat%C3%A1logo",
+      "keywords": [
+        "caja de pizza octagonal · 35 × 35 × 4 cm",
+        "pizza",
+        "octagonal"
+      ]
+    },
+    {
+      "question": "¿Qué es Caja de pizza cuadrada · 36 × 36 × 4 cm?",
+      "answer": "Formato cuadrado publicado para pizza. Ficha oficial: https://www.cycesa.mx/cat%C3%A1logo",
+      "keywords": [
+        "caja de pizza cuadrada · 36 × 36 × 4 cm",
+        "pizza",
+        "cuadrada"
+      ]
+    },
+    {
+      "question": "¿Qué es Caja de rosca rectangular · 42 × 32 × 7,5 cm?",
+      "answer": "Formato tipo almeja del catálogo oficial. Ficha oficial: https://www.cycesa.mx/cat%C3%A1logo",
+      "keywords": [
+        "caja de rosca rectangular · 42 × 32 × 7,5 cm",
+        "rosca",
+        "rectangular"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Especificación de caja y acomodo",
+    "steps": [
+      {
+        "key": "producto",
+        "label": "Contenido",
+        "question": "¿Qué producto vas a empacar?",
+        "required": true
+      },
+      {
+        "key": "medidas",
+        "label": "Medidas",
+        "question": "¿Cuánto mide de largo, ancho y alto, y en qué unidad?",
+        "required": true
+      },
+      {
+        "key": "peso",
+        "label": "Peso y manejo",
+        "question": "¿Cuánto pesa y cómo se transporta o almacena?",
+        "required": true
+      },
+      {
+        "key": "cantidad",
+        "label": "Cantidad",
+        "question": "¿Cuántas cajas necesitas?",
+        "required": true
+      },
+      {
+        "key": "diseno",
+        "label": "Acabado",
+        "question": "¿Necesitas impresión, ventana o alguna condición especial?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿En qué ciudad se entregaría?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://www.cycesa.mx/",
+      "claim": "Actividad, catálogo y canales oficiales de CYCESA"
+    },
+    {
+      "url": "https://www.cycesa.mx/cat%C3%A1logo",
+      "claim": "Ficha o línea publicada: Caja de pizza octagonal · 35 × 35 × 4 cm"
+    },
+    {
+      "url": "https://www.cycesa.mx/manualdelcorrugadocycesa",
+      "claim": "Proceso o información complementaria oficial"
+    },
+    {
+      "url": "https://www.cycesa.mx/creatuproducto",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#a92c2c",
+    "background": "#faf6ed",
+    "foreground": "#342c28",
+    "font": "'Space Grotesk',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

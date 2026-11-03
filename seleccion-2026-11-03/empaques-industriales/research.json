@@ -1,0 +1,204 @@
+{
+  "company": "Empaques Industriales",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://empaques-industriales.mx/",
+      "claim": "Actividad, catálogo y canales oficiales de Empaques Industriales"
+    },
+    {
+      "url": "https://empaques-industriales.mx/producto/caja-13x13x4-cafe/",
+      "claim": "Ficha o línea publicada: Caja 13 × 13 × 4 café"
+    },
+    {
+      "url": "https://empaques-industriales.mx/producto/caja-23-5x23-5-blanca/",
+      "claim": "Ficha o línea publicada: Caja 23,5 × 23,5 blanca"
+    },
+    {
+      "url": "https://empaques-industriales.mx/producto/caja-36x36x12-blanca/",
+      "claim": "Ficha o línea publicada: Caja 36 × 36 × 12 blanca"
+    }
+  ],
+  "products": [
+    {
+      "name": "Caja 13 × 13 × 4 café",
+      "description": "Caja microcorrugada; la ficha indica paquete de 50 piezas.",
+      "url": "https://empaques-industriales.mx/producto/caja-13x13x4-cafe/",
+      "image": "https://empaques-industriales.mx/wp-content/uploads/2023/02/IMG_7874-scaled-1.jpg",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Caja 23,5 × 23,5 blanca",
+      "description": "Referencia publicada en la categoría Pastel; verificar presentación.",
+      "url": "https://empaques-industriales.mx/producto/caja-23-5x23-5-blanca/",
+      "image": "https://empaques-industriales.mx/wp-content/uploads/2023/02/IMG_7880-scaled-1.jpg",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Caja 36 × 36 × 12 blanca",
+      "description": "Caja para pastel publicada en el catálogo; confirmar piezas por paquete.",
+      "url": "https://empaques-industriales.mx/producto/caja-36x36x12-blanca/",
+      "image": "https://empaques-industriales.mx/wp-content/uploads/2023/02/IMG_7884-scaled-1.jpg",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://empaques-industriales.mx/wp-content/uploads/2023/02/IMG_7874-scaled-1.jpg",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://empaques-industriales.mx/wp-content/uploads/2023/02/IMG_7874-scaled-1.jpg",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://empaques-industriales.mx/wp-content/uploads/2023/02/IMG_7880-scaled-1.jpg",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://empaques-industriales.mx/wp-content/uploads/2023/02/IMG_7884-scaled-1.jpg",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://empaques-industriales.mx/",
+    "secondary": "https://packhelp.com/",
+    "layout": "packstore",
+    "palette": [
+      "#1b6b53",
+      "#f7f4e9",
+      "#263e32",
+      "#d5b877"
+    ],
+    "typography": "'Manrope',sans-serif",
+    "decisions": "Surtido operativo en verde industrial, fotos de cajas y comparación explícita de unidad/paquete para un comprador recurrente.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "La empresa fabrica cajas y opera una tienda por categorías.",
+      "Algunas fichas distinguen medida de la caja y dimensiones logísticas del paquete.",
+      "La web pide consultar cobertura y fechas de sus rutas de entrega en Michoacán."
+    ],
+    "hypothesis": "Evitar confundir unidades de consumo con paquetes de compra al preparar una reposición.",
+    "operation": "Reposición por unidades y paquetes",
+    "boundaries": [
+      "Solo se confirma el paquete de 50 de la referencia pequeña; las demás presentaciones deben validarse."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://empaques-industriales.mx/wp-content/uploads/2023/02/IMG_7874-scaled-1.jpg",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://empaques-industriales.mx/wp-content/uploads/2023/02/IMG_7874-scaled-1.jpg",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://empaques-industriales.mx/wp-content/uploads/2023/02/IMG_7880-scaled-1.jpg",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://empaques-industriales.mx/wp-content/uploads/2023/02/IMG_7884-scaled-1.jpg",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "empaques-industriales",
+      "company": "Empaques Industriales",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": true,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "Solo se confirma el paquete de 50 de la referencia pequeña; las demás presentaciones deben validarse."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://empaques-industriales.mx/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://empaques-industriales.mx/producto/caja-13x13x4-cafe/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://empaques-industriales.mx/producto/caja-23-5x23-5-blanca/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://empaques-industriales.mx/producto/caja-36x36x12-blanca/",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 29398
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 29398
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 23014
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 22956
+      }
+    ]
+  },
+  "publicOnly": true
+}

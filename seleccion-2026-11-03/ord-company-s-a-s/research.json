@@ -1,0 +1,190 @@
+{
+  "company": "ORD Company S.A.S.",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://ordcompany.com.co/",
+      "claim": "Actividad, catálogo y canales oficiales de ORD Company"
+    },
+    {
+      "url": "https://ordcompany.com.co/productos.html",
+      "claim": "Ficha o línea publicada: Sandalias planas"
+    },
+    {
+      "url": "https://ordcompany.com.co/servicios.html",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "products": [
+    {
+      "name": "Sandalias planas",
+      "url": "https://ordcompany.com.co/productos.html",
+      "description": "Línea con opciones de suela EVA, PU y Neolite; detalles por requerimiento.",
+      "image": "https://ordcompany.com.co/img/prod-plana-2.jpg",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Plataformas",
+      "url": "https://ordcompany.com.co/productos.html",
+      "description": "Modelos de diferentes alturas y materiales, incluido yute.",
+      "image": "https://ordcompany.com.co/img/prod-plataforma-1.jpg",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Tacones",
+      "url": "https://ordcompany.com.co/productos.html",
+      "description": "Línea con forrados y acabados a definir según diseño.",
+      "image": "https://ordcompany.com.co/img/prod-tacon-1.jpg",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://ordcompany.com.co/img/prod-plataforma-1.jpg",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://ordcompany.com.co/img/prod-plana-2.jpg",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://ordcompany.com.co/img/prod-plataforma-1.jpg",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://ordcompany.com.co/img/prod-tacon-1.jpg",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://ordcompany.com.co/",
+    "secondary": "https://www.shoepassion.com/",
+    "layout": "collection",
+    "palette": [
+      "#b54c28",
+      "#f8f3e9",
+      "#2d2522",
+      "#e6c7a4"
+    ],
+    "typography": "'Manrope',sans-serif",
+    "decisions": "Libro de colección de fabricante: fotografías de sandalias en formato vertical, numeración de líneas y matriz explícita de tallas por lote.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "ORD publica manufactura, maquila de marca blanca y desarrollo de colecciones.",
+      "Su catálogo presenta sandalias, plataformas y tacones como líneas configurables.",
+      "Se mencionan lotes pequeños, sin un mínimo numérico publicado que podamos confirmar."
+    ],
+    "hypothesis": "Preparar solicitudes de producción con cantidades por talla y especificaciones de colección claras.",
+    "operation": "Matriz de producción por talla",
+    "boundaries": [
+      "Las tallas iniciales son un escenario editable y no un rango de fabricación confirmado."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://ordcompany.com.co/img/prod-plataforma-1.jpg",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://ordcompany.com.co/img/prod-plana-2.jpg",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://ordcompany.com.co/img/prod-plataforma-1.jpg",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://ordcompany.com.co/img/prod-tacon-1.jpg",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "ord-company-s-a-s",
+      "company": "ORD Company S.A.S.",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": true,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "Las tallas iniciales son un escenario editable y no un rango de fabricación confirmado."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://ordcompany.com.co/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://ordcompany.com.co/productos.html",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 77108
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 324496
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 77108
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 80606
+      }
+    ]
+  },
+  "publicOnly": true
+}

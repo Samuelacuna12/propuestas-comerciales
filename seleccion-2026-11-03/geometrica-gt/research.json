@@ -1,0 +1,134 @@
+{
+  "company": "Geométrica GT",
+  "reviewedAt": "2026-11-03",
+  "website": "https://geometricagt.com/",
+  "publicFacts": [
+    {
+      "url": "https://geometricagt.com/",
+      "claim": "Servicios de mobiliario, cotización y contacto en Ciudad de Guatemala."
+    },
+    {
+      "url": "https://geometricagt.com/producto/closet-con-puertas-corredizas/",
+      "claim": "Clóset con puertas corredizas: Diseño publicado con puertas corredizas, sujeto a medidas del proyecto."
+    },
+    {
+      "url": "https://geometricagt.com/producto/closet-personalizado/",
+      "claim": "Clóset personalizado: Propuesta de clóset con área de colgado y organización central."
+    },
+    {
+      "url": "https://geometricagt.com/producto/cocina-personalizada/",
+      "claim": "Cocina personalizada: Conjunto a medida con gabinetes altos, bajos y cubierta continua."
+    }
+  ],
+  "products": [
+    {
+      "name": "Clóset con puertas corredizas",
+      "url": "https://geometricagt.com/producto/closet-con-puertas-corredizas/",
+      "description": "Diseño publicado con puertas corredizas, sujeto a medidas del proyecto.",
+      "image": "https://geometricagt.com/wp-content/uploads/2026/06/ChatGPT-Image-30-jun-2026-13_35_40-682x1024.png",
+      "kind": "product"
+    },
+    {
+      "name": "Clóset personalizado",
+      "url": "https://geometricagt.com/producto/closet-personalizado/",
+      "description": "Propuesta de clóset con área de colgado y organización central.",
+      "image": "https://geometricagt.com/wp-content/uploads/2026/06/ChatGPT-Image-30-jun-2026-13_08_40-682x1024.png",
+      "kind": "product"
+    },
+    {
+      "name": "Cocina personalizada",
+      "url": "https://geometricagt.com/producto/cocina-personalizada/",
+      "description": "Conjunto a medida con gabinetes altos, bajos y cubierta continua.",
+      "image": "https://geometricagt.com/wp-content/uploads/2026/06/ChatGPT-Image-30-jun-2026-12_53_15-768x1024.png",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://geometricagt.com/wp-content/uploads/2026/06/ChatGPT-Image-30-jun-2026-13_35_40-682x1024.png",
+      "sourcePage": "https://geometricagt.com/producto/closet-con-puertas-corredizas/",
+      "use": "Clóset con puertas corredizas"
+    },
+    {
+      "url": "https://geometricagt.com/wp-content/uploads/2026/06/ChatGPT-Image-30-jun-2026-13_08_40-682x1024.png",
+      "sourcePage": "https://geometricagt.com/producto/closet-personalizado/",
+      "use": "Clóset personalizado"
+    },
+    {
+      "url": "https://geometricagt.com/wp-content/uploads/2026/06/ChatGPT-Image-30-jun-2026-12_53_15-768x1024.png",
+      "sourcePage": "https://geometricagt.com/producto/cocina-personalizada/",
+      "use": "Cocina personalizada"
+    },
+    {
+      "url": "https://geometricagt.com/wp-content/uploads/2026/06/ChatGPT-Image-30-jun-2026-13_35_40-682x1024.png",
+      "sourcePage": "https://geometricagt.com/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://geometricagt.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://www.muuto.com/",
+      "observedPattern": "Galerías de producto y ambientes con dimensiones y consulta por proyecto."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "blueprint",
+      "headline": "Cada centímetro\ntiene un propósito.",
+      "palette": [
+        "#bd553a",
+        "#efefea",
+        "#213d3c"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Plano preliminar de mobiliario",
+      "reason": "Una solicitud con espacio, piezas y medidas podría mejorar la calidad del primer intercambio de cotización.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 7,
+      "passed": 7,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

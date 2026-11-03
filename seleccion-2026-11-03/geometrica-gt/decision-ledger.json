@@ -1,0 +1,27 @@
+{
+  "company": "Geométrica GT",
+  "decisions": [
+    {
+      "decision": "Composición blueprint",
+      "rationale": "Cada centímetro tiene un propósito. · recursos oficiales dominantes; reglas específicas de composición en CSS."
+    },
+    {
+      "decision": "Plano preliminar de mobiliario",
+      "rationale": "Una solicitud con espacio, piezas y medidas podría mejorar la calidad del primer intercambio de cotización."
+    },
+    {
+      "decision": "Sin precios ni existencias del catálogo en la muestra",
+      "rationale": "No existe conexión con inventario o condiciones vigentes."
+    },
+    {
+      "decision": "Web y bot de Samuel a COP 500.000 cada uno; demo gratuita",
+      "rationale": "Oferta vigente recibida del coordinador; alcance y consumos por cotizar, sin mensualidad inventada."
+    }
+  ],
+  "referenceLock": "reference-lock.json",
+  "rejected": [
+    "Galería con imágenes que no corresponden a la referencia",
+    "Confirmación falsa de pedido",
+    "Mensajes privados dentro del repo"
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "company": "ClearBags",
+  "reviewedAt": "2026-11-03T15:28:50.531531+00:00",
+  "language": "en",
+  "sources": [
+    {
+      "url": "https://www.clearbags.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://www.clearbags.com/4-1-4-x-6-1-8-flap-crystal-clear-protective-closure-bags-100-pieces-b4x6pc.html",
+      "claim": "Crystal Clear Protective Closure Bags B4X6PC · 100 pack: Protective-closure clear bags, 4¼ × 6⅛ inches, in packs of 100."
+    },
+    {
+      "url": "https://www.clearbags.com/4-5-16-x-5-11-16-flap-crystal-clear-110x145.html",
+      "claim": "Crystal Clear Flap Bags B4B5 · 100 pack: Flap-seal clear bags, 4⁵⁄₁₆ × 5¹¹⁄₁₆ inches, in packs of 100."
+    },
+    {
+      "url": "https://www.clearbags.com/5-7-16-x-7-1-4-cut-angled-flap-138x184.html",
+      "claim": "Crystal Clear Angled Flap Bags B75CT · 100 pack: Angled-flap clear bags, 5⁷⁄₁₆ × 7¼ inches, in packs of 100."
+    },
+    {
+      "url": "https://www.clearbags.com/",
+      "claim": "Empresa familiar y operación de catálogo, muestras y personalización; atención en inglés y chat multilingüe."
+    },
+    {
+      "url": "https://www.clearbags.com/contact-us",
+      "claim": "Ubicaciones comerciales y formulario de atención."
+    }
+  ],
+  "products": [
+    {
+      "name": "Crystal Clear Protective Closure Bags B4X6PC · 100 pack",
+      "url": "https://www.clearbags.com/4-1-4-x-6-1-8-flap-crystal-clear-protective-closure-bags-100-pieces-b4x6pc.html",
+      "description": "Protective-closure clear bags, 4¼ × 6⅛ inches, in packs of 100.",
+      "image": "https://www.clearbags.com/media/catalog/product/b/4/b4x6pc-flap-seal-bag-3.jpg?height=360&image-type=small_image&store=default&width=360",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Crystal Clear Flap Bags B4B5 · 100 pack",
+      "url": "https://www.clearbags.com/4-5-16-x-5-11-16-flap-crystal-clear-110x145.html",
+      "description": "Flap-seal clear bags, 4⁵⁄₁₆ × 5¹¹⁄₁₆ inches, in packs of 100.",
+      "image": "https://www.clearbags.com/media/catalog/product/b/4/b4b5-flap-seal-bags-1.jpg?height=360&image-type=small_image&store=default&width=360",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Crystal Clear Angled Flap Bags B75CT · 100 pack",
+      "url": "https://www.clearbags.com/5-7-16-x-7-1-4-cut-angled-flap-138x184.html",
+      "description": "Angled-flap clear bags, 5⁷⁄₁₆ × 7¼ inches, in packs of 100.",
+      "image": "https://www.clearbags.com/media/catalog/product/c/r/crystal-clear-bags-b75ct-1.jpg?height=360&image-type=small_image&store=default&width=360",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "Crystal Clear Protective Closure Bags B4X6PC · 100 pack",
+      "url": "https://www.clearbags.com/media/catalog/product/b/4/b4x6pc-flap-seal-bag-3.jpg?height=360&image-type=small_image&store=default&width=360",
+      "local": "assets/product-1.jpg",
+      "mime": "image/jpeg",
+      "bytes": 15510,
+      "verifiedAt": "2026-11-03T15:28:50.531531+00:00",
+      "sourcePage": "https://www.clearbags.com/4-1-4-x-6-1-8-flap-crystal-clear-protective-closure-bags-100-pieces-b4x6pc.html"
+    },
+    {
+      "product": "Crystal Clear Flap Bags B4B5 · 100 pack",
+      "url": "https://www.clearbags.com/media/catalog/product/b/4/b4b5-flap-seal-bags-1.jpg?height=360&image-type=small_image&store=default&width=360",
+      "local": "assets/product-2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 19196,
+      "verifiedAt": "2026-11-03T15:28:50.531531+00:00",
+      "sourcePage": "https://www.clearbags.com/4-5-16-x-5-11-16-flap-crystal-clear-110x145.html"
+    },
+    {
+      "product": "Crystal Clear Angled Flap Bags B75CT · 100 pack",
+      "url": "https://www.clearbags.com/media/catalog/product/c/r/crystal-clear-bags-b75ct-1.jpg?height=360&image-type=small_image&store=default&width=360",
+      "local": "assets/product-3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 26860,
+      "verifiedAt": "2026-11-03T15:28:50.531531+00:00",
+      "sourcePage": "https://www.clearbags.com/5-7-16-x-7-1-4-cut-angled-flap-138x184.html"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://www.clearbags.com/",
+    "secondary": "https://www.papermart.com/",
+    "boundedBorrowing": "Specifications-first product scanning with units always shown.",
+    "layout": "technical",
+    "palette": {
+      "accent": "#15609a",
+      "background": "#f3f8fc"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Compare an item’s flat dimensions plus a user-entered clearance with user-confirmed usable bag dimensions; round quantities to packs."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://www.clearbags.com/4-1-4-x-6-1-8-flap-crystal-clear-protective-closure-bags-100-pieces-b4x6pc.html",
+        "httpOk": false,
+        "webToolVerified": true,
+        "verificationMethod": "Official page opened through web tool"
+      },
+      {
+        "url": "https://www.clearbags.com/4-5-16-x-5-11-16-flap-crystal-clear-110x145.html",
+        "httpOk": false,
+        "webToolVerified": true,
+        "verificationMethod": "Official page opened through web tool"
+      },
+      {
+        "url": "https://www.clearbags.com/5-7-16-x-7-1-4-cut-angled-flap-138x184.html",
+        "httpOk": false,
+        "webToolVerified": true,
+        "verificationMethod": "Official page opened through web tool"
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

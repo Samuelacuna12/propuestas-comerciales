@@ -1,0 +1,167 @@
+{
+  "company": "ROALPACK Solutions",
+  "language": "es",
+  "website": "https://www.roalpack.com/",
+  "description": "ROALPACK Solutions · Empaque industrial. ROALPACK se presenta como empresa familiar de empaque y embalaje.",
+  "products": [
+    {
+      "name": "Sacos de papel kraft",
+      "url": "https://www.roalpack.com/producto/sacos-de-papel-kraft/",
+      "description": "Línea para diversas aplicaciones industriales, según especificación.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Super sacos de polipropileno",
+      "url": "https://www.roalpack.com/producto/super-sacos-de-polipropileno/",
+      "description": "Big bags publicados para capacidades desde 500 kg y diseños personalizados.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Película stretch",
+      "url": "https://www.roalpack.com/producto/pelicula-stretch-dif-calibre/",
+      "description": "Complemento para estabilización y protección de carga.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué líneas principales manejan?",
+      "answer": "Sacos de papel kraft y super sacos; también película stretch, cajas y cintas.",
+      "keywords": [
+        "producto",
+        "lineas"
+      ]
+    },
+    {
+      "question": "¿La capacidad del ejemplo está aprobada?",
+      "answer": "No. Es un supuesto de cálculo. El fabricante debe aprobar capacidad, contenido, manejo y condiciones.",
+      "keywords": [
+        "capacidad",
+        "500",
+        "tonelada"
+      ]
+    },
+    {
+      "question": "¿Puedo usar cualquier saco para alimentos o químicos?",
+      "answer": "No. Debe verificarse compatibilidad del material y la especificación requerida para el contenido.",
+      "keywords": [
+        "alimento",
+        "quimico",
+        "compatible"
+      ]
+    },
+    {
+      "question": "¿Hacen diseños personalizados?",
+      "answer": "El sitio anuncia diseños y soluciones ajustados a cada aplicación industrial.",
+      "keywords": [
+        "personalizado",
+        "diseno"
+      ]
+    },
+    {
+      "question": "¿El resultado calcula resistencia?",
+      "answer": "No. Solo divide masa entre capacidad supuesta y redondea unidades. No determina factor de seguridad ni certificación.",
+      "keywords": [
+        "resistencia",
+        "seguridad"
+      ]
+    },
+    {
+      "question": "¿Qué es Sacos de papel kraft?",
+      "answer": "Línea para diversas aplicaciones industriales, según especificación. Ficha oficial: https://www.roalpack.com/producto/sacos-de-papel-kraft/",
+      "keywords": [
+        "sacos de papel kraft",
+        "sacos",
+        "papel",
+        "kraft"
+      ]
+    },
+    {
+      "question": "¿Qué es Super sacos de polipropileno?",
+      "answer": "Big bags publicados para capacidades desde 500 kg y diseños personalizados. Ficha oficial: https://www.roalpack.com/producto/super-sacos-de-polipropileno/",
+      "keywords": [
+        "super sacos de polipropileno",
+        "super",
+        "sacos",
+        "polipropileno"
+      ]
+    },
+    {
+      "question": "¿Qué es Película stretch?",
+      "answer": "Complemento para estabilización y protección de carga. Ficha oficial: https://www.roalpack.com/producto/pelicula-stretch-dif-calibre/",
+      "keywords": [
+        "película stretch",
+        "película",
+        "stretch"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Dimensionamiento preliminar de lote a granel",
+    "steps": [
+      {
+        "key": "contenido",
+        "label": "Contenido",
+        "question": "¿Qué material o producto se empacará?",
+        "required": true
+      },
+      {
+        "key": "masa",
+        "label": "Masa",
+        "question": "¿Cuál es la masa total en kg o toneladas?",
+        "required": true
+      },
+      {
+        "key": "capacidad",
+        "label": "Capacidad",
+        "question": "¿Qué capacidad por saco quieres consultar?",
+        "required": true
+      },
+      {
+        "key": "manejo",
+        "label": "Manejo",
+        "question": "¿Cómo se llena, mueve y almacena el saco?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿En qué ciudad se entregaría y cuántas unidades estimas?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://www.roalpack.com/",
+      "claim": "Actividad, catálogo y canales oficiales de ROALPACK"
+    },
+    {
+      "url": "https://www.roalpack.com/producto/sacos-de-papel-kraft/",
+      "claim": "Ficha o línea publicada: Sacos de papel kraft"
+    },
+    {
+      "url": "https://www.roalpack.com/producto/super-sacos-de-polipropileno/",
+      "claim": "Ficha o línea publicada: Super sacos de polipropileno"
+    },
+    {
+      "url": "https://www.roalpack.com/producto/pelicula-stretch-dif-calibre/",
+      "claim": "Ficha o línea publicada: Película stretch"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#a76d29",
+    "background": "#f5f3eb",
+    "foreground": "#26363e",
+    "font": "'Manrope',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

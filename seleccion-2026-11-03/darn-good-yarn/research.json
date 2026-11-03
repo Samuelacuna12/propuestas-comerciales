@@ -1,0 +1,187 @@
+{
+  "company": "Darn Good Yarn",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "en",
+  "sources": [
+    {
+      "url": "https://www.darngoodyarn.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://www.darngoodyarn.com/products/darn-good-yarn-dk-weight-recycled-silk-yarn-coneflower",
+      "claim": "Darn Good Yarn DK Weight Recycled Silk Yarn - Coneflower: DK-weight reclaimed silk yarn, hand-dyed in the Coneflower colorway."
+    },
+    {
+      "url": "https://www.darngoodyarn.com/products/triple-twist-dk-weight-recycled-silk-yarn",
+      "claim": "Triple Twist DK Weight Recycled Silk Yarn: Three-ply recycled silk yarn; the listing specifies 110 yards per 50 g."
+    },
+    {
+      "url": "https://www.darngoodyarn.com/products/herbal-dyed-dk-weight-recycled-silk-yarn-1",
+      "claim": "Herbal Dyed DK Weight Recycled Silk Yarn: DK-weight silk yarn colored with plant-based dyes; the listing notes natural variation."
+    },
+    {
+      "url": "https://www.darngoodyarn.com/pages/contact-us",
+      "claim": "Declaración de pequeña empresa en Maine, catálogo, suscripciones y contacto comercial."
+    }
+  ],
+  "products": [
+    {
+      "name": "Darn Good Yarn DK Weight Recycled Silk Yarn - Coneflower",
+      "url": "https://www.darngoodyarn.com/products/darn-good-yarn-dk-weight-recycled-silk-yarn-coneflower",
+      "description": "DK-weight reclaimed silk yarn, hand-dyed in the Coneflower colorway.",
+      "image": "https://www.darngoodyarn.com/cdn/shop/files/Aligned_Coneflower_yarn_color_flow_1024x1024.png?v=1793374798",
+      "asset": "assets/product-1-mobile-optimized.jpg"
+    },
+    {
+      "name": "Triple Twist DK Weight Recycled Silk Yarn",
+      "url": "https://www.darngoodyarn.com/products/triple-twist-dk-weight-recycled-silk-yarn",
+      "description": "Three-ply recycled silk yarn; the listing specifies 110 yards per 50 g.",
+      "image": "https://www.darngoodyarn.com/cdn/shop/files/triple-twist-dk-weight-recycled-silk-yarn-limited-time-bundle-offer-cinco-de-mayo-eco-friendly-yarn-crochet-knit-boho-plus-size-womens-clothing-164452_1024x1024.jpg?v=1759468471",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Herbal Dyed DK Weight Recycled Silk Yarn",
+      "url": "https://www.darngoodyarn.com/products/herbal-dyed-dk-weight-recycled-silk-yarn-1",
+      "description": "DK-weight silk yarn colored with plant-based dyes; the listing notes natural variation.",
+      "image": "https://www.darngoodyarn.com/cdn/shop/products/dk-weight-naturally-dyed-recycled-silk-yarn-rose-eco-friendly-yarn-crochet-knit-boho-plus-size-womens-clothing-752210_1024x1024.jpg?v=1759468343",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "Darn Good Yarn DK Weight Recycled Silk Yarn - Coneflower",
+      "url": "https://www.darngoodyarn.com/cdn/shop/files/Aligned_Coneflower_yarn_color_flow_1024x1024.png?v=1793374798",
+      "local": "assets/product-1-mobile-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 345737,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://www.darngoodyarn.com/products/darn-good-yarn-dk-weight-recycled-silk-yarn-coneflower",
+      "downloadUrl": "https://www.darngoodyarn.com/cdn/shop/files/Aligned_Coneflower_yarn_color_flow.png?v=1793374798&width=900&format=webp",
+      "optimization": {
+        "method": "JPEG quality82, max800px; no crop or scene alteration",
+        "sourceBytes": 1845694
+      }
+    },
+    {
+      "product": "Triple Twist DK Weight Recycled Silk Yarn",
+      "url": "https://www.darngoodyarn.com/cdn/shop/files/triple-twist-dk-weight-recycled-silk-yarn-limited-time-bundle-offer-cinco-de-mayo-eco-friendly-yarn-crochet-knit-boho-plus-size-womens-clothing-164452_1024x1024.jpg?v=1759468471",
+      "local": "assets/product-2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 204878,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://www.darngoodyarn.com/products/triple-twist-dk-weight-recycled-silk-yarn"
+    },
+    {
+      "product": "Herbal Dyed DK Weight Recycled Silk Yarn",
+      "url": "https://www.darngoodyarn.com/cdn/shop/products/dk-weight-naturally-dyed-recycled-silk-yarn-rose-eco-friendly-yarn-crochet-knit-boho-plus-size-womens-clothing-752210_1024x1024.jpg?v=1759468343",
+      "local": "assets/product-3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 311002,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://www.darngoodyarn.com/products/herbal-dyed-dk-weight-recycled-silk-yarn-1"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://www.darngoodyarn.com/",
+    "secondary": "https://www.purlsoho.com/",
+    "boundedBorrowing": "Large color photography and project planning adjacent to fiber information.",
+    "layout": "color",
+    "palette": {
+      "accent": "#ad294e",
+      "background": "#fff4f2"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Calculate yarn needed for a group of projects from the maker’s own yardage estimate and skein length; round up whole skeins."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://www.darngoodyarn.com/products/darn-good-yarn-dk-weight-recycled-silk-yarn-coneflower",
+        "httpOk": true
+      },
+      {
+        "url": "https://www.darngoodyarn.com/products/triple-twist-dk-weight-recycled-silk-yarn",
+        "httpOk": true
+      },
+      {
+        "url": "https://www.darngoodyarn.com/products/herbal-dyed-dk-weight-recycled-silk-yarn-1",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

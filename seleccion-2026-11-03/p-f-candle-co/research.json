@@ -1,0 +1,198 @@
+{
+  "company": "P.F. Candle Co.",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "en",
+  "sources": [
+    {
+      "url": "https://pfcandleco.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://pfcandleco.com/products/teakwood-tobacco-standard-candle",
+      "claim": "Teakwood & Tobacco – Standard Candle: Standard candle with a fragrance profile including leather, teak and orange."
+    },
+    {
+      "url": "https://pfcandleco.com/products/amber-moss-standard-candle",
+      "claim": "Amber & Moss – Standard Candle: Standard candle with moss, lavender and sage notes."
+    },
+    {
+      "url": "https://pfcandleco.com/products/golden-coast-standard-candle",
+      "claim": "Golden Coast – Standard Candle: Standard candle with eucalyptus, sea-salt air and wood notes."
+    },
+    {
+      "url": "https://pfcandleco.com/pages/about",
+      "claim": "Propiedad independiente, fabricación en Los Angeles y canales mayoristas."
+    },
+    {
+      "url": "https://pfcandleco.com/pages/contact-us",
+      "claim": "Página oficial de contacto."
+    }
+  ],
+  "products": [
+    {
+      "name": "Teakwood & Tobacco – Standard Candle",
+      "url": "https://pfcandleco.com/products/teakwood-tobacco-standard-candle",
+      "description": "Standard candle with a fragrance profile including leather, teak and orange.",
+      "image": "https://pfcandleco.com/cdn/shop/files/SC4_Ecomm_Teakwood_Tobacco.jpg?v=1760478008&width=3800",
+      "asset": "assets/product-1-optimized.jpg"
+    },
+    {
+      "name": "Amber & Moss – Standard Candle",
+      "url": "https://pfcandleco.com/products/amber-moss-standard-candle",
+      "description": "Standard candle with moss, lavender and sage notes.",
+      "image": "https://pfcandleco.com/cdn/shop/files/SC11_Amber_Moss_Ecomm.jpg?v=1760478403&width=3800",
+      "asset": "assets/product-2-optimized.jpg"
+    },
+    {
+      "name": "Golden Coast – Standard Candle",
+      "url": "https://pfcandleco.com/products/golden-coast-standard-candle",
+      "description": "Standard candle with eucalyptus, sea-salt air and wood notes.",
+      "image": "https://pfcandleco.com/cdn/shop/files/SC21_Ecomm_Golden_Coast.jpg?v=1760477950&width=3800",
+      "asset": "assets/product-3-optimized.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "Teakwood & Tobacco – Standard Candle",
+      "url": "https://pfcandleco.com/cdn/shop/files/SC4_Ecomm_Teakwood_Tobacco.jpg?v=1760478008&width=3800",
+      "local": "assets/product-1-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 93893,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://pfcandleco.com/products/teakwood-tobacco-standard-candle",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 381191
+      }
+    },
+    {
+      "product": "Amber & Moss – Standard Candle",
+      "url": "https://pfcandleco.com/cdn/shop/files/SC11_Amber_Moss_Ecomm.jpg?v=1760478403&width=3800",
+      "local": "assets/product-2-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 90827,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://pfcandleco.com/products/amber-moss-standard-candle",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 379571
+      }
+    },
+    {
+      "product": "Golden Coast – Standard Candle",
+      "url": "https://pfcandleco.com/cdn/shop/files/SC21_Ecomm_Golden_Coast.jpg?v=1760477950&width=3800",
+      "local": "assets/product-3-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 89859,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://pfcandleco.com/products/golden-coast-standard-candle",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 374718
+      }
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://pfcandleco.com/",
+    "secondary": "https://grovemade.com/",
+    "boundedBorrowing": "Editorial material photography and a quiet product story.",
+    "layout": "editorial",
+    "palette": {
+      "accent": "#a34d2b",
+      "background": "#f5eee5"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Allocate candles across recipients, record a scent mix and produce a reviewable fulfillment brief without sending an order."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://pfcandleco.com/products/teakwood-tobacco-standard-candle",
+        "httpOk": true
+      },
+      {
+        "url": "https://pfcandleco.com/products/amber-moss-standard-candle",
+        "httpOk": true
+      },
+      {
+        "url": "https://pfcandleco.com/products/golden-coast-standard-candle",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

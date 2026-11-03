@@ -1,0 +1,186 @@
+{
+  "company": "P.F. Candle Co.",
+  "language": "en",
+  "website": "https://pfcandleco.com/",
+  "description": "Three standard candles, three scent directions. Build a gifting mix without pretending that a preview can reserve inventory.",
+  "products": [
+    {
+      "name": "Teakwood & Tobacco – Standard Candle",
+      "url": "https://pfcandleco.com/products/teakwood-tobacco-standard-candle",
+      "description": "Standard candle with a fragrance profile including leather, teak and orange.",
+      "image": "https://pfcandleco.com/cdn/shop/files/SC4_Ecomm_Teakwood_Tobacco.jpg?v=1760478008&width=3800",
+      "asset": "assets/product-1-optimized.jpg"
+    },
+    {
+      "name": "Amber & Moss – Standard Candle",
+      "url": "https://pfcandleco.com/products/amber-moss-standard-candle",
+      "description": "Standard candle with moss, lavender and sage notes.",
+      "image": "https://pfcandleco.com/cdn/shop/files/SC11_Amber_Moss_Ecomm.jpg?v=1760478403&width=3800",
+      "asset": "assets/product-2-optimized.jpg"
+    },
+    {
+      "name": "Golden Coast – Standard Candle",
+      "url": "https://pfcandleco.com/products/golden-coast-standard-candle",
+      "description": "Standard candle with eucalyptus, sea-salt air and wood notes.",
+      "image": "https://pfcandleco.com/cdn/shop/files/SC21_Ecomm_Golden_Coast.jpg?v=1760477950&width=3800",
+      "asset": "assets/product-3-optimized.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What fragrance formats are available?",
+      "answer": "The store separates candles, incense, reed diffusers and room sprays.",
+      "keywords": [
+        "what",
+        "fragrance",
+        "formats",
+        "available"
+      ]
+    },
+    {
+      "question": "Are these official scent names?",
+      "answer": "Teakwood & Tobacco, Amber & Moss and Golden Coast appear in the official fragrance catalog.",
+      "keywords": [
+        "these",
+        "official",
+        "scent",
+        "names"
+      ]
+    },
+    {
+      "question": "Can I explore a bundle on the official site?",
+      "answer": "The website offers gift sets and build-a-bundle routes.",
+      "keywords": [
+        "explore",
+        "bundle",
+        "official",
+        "site"
+      ]
+    },
+    {
+      "question": "What is Teakwood & Tobacco – Standard Candle?",
+      "answer": "Standard candle with a fragrance profile including leather, teak and orange. Official product: https://pfcandleco.com/products/teakwood-tobacco-standard-candle",
+      "keywords": [
+        "teakwood",
+        "tobacco",
+        "standard",
+        "candle"
+      ]
+    },
+    {
+      "question": "What is Amber & Moss – Standard Candle?",
+      "answer": "Standard candle with moss, lavender and sage notes. Official product: https://pfcandleco.com/products/amber-moss-standard-candle",
+      "keywords": [
+        "amber",
+        "moss",
+        "standard",
+        "candle"
+      ]
+    },
+    {
+      "question": "What is Golden Coast – Standard Candle?",
+      "answer": "Standard candle with eucalyptus, sea-salt air and wood notes. Official product: https://pfcandleco.com/products/golden-coast-standard-candle",
+      "keywords": [
+        "golden",
+        "coast",
+        "standard",
+        "candle"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://pfcandleco.com/pages/contact-us",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Candle gifting assortment",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Which scent are you considering: Teakwood & Tobacco, Amber & Moss or Golden Coast?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many gifts are you preparing?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "Would you like one candle per gift or a mix of scents?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Should the team confirm a bundle option, format or delivery destination?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://pfcandleco.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://pfcandleco.com/products/teakwood-tobacco-standard-candle",
+      "claim": "Teakwood & Tobacco – Standard Candle: Standard candle with a fragrance profile including leather, teak and orange."
+    },
+    {
+      "url": "https://pfcandleco.com/products/amber-moss-standard-candle",
+      "claim": "Amber & Moss – Standard Candle: Standard candle with moss, lavender and sage notes."
+    },
+    {
+      "url": "https://pfcandleco.com/products/golden-coast-standard-candle",
+      "claim": "Golden Coast – Standard Candle: Standard candle with eucalyptus, sea-salt air and wood notes."
+    },
+    {
+      "url": "https://pfcandleco.com/pages/about",
+      "claim": "Propiedad independiente, fabricación en Los Angeles y canales mayoristas."
+    },
+    {
+      "url": "https://pfcandleco.com/pages/contact-us",
+      "claim": "Página oficial de contacto."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Allocate candles across recipients, record a scent mix and produce a reviewable fulfillment brief without sending an order."
+  ],
+  "theme": {
+    "accent": "#a34d2b",
+    "background": "#f5eee5",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1-optimized.jpg"
+}

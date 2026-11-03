@@ -1,0 +1,178 @@
+{
+  "company": "Empack",
+  "language": "es",
+  "website": "https://empackcr.com/",
+  "description": "Catálogo de bolsas doy pack, films y condimentos; formulario que solicita el producto a cotizar.",
+  "theme": {
+    "accent": "#efc631",
+    "background": "#f7f8f3",
+    "foreground": "#172c25",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Bolsa tipo Doy pack",
+      "url": "https://empackcr.com/product/bolsa-tipo-doy-pack/",
+      "description": "Formato que se sostiene de pie para presentar el contenido.",
+      "image": "https://empackcr.com/wp-content/uploads/2025/06/Portada-2.png",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Bolsa plana",
+      "url": "https://empackcr.com/product/bolsa-plana/",
+      "description": "Formato para exhibición horizontal o colgada; revisar especificación técnica.",
+      "image": "https://empackcr.com/wp-content/uploads/2025/06/Portada-1.png",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Bolsa Flow pack",
+      "url": "https://empackcr.com/product/bolsa-flow-pack/",
+      "description": "Formato publicado para productos como café y té; requiere validación del material.",
+      "image": "https://empackcr.com/wp-content/uploads/2025/06/Flow-Pack.png",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Bolsa tipo Doy pack?",
+      "answer": "Formato que se sostiene de pie para presentar el contenido.",
+      "keywords": [
+        "bolsa",
+        "tipo",
+        "doy",
+        "pack"
+      ]
+    },
+    {
+      "question": "¿Qué es Bolsa plana?",
+      "answer": "Formato para exhibición horizontal o colgada; revisar especificación técnica.",
+      "keywords": [
+        "bolsa",
+        "plana"
+      ]
+    },
+    {
+      "question": "¿Qué es Bolsa Flow pack?",
+      "answer": "Formato publicado para productos como café y té; requiere validación del material.",
+      "keywords": [
+        "bolsa",
+        "flow",
+        "pack"
+      ]
+    },
+    {
+      "question": "¿Qué otros productos ofrecen?",
+      "answer": "El catálogo incluye films, clips, láminas separadoras y condimentos.",
+      "keywords": [
+        "otros",
+        "productos",
+        "ofrecen"
+      ]
+    },
+    {
+      "question": "¿Cómo solicito una cotización?",
+      "answer": "La web recibe solicitudes indicando el producto de interés.",
+      "keywords": [
+        "solicito",
+        "una",
+        "cotización"
+      ]
+    },
+    {
+      "question": "¿Dónde se ubican?",
+      "answer": "El sitio publica Ofibodegas Calle Blancos, bodega 4.",
+      "keywords": [
+        "se",
+        "ubican"
+      ]
+    },
+    {
+      "question": "¿Puedo elegir el empaque solo por la foto?",
+      "answer": "La aplicación final requiere confirmar dimensiones, material y uso con Empack.",
+      "keywords": [
+        "elegir",
+        "el",
+        "empaque",
+        "solo",
+        "por",
+        "la",
+        "foto"
+      ]
+    },
+    {
+      "question": "¿El simulador confirma un mínimo de compra?",
+      "answer": "No. El tamaño del lote se introduce como supuesto; Empack debe validarlo.",
+      "keywords": [
+        "simulador",
+        "confirma",
+        "un",
+        "mínimo",
+        "de",
+        "compra"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Empack",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Producto a empacar",
+        "question": "¿Qué producto necesitas empacar?",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Formato preferido",
+        "question": "Indica formato preferido.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Medidas y contenido",
+        "question": "Indica medidas y contenido.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Volumen requerido",
+        "question": "Indica volumen requerido.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Acabado o impresión",
+        "question": "Indica acabado o impresión.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://empackcr.com/",
+      "claim": "Empresa costarricense, declaración PYME, catálogo y formulario de cotización visibles. El pie publica Ofibodegas Calle Blancos, bodega 4, sin ciudad o cantón explícitos."
+    },
+    {
+      "url": "https://empackcr.com/product/bolsa-tipo-doy-pack/",
+      "claim": "Bolsa tipo Doy pack: Formato que se sostiene de pie para presentar el contenido."
+    },
+    {
+      "url": "https://empackcr.com/product/bolsa-plana/",
+      "claim": "Bolsa plana: Formato para exhibición horizontal o colgada; revisar especificación técnica."
+    },
+    {
+      "url": "https://empackcr.com/product/bolsa-flow-pack/",
+      "claim": "Bolsa Flow pack: Formato publicado para productos como café y té; requiere validación del material."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

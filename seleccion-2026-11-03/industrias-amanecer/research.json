@@ -1,0 +1,204 @@
+{
+  "company": "Industrias Amanecer",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://tapiceriaamanecer.com.co/",
+      "claim": "Actividad, catálogo y canales oficiales de Industrias Amanecer"
+    },
+    {
+      "url": "https://tapiceriaamanecer.com.co/tienda/p/sofacama-taupe",
+      "claim": "Ficha o línea publicada: Sofacama Taupe"
+    },
+    {
+      "url": "https://tapiceriaamanecer.com.co/tienda/p/cojines-decorativos",
+      "claim": "Ficha o línea publicada: Cojines decorativos"
+    },
+    {
+      "url": "https://tapiceriaamanecer.com.co/tienda/p/silla-asturias",
+      "claim": "Ficha o línea publicada: Silla Asturias"
+    }
+  ],
+  "products": [
+    {
+      "name": "Sofacama Taupe",
+      "description": "Sofacama identificado en la tienda. Su ficha requiere confirmar especificaciones.",
+      "url": "https://tapiceriaamanecer.com.co/tienda/p/sofacama-taupe",
+      "image": "https://tapiceriaamanecer.com.co/assets/media/img/sofacama-taupe.jpg?u=1695127636",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Cojines decorativos",
+      "description": "Colección de complementos textiles; selección de telas por confirmar.",
+      "url": "https://tapiceriaamanecer.com.co/tienda/p/cojines-decorativos",
+      "image": "https://tapiceriaamanecer.com.co/assets/media/img/sin-titulo-18-1.jpg?u=1695127636",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Silla Asturias",
+      "description": "Silla con brazos; ficha publicada de 95 cm de ancho y 85 cm de profundidad.",
+      "url": "https://tapiceriaamanecer.com.co/tienda/p/silla-asturias",
+      "image": "https://tapiceriaamanecer.com.co/assets/media/img/foto-poltrona-1-1.jpg?u=1695127636",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://tapiceriaamanecer.com.co/assets/media/img/foto-poltrona-1-1.jpg?u=1695127636",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://tapiceriaamanecer.com.co/assets/media/img/sofacama-taupe.jpg?u=1695127636",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://tapiceriaamanecer.com.co/assets/media/img/sin-titulo-18-1.jpg?u=1695127636",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://tapiceriaamanecer.com.co/assets/media/img/foto-poltrona-1-1.jpg?u=1695127636",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://tapiceriaamanecer.com.co/",
+    "secondary": "https://www.muuto.com/",
+    "layout": "textile",
+    "palette": [
+      "#805438",
+      "#f7f2e9",
+      "#352e28",
+      "#c6a787"
+    ],
+    "typography": "'Playfair Display',Georgia,serif",
+    "decisions": "Muestrario editorial cálido con foto de silla en gran formato, productos en franjas y calculadora visible de paneles textiles.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "La empresa publica servicios de retapizado y una tienda de mobiliario.",
+      "Las opciones incluyen cuero, sintético, microfibra, lino y telas orientadas a hogares con mascotas.",
+      "La ficha de Silla Asturias describe dimensiones y selección de tapizado; otras fichas requieren completar información."
+    ],
+    "hypothesis": "Preparar solicitudes de tapicería con medidas y cantidades para una revisión inicial más útil.",
+    "operation": "Preparación de metraje para tapicería",
+    "boundaries": [
+      "La ficha Sofacama Taupe contiene texto incompleto; no se extraen de ella materiales, medidas o garantías."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://tapiceriaamanecer.com.co/assets/media/img/foto-poltrona-1-1.jpg?u=1695127636",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://tapiceriaamanecer.com.co/assets/media/img/sofacama-taupe.jpg?u=1695127636",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://tapiceriaamanecer.com.co/assets/media/img/sin-titulo-18-1.jpg?u=1695127636",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://tapiceriaamanecer.com.co/assets/media/img/foto-poltrona-1-1.jpg?u=1695127636",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "industrias-amanecer",
+      "company": "Industrias Amanecer",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "La ficha Sofacama Taupe contiene texto incompleto; no se extraen de ella materiales, medidas o garantías."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://tapiceriaamanecer.com.co/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://tapiceriaamanecer.com.co/tienda/p/cojines-decorativos",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://tapiceriaamanecer.com.co/tienda/p/silla-asturias",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://tapiceriaamanecer.com.co/tienda/p/sofacama-taupe",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 18350
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 6028
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 43628
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 18350
+      }
+    ]
+  },
+  "publicOnly": true
+}

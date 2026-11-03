@@ -1,0 +1,171 @@
+{
+  "company": "Taller LU’UM",
+  "language": "es",
+  "website": "https://tallerluum.myshopify.com/",
+  "description": "Taller LU’UM · Mobiliario y decoración artesanal. LU’UM desarrolla objetos con diseñadores y artesanos.",
+  "products": [
+    {
+      "name": "Antenumbra trazo",
+      "url": "https://tallerluum.myshopify.com/products/antenumbra-trazo",
+      "description": "Luminaria con mástil de nogal y disco de terrazo; ficha de Ø75 × 200 cm.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Bernal Colgante",
+      "url": "https://tallerluum.myshopify.com/products/bernal-colgante",
+      "description": "Lámpara de mimbre natural; 25 cm de diámetro y 19 cm de alto, según ficha.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Eclipse",
+      "url": "https://tallerluum.myshopify.com/products/eclipse",
+      "description": "Discos de cobre martelinado con base de cedro; variantes por diámetro.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Puedo personalizar una pieza?",
+      "answer": "La FAQ indica que muchos productos pueden hacerse en otras medidas, colores o materiales; se confirma por referencia.",
+      "keywords": [
+        "personalizar",
+        "medida"
+      ]
+    },
+    {
+      "question": "¿Hay atención para proyectos?",
+      "answer": "Sí. Se publican cotizaciones para mayoreo y proyectos de interiorismo.",
+      "keywords": [
+        "proyecto",
+        "mayoreo"
+      ]
+    },
+    {
+      "question": "¿Todas están listas para entrega?",
+      "answer": "La FAQ aclara que algunas piezas requieren fabricación. Debe revisarse cada producto antes de confirmar.",
+      "keywords": [
+        "entrega",
+        "inmediata"
+      ]
+    },
+    {
+      "question": "¿Puedo verlas en showroom?",
+      "answer": "Existe showroom en San Rafael, CDMX, pero no todas las piezas están exhibidas. Conviene confirmar la visita.",
+      "keywords": [
+        "showroom",
+        "visita"
+      ]
+    },
+    {
+      "question": "¿La lista calcula iluminación del ambiente?",
+      "answer": "No. Consolida objetos; potencia, flujo, instalación y cálculo lumínico requieren revisión técnica.",
+      "keywords": [
+        "luz",
+        "iluminacion",
+        "potencia"
+      ]
+    },
+    {
+      "question": "¿Qué es Antenumbra trazo?",
+      "answer": "Luminaria con mástil de nogal y disco de terrazo; ficha de Ø75 × 200 cm. Ficha oficial: https://tallerluum.myshopify.com/products/antenumbra-trazo",
+      "keywords": [
+        "antenumbra trazo",
+        "antenumbra",
+        "trazo"
+      ]
+    },
+    {
+      "question": "¿Qué es Bernal Colgante?",
+      "answer": "Lámpara de mimbre natural; 25 cm de diámetro y 19 cm de alto, según ficha. Ficha oficial: https://tallerluum.myshopify.com/products/bernal-colgante",
+      "keywords": [
+        "bernal colgante",
+        "bernal",
+        "colgante"
+      ]
+    },
+    {
+      "question": "¿Qué es Eclipse?",
+      "answer": "Discos de cobre martelinado con base de cedro; variantes por diámetro. Ficha oficial: https://tallerluum.myshopify.com/products/eclipse",
+      "keywords": [
+        "eclipse",
+        "eclipse"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Lista de piezas por ambiente",
+    "steps": [
+      {
+        "key": "proyecto",
+        "label": "Proyecto",
+        "question": "¿Qué tipo de espacio estás diseñando?",
+        "required": true
+      },
+      {
+        "key": "piezas",
+        "label": "Piezas",
+        "question": "¿Qué referencias te interesan y cuántas por ambiente?",
+        "required": true
+      },
+      {
+        "key": "personalizacion",
+        "label": "Ajustes",
+        "question": "¿Necesitas otras medidas, colores o materiales?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿En qué ciudad se instalarían?",
+        "required": true
+      },
+      {
+        "key": "fecha",
+        "label": "Fecha deseada",
+        "question": "¿Tienes una fecha deseada para revisar, sin que esto confirme entrega?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://tallerluum.myshopify.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Taller LU’UM"
+    },
+    {
+      "url": "https://tallerluum.myshopify.com/products/antenumbra-trazo",
+      "claim": "Ficha o línea publicada: Antenumbra trazo"
+    },
+    {
+      "url": "https://tallerluum.myshopify.com/products/bernal-colgante",
+      "claim": "Ficha o línea publicada: Bernal Colgante"
+    },
+    {
+      "url": "https://tallerluum.myshopify.com/products/eclipse",
+      "claim": "Ficha o línea publicada: Eclipse"
+    },
+    {
+      "url": "https://tallerluum.myshopify.com/apps/frequently-asked-questions",
+      "claim": "Proceso o información complementaria oficial"
+    },
+    {
+      "url": "https://tallerluum.myshopify.com/collections/luminarias",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#7f4c30",
+    "background": "#f7f4ed",
+    "foreground": "#302e29",
+    "font": "'Playfair Display',Georgia,serif"
+  },
+  "heroImage": "assets/hero.img"
+}

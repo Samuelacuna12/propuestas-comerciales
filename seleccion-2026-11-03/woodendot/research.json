@@ -1,0 +1,190 @@
+{
+  "company": "Woodendot",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "en",
+  "sources": [
+    {
+      "url": "https://woodendot.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://woodendot.com/products/dalea-wall-mounted-tv-unit-natural-oak-6-modules-xl",
+      "claim": "Dalea Wall-Mounted TV Unit · Natural Oak – 6 Modules XL: Six-module XL wall-mounted TV unit in Natural Oak veneer."
+    },
+    {
+      "url": "https://woodendot.com/products/dalea-wall-mounted-sideboard-natural-walnut-xl",
+      "claim": "Dalea Wall-Mounted Sideboard · Natural Walnut – 4 Modules XL: Four-module XL floating sideboard in Natural Walnut veneer."
+    },
+    {
+      "url": "https://woodendot.com/products/etna-floor-candle-holder-medium-green",
+      "claim": "Etna Floor Candle Holder · Medium green: Medium green wooden floor candle holder from the Etna collection."
+    },
+    {
+      "url": "https://woodendot.com/pages/our-story",
+      "claim": "Fundadores, origen local y operación actual de muebles a medida."
+    },
+    {
+      "url": "https://woodendot.com/",
+      "claim": "Ecommerce, configurador y canal PRO; inglés observado y selector de español disponible."
+    },
+    {
+      "url": "https://woodendot.com/pages/contact",
+      "claim": "Atención general, sede Madrid y fabricación Íscar."
+    }
+  ],
+  "products": [
+    {
+      "name": "Dalea Wall-Mounted TV Unit · Natural Oak – 6 Modules XL",
+      "url": "https://woodendot.com/products/dalea-wall-mounted-tv-unit-natural-oak-6-modules-xl",
+      "description": "Six-module XL wall-mounted TV unit in Natural Oak veneer.",
+      "image": "https://woodendot.com/cdn/shop/files/dalea-xl-floating-tv-unit-oak-6-modules-front2.jpg?v=1791964254&width=1100",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Dalea Wall-Mounted Sideboard · Natural Walnut – 4 Modules XL",
+      "url": "https://woodendot.com/products/dalea-wall-mounted-sideboard-natural-walnut-xl",
+      "description": "Four-module XL floating sideboard in Natural Walnut veneer.",
+      "image": "https://woodendot.com/cdn/shop/files/dalea-xl-floating-tv-unit-walnut-4-modules-open-storage-front-view.jpg?v=1791455115&width=1100",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Etna Floor Candle Holder · Medium green",
+      "url": "https://woodendot.com/products/etna-floor-candle-holder-medium-green",
+      "description": "Medium green wooden floor candle holder from the Etna collection.",
+      "image": "https://woodendot.com/cdn/shop/products/EtnagreenM_c93ff562-6a43-449a-9cb1-7bafc8f70f89.jpg?v=1679615558&width=1100",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "Dalea Wall-Mounted TV Unit · Natural Oak – 6 Modules XL",
+      "url": "https://woodendot.com/cdn/shop/files/dalea-xl-floating-tv-unit-oak-6-modules-front2.jpg?v=1791964254&width=1100",
+      "local": "assets/product-1.jpg",
+      "mime": "image/jpeg",
+      "bytes": 193487,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://woodendot.com/products/dalea-wall-mounted-tv-unit-natural-oak-6-modules-xl"
+    },
+    {
+      "product": "Dalea Wall-Mounted Sideboard · Natural Walnut – 4 Modules XL",
+      "url": "https://woodendot.com/cdn/shop/files/dalea-xl-floating-tv-unit-walnut-4-modules-open-storage-front-view.jpg?v=1791455115&width=1100",
+      "local": "assets/product-2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 193172,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://woodendot.com/products/dalea-wall-mounted-sideboard-natural-walnut-xl"
+    },
+    {
+      "product": "Etna Floor Candle Holder · Medium green",
+      "url": "https://woodendot.com/cdn/shop/products/EtnagreenM_c93ff562-6a43-449a-9cb1-7bafc8f70f89.jpg?v=1679615558&width=1100",
+      "local": "assets/product-3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 24671,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://woodendot.com/products/etna-floor-candle-holder-medium-green"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://woodendot.com/",
+    "secondary": "https://grovemade.com/",
+    "boundedBorrowing": "Gallery-like product composition, material labels and a technical room brief.",
+    "layout": "gallery",
+    "palette": {
+      "accent": "#5c4936",
+      "background": "#f4f1eb"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Compare user-entered rectangular footprints with a room area and record quantity. It does not certify wall mounting, loads or clearances."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://woodendot.com/products/dalea-wall-mounted-tv-unit-natural-oak-6-modules-xl",
+        "httpOk": true
+      },
+      {
+        "url": "https://woodendot.com/products/dalea-wall-mounted-sideboard-natural-walnut-xl",
+        "httpOk": true
+      },
+      {
+        "url": "https://woodendot.com/products/etna-floor-candle-holder-medium-green",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": true
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

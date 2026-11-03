@@ -1,0 +1,138 @@
+{
+  "company": "Succasa",
+  "reviewedAt": "2026-11-03",
+  "website": "https://succasa.com.gt/",
+  "publicFacts": [
+    {
+      "url": "https://succasa.com.gt/mayoreo-empaques-para-alimentos/",
+      "claim": "Catálogo mayorista y armado de cotización por cantidades."
+    },
+    {
+      "url": "https://succasa.com.gt/quote-request/",
+      "claim": "Flujo de cotización y contacto comercial con dirección en Mixco."
+    },
+    {
+      "url": "https://succasa.com.gt/product/caja-pastel-10104-felicidades-1-50/",
+      "claim": "Caja pastel 10 × 10 × 4 Felicidades: Referencia publicada con presentación 1/50; confirmar medidas y unidades al cotizar."
+    },
+    {
+      "url": "https://succasa.com.gt/product/caja-pastel-10104-blanca-1-50/",
+      "claim": "Caja pastel 10 × 10 × 4 blanca: Caja blanca publicada con presentación 1/50."
+    },
+    {
+      "url": "https://succasa.com.gt/product/caja-pastel-12124-blanca-1-50/",
+      "claim": "Caja pastel 12 × 12 × 4 blanca: Caja blanca de otra medida, publicada con presentación 1/50."
+    }
+  ],
+  "products": [
+    {
+      "name": "Caja pastel 10 × 10 × 4 Felicidades",
+      "url": "https://succasa.com.gt/product/caja-pastel-10104-felicidades-1-50/",
+      "description": "Referencia publicada con presentación 1/50; confirmar medidas y unidades al cotizar.",
+      "image": "https://succasa.com.gt/wp-content/uploads/2021/01/3200-1-scaled.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Caja pastel 10 × 10 × 4 blanca",
+      "url": "https://succasa.com.gt/product/caja-pastel-10104-blanca-1-50/",
+      "description": "Caja blanca publicada con presentación 1/50.",
+      "image": "https://succasa.com.gt/wp-content/uploads/2021/01/3205-1-scaled.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Caja pastel 12 × 12 × 4 blanca",
+      "url": "https://succasa.com.gt/product/caja-pastel-12124-blanca-1-50/",
+      "description": "Caja blanca de otra medida, publicada con presentación 1/50.",
+      "image": "https://succasa.com.gt/wp-content/uploads/2021/01/3206-1-scaled.jpg",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://succasa.com.gt/wp-content/uploads/2021/01/3200-1-scaled.jpg",
+      "sourcePage": "https://succasa.com.gt/product/caja-pastel-10104-felicidades-1-50/",
+      "use": "Caja pastel 10 × 10 × 4 Felicidades"
+    },
+    {
+      "url": "https://succasa.com.gt/wp-content/uploads/2021/01/3205-1-scaled.jpg",
+      "sourcePage": "https://succasa.com.gt/product/caja-pastel-10104-blanca-1-50/",
+      "use": "Caja pastel 10 × 10 × 4 blanca"
+    },
+    {
+      "url": "https://succasa.com.gt/wp-content/uploads/2021/01/3206-1-scaled.jpg",
+      "sourcePage": "https://succasa.com.gt/product/caja-pastel-12124-blanca-1-50/",
+      "use": "Caja pastel 12 × 12 × 4 blanca"
+    },
+    {
+      "url": "https://succasa.com.gt/wp-content/uploads/2021/01/3200-1-scaled.jpg",
+      "sourcePage": "https://succasa.com.gt/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://succasa.com.gt/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://packhelp.com/",
+      "observedPattern": "Entradas por formato y aplicación; especificación del empaque antes de la cotización."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "bakery",
+      "headline": "Tu siguiente tanda,\nbien empacada.",
+      "palette": [
+        "#bc5d37",
+        "#faf0df",
+        "#4a332b"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Plan de cajas por producción",
+      "reason": "Traducir una tanda de producción a presentaciones comerciales podría reducir cantidades ambiguas en la cotización existente.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 9,
+      "passed": 9,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

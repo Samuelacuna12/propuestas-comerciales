@@ -1,0 +1,177 @@
+{
+  "company": "Grupo Proinco",
+  "language": "es",
+  "website": "https://grupoproincogt.com/",
+  "description": "Catálogo de bolsas transparentes, impresas, herméticas y otras, bobinas y film; atención comercial mediante formulario.",
+  "theme": {
+    "accent": "#167ba9",
+    "background": "#f0f5f7",
+    "foreground": "#173242",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Bolsas transparentes",
+      "url": "https://grupoproincogt.com/es/bolsas-plasticas-transparentes.html",
+      "description": "Familia con distintos sellos, medidas y materiales según requerimiento.",
+      "image": "https://grupoproincogt.com/assets/img/productos/bolsa-transparentes-1.jpg",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Bolsas impresas",
+      "url": "https://grupoproincogt.com/es/bolsas-plasticas-impresas.html",
+      "description": "Impresión de logo o diseño; requiere revisar y aprobar el arte.",
+      "image": "https://grupoproincogt.com/assets/img/productos/bolsas-impresas-1.jpg",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Bolsas con cierre hermético",
+      "url": "https://grupoproincogt.com/es/fabricacion-de-bolsas-plasticas-con-cierre-hermetico.html",
+      "description": "Ficha de cierre hermético con opciones de impresión y perforación por consulta.",
+      "image": "https://grupoproincogt.com/assets/img/productos/cierre-hermetico-1.jpg",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Bolsas transparentes?",
+      "answer": "Familia con distintos sellos, medidas y materiales según requerimiento.",
+      "keywords": [
+        "bolsas",
+        "transparentes"
+      ]
+    },
+    {
+      "question": "¿Qué es Bolsas impresas?",
+      "answer": "Impresión de logo o diseño; requiere revisar y aprobar el arte.",
+      "keywords": [
+        "bolsas",
+        "impresas"
+      ]
+    },
+    {
+      "question": "¿Qué es Bolsas con cierre hermético?",
+      "answer": "Ficha de cierre hermético con opciones de impresión y perforación por consulta.",
+      "keywords": [
+        "bolsas",
+        "con",
+        "cierre",
+        "hermético"
+      ]
+    },
+    {
+      "question": "¿Trabajan tamaños personalizados?",
+      "answer": "La ficha de bolsas transparentes publica medidas estándar y personalizadas.",
+      "keywords": [
+        "tamaños",
+        "personalizados"
+      ]
+    },
+    {
+      "question": "¿Hay un pedido mínimo fijo?",
+      "answer": "La página indica que depende del tamaño y las especificaciones; se cotiza individualmente.",
+      "keywords": [
+        "un",
+        "pedido",
+        "mínimo",
+        "fijo"
+      ]
+    },
+    {
+      "question": "¿Pueden imprimir el logo?",
+      "answer": "Sí. Su catálogo presenta bolsas y bobinas impresas.",
+      "keywords": [
+        "imprimir",
+        "el",
+        "logo"
+      ]
+    },
+    {
+      "question": "¿Cuándo empieza la producción impresa?",
+      "answer": "La página indica que depende de volumen y diseño, después de aprobar el arte final.",
+      "keywords": [
+        "empieza",
+        "la",
+        "producción",
+        "impresa"
+      ]
+    },
+    {
+      "question": "¿Dónde se ubica la empresa?",
+      "answer": "Su web publica Ciudad de Guatemala.",
+      "keywords": [
+        "se",
+        "ubica",
+        "la",
+        "empresa"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Grupo Proinco",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Familia de bolsa",
+        "question": "Indica familia de bolsa.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Ancho y alto",
+        "question": "Indica ancho y alto.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Volumen requerido",
+        "question": "Indica volumen requerido.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Sello, fuelle o cierre",
+        "question": "Indica sello, fuelle o cierre.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Impresión y arte disponible",
+        "question": "Indica impresión y arte disponible.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://grupoproincogt.com/es/nosotros.html",
+      "claim": "Origen familiar, producción y distribución de soluciones plásticas, ubicación Ciudad de Guatemala."
+    },
+    {
+      "url": "https://grupoproincogt.com/es/contactenos.html",
+      "claim": "Formulario y canales comerciales oficiales."
+    },
+    {
+      "url": "https://grupoproincogt.com/es/bolsas-plasticas-transparentes.html",
+      "claim": "Bolsas transparentes: Familia con distintos sellos, medidas y materiales según requerimiento."
+    },
+    {
+      "url": "https://grupoproincogt.com/es/bolsas-plasticas-impresas.html",
+      "claim": "Bolsas impresas: Impresión de logo o diseño; requiere revisar y aprobar el arte."
+    },
+    {
+      "url": "https://grupoproincogt.com/es/fabricacion-de-bolsas-plasticas-con-cierre-hermetico.html",
+      "claim": "Bolsas con cierre hermético: Ficha de cierre hermético con opciones de impresión y perforación por consulta."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

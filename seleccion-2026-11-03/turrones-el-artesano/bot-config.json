@@ -1,0 +1,189 @@
+{
+  "company": "Turrones El Artesano",
+  "language": "es",
+  "website": "https://elartesano.es/",
+  "description": "Tres elaboraciones de la tienda oficial para preparar un lote con referencias y cantidades claras.",
+  "products": [
+    {
+      "name": "Turrón Crema de Pistacho y Almendra Calidad Suprema",
+      "url": "https://tiendaturron.com/product/turron-crema-de-pistacho-y-almendra-calidad-suprema/",
+      "description": "Turrón blando de pistacho y almendra, en formato de 150 g.",
+      "image": "https://tiendaturron.com/wp-content/uploads/2026/05/045Nadia-Fuster-Fotografia-23-06-2026-Crema-de-pistacho-y-almendra-200-g-scaled.jpg",
+      "asset": "assets/product-1-optimized.jpg"
+    },
+    {
+      "name": "Turrón Imperial de Pistacho Calidad Suprema",
+      "url": "https://tiendaturron.com/product/turron-imperial-de-pistacho-calidad-suprema/",
+      "description": "Turrón duro de pistacho y almendra, en formato de 150 g.",
+      "image": "https://tiendaturron.com/wp-content/uploads/2026/05/039Nadia-Fuster-Fotografia-23-06-2026-Imperial-pistacho-200-g-scaled.jpg",
+      "asset": "assets/product-2-optimized.jpg"
+    },
+    {
+      "name": "Turrón de Brownie",
+      "url": "https://tiendaturron.com/product/turron-de-brownie/",
+      "description": "Turrón inspirado en brownie, con cacao y nueces, en formato de 130 g.",
+      "image": "https://tiendaturron.com/wp-content/uploads/2026/05/021Nadia-Fuster-Fotografia-23-06-2026-Brownie-130-g-scaled.jpg",
+      "asset": "assets/product-3-optimized.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Dónde está la tienda oficial?",
+      "answer": "La web de El Artesano enlaza tiendaturron.com como tienda online oficial.",
+      "keywords": [
+        "dónde",
+        "está",
+        "tienda",
+        "oficial"
+      ]
+    },
+    {
+      "question": "¿Qué categorías ofrece?",
+      "answer": "La tienda incluye turrones, porciones, pastelería y opciones de regalo.",
+      "keywords": [
+        "qué",
+        "categorías",
+        "ofrece"
+      ]
+    },
+    {
+      "question": "¿Dónde reviso los alérgenos?",
+      "answer": "Hay una página específica de información sobre alérgenos; la ficha de cada elaboración prevalece.",
+      "keywords": [
+        "dónde",
+        "reviso",
+        "alérgenos"
+      ]
+    },
+    {
+      "question": "¿Qué es Turrón Crema de Pistacho y Almendra Calidad Suprema?",
+      "answer": "Turrón blando de pistacho y almendra, en formato de 150 g. Ficha oficial: https://tiendaturron.com/product/turron-crema-de-pistacho-y-almendra-calidad-suprema/",
+      "keywords": [
+        "turrón",
+        "crema",
+        "pistacho",
+        "almendra",
+        "calidad",
+        "suprema"
+      ]
+    },
+    {
+      "question": "¿Qué es Turrón Imperial de Pistacho Calidad Suprema?",
+      "answer": "Turrón duro de pistacho y almendra, en formato de 150 g. Ficha oficial: https://tiendaturron.com/product/turron-imperial-de-pistacho-calidad-suprema/",
+      "keywords": [
+        "turrón",
+        "imperial",
+        "pistacho",
+        "calidad",
+        "suprema"
+      ]
+    },
+    {
+      "question": "¿Qué es Turrón de Brownie?",
+      "answer": "Turrón inspirado en brownie, con cacao y nueces, en formato de 130 g. Ficha oficial: https://tiendaturron.com/product/turron-de-brownie/",
+      "keywords": [
+        "turrón",
+        "brownie"
+      ]
+    },
+    {
+      "question": "¿Qué precio y disponibilidad tiene mi selección?",
+      "answer": "Confirma precio, variantes y disponibilidad en las fichas oficiales. Esta propuesta no tiene acceso al inventario ni confirma reservas.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "¿Cómo continúo con una consulta real?",
+      "answer": "Prepara el resumen local y revísalo antes de usar el canal oficial: https://elartesano.es/contactar/",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Organizador de lotes de turrón",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selección",
+        "question": "¿Qué turrón te interesa: crema de pistacho, imperial de pistacho o brownie?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Cantidad",
+        "question": "¿Cuántos destinatarios o lotes estás preparando?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Detalles",
+        "question": "¿Cuántas tabletas de cada referencia quieres incluir?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "Por confirmar",
+        "question": "¿Qué ingredientes, alérgenos o condiciones de conservación necesitas confirmar?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief para revisión humana"
+  },
+  "sources": [
+    {
+      "url": "https://elartesano.es/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://tiendaturron.com/product/turron-crema-de-pistacho-y-almendra-calidad-suprema/",
+      "claim": "Turrón Crema de Pistacho y Almendra Calidad Suprema: Turrón blando de pistacho y almendra, en formato de 150 g."
+    },
+    {
+      "url": "https://tiendaturron.com/product/turron-imperial-de-pistacho-calidad-suprema/",
+      "claim": "Turrón Imperial de Pistacho Calidad Suprema: Turrón duro de pistacho y almendra, en formato de 150 g."
+    },
+    {
+      "url": "https://tiendaturron.com/product/turron-de-brownie/",
+      "claim": "Turrón de Brownie: Turrón inspirado en brownie, con cacao y nueces, en formato de 130 g."
+    },
+    {
+      "url": "https://elartesano.es/historia/",
+      "claim": "Origen familiar del fabricante."
+    },
+    {
+      "url": "https://elartesano.es/contactar/",
+      "claim": "Sede Jijona, atención y enlace a tienda oficial."
+    },
+    {
+      "url": "https://tiendaturron.com/",
+      "claim": "Tienda online del fabricante."
+    }
+  ],
+  "boundaries": [
+    "Demostración local basada en reglas; no es una IA conectada al negocio.",
+    "No acceso a pedidos, clientes, pagos ni stock.",
+    "No confirmar precios, entrega, compatibilidad o políticas no verificadas.",
+    "Calcula tabletas por lote y destinatarios. La revisión humana confirma alérgenos, formato, conservación y disponibilidad antes de comprar."
+  ],
+  "theme": {
+    "accent": "#8c242b",
+    "background": "#faf1df",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1-optimized.jpg"
+}

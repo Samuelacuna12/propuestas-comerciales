@@ -1,0 +1,191 @@
+{
+  "company": "Small Pet Select",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "en",
+  "sources": [
+    {
+      "url": "https://shop.smallpetselect.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://shop.smallpetselect.com/products/2nd-cutting-timothy-hay",
+      "claim": "2nd Cutting Timothy Hay: Second-cutting Timothy hay with a leafy texture and soft stems."
+    },
+    {
+      "url": "https://shop.smallpetselect.com/products/sampler-hay-box",
+      "claim": "Sampler Hay Box: A hay sampler intended to compare the included hay varieties."
+    },
+    {
+      "url": "https://shop.smallpetselect.com/products/golden-wheat-straw-bedding",
+      "claim": "Golden Wheat Straw Bedding: Wheat-straw bedding, distinct from a feeding-hay product."
+    },
+    {
+      "url": "https://shop.smallpetselect.com/pages/about-small-pet-select",
+      "claim": "Empresa familiar, origen y catálogo; enlace oficial al formulario de contacto."
+    },
+    {
+      "url": "https://shop.smallpetselect.com/",
+      "claim": "Tienda estadounidense, autoship y canal mayorista."
+    },
+    {
+      "url": "https://contact.gorgias.help/en-US/forms/zhhaokey",
+      "claim": "Formulario comercial enlazado desde la web oficial."
+    }
+  ],
+  "products": [
+    {
+      "name": "2nd Cutting Timothy Hay",
+      "url": "https://shop.smallpetselect.com/products/2nd-cutting-timothy-hay",
+      "description": "Second-cutting Timothy hay with a leafy texture and soft stems.",
+      "image": "https://shop.smallpetselect.com/cdn/shop/files/125_Small-Pet-Select.jpg?v=1758301203&width=1024",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Sampler Hay Box",
+      "url": "https://shop.smallpetselect.com/products/sampler-hay-box",
+      "description": "A hay sampler intended to compare the included hay varieties.",
+      "image": "https://shop.smallpetselect.com/cdn/shop/files/421.jpg?v=1741870935&width=3000",
+      "asset": "assets/product-2-mobile.jpg"
+    },
+    {
+      "name": "Golden Wheat Straw Bedding",
+      "url": "https://shop.smallpetselect.com/products/golden-wheat-straw-bedding",
+      "description": "Wheat-straw bedding, distinct from a feeding-hay product.",
+      "image": "https://shop.smallpetselect.com/cdn/shop/files/listing1.jpg?v=1775685708&width=1500",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "2nd Cutting Timothy Hay",
+      "url": "https://shop.smallpetselect.com/cdn/shop/files/125_Small-Pet-Select.jpg?v=1758301203&width=1024",
+      "local": "assets/product-1.jpg",
+      "mime": "image/jpeg",
+      "bytes": 84261,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://shop.smallpetselect.com/products/2nd-cutting-timothy-hay"
+    },
+    {
+      "product": "Sampler Hay Box",
+      "url": "https://shop.smallpetselect.com/cdn/shop/files/421.jpg?v=1741870935&width=3000",
+      "local": "assets/product-2-mobile.jpg",
+      "mime": "image/jpeg",
+      "bytes": 195419,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://shop.smallpetselect.com/products/sampler-hay-box",
+      "downloadUrl": "https://shop.smallpetselect.com/cdn/shop/files/421.jpg?v=1741870935&width=900&format=webp"
+    },
+    {
+      "product": "Golden Wheat Straw Bedding",
+      "url": "https://shop.smallpetselect.com/cdn/shop/files/listing1.jpg?v=1775685708&width=1500",
+      "local": "assets/product-3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 149559,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://shop.smallpetselect.com/products/golden-wheat-straw-bedding"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://shop.smallpetselect.com/",
+    "secondary": "https://www.papermart.com/",
+    "boundedBorrowing": "Practical category navigation and refill quantity clarity.",
+    "layout": "field",
+    "palette": {
+      "accent": "#425f2a",
+      "background": "#f6f7eb"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Estimate days of coverage and refill quantities from observed household use. This is inventory planning, not feeding or veterinary advice."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://shop.smallpetselect.com/products/2nd-cutting-timothy-hay",
+        "httpOk": true
+      },
+      {
+        "url": "https://shop.smallpetselect.com/products/sampler-hay-box",
+        "httpOk": true
+      },
+      {
+        "url": "https://shop.smallpetselect.com/products/golden-wheat-straw-bedding",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

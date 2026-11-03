@@ -1,0 +1,204 @@
+{
+  "company": "KAFO",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://kafo.cafe/",
+      "claim": "Actividad, catálogo y canales oficiales de KAFO"
+    },
+    {
+      "url": "https://kafo.cafe/producto/blend-de-la-casa-2/",
+      "claim": "Ficha o línea publicada: Blend KAFO Reserva · 454 g"
+    },
+    {
+      "url": "https://kafo.cafe/producto/blend-de-la-casa/",
+      "claim": "Ficha o línea publicada: Blend de la Casa · 454 g"
+    },
+    {
+      "url": "https://kafo.cafe/producto/kfbans/",
+      "claim": "Ficha o línea publicada: Bourbon Amarillo · Toledo 454 g"
+    }
+  ],
+  "products": [
+    {
+      "name": "Blend KAFO Reserva · 454 g",
+      "description": "Mezcla de variedades de Toledo y Sandoná, tostión media.",
+      "url": "https://kafo.cafe/producto/blend-de-la-casa-2/",
+      "image": "https://kafo.cafe/wp-content/uploads/2020/07/1.jpeg",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Blend de la Casa · 454 g",
+      "description": "Perfil descrito con panela y cítricos; variantes de molienda.",
+      "url": "https://kafo.cafe/producto/blend-de-la-casa/",
+      "image": "https://kafo.cafe/wp-content/uploads/2020/07/1.jpeg",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Bourbon Amarillo · Toledo 454 g",
+      "description": "Origen Norte de Santander; notas descritas de mandarina, flores y panela.",
+      "url": "https://kafo.cafe/producto/kfbans/",
+      "image": "https://kafo.cafe/wp-content/uploads/2020/05/KF-BANS-04.jpg",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://kafo.cafe/wp-content/uploads/2020/05/foto-acerca.jpg",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://kafo.cafe/wp-content/uploads/2020/07/1.jpeg",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://kafo.cafe/wp-content/uploads/2020/07/1.jpeg",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://kafo.cafe/wp-content/uploads/2020/05/KF-BANS-04.jpg",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://kafo.cafe/",
+    "secondary": "https://onyxcoffeelab.com/collections/coffee",
+    "layout": "roaster",
+    "palette": [
+      "#176879",
+      "#f0f1e9",
+      "#183e45",
+      "#e6ae47"
+    ],
+    "typography": "'Space Grotesk',sans-serif",
+    "decisions": "Mesa de tostador en azul petróleo, fichas de origen legibles y protagonista de preparación; producto acompañado de utilidad, no de descuentos.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "KAFO ofrece cafés por origen y variantes de molienda.",
+      "Las fichas de la selección publican presentaciones de 454 g.",
+      "La empresa cuenta con tienda y experiencia de café en Cedritos, Bogotá."
+    ],
+    "hypothesis": "Ayudar a compradores de café en casa a relacionar referencia, molienda y cantidad de preparación.",
+    "operation": "Mesa de receta y rendimiento de café",
+    "boundaries": [
+      "Las proporciones iniciales del simulador son ejemplos editables, no recetas oficiales de KAFO."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://kafo.cafe/wp-content/uploads/2020/05/foto-acerca.jpg",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://kafo.cafe/wp-content/uploads/2020/07/1.jpeg",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://kafo.cafe/wp-content/uploads/2020/07/1.jpeg",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://kafo.cafe/wp-content/uploads/2020/05/KF-BANS-04.jpg",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "kafo",
+      "company": "KAFO",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "Las proporciones iniciales del simulador son ejemplos editables, no recetas oficiales de KAFO."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://kafo.cafe/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://kafo.cafe/producto/blend-de-la-casa-2/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://kafo.cafe/producto/blend-de-la-casa/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://kafo.cafe/producto/kfbans/",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 91882
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 20652
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 20652
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 56428
+      }
+    ]
+  },
+  "publicOnly": true
+}

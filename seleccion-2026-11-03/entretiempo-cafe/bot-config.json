@@ -1,0 +1,175 @@
+{
+  "company": "Entretiempo Café",
+  "language": "es",
+  "website": "https://entretiempo.co/",
+  "description": "Entretiempo Café · Café de especialidad. La tienda organiza el café por origen, variedad y proceso.",
+  "products": [
+    {
+      "name": "Café Entre Sonrisas · 340 g",
+      "url": "https://entretiempo.co/productos/cafe-entre-sonrisas-operacion-sonrisa/",
+      "description": "Referencia publicada en colaboración con Operación Sonrisa Colombia.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Caturrón Natural · Huila",
+      "url": "https://entretiempo.co/productos/caturron-natural-huila/",
+      "description": "Café de la selección efímera; variedad y origen identificados en su ficha.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Costa Rica Black Honey · Tolima 340 g",
+      "url": "https://entretiempo.co/productos/costa-rica-black-honey-tolima1/",
+      "description": "Café identificado por variedad, proceso y origen.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Puedo elegir molienda?",
+      "answer": "La web ofrece molienda según el método de preparación y una opción de molienda sin costo. Confirma la selección al comprar.",
+      "keywords": [
+        "molienda",
+        "molido"
+      ]
+    },
+    {
+      "question": "¿Tienen suscripción?",
+      "answer": "Sí. Existe una sección oficial para planes de café recurrente. Este simulador no suscribe ni cobra.",
+      "keywords": [
+        "suscripcion",
+        "plan"
+      ]
+    },
+    {
+      "question": "¿Qué significa origen?",
+      "answer": "En las fichas se informa procedencia, junto a variedad y proceso. La selección incluye Huila y Tolima.",
+      "keywords": [
+        "origen",
+        "huila",
+        "tolima"
+      ]
+    },
+    {
+      "question": "¿Cómo comparo las frecuencias?",
+      "answer": "Prueba distintos días a cubrir y conserva el mismo consumo diario. Verás cambiar el faltante y la cantidad de bolsas hipotéticas.",
+      "keywords": [
+        "frecuencia",
+        "calcular"
+      ]
+    },
+    {
+      "question": "¿El stock del ejemplo es real?",
+      "answer": "No. Son gramos ingresados por ti, no el inventario de Entretiempo.",
+      "keywords": [
+        "stock",
+        "inventario"
+      ]
+    },
+    {
+      "question": "¿Qué es Café Entre Sonrisas · 340 g?",
+      "answer": "Referencia publicada en colaboración con Operación Sonrisa Colombia. Ficha oficial: https://entretiempo.co/productos/cafe-entre-sonrisas-operacion-sonrisa/",
+      "keywords": [
+        "café entre sonrisas · 340 g",
+        "entre",
+        "sonrisas"
+      ]
+    },
+    {
+      "question": "¿Qué es Caturrón Natural · Huila?",
+      "answer": "Café de la selección efímera; variedad y origen identificados en su ficha. Ficha oficial: https://entretiempo.co/productos/caturron-natural-huila/",
+      "keywords": [
+        "caturrón natural · huila",
+        "caturrón",
+        "natural",
+        "huila"
+      ]
+    },
+    {
+      "question": "¿Qué es Costa Rica Black Honey · Tolima 340 g?",
+      "answer": "Café identificado por variedad, proceso y origen. Ficha oficial: https://entretiempo.co/productos/costa-rica-black-honey-tolima1/",
+      "keywords": [
+        "costa rica black honey · tolima 340 g",
+        "costa",
+        "black",
+        "honey",
+        "tolima"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Simulador de frecuencia y consumo",
+    "steps": [
+      {
+        "key": "cafe",
+        "label": "Café",
+        "question": "¿Qué café o perfil te interesa?",
+        "required": true
+      },
+      {
+        "key": "consumo",
+        "label": "Consumo",
+        "question": "¿Cuántas tazas preparas por día y con qué dosis aproximada?",
+        "required": true
+      },
+      {
+        "key": "metodo",
+        "label": "Método",
+        "question": "¿Cómo lo preparas y necesitas grano o molienda?",
+        "required": true
+      },
+      {
+        "key": "frecuencia",
+        "label": "Frecuencia",
+        "question": "¿Para cuántos días quieres comprar?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿En qué ciudad lo recibirías?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://entretiempo.co/",
+      "claim": "Actividad, catálogo y canales oficiales de [Entretiempo]"
+    },
+    {
+      "url": "https://entretiempo.co/productos/cafe-entre-sonrisas-operacion-sonrisa/",
+      "claim": "Ficha o línea publicada: Café Entre Sonrisas · 340 g"
+    },
+    {
+      "url": "https://entretiempo.co/productos/caturron-natural-huila/",
+      "claim": "Ficha o línea publicada: Caturrón Natural · Huila"
+    },
+    {
+      "url": "https://entretiempo.co/productos/costa-rica-black-honey-tolima1/",
+      "claim": "Ficha o línea publicada: Costa Rica Black Honey · Tolima 340 g"
+    },
+    {
+      "url": "https://entretiempo.co/productos/",
+      "claim": "Proceso o información complementaria oficial"
+    },
+    {
+      "url": "https://entretiempo.co/suscripciones/",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#c83723",
+    "background": "#f7eedc",
+    "foreground": "#32261f",
+    "font": "'Space Grotesk',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

@@ -1,0 +1,188 @@
+{
+  "company": "Portland Syrups",
+  "language": "en",
+  "website": "https://beveragemixers.com/",
+  "description": "Discover syrups and a sampler, then estimate the bottles needed for your own service recipe.",
+  "products": [
+    {
+      "name": "Cinnamon Brown Sugar Syrup",
+      "url": "https://beveragemixers.com/products/cinnamon-brown-sugar-syrup",
+      "description": "Cinnamon and brown-sugar syrup for drinks; a separate official recipe section gives serving ideas.",
+      "image": "https://beveragemixers.com/cdn/shop/files/12oz_cinnamonbrownsugar_knockout.png?v=1790719267&width=1920",
+      "asset": "assets/product-1-mobile-optimized.jpg"
+    },
+    {
+      "name": "Spicy Paloma Syrup",
+      "url": "https://beveragemixers.com/products/spicy-paloma-syrup",
+      "description": "A spicy Paloma syrup from the official beverage-mixer range.",
+      "image": "https://beveragemixers.com/cdn/shop/files/Spicy_Paloma_12oz_03d1f27c-9bf7-497b-ac3f-c0c6af4fca1b.png?v=1747773558&width=1920",
+      "asset": "assets/product-2-optimized.jpg"
+    },
+    {
+      "name": "Winter Flavors Sampler Set",
+      "url": "https://beveragemixers.com/products/winter-flavors-sampler-set",
+      "description": "A seasonal sampler of winter flavors; check the listing for its included bottles.",
+      "image": "https://beveragemixers.com/cdn/shop/files/Winter_Syrup_Sampler-KO.png?v=1791577868&width=1920",
+      "asset": "assets/product-3-mobile.png"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Where can I find drink recipes?",
+      "answer": "The official site has separate recipes for coffee, mocktails and cocktails.",
+      "keywords": [
+        "where",
+        "find",
+        "drink",
+        "recipes"
+      ]
+    },
+    {
+      "question": "Is there a wholesale route?",
+      "answer": "Wholesale and private-label or bulk-project routes are published.",
+      "keywords": [
+        "there",
+        "wholesale",
+        "route"
+      ]
+    },
+    {
+      "question": "Can I assume every bottle is the same size?",
+      "answer": "The selected products include individual syrups and a winter sampler; bottle capacities must be checked on each listing.",
+      "keywords": [
+        "assume",
+        "every",
+        "bottle",
+        "same",
+        "size"
+      ]
+    },
+    {
+      "question": "What is Cinnamon Brown Sugar Syrup?",
+      "answer": "Cinnamon and brown-sugar syrup for drinks; a separate official recipe section gives serving ideas. Official product: https://beveragemixers.com/products/cinnamon-brown-sugar-syrup",
+      "keywords": [
+        "cinnamon",
+        "brown",
+        "sugar",
+        "syrup"
+      ]
+    },
+    {
+      "question": "What is Spicy Paloma Syrup?",
+      "answer": "A spicy Paloma syrup from the official beverage-mixer range. Official product: https://beveragemixers.com/products/spicy-paloma-syrup",
+      "keywords": [
+        "spicy",
+        "paloma",
+        "syrup"
+      ]
+    },
+    {
+      "question": "What is Winter Flavors Sampler Set?",
+      "answer": "A seasonal sampler of winter flavors; check the listing for its included bottles. Official product: https://beveragemixers.com/products/winter-flavors-sampler-set",
+      "keywords": [
+        "winter",
+        "flavors",
+        "sampler"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://beveragemixers.com/pages/contact-us",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Beverage service batch planner",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Which syrup or sampler would you like to explore?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many drinks are you preparing?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "How many milliliters of syrup does your recipe use per drink, and what bottle size are you planning to buy?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Is this for home, a café, an event or a wholesale enquiry?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://beveragemixers.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://beveragemixers.com/products/cinnamon-brown-sugar-syrup",
+      "claim": "Cinnamon Brown Sugar Syrup: Cinnamon and brown-sugar syrup for drinks; a separate official recipe section gives serving ideas."
+    },
+    {
+      "url": "https://beveragemixers.com/products/spicy-paloma-syrup",
+      "claim": "Spicy Paloma Syrup: A spicy Paloma syrup from the official beverage-mixer range."
+    },
+    {
+      "url": "https://beveragemixers.com/products/winter-flavors-sampler-set",
+      "claim": "Winter Flavors Sampler Set: A seasonal sampler of winter flavors; check the listing for its included bottles."
+    },
+    {
+      "url": "https://beveragemixers.com/pages/why-portland-syrups",
+      "claim": "Equipo menor de 30, fabricación y operación en Portland."
+    },
+    {
+      "url": "https://beveragemixers.com/",
+      "claim": "Ecommerce, suscripciones, marca privada y canal mayorista."
+    },
+    {
+      "url": "https://beveragemixers.com/pages/contact-us",
+      "claim": "Página de atención comercial oficial."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Multiply drinks by user-entered syrup dosage, apply the selected allowance and round to bottle capacity entered from the label."
+  ],
+  "theme": {
+    "accent": "#9f3d23",
+    "background": "#fff3df",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1-mobile-optimized.jpg"
+}

@@ -1,0 +1,205 @@
+{
+  "company": "Little Seed Farm",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "en",
+  "sources": [
+    {
+      "url": "https://littleseedfarm.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://littleseedfarm.com/products/activated-charcoal-deodorant-organic-natural",
+      "claim": "Activated Charcoal Deodorant Cream: Deodorant cream with activated charcoal and a mint-herbal scent."
+    },
+    {
+      "url": "https://littleseedfarm.com/products/lavender-deodorant-cream-organic-natural",
+      "claim": "Lavender Deodorant Cream: Lavender deodorant cream with eucalyptus; presented in a glass jar."
+    },
+    {
+      "url": "https://littleseedfarm.com/products/unscented-deodorant-cream-organic-natural-sensitive-skin",
+      "claim": "Unscented Deodorant Cream: Deodorant cream without essential oils; the base ingredients retain a light natural scent."
+    },
+    {
+      "url": "https://littleseedfarm.com/pages/about-little-seed-farm",
+      "claim": "Fundadores, origen local y canal mayorista."
+    },
+    {
+      "url": "https://littleseedfarm.com/",
+      "claim": "Tienda, muestras, recargas y packs."
+    },
+    {
+      "url": "https://littleseedfarm.com/pages/contact-us",
+      "claim": "Contacto comercial oficial."
+    }
+  ],
+  "products": [
+    {
+      "name": "Activated Charcoal Deodorant Cream",
+      "url": "https://littleseedfarm.com/products/activated-charcoal-deodorant-organic-natural",
+      "description": "Deodorant cream with activated charcoal and a mint-herbal scent.",
+      "image": "https://littleseedfarm.com/cdn/shop/files/Activated-Charcoal-Deo-Jar-Box_2104df33-d195-40f5-aa71-8c9b92fac389_3000x.png?v=1756409639",
+      "asset": "assets/product-1-mobile-optimized.jpg"
+    },
+    {
+      "name": "Lavender Deodorant Cream",
+      "url": "https://littleseedfarm.com/products/lavender-deodorant-cream-organic-natural",
+      "description": "Lavender deodorant cream with eucalyptus; presented in a glass jar.",
+      "image": "https://littleseedfarm.com/cdn/shop/files/Lavender-Deo-Jar-Box_b09f728a-9bfb-4b68-9a16-990d952c47ac_3000x.png?v=1756410590",
+      "asset": "assets/product-2-mobile-optimized.jpg"
+    },
+    {
+      "name": "Unscented Deodorant Cream",
+      "url": "https://littleseedfarm.com/products/unscented-deodorant-cream-organic-natural-sensitive-skin",
+      "description": "Deodorant cream without essential oils; the base ingredients retain a light natural scent.",
+      "image": "https://littleseedfarm.com/cdn/shop/files/Unscented-Deo-Jar-Box_ac432e22-2ead-4666-95c7-fe4b4011cea5_3000x.png?v=1756409288",
+      "asset": "assets/product-3-mobile-optimized.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "Activated Charcoal Deodorant Cream",
+      "url": "https://littleseedfarm.com/cdn/shop/files/Activated-Charcoal-Deo-Jar-Box_2104df33-d195-40f5-aa71-8c9b92fac389_3000x.png?v=1756409639",
+      "local": "assets/product-1-mobile-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 105260,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://littleseedfarm.com/products/activated-charcoal-deodorant-organic-natural",
+      "downloadUrl": "https://littleseedfarm.com/cdn/shop/files/Activated-Charcoal-Deo-Jar-Box_2104df33-d195-40f5-aa71-8c9b92fac389.png?v=1756409639&width=970&format=webp",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 386900
+      }
+    },
+    {
+      "product": "Lavender Deodorant Cream",
+      "url": "https://littleseedfarm.com/cdn/shop/files/Lavender-Deo-Jar-Box_b09f728a-9bfb-4b68-9a16-990d952c47ac_3000x.png?v=1756410590",
+      "local": "assets/product-2-mobile-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 101275,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://littleseedfarm.com/products/lavender-deodorant-cream-organic-natural",
+      "downloadUrl": "https://littleseedfarm.com/cdn/shop/files/Lavender-Deo-Jar-Box_b09f728a-9bfb-4b68-9a16-990d952c47ac.png?v=1756410590&width=970&format=webp",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 398821
+      }
+    },
+    {
+      "product": "Unscented Deodorant Cream",
+      "url": "https://littleseedfarm.com/cdn/shop/files/Unscented-Deo-Jar-Box_ac432e22-2ead-4666-95c7-fe4b4011cea5_3000x.png?v=1756409288",
+      "local": "assets/product-3-mobile-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 98979,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://littleseedfarm.com/products/unscented-deodorant-cream-organic-natural-sensitive-skin",
+      "downloadUrl": "https://littleseedfarm.com/cdn/shop/files/Unscented-Deo-Jar-Box_ac432e22-2ead-4666-95c7-fe4b4011cea5.png?v=1756409288&width=970&format=webp",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 398687
+      }
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://littleseedfarm.com/",
+    "secondary": "https://davidstea.com/",
+    "boundedBorrowing": "A focused scent edit with direct category paths, without wellness claims.",
+    "layout": "botanical",
+    "palette": {
+      "accent": "#44613c",
+      "background": "#f6f6ee"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Convert a user’s actual usage rate into a planning quantity, with scent selection and stock deduction. No skin diagnosis."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://littleseedfarm.com/products/activated-charcoal-deodorant-organic-natural",
+        "httpOk": true
+      },
+      {
+        "url": "https://littleseedfarm.com/products/lavender-deodorant-cream-organic-natural",
+        "httpOk": true
+      },
+      {
+        "url": "https://littleseedfarm.com/products/unscented-deodorant-cream-organic-natural-sensitive-skin",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

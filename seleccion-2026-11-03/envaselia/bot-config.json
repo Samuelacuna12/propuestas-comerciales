@@ -1,0 +1,203 @@
+{
+  "company": "Envaselia",
+  "language": "es",
+  "website": "https://www.envaselia.com/",
+  "description": "Compara tres formatos PET y prepara volumen, cantidades y cierre para una revisión técnica comercial.",
+  "products": [
+    {
+      "name": "Envase PET 60 ml M1 cilíndrico 20/415 transparente",
+      "url": "https://www.envaselia-shop.com/envases-pet/115-envase-pet-60ml-m1-cilindrico-20415-transparente.html",
+      "description": "Envase PET transparente de 60 ml, forma cilíndrica y cuello 20/415.",
+      "image": "https://www.envaselia-shop.com/755-product_zoom/envase-pet-60ml-m1-cilindrico-20415-transparente.jpg",
+      "asset": "assets/product-1-optimized.jpg"
+    },
+    {
+      "name": "Envase PET 100 ml M1 cónico 24/410 transparente",
+      "url": "https://www.envaselia-shop.com/envases-pet-cosmetica/116-envase-pet-100ml-m1-conico-24410-transparente.html",
+      "description": "Envase PET transparente de 100 ml, forma cónica y cuello 24/410.",
+      "image": "https://www.envaselia-shop.com/756-product_zoom/envase-pet-100ml-m1-conico-24410-transparente.jpg",
+      "asset": "assets/product-2.png"
+    },
+    {
+      "name": "Envase PET 250 ml cuello 24/410",
+      "url": "https://www.envaselia-shop.com/inicio/40-envase-pet-250ml-m3-cilindrico-24410-transparente.html",
+      "description": "Envase PET transparente de 250 ml, forma cilíndrica y cuello 24/410.",
+      "image": "https://www.envaselia-shop.com/1200-product_zoom/envase-pet-250ml-m3-cilindrico-24410-transparente.jpg",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué aplicaciones publica?",
+      "answer": "Envaselia distingue envases para alimentación, cosmética, farmacia y químicos.",
+      "keywords": [
+        "qué",
+        "aplicaciones",
+        "publica"
+      ]
+    },
+    {
+      "question": "¿Hay formatos estándar y proyectos a medida?",
+      "answer": "La web enlaza una tienda de formatos estándar y una ruta de envases a medida.",
+      "keywords": [
+        "hay",
+        "formatos",
+        "estándar",
+        "proyectos",
+        "medida"
+      ]
+    },
+    {
+      "question": "¿Un cuello igual confirma la compatibilidad?",
+      "answer": "Los formatos seleccionados especifican capacidad y cuello; esa coincidencia no certifica por sí sola el cierre o contenido.",
+      "keywords": [
+        "cuello",
+        "igual",
+        "confirma",
+        "compatibilidad"
+      ]
+    },
+    {
+      "question": "¿Qué es Envase PET 60 ml M1 cilíndrico 20/415 transparente?",
+      "answer": "Envase PET transparente de 60 ml, forma cilíndrica y cuello 20/415. Ficha oficial: https://www.envaselia-shop.com/envases-pet/115-envase-pet-60ml-m1-cilindrico-20415-transparente.html",
+      "keywords": [
+        "envase",
+        "60ml",
+        "cilíndrico",
+        "20/415",
+        "transparente",
+        "resistente",
+        "reciclable",
+        "para",
+        "cosméticos",
+        "muestras",
+        "envaselia"
+      ]
+    },
+    {
+      "question": "¿Qué es Envase PET 100 ml M1 cónico 24/410 transparente?",
+      "answer": "Envase PET transparente de 100 ml, forma cónica y cuello 24/410. Ficha oficial: https://www.envaselia-shop.com/envases-pet-cosmetica/116-envase-pet-100ml-m1-conico-24410-transparente.html",
+      "keywords": [
+        "envase",
+        "100ml",
+        "cónico",
+        "24/410",
+        "transparente",
+        "resistente",
+        "reciclable",
+        "para",
+        "cosméticos",
+        "muestras",
+        "envaselia"
+      ]
+    },
+    {
+      "question": "¿Qué es Envase PET 250 ml cuello 24/410?",
+      "answer": "Envase PET transparente de 250 ml, forma cilíndrica y cuello 24/410. Ficha oficial: https://www.envaselia-shop.com/inicio/40-envase-pet-250ml-m3-cilindrico-24410-transparente.html",
+      "keywords": [
+        "envase",
+        "250ml",
+        "cuello",
+        "24/410",
+        "ligero",
+        "reciclable",
+        "envaselia"
+      ]
+    },
+    {
+      "question": "¿Qué precio y disponibilidad tiene mi selección?",
+      "answer": "Confirma precio, variantes y disponibilidad en las fichas oficiales. Esta propuesta no tiene acceso al inventario ni confirma reservas.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "¿Cómo continúo con una consulta real?",
+      "answer": "Prepara el resumen local y revísalo antes de usar el canal oficial: https://www.envaselia.com/contacto.htm",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Plan de envasado por lote",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selección",
+        "question": "¿Qué capacidad y formato de envase estás valorando?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Cantidad",
+        "question": "¿Qué volumen total necesitas envasar?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Detalles",
+        "question": "¿Qué capacidad por unidad, tipo de contenido y cierre estás considerando?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "Por confirmar",
+        "question": "¿Qué compatibilidad de material, cuello o proceso debe revisar el equipo técnico?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief para revisión humana"
+  },
+  "sources": [
+    {
+      "url": "https://www.envaselia.com/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://www.envaselia-shop.com/envases-pet/115-envase-pet-60ml-m1-cilindrico-20415-transparente.html",
+      "claim": "Envase PET 60 ml M1 cilíndrico 20/415 transparente: Envase PET transparente de 60 ml, forma cilíndrica y cuello 20/415."
+    },
+    {
+      "url": "https://www.envaselia-shop.com/envases-pet-cosmetica/116-envase-pet-100ml-m1-conico-24410-transparente.html",
+      "claim": "Envase PET 100 ml M1 cónico 24/410 transparente: Envase PET transparente de 100 ml, forma cónica y cuello 24/410."
+    },
+    {
+      "url": "https://www.envaselia-shop.com/inicio/40-envase-pet-250ml-m3-cilindrico-24410-transparente.html",
+      "claim": "Envase PET 250 ml cuello 24/410: Envase PET transparente de 250 ml, forma cilíndrica y cuello 24/410."
+    },
+    {
+      "url": "https://www.envaselia.com/",
+      "claim": "Origen, catálogo, soluciones a medida y enlace a tienda."
+    },
+    {
+      "url": "https://www.envaselia.com/contacto.htm",
+      "claim": "Sede Getafe, contacto comercial y ruta de pedidos pequeños."
+    }
+  ],
+  "boundaries": [
+    "Demostración local basada en reglas; no es una IA conectada al negocio.",
+    "No acceso a pedidos, clientes, pagos ni stock.",
+    "No confirmar precios, entrega, compatibilidad o políticas no verificadas.",
+    "Convierte volumen de lote a número de envases con margen introducido por el usuario. Compatibilidad de contenido, cierre y proceso requiere validación."
+  ],
+  "theme": {
+    "accent": "#17657b",
+    "background": "#eef6f7",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1-optimized.jpg"
+}

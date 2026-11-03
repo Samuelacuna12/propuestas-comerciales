@@ -1,0 +1,134 @@
+{
+  "company": "Empack",
+  "reviewedAt": "2026-11-03",
+  "website": "https://empackcr.com/",
+  "publicFacts": [
+    {
+      "url": "https://empackcr.com/",
+      "claim": "Empresa costarricense, declaración PYME, catálogo y formulario de cotización visibles. El pie publica Ofibodegas Calle Blancos, bodega 4, sin ciudad o cantón explícitos."
+    },
+    {
+      "url": "https://empackcr.com/product/bolsa-tipo-doy-pack/",
+      "claim": "Bolsa tipo Doy pack: Formato que se sostiene de pie para presentar el contenido."
+    },
+    {
+      "url": "https://empackcr.com/product/bolsa-plana/",
+      "claim": "Bolsa plana: Formato para exhibición horizontal o colgada; revisar especificación técnica."
+    },
+    {
+      "url": "https://empackcr.com/product/bolsa-flow-pack/",
+      "claim": "Bolsa Flow pack: Formato publicado para productos como café y té; requiere validación del material."
+    }
+  ],
+  "products": [
+    {
+      "name": "Bolsa tipo Doy pack",
+      "url": "https://empackcr.com/product/bolsa-tipo-doy-pack/",
+      "description": "Formato que se sostiene de pie para presentar el contenido.",
+      "image": "https://empackcr.com/wp-content/uploads/2025/06/Portada-2.png",
+      "kind": "product"
+    },
+    {
+      "name": "Bolsa plana",
+      "url": "https://empackcr.com/product/bolsa-plana/",
+      "description": "Formato para exhibición horizontal o colgada; revisar especificación técnica.",
+      "image": "https://empackcr.com/wp-content/uploads/2025/06/Portada-1.png",
+      "kind": "product"
+    },
+    {
+      "name": "Bolsa Flow pack",
+      "url": "https://empackcr.com/product/bolsa-flow-pack/",
+      "description": "Formato publicado para productos como café y té; requiere validación del material.",
+      "image": "https://empackcr.com/wp-content/uploads/2025/06/Flow-Pack.png",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://empackcr.com/wp-content/uploads/2025/06/Portada-2.png",
+      "sourcePage": "https://empackcr.com/product/bolsa-tipo-doy-pack/",
+      "use": "Bolsa tipo Doy pack"
+    },
+    {
+      "url": "https://empackcr.com/wp-content/uploads/2025/06/Portada-1.png",
+      "sourcePage": "https://empackcr.com/product/bolsa-plana/",
+      "use": "Bolsa plana"
+    },
+    {
+      "url": "https://empackcr.com/wp-content/uploads/2025/06/Flow-Pack.png",
+      "sourcePage": "https://empackcr.com/product/bolsa-flow-pack/",
+      "use": "Bolsa Flow pack"
+    },
+    {
+      "url": "https://empackcr.com/wp-content/uploads/2025/06/Portada-2.png",
+      "sourcePage": "https://empackcr.com/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://empackcr.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://packhelp.com/",
+      "observedPattern": "Entradas por formato y aplicación; especificación del empaque antes de la cotización."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "technical",
+      "headline": "El empaque\nes parte del producto.",
+      "palette": [
+        "#efc631",
+        "#f7f8f3",
+        "#172c25"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Planificador de lotes de empaque",
+      "reason": "Una especificación inicial validada podría ahorrar vueltas al cotizar formato, medidas y cantidad.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 7,
+      "passed": 7,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

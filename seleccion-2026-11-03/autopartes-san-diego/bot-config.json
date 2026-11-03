@@ -1,0 +1,170 @@
+{
+  "company": "Autopartes San Diego",
+  "language": "es",
+  "website": "https://sdautopartes.com/",
+  "description": "Autopartes San Diego · Repuestos automotrices. La portada ofrece un selector de marca, modelo y año.",
+  "products": [
+    {
+      "name": "Grasa ROSHFRANS Chasis ¼ kg · PT01295",
+      "url": "https://sdautopartes.com/shop/product/143203",
+      "description": "Referencia de lubricación identificada en la portada del catálogo.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Aceite MOTORCRAFT 5W40 · MSNX-05W40-SB",
+      "url": "https://sdautopartes.com/shop/product/142477",
+      "description": "Aceite sintético de 946 ml publicado; especificación y aplicación por confirmar.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "VALVOLINE MaxLife ATF · 884646",
+      "url": "https://sdautopartes.com/shop/product/144022",
+      "description": "Referencia de fluido de transmisión publicada en el catálogo.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Puedo seleccionar una sucursal?",
+      "answer": "La web publica Colima, Villa de Álvarez y Manzanillo. Disponibilidad y atención se confirman en el canal oficial.",
+      "keywords": [
+        "sucursal",
+        "colima",
+        "manzanillo"
+      ]
+    },
+    {
+      "question": "¿Un lubricante sirve para cualquier motor?",
+      "answer": "No. Deben revisarse la especificación del fabricante del vehículo y la ficha del lubricante.",
+      "keywords": [
+        "lubricante",
+        "motor",
+        "aceite"
+      ]
+    },
+    {
+      "question": "¿La demo revisa el catálogo completo?",
+      "answer": "No. Presenta una selección documentada y revisa datos; no consulta inventario o compatibilidad.",
+      "keywords": [
+        "catalogo",
+        "completo"
+      ]
+    },
+    {
+      "question": "¿Qué datos de la refacción son útiles?",
+      "answer": "Nombre, código de fabricante y ubicación o lado cuando aplique, además de vehículo y motor.",
+      "keywords": [
+        "dato",
+        "refaccion"
+      ]
+    },
+    {
+      "question": "¿Cómo confirmo precio y existencia?",
+      "answer": "Consulta la ficha o canal oficial; los valores del sitio pueden cambiar.",
+      "keywords": [
+        "precio",
+        "stock",
+        "existencia"
+      ]
+    },
+    {
+      "question": "¿Qué es Grasa ROSHFRANS Chasis ¼ kg · PT01295?",
+      "answer": "Referencia de lubricación identificada en la portada del catálogo. Ficha oficial: https://sdautopartes.com/shop/product/143203",
+      "keywords": [
+        "grasa roshfrans chasis ¼ kg · pt01295",
+        "grasa",
+        "roshfrans",
+        "chasis",
+        "pt01295"
+      ]
+    },
+    {
+      "question": "¿Qué es Aceite MOTORCRAFT 5W40 · MSNX-05W40-SB?",
+      "answer": "Aceite sintético de 946 ml publicado; especificación y aplicación por confirmar. Ficha oficial: https://sdautopartes.com/shop/product/142477",
+      "keywords": [
+        "aceite motorcraft 5w40 · msnx-05w40-sb",
+        "aceite",
+        "motorcraft",
+        "msnx-05w40-sb"
+      ]
+    },
+    {
+      "question": "¿Qué es VALVOLINE MaxLife ATF · 884646?",
+      "answer": "Referencia de fluido de transmisión publicada en el catálogo. Ficha oficial: https://sdautopartes.com/shop/product/144022",
+      "keywords": [
+        "valvoline maxlife atf · 884646",
+        "valvoline",
+        "maxlife",
+        "884646"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Control de completitud por vehículo",
+    "steps": [
+      {
+        "key": "vehiculo",
+        "label": "Vehículo",
+        "question": "¿Cuál es la marca, modelo y año del vehículo?",
+        "required": true
+      },
+      {
+        "key": "motor",
+        "label": "Motor",
+        "question": "¿Cuál es el motor o la cilindrada?",
+        "required": true
+      },
+      {
+        "key": "pieza",
+        "label": "Refacción",
+        "question": "¿Qué pieza necesitas y cuál es su código si lo conoces?",
+        "required": true
+      },
+      {
+        "key": "posicion",
+        "label": "Aplicación",
+        "question": "¿Es de algún lado o posición específica?",
+        "required": true
+      },
+      {
+        "key": "cantidad",
+        "label": "Cantidad",
+        "question": "¿Cuántas unidades necesitas y en qué ciudad?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://sdautopartes.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Autopartes San Diego"
+    },
+    {
+      "url": "https://sdautopartes.com/shop/product/143203",
+      "claim": "Ficha o línea publicada: Grasa ROSHFRANS Chasis ¼ kg · PT01295"
+    },
+    {
+      "url": "https://sdautopartes.com/shop/product/142477",
+      "claim": "Ficha o línea publicada: Aceite MOTORCRAFT 5W40 · MSNX-05W40-SB"
+    },
+    {
+      "url": "https://sdautopartes.com/shop/product/144022",
+      "claim": "Ficha o línea publicada: VALVOLINE MaxLife ATF · 884646"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#116b88",
+    "background": "#eff5f7",
+    "foreground": "#183849",
+    "font": "'Manrope',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

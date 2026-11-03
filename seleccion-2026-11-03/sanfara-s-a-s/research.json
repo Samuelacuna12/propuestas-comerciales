@@ -1,0 +1,206 @@
+{
+  "company": "Sanfara S.A.S.",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://sanfarasas.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Sanfara"
+    },
+    {
+      "url": "https://sanfarasas.com/producto/ch-7042",
+      "claim": "Ficha o línea publicada: CH-7042"
+    },
+    {
+      "url": "https://sanfarasas.com/producto/cm-80",
+      "claim": "Ficha o línea publicada: CM-8040"
+    },
+    {
+      "url": "https://sanfarasas.com/producto/ch-7036",
+      "claim": "Ficha o línea publicada: CH-7036"
+    }
+  ],
+  "products": [
+    {
+      "name": "CH-7042",
+      "description": "Referencia deportiva de caballero; ficha con tallas 36 a 44.",
+      "url": "https://sanfarasas.com/producto/ch-7042",
+      "image": "https://pub-3815e5b253804161af2934f30f2285b3.r2.dev/sanfara/2026/09/8b9f563e-7caf-44e6-9c95-bafd33f8acb6.png",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "CM-8040",
+      "description": "Referencia casual de dama en cuero; ficha con tallas 34 a 41.",
+      "url": "https://sanfarasas.com/producto/cm-80",
+      "image": "https://pub-3815e5b253804161af2934f30f2285b3.r2.dev/sanfara/2026/09/5aca9b37-76c6-498d-a241-98d290322a3c.png",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "CH-7036",
+      "description": "Referencia deportiva blanca de caballero; ficha con tallas 36 a 44.",
+      "url": "https://sanfarasas.com/producto/ch-7036",
+      "image": "https://pub-3815e5b253804161af2934f30f2285b3.r2.dev/sanfara/2026/09/e7ce2642-64ff-4d02-8f83-ad5ae7360f76.png",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://sanfarasas.com/_img/brand-hero-sanfara-1080.webp",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://pub-3815e5b253804161af2934f30f2285b3.r2.dev/sanfara/2026/09/8b9f563e-7caf-44e6-9c95-bafd33f8acb6.png",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://pub-3815e5b253804161af2934f30f2285b3.r2.dev/sanfara/2026/09/5aca9b37-76c6-498d-a241-98d290322a3c.png",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://pub-3815e5b253804161af2934f30f2285b3.r2.dev/sanfara/2026/09/e7ce2642-64ff-4d02-8f83-ad5ae7360f76.png",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://sanfarasas.com/",
+    "secondary": "https://www.shoepassion.com/",
+    "layout": "uniform",
+    "palette": [
+      "#663e2b",
+      "#f4f0e8",
+      "#282522",
+      "#c4a184"
+    ],
+    "typography": "'Manrope',sans-serif",
+    "decisions": "Experiencia de dotación sobria: foto editorial de calzado y panel de consolidación, contraste tabular con el catálogo de retail existente.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "Sanfara publica catálogo por dama, caballero y tipo de calzado.",
+      "El sitio incluye una sección de dotación empresarial y atención mayorista.",
+      "Las tallas dependen de la referencia; un rango genérico no garantiza disponibilidad."
+    ],
+    "hypothesis": "Simplificar la consolidación de tallas de una solicitud empresarial antes de validar referencia y condiciones.",
+    "operation": "Consolidación de tallas para dotación",
+    "boundaries": [
+      "No se atribuye al calzado certificación de seguridad industrial.",
+      "El simulador debe validar rango por referencia antes de una integración real."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://sanfarasas.com/_img/brand-hero-sanfara-1080.webp",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://pub-3815e5b253804161af2934f30f2285b3.r2.dev/sanfara/2026/09/8b9f563e-7caf-44e6-9c95-bafd33f8acb6.png",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://pub-3815e5b253804161af2934f30f2285b3.r2.dev/sanfara/2026/09/5aca9b37-76c6-498d-a241-98d290322a3c.png",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://pub-3815e5b253804161af2934f30f2285b3.r2.dev/sanfara/2026/09/e7ce2642-64ff-4d02-8f83-ad5ae7360f76.png",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "sanfara-s-a-s",
+      "company": "Sanfara S.A.S.",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "No se atribuye al calzado certificación de seguridad industrial.",
+        "El simulador debe validar rango por referencia antes de una integración real."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://sanfarasas.com/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://sanfarasas.com/producto/ch-7036",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://sanfarasas.com/producto/ch-7042",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://sanfarasas.com/producto/cm-80",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 47632
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 47052
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 74194
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 45638
+      }
+    ]
+  },
+  "publicOnly": true
+}

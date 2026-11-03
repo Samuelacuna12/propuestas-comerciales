@@ -1,0 +1,138 @@
+{
+  "company": "ELEMENTO Guatemala",
+  "reviewedAt": "2026-11-03",
+  "website": "https://elemento.com.gt/",
+  "publicFacts": [
+    {
+      "url": "https://elemento.com.gt/nosotros/",
+      "claim": "Origen familiar, gestión local, manufactura y tienda con categoría bajo pedido."
+    },
+    {
+      "url": "https://elemento.com.gt/contacto/",
+      "claim": "Página comercial oficial."
+    },
+    {
+      "url": "https://elemento.com.gt/product/jacket-valeria/",
+      "claim": "Jacket Valeria: Chaqueta holgada con cuello mandarín y bolsillos delanteros."
+    },
+    {
+      "url": "https://elemento.com.gt/product/top-lucia/",
+      "claim": "Top Lucía: Top de corte recto con amarre en el escote y mangas cortas."
+    },
+    {
+      "url": "https://elemento.com.gt/product/jeans-ana/",
+      "claim": "Jeans Ana: Jeans de tiro alto y corte acampanado con bolsillos."
+    }
+  ],
+  "products": [
+    {
+      "name": "Jacket Valeria",
+      "url": "https://elemento.com.gt/product/jacket-valeria/",
+      "description": "Chaqueta holgada con cuello mandarín y bolsillos delanteros.",
+      "image": "https://elemento.com.gt/wp-content/uploads/2025/04/Jacket-Valeria-Negro-ELEMENTO.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Top Lucía",
+      "url": "https://elemento.com.gt/product/top-lucia/",
+      "description": "Top de corte recto con amarre en el escote y mangas cortas.",
+      "image": "https://elemento.com.gt/wp-content/uploads/2025/04/Top-Lucia-Avena-Frontal-ELEMENTO.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Jeans Ana",
+      "url": "https://elemento.com.gt/product/jeans-ana/",
+      "description": "Jeans de tiro alto y corte acampanado con bolsillos.",
+      "image": "https://elemento.com.gt/wp-content/uploads/2025/04/Jeans-Ana-Indigo-ELEMENTO.jpg",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://elemento.com.gt/wp-content/uploads/2025/04/Jacket-Valeria-Negro-ELEMENTO.jpg",
+      "sourcePage": "https://elemento.com.gt/product/jacket-valeria/",
+      "use": "Jacket Valeria"
+    },
+    {
+      "url": "https://elemento.com.gt/wp-content/uploads/2025/04/Top-Lucia-Avena-Frontal-ELEMENTO.jpg",
+      "sourcePage": "https://elemento.com.gt/product/top-lucia/",
+      "use": "Top Lucía"
+    },
+    {
+      "url": "https://elemento.com.gt/wp-content/uploads/2025/04/Jeans-Ana-Indigo-ELEMENTO.jpg",
+      "sourcePage": "https://elemento.com.gt/product/jeans-ana/",
+      "use": "Jeans Ana"
+    },
+    {
+      "url": "https://elemento.com.gt/wp-content/uploads/2025/04/Jacket-Valeria-Negro-ELEMENTO.jpg",
+      "sourcePage": "https://elemento.com.gt/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://elemento.com.gt/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://www.everlane.com/collections/womens-all",
+      "observedPattern": "Fotografía protagonista y detalle de corte o uso antes de seleccionar."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "fashion",
+      "headline": "Prendas que\nse quedan.",
+      "palette": [
+        "#8b4f31",
+        "#f6f0e8",
+        "#262b23"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Mesa de selección por prenda y talla",
+      "reason": "Una selección ordenada por prenda, talla y cantidad podría facilitar consultas de disponibilidad o prendas bajo pedido.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 9,
+      "passed": 9,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

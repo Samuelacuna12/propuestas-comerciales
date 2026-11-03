@@ -1,0 +1,186 @@
+{
+  "company": "Modern Sprout",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "en",
+  "sources": [
+    {
+      "url": "https://modernsprout.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://modernsprout.com/products/garden-jars-holiday",
+      "claim": "Holiday Garden Jars: Seasonal garden-jar kits using a passive hydroponic system."
+    },
+    {
+      "url": "https://modernsprout.com/products/portrait-growframe-matte-white",
+      "claim": "Portrait Growframe - Matte White: A wall-mounted growframe with a full-spectrum light and timer."
+    },
+    {
+      "url": "https://modernsprout.com/products/dissolving-plant-food-sheets",
+      "claim": "Dissolving Plant Food Sheets: Dissolving plant-food sheets; follow the official dilution and use instructions."
+    },
+    {
+      "url": "https://modernsprout.com/pages/our-story",
+      "claim": "Origen de la marca y categorías de producto."
+    },
+    {
+      "url": "https://modernsprout.com/pages/contact",
+      "claim": "Atención y sede comercial Chicago; enlace a regalos corporativos."
+    }
+  ],
+  "products": [
+    {
+      "name": "Holiday Garden Jars",
+      "url": "https://modernsprout.com/products/garden-jars-holiday",
+      "description": "Seasonal garden-jar kits using a passive hydroponic system.",
+      "image": "https://modernsprout.com/cdn/shop/files/MS-GJ-GR-LFS-PLT-02.jpg?v=1790272311&width=1024",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Portrait Growframe - Matte White",
+      "url": "https://modernsprout.com/products/portrait-growframe-matte-white",
+      "description": "A wall-mounted growframe with a full-spectrum light and timer.",
+      "image": "https://modernsprout.com/cdn/shop/products/MS-GL-1011_6.jpg?v=1569879319&width=1024",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Dissolving Plant Food Sheets",
+      "url": "https://modernsprout.com/products/dissolving-plant-food-sheets",
+      "description": "Dissolving plant-food sheets; follow the official dilution and use instructions.",
+      "image": "https://modernsprout.com/cdn/shop/files/MS-PN-1005-BKG-PLT-02.jpg?v=1786459859&width=1024",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "Holiday Garden Jars",
+      "url": "https://modernsprout.com/cdn/shop/files/MS-GJ-GR-LFS-PLT-02.jpg?v=1790272311&width=1024",
+      "local": "assets/product-1.jpg",
+      "mime": "image/jpeg",
+      "bytes": 361757,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://modernsprout.com/products/garden-jars-holiday"
+    },
+    {
+      "product": "Portrait Growframe - Matte White",
+      "url": "https://modernsprout.com/cdn/shop/products/MS-GL-1011_6.jpg?v=1569879319&width=1024",
+      "local": "assets/product-2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 83273,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://modernsprout.com/products/portrait-growframe-matte-white"
+    },
+    {
+      "product": "Dissolving Plant Food Sheets",
+      "url": "https://modernsprout.com/cdn/shop/files/MS-PN-1005-BKG-PLT-02.jpg?v=1786459859&width=1024",
+      "local": "assets/product-3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 190234,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://modernsprout.com/products/dissolving-plant-food-sheets"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://modernsprout.com/",
+    "secondary": "https://grovemade.com/",
+    "boundedBorrowing": "Objects in a living-space context and clear distinctions between accessories.",
+    "layout": "field",
+    "palette": {
+      "accent": "#286d53",
+      "background": "#eff7ee"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Allocate kits per recipient, calculate total items and whole fulfillment groups, and record any items still needing confirmation."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://modernsprout.com/products/garden-jars-holiday",
+        "httpOk": true
+      },
+      {
+        "url": "https://modernsprout.com/products/portrait-growframe-matte-white",
+        "httpOk": true
+      },
+      {
+        "url": "https://modernsprout.com/products/dissolving-plant-food-sheets",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

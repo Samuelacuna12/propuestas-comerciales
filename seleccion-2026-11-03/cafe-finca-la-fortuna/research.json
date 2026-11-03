@@ -1,0 +1,149 @@
+{
+  "company": "Café Finca La Fortuna",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://lafortunacafe.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Finca La Fortuna"
+    },
+    {
+      "url": "https://lafortunacafe.com/index.php/acerca-de/",
+      "claim": "Ficha o línea publicada: Café de origen de Filandia"
+    },
+    {
+      "url": "https://lafortunacafe.com/index.php/contacto/",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "products": [
+    {
+      "name": "Café de origen de Filandia",
+      "url": "https://lafortunacafe.com/index.php/acerca-de/",
+      "description": "El sitio describe notas de caramelo y manzana, con cuerpo medio. Presentaciones y molienda por confirmar.",
+      "image": "https://lafortunacafe.com/wp-content/uploads/2021/04/Cafe_Finca_La_Fortuna-Flyer-1.png",
+      "localImage": "assets/product-1.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://lafortunacafe.com/wp-content/uploads/2018/08/cropped-IMG_6923.jpg",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://lafortunacafe.com/wp-content/uploads/2021/04/Cafe_Finca_La_Fortuna-Flyer-1.png",
+      "localPath": "assets/product-1.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://lafortunacafe.com/",
+    "secondary": "https://onyxcoffeelab.com/collections/coffee",
+    "layout": "estate",
+    "palette": [
+      "#943f29",
+      "#f7f3e8",
+      "#213a2c",
+      "#d6b557"
+    ],
+    "typography": "Georgia, serif",
+    "decisions": "Origen y perfil antes de compra; hero de paisaje editorial con una sola referencia verificada, sin inventar una tienda de SKU.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "La marca se presenta como una familia caficultora que cultiva, transforma y comercializa.",
+      "El origen declarado es Filandia, Quindío.",
+      "La página describe el perfil del café, pero no publica un catálogo de tres referencias con pesos verificables."
+    ],
+    "hypothesis": "Ayudar al comprador a convertir su consumo habitual en una solicitud de café clara y recurrente.",
+    "operation": "Planificador de consumo y próxima compra",
+    "boundaries": [
+      "Solo un café identificable; pesos, molienda y precios no verificados."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://lafortunacafe.com/wp-content/uploads/2018/08/cropped-IMG_6923.jpg",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://lafortunacafe.com/wp-content/uploads/2021/04/Cafe_Finca_La_Fortuna-Flyer-1.png",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "cafe-finca-la-fortuna",
+      "company": "Café Finca La Fortuna",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": "not_applicable"
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Product figure intrinsic width produced 5 px mobile overflow; constrained width and rechecked 390/390.",
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "Solo un café identificable; pesos, molienda y precios no verificados."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://lafortunacafe.com/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://lafortunacafe.com/index.php/acerca-de/",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 242242
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 56232
+      }
+    ]
+  },
+  "publicOnly": true
+}

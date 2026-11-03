@@ -1,0 +1,204 @@
+{
+  "company": "ROALPACK Solutions",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://www.roalpack.com/",
+      "claim": "Actividad, catálogo y canales oficiales de ROALPACK"
+    },
+    {
+      "url": "https://www.roalpack.com/producto/sacos-de-papel-kraft/",
+      "claim": "Ficha o línea publicada: Sacos de papel kraft"
+    },
+    {
+      "url": "https://www.roalpack.com/producto/super-sacos-de-polipropileno/",
+      "claim": "Ficha o línea publicada: Super sacos de polipropileno"
+    },
+    {
+      "url": "https://www.roalpack.com/producto/pelicula-stretch-dif-calibre/",
+      "claim": "Ficha o línea publicada: Película stretch"
+    }
+  ],
+  "products": [
+    {
+      "name": "Sacos de papel kraft",
+      "url": "https://www.roalpack.com/producto/sacos-de-papel-kraft/",
+      "description": "Línea para diversas aplicaciones industriales, según especificación.",
+      "image": "https://www.roalpack.com/wp-content/uploads/sacos-papel-kraft2.png",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Super sacos de polipropileno",
+      "url": "https://www.roalpack.com/producto/super-sacos-de-polipropileno/",
+      "description": "Big bags publicados para capacidades desde 500 kg y diseños personalizados.",
+      "image": "https://www.roalpack.com/wp-content/uploads/super-sacos.webp",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Película stretch",
+      "url": "https://www.roalpack.com/producto/pelicula-stretch-dif-calibre/",
+      "description": "Complemento para estabilización y protección de carga.",
+      "image": "https://www.roalpack.com/wp-content/uploads/Pelicula-Stretch-Film.png",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://www.roalpack.com/wp-content/uploads/super-sacos.webp",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://www.roalpack.com/wp-content/uploads/sacos-papel-kraft2.png",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://www.roalpack.com/wp-content/uploads/super-sacos.webp",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://www.roalpack.com/wp-content/uploads/Pelicula-Stretch-Film.png",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://www.roalpack.com/",
+    "secondary": "https://packhelp.com/",
+    "layout": "industrial",
+    "palette": [
+      "#a76d29",
+      "#f5f3eb",
+      "#26363e",
+      "#d4ae6e"
+    ],
+    "typography": "'Manrope',sans-serif",
+    "decisions": "Catálogo industrial con fotografía de super saco a escala dominante, tabla de especificaciones y cálculo de lote visible.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "ROALPACK se presenta como empresa familiar de empaque y embalaje.",
+      "La oferta distingue sacos kraft, super sacos y complementos de embalaje.",
+      "El sitio menciona super sacos de 500 kg y de una a dos toneladas; cada aplicación requiere especificación."
+    ],
+    "hypothesis": "Llegar a una cotización industrial con masa, capacidad objetivo, contenido y manejo claramente separados.",
+    "operation": "Dimensionamiento preliminar de lote a granel",
+    "boundaries": [
+      "La capacidad ingresada no certifica un saco ni define factor de seguridad."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://www.roalpack.com/wp-content/uploads/super-sacos.webp",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://www.roalpack.com/wp-content/uploads/sacos-papel-kraft2.png",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://www.roalpack.com/wp-content/uploads/super-sacos.webp",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://www.roalpack.com/wp-content/uploads/Pelicula-Stretch-Film.png",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "roalpack-solutions",
+      "company": "ROALPACK Solutions",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "La capacidad ingresada no certifica un saco ni define factor de seguridad."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://www.roalpack.com/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.roalpack.com/producto/pelicula-stretch-dif-calibre/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.roalpack.com/producto/sacos-de-papel-kraft/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.roalpack.com/producto/super-sacos-de-polipropileno/",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 22296
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 41170
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 22296
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 15640
+      }
+    ]
+  },
+  "publicOnly": true
+}

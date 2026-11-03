@@ -1,0 +1,154 @@
+{
+  "company": "Pata Firme",
+  "language": "es",
+  "website": "https://patafirme.mx/",
+  "description": "Pata Firme · Mobiliario de madera. El taller se ubica en Coyoacán y fabrica bajo pedido.",
+  "products": [
+    {
+      "name": "Silla tejida",
+      "url": "https://patafirme.mx/#catalogo",
+      "description": "Asiento publicado con dos opciones de tejido; medidas finales por confirmar.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Silla triángulo",
+      "url": "https://patafirme.mx/#catalogo",
+      "description": "El catálogo declara 42 cm de ancho, 38 de fondo y 81 de alto.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Banco",
+      "url": "https://patafirme.mx/#catalogo",
+      "description": "Pieza de asiento fabricada bajo pedido; medida a consultar.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Tienen stock para entrega inmediata?",
+      "answer": "El taller indica que fabrica casi todo bajo pedido y suele tener pocas piezas en existencia. Confirma el caso.",
+      "keywords": [
+        "stock",
+        "inmediata"
+      ]
+    },
+    {
+      "question": "¿Se puede ajustar una pieza?",
+      "answer": "El sitio contempla adaptar medidas y diseño al espacio después de revisar el uso.",
+      "keywords": [
+        "ajustar",
+        "medida"
+      ]
+    },
+    {
+      "question": "¿Qué acabados mencionan?",
+      "answer": "Se publican aceite mineral con cera de abeja y una opción Rubio Monocoat. Se confirma su aplicación por pieza.",
+      "keywords": [
+        "acabado",
+        "aceite"
+      ]
+    },
+    {
+      "question": "¿El envío está incluido?",
+      "answer": "El sitio indica que el envío no está incluido y contempla recogida en taller. Se valida al cotizar.",
+      "keywords": [
+        "envio",
+        "recoger"
+      ]
+    },
+    {
+      "question": "¿Cuándo empieza fabricación?",
+      "answer": "El proceso publicado menciona cotización numerada y anticipo antes de fabricar. Esta demo no recibe pagos.",
+      "keywords": [
+        "fabricacion",
+        "anticipo"
+      ]
+    },
+    {
+      "question": "¿Qué es Silla tejida?",
+      "answer": "Asiento publicado con dos opciones de tejido; medidas finales por confirmar. Ficha oficial: https://patafirme.mx/#catalogo",
+      "keywords": [
+        "silla tejida",
+        "silla",
+        "tejida"
+      ]
+    },
+    {
+      "question": "¿Qué es Silla triángulo?",
+      "answer": "El catálogo declara 42 cm de ancho, 38 de fondo y 81 de alto. Ficha oficial: https://patafirme.mx/#catalogo",
+      "keywords": [
+        "silla triángulo",
+        "silla",
+        "triángulo"
+      ]
+    },
+    {
+      "question": "¿Qué es Banco?",
+      "answer": "Pieza de asiento fabricada bajo pedido; medida a consultar. Ficha oficial: https://patafirme.mx/#catalogo",
+      "keywords": [
+        "banco",
+        "banco"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Explorador de medidas antes de cotizar",
+    "steps": [
+      {
+        "key": "pieza",
+        "label": "Pieza",
+        "question": "¿Qué mueble o línea te interesa y para qué uso?",
+        "required": true
+      },
+      {
+        "key": "espacio",
+        "label": "Espacio",
+        "question": "¿Cuánto mide el espacio disponible, de ancho y fondo?",
+        "required": true
+      },
+      {
+        "key": "medidas",
+        "label": "Mueble",
+        "question": "¿Qué medidas aproximadas imaginas para la pieza?",
+        "required": true
+      },
+      {
+        "key": "acceso",
+        "label": "Restricciones",
+        "question": "¿Hay puertas, instalaciones, escaleras o restricciones de acceso que deban revisarse?",
+        "required": true
+      },
+      {
+        "key": "acabado",
+        "label": "Acabado",
+        "question": "¿Tienes una referencia de material o acabado?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://patafirme.mx/",
+      "claim": "Actividad, catálogo y canales oficiales de Pata Firme"
+    },
+    {
+      "url": "https://patafirme.mx/#catalogo",
+      "claim": "Ficha o línea publicada: Silla tejida"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#b53e29",
+    "background": "#f5f2e8",
+    "foreground": "#282d27",
+    "font": "'Space Grotesk',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

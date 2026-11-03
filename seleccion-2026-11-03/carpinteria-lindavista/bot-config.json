@@ -1,0 +1,160 @@
+{
+  "company": "Carpintería Lindavista",
+  "language": "es",
+  "website": "https://carpinterialindavista.com.mx/",
+  "description": "Carpintería Lindavista · Carpintería y muebles a medida. El sitio describe un taller familiar que diseña, fabrica e instala.",
+  "products": [
+    {
+      "name": "Clóset a medida · proyecto 01",
+      "url": "https://carpinterialindavista.com.mx/proyectos.html",
+      "description": "Pieza fotografiada en la galería oficial del taller; diseño y material se consultan.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Cómoda · proyecto 02",
+      "url": "https://carpinterialindavista.com.mx/proyectos.html",
+      "description": "Trabajo publicado en el portafolio; sirve como referencia visual, no SKU de stock.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Base de cama · proyecto 03",
+      "url": "https://carpinterialindavista.com.mx/proyectos.html",
+      "description": "Ejemplo de fabricación del taller, sujeto a especificación para cada espacio.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué necesito para cotizar?",
+      "answer": "La FAQ pide tipo de mueble, medidas del espacio, foto o referencia y un presupuesto si ya está definido.",
+      "keywords": [
+        "cotizar",
+        "datos"
+      ]
+    },
+    {
+      "question": "¿Puedo elegir acabado?",
+      "answer": "El taller indica que se pueden elegir color y tipo de acabado, con opciones para revisar antes de aplicar.",
+      "keywords": [
+        "acabado",
+        "color"
+      ]
+    },
+    {
+      "question": "¿Hacen visita para medir?",
+      "answer": "La FAQ contempla visitas para proyectos grandes; las piezas sueltas pueden iniciar con medidas del cliente. Se confirma el caso.",
+      "keywords": [
+        "visita",
+        "medir"
+      ]
+    },
+    {
+      "question": "¿El mueble de la foto está disponible?",
+      "answer": "La galería muestra proyectos, no inventario actual. Debe cotizarse el diseño deseado.",
+      "keywords": [
+        "foto",
+        "disponible"
+      ]
+    },
+    {
+      "question": "¿La huella sirve para fabricar?",
+      "answer": "No. Solo prepara la conversación. Medidas finales, accesos, herrajes y estructura se validan con el taller.",
+      "keywords": [
+        "plano",
+        "fabricar",
+        "huella"
+      ]
+    },
+    {
+      "question": "¿Qué es Clóset a medida · proyecto 01?",
+      "answer": "Pieza fotografiada en la galería oficial del taller; diseño y material se consultan. Ficha oficial: https://carpinterialindavista.com.mx/proyectos.html",
+      "keywords": [
+        "clóset a medida · proyecto 01",
+        "clóset",
+        "medida",
+        "proyecto"
+      ]
+    },
+    {
+      "question": "¿Qué es Cómoda · proyecto 02?",
+      "answer": "Trabajo publicado en el portafolio; sirve como referencia visual, no SKU de stock. Ficha oficial: https://carpinterialindavista.com.mx/proyectos.html",
+      "keywords": [
+        "cómoda · proyecto 02",
+        "cómoda",
+        "proyecto"
+      ]
+    },
+    {
+      "question": "¿Qué es Base de cama · proyecto 03?",
+      "answer": "Ejemplo de fabricación del taller, sujeto a especificación para cada espacio. Ficha oficial: https://carpinterialindavista.com.mx/proyectos.html",
+      "keywords": [
+        "base de cama · proyecto 03",
+        "proyecto"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Ficha de espacio para mueble a medida",
+    "steps": [
+      {
+        "key": "pieza",
+        "label": "Pieza",
+        "question": "¿Qué mueble o línea te interesa y para qué uso?",
+        "required": true
+      },
+      {
+        "key": "espacio",
+        "label": "Espacio",
+        "question": "¿Cuánto mide el espacio disponible, de ancho y fondo?",
+        "required": true
+      },
+      {
+        "key": "medidas",
+        "label": "Mueble",
+        "question": "¿Qué medidas aproximadas imaginas para la pieza?",
+        "required": true
+      },
+      {
+        "key": "acceso",
+        "label": "Restricciones",
+        "question": "¿Hay puertas, instalaciones, escaleras o restricciones de acceso que deban revisarse?",
+        "required": true
+      },
+      {
+        "key": "acabado",
+        "label": "Acabado",
+        "question": "¿Tienes una referencia de material o acabado?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://carpinterialindavista.com.mx/",
+      "claim": "Actividad, catálogo y canales oficiales de Carpintería Lindavista"
+    },
+    {
+      "url": "https://carpinterialindavista.com.mx/proyectos.html",
+      "claim": "Ficha o línea publicada: Clóset a medida · proyecto 01"
+    },
+    {
+      "url": "https://carpinterialindavista.com.mx/faq.html",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#88552f",
+    "background": "#f4efe5",
+    "foreground": "#2e2e25",
+    "font": "'Playfair Display',Georgia,serif"
+  },
+  "heroImage": "assets/hero.img"
+}

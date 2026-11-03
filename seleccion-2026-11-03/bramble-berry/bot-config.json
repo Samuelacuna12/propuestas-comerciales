@@ -1,0 +1,192 @@
+{
+  "company": "Bramble Berry",
+  "language": "en",
+  "website": "https://www.brambleberry.com/",
+  "description": "Compare melt-and-pour bases, prepare a material estimate and keep formulation decisions with the official instructions.",
+  "products": [
+    {
+      "name": "SFIC Olive Oil Melt And Pour Soap Base",
+      "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-olive-oil-melt-and-pour-soap-base/V000764.html",
+      "description": "Melt-and-pour soap base with added olive oil; follow the official melting and use instructions.",
+      "image": "https://www.brambleberry.com/on/demandware.static/-/Sites-brambleberry-master-catalog/default/dwff156f39/images/large/ingredients/bases/soap/main/SFICOliveOilMeltAndPourSoapBase_SOAP11_Main_2018.07.BrambleBerry.Brent.day4-863-Edit.jpg",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "SFIC Goat Milk Melt And Pour Soap Base",
+      "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-goat-milk-melt-and-pour-soap-base/V000754.html",
+      "description": "Ready-made soap base containing liquid goat milk; confirm ingredients before use.",
+      "image": "https://www.brambleberry.com/on/demandware.static/-/Sites-brambleberry-master-catalog/default/dw20a6db10/images/large/ingredients/bases/soap/main/SFICGoatMilkMeltAndPourSoapBase_MP02-25_Main_2018.07.BrambleBerry.Brent.day4-742-Edit.jpg",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "SFIC Shea Melt And Pour Soap Base",
+      "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-shea-melt-and-pour-soap-base/V000756.html",
+      "description": "Shea melt-and-pour base from the SFIC range; review the ingredient and handling information.",
+      "image": "https://www.brambleberry.com/on/demandware.static/-/Sites-brambleberry-master-catalog/default/dw51a1df56/images/large/ingredients/bases/soap/main/SFICSheaMeltAndPourSoapBase_SOAP03_Main_2018.07.BrambleBerry.Brent.day4-850-Edit.jpg",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What is being planned here?",
+      "answer": "The catalog includes ready-made melt-and-pour bases.",
+      "keywords": [
+        "what",
+        "being",
+        "planned",
+        "here"
+      ]
+    },
+    {
+      "question": "Where are ingredient details?",
+      "answer": "Official product pages include ingredients and usage information.",
+      "keywords": [
+        "where",
+        "ingredient",
+        "details"
+      ]
+    },
+    {
+      "question": "Where should I check a recipe?",
+      "answer": "Bramble Berry publishes separate beginner guides, lye and fragrance calculators.",
+      "keywords": [
+        "where",
+        "should",
+        "check",
+        "recipe"
+      ]
+    },
+    {
+      "question": "What is SFIC Olive Oil Melt And Pour Soap Base?",
+      "answer": "Melt-and-pour soap base with added olive oil; follow the official melting and use instructions. Official product: https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-olive-oil-melt-and-pour-soap-base/V000764.html",
+      "keywords": [
+        "sfic",
+        "olive",
+        "melt",
+        "pour",
+        "soap",
+        "base"
+      ]
+    },
+    {
+      "question": "What is SFIC Goat Milk Melt And Pour Soap Base?",
+      "answer": "Ready-made soap base containing liquid goat milk; confirm ingredients before use. Official product: https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-goat-milk-melt-and-pour-soap-base/V000754.html",
+      "keywords": [
+        "sfic",
+        "goat",
+        "milk",
+        "melt",
+        "pour",
+        "soap",
+        "base"
+      ]
+    },
+    {
+      "question": "What is SFIC Shea Melt And Pour Soap Base?",
+      "answer": "Shea melt-and-pour base from the SFIC range; review the ingredient and handling information. Official product: https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-shea-melt-and-pour-soap-base/V000756.html",
+      "keywords": [
+        "sfic",
+        "shea",
+        "melt",
+        "pour",
+        "soap",
+        "base"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://www.brambleberry.com/contactus",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Melt-and-pour batch planner",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Which melt-and-pour base are you considering?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many bars would you like to make?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "What is the base weight of one bar in your tested mold, and how much base do you already have?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Which ingredient or handling details would you like the official team to confirm?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://www.brambleberry.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-olive-oil-melt-and-pour-soap-base/V000764.html",
+      "claim": "SFIC Olive Oil Melt And Pour Soap Base: Melt-and-pour soap base with added olive oil; follow the official melting and use instructions."
+    },
+    {
+      "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-goat-milk-melt-and-pour-soap-base/V000754.html",
+      "claim": "SFIC Goat Milk Melt And Pour Soap Base: Ready-made soap base containing liquid goat milk; confirm ingredients before use."
+    },
+    {
+      "url": "https://www.brambleberry.com/shop-by-product/bases/melt-and-pour-soap/sfic-shea-melt-and-pour-soap-base/V000756.html",
+      "claim": "SFIC Shea Melt And Pour Soap Base: Shea melt-and-pour base from the SFIC range; review the ingredient and handling information."
+    },
+    {
+      "url": "https://www.brambleberry.com/aboutus.html",
+      "claim": "Fundadora, más de 90 empleados y catálogo de insumos."
+    },
+    {
+      "url": "https://www.brambleberry.com/contactus",
+      "claim": "Atención comercial y acceso a marca privada."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Estimate base mass from bar count and mold weight. No lye, fragrance dosage or cosmetic safety formula is generated."
+  ],
+  "theme": {
+    "accent": "#9b466a",
+    "background": "#fff8fc",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

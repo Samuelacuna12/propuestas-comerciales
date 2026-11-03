@@ -1,0 +1,189 @@
+{
+  "company": "Bolsalea",
+  "language": "es",
+  "website": "https://www.bolsalea.com/",
+  "description": "Compara formatos reales y prepara medidas, cantidades y personalización para una consulta comercial más precisa.",
+  "products": [
+    {
+      "name": "Bolsas de papel kraft de colores 18x24x8",
+      "url": "https://www.bolsalea.com/bolsas-de-papel/kraft/18x24x8-43",
+      "description": "Bolsa de papel de 18 × 24 cm y fuelle de 8 cm, con asas de papel rizado.",
+      "image": "https://www.bolsalea.com/media/cache/sylius_shop_product_thumbnail/3d/76/01270-bolsas-de-papel-ecolo%CC%81gico-de-colores-18x24x8-v2.png",
+      "asset": "assets/product-1.png"
+    },
+    {
+      "name": "Mochila de tela 36x42",
+      "url": "https://www.bolsalea.com/bolsas-de-tela/mochilas/36x42-345",
+      "description": "Mochila TST de 36 × 42 cm, con cierre fruncido y doble cordón.",
+      "image": "https://www.bolsalea.com/media/cache/sylius_shop_product_thumbnail/7c/e1/02725-mochila-tst-80-gr-36x42-blanco-bolsalea-v2.png",
+      "asset": "assets/product-2.png"
+    },
+    {
+      "name": "Bolsas de papel kraft 22x23x9",
+      "url": "https://www.bolsalea.com/bolsas-de-papel/kraft/22x23x9-187",
+      "description": "Bolsa kraft reciclada de 22 × 23 cm y fuelle de 9 cm, con asas rizadas.",
+      "image": "https://www.bolsalea.com/media/cache/sylius_shop_product_thumbnail/52/e4/imagen-de-chatgpt-29-oct-2026-15-10-22.png",
+      "asset": "assets/product-3.png"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué familias de packaging hay?",
+      "answer": "La tienda ofrece bolsas de papel, tela y packaging ecommerce.",
+      "keywords": [
+        "qué",
+        "familias",
+        "packaging",
+        "hay"
+      ]
+    },
+    {
+      "question": "¿Cómo puedo orientar la selección?",
+      "answer": "El catálogo diferencia materiales, cierres y usos.",
+      "keywords": [
+        "cómo",
+        "puedo",
+        "orientar",
+        "selección"
+      ]
+    },
+    {
+      "question": "¿Puedo dar por aprobada una impresión?",
+      "answer": "Las fichas seleccionadas muestran medidas; la personalización requiere confirmar el producto y el diseño.",
+      "keywords": [
+        "puedo",
+        "aprobada",
+        "impresión"
+      ]
+    },
+    {
+      "question": "¿Qué es Bolsas de papel kraft de colores 18x24x8?",
+      "answer": "Bolsa de papel de 18 × 24 cm y fuelle de 8 cm, con asas de papel rizado. Ficha oficial: https://www.bolsalea.com/bolsas-de-papel/kraft/18x24x8-43",
+      "keywords": [
+        "bolsas",
+        "papel",
+        "kraft",
+        "colores",
+        "18x24x8"
+      ]
+    },
+    {
+      "question": "¿Qué es Mochila de tela 36x42?",
+      "answer": "Mochila TST de 36 × 42 cm, con cierre fruncido y doble cordón. Ficha oficial: https://www.bolsalea.com/bolsas-de-tela/mochilas/36x42-345",
+      "keywords": [
+        "mochila",
+        "tela",
+        "36x42"
+      ]
+    },
+    {
+      "question": "¿Qué es Bolsas de papel kraft 22x23x9?",
+      "answer": "Bolsa kraft reciclada de 22 × 23 cm y fuelle de 9 cm, con asas rizadas. Ficha oficial: https://www.bolsalea.com/bolsas-de-papel/kraft/22x23x9-187",
+      "keywords": [
+        "bolsas",
+        "papel",
+        "kraft",
+        "22x23x9"
+      ]
+    },
+    {
+      "question": "¿Qué precio y disponibilidad tiene mi selección?",
+      "answer": "Confirma precio, variantes y disponibilidad en las fichas oficiales. Esta propuesta no tiene acceso al inventario ni confirma reservas.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "¿Cómo continúo con una consulta real?",
+      "answer": "Prepara el resumen local y revísalo antes de usar el canal oficial: https://www.bolsalea.com/contacto",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preflight de bolsa y personalización",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selección",
+        "question": "¿Buscas una bolsa de papel, una mochila de tela o packaging ecommerce?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Cantidad",
+        "question": "¿Cuántas unidades necesitas preparar?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Detalles",
+        "question": "¿Qué ancho, alto y fondo tiene el producto que irá dentro?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "Por confirmar",
+        "question": "¿Quieres el formato sin imprimir o necesitas consultar una personalización?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief para revisión humana"
+  },
+  "sources": [
+    {
+      "url": "https://www.bolsalea.com/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://www.bolsalea.com/bolsas-de-papel/kraft/18x24x8-43",
+      "claim": "Bolsas de papel kraft de colores 18x24x8: Bolsa de papel de 18 × 24 cm y fuelle de 8 cm, con asas de papel rizado."
+    },
+    {
+      "url": "https://www.bolsalea.com/bolsas-de-tela/mochilas/36x42-345",
+      "claim": "Mochila de tela 36x42: Mochila TST de 36 × 42 cm, con cierre fruncido y doble cordón."
+    },
+    {
+      "url": "https://www.bolsalea.com/bolsas-de-papel/kraft/22x23x9-187",
+      "claim": "Bolsas de papel kraft 22x23x9: Bolsa kraft reciclada de 22 × 23 cm y fuelle de 9 cm, con asas rizadas."
+    },
+    {
+      "url": "https://www.bolsalea.com/",
+      "claim": "Catálogo B2B y personalización."
+    },
+    {
+      "url": "https://www.bolsalea.com/c/aviso-legal-8",
+      "claim": "Sede, canal comercial, operación exclusivamente B2B y presupuestos."
+    },
+    {
+      "url": "https://es.linkedin.com/company/bolsalea",
+      "claim": "Perfil corporativo: rango de 2 a 10 empleados."
+    }
+  ],
+  "boundaries": [
+    "Demostración local basada en reglas; no es una IA conectada al negocio.",
+    "No acceso a pedidos, clientes, pagos ni stock.",
+    "No confirmar precios, entrega, compatibilidad o políticas no verificadas.",
+    "Contrasta las medidas útiles que introduce el usuario y calcula cantidad por lote. La impresión y el ajuste final quedan sujetos a validación."
+  ],
+  "theme": {
+    "accent": "#ab5b2c",
+    "background": "#fbf3e9",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.png"
+}

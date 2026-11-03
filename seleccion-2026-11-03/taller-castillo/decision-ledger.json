@@ -1,0 +1,27 @@
+{
+  "company": "Taller Castillo",
+  "decisions": [
+    {
+      "decision": "Composición workshop",
+      "rationale": "Que tu siguiente puntada siga. · recursos oficiales dominantes; reglas específicas de composición en CSS."
+    },
+    {
+      "decision": "Tablero de ingreso a servicio técnico",
+      "rationale": "Registrar modelo, síntoma y evidencias podría evitar ingresos incompletos y ayudar a priorizar la revisión técnica."
+    },
+    {
+      "decision": "Sin precios ni existencias del catálogo en la muestra",
+      "rationale": "No existe conexión con inventario o condiciones vigentes."
+    },
+    {
+      "decision": "Web y bot de Samuel a COP 500.000 cada uno; demo gratuita",
+      "rationale": "Oferta vigente recibida del coordinador; alcance y consumos por cotizar, sin mensualidad inventada."
+    }
+  ],
+  "referenceLock": "reference-lock.json",
+  "rejected": [
+    "Galería con imágenes que no corresponden a la referencia",
+    "Confirmación falsa de pedido",
+    "Mensajes privados dentro del repo"
+  ]
+}

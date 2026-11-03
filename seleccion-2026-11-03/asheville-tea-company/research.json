@@ -1,0 +1,198 @@
+{
+  "company": "Asheville Tea Company",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "en",
+  "sources": [
+    {
+      "url": "https://ashevilleteacompany.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://ashevilleteacompany.com/products/mountain-mint-1",
+      "claim": "Blue Ridge Mountain Mint - Tea Box: Peppermint, mountain mint, spearmint and blue butterfly pea flower."
+    },
+    {
+      "url": "https://ashevilleteacompany.com/products/pisgah-breakfast",
+      "claim": "Pisgah Breakfast - Tea Box: A breakfast blend of black tea and roasted yaupon."
+    },
+    {
+      "url": "https://ashevilleteacompany.com/products/chamomile-lavender",
+      "claim": "Chamomile Lavender - Tea Box: Chamomile, lavender, tulsi and anise hyssop in one herbal blend."
+    },
+    {
+      "url": "https://ashevilleteacompany.com/pages/about-us",
+      "claim": "Historia de la marca y elaboración de tés."
+    },
+    {
+      "url": "https://ashevilleteacompany.com/pages/contact",
+      "claim": "Canal comercial y atención a mayoristas."
+    }
+  ],
+  "products": [
+    {
+      "name": "Blue Ridge Mountain Mint - Tea Box",
+      "url": "https://ashevilleteacompany.com/products/mountain-mint-1",
+      "description": "Peppermint, mountain mint, spearmint and blue butterfly pea flower.",
+      "image": "https://ashevilleteacompany.com/cdn/shop/files/16_cf1da86e-80d0-4971-8b89-275f8567a3f7.png?v=1749390296&width=900",
+      "asset": "assets/product-1-optimized.jpg"
+    },
+    {
+      "name": "Pisgah Breakfast - Tea Box",
+      "url": "https://ashevilleteacompany.com/products/pisgah-breakfast",
+      "description": "A breakfast blend of black tea and roasted yaupon.",
+      "image": "https://ashevilleteacompany.com/cdn/shop/files/PRE-ORDER_a651ee3d-df38-4f72-b26a-339a815ba6a1.png?v=1751548475&width=900",
+      "asset": "assets/product-2-optimized.jpg"
+    },
+    {
+      "name": "Chamomile Lavender - Tea Box",
+      "url": "https://ashevilleteacompany.com/products/chamomile-lavender",
+      "description": "Chamomile, lavender, tulsi and anise hyssop in one herbal blend.",
+      "image": "https://ashevilleteacompany.com/cdn/shop/files/4_736b1c8c-0e53-45af-bfd3-23e00a3fe2a3.png?v=1749390811&width=900",
+      "asset": "assets/product-3-optimized.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "Blue Ridge Mountain Mint - Tea Box",
+      "url": "https://ashevilleteacompany.com/cdn/shop/files/16_cf1da86e-80d0-4971-8b89-275f8567a3f7.png?v=1749390296&width=900",
+      "local": "assets/product-1-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 145162,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://ashevilleteacompany.com/products/mountain-mint-1",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 670379
+      }
+    },
+    {
+      "product": "Pisgah Breakfast - Tea Box",
+      "url": "https://ashevilleteacompany.com/cdn/shop/files/PRE-ORDER_a651ee3d-df38-4f72-b26a-339a815ba6a1.png?v=1751548475&width=900",
+      "local": "assets/product-2-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 121407,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://ashevilleteacompany.com/products/pisgah-breakfast",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 649349
+      }
+    },
+    {
+      "product": "Chamomile Lavender - Tea Box",
+      "url": "https://ashevilleteacompany.com/cdn/shop/files/4_736b1c8c-0e53-45af-bfd3-23e00a3fe2a3.png?v=1749390811&width=900",
+      "local": "assets/product-3-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 126928,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://ashevilleteacompany.com/products/chamomile-lavender",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 676156
+      }
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://ashevilleteacompany.com/",
+    "secondary": "https://davidstea.com/",
+    "boundedBorrowing": "Separate tea discovery by occasion and format; no copied promotion or health claim.",
+    "layout": "botanical",
+    "palette": {
+      "accent": "#27594b",
+      "background": "#f3f6ef"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Translate expected daily cups and service days into tea bags and whole 20-bag boxes, without promising stock or delivery."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://ashevilleteacompany.com/products/mountain-mint-1",
+        "httpOk": true
+      },
+      {
+        "url": "https://ashevilleteacompany.com/products/pisgah-breakfast",
+        "httpOk": true
+      },
+      {
+        "url": "https://ashevilleteacompany.com/products/chamomile-lavender",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

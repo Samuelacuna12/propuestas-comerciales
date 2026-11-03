@@ -1,0 +1,159 @@
+{
+  "company": "ORD Company S.A.S.",
+  "language": "es",
+  "website": "https://ordcompany.com.co/",
+  "description": "ORD Company S.A.S. · Manufactura de calzado. ORD publica manufactura, maquila de marca blanca y desarrollo de colecciones.",
+  "products": [
+    {
+      "name": "Sandalias planas",
+      "url": "https://ordcompany.com.co/productos.html",
+      "description": "Línea con opciones de suela EVA, PU y Neolite; detalles por requerimiento.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Plataformas",
+      "url": "https://ordcompany.com.co/productos.html",
+      "description": "Modelos de diferentes alturas y materiales, incluido yute.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Tacones",
+      "url": "https://ordcompany.com.co/productos.html",
+      "description": "Línea con forrados y acabados a definir según diseño.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Pueden producir con mi marca?",
+      "answer": "La página de servicios incluye maquila de marcas blancas. El uso de marca y requisitos se acuerdan con ORD.",
+      "keywords": [
+        "marca",
+        "maquila"
+      ]
+    },
+    {
+      "question": "¿Cuál es el mínimo?",
+      "answer": "Se anuncian cantidades pequeñas, pero no se verificó un mínimo numérico. Debe confirmarse por línea.",
+      "keywords": [
+        "minimo",
+        "lote"
+      ]
+    },
+    {
+      "question": "¿Desarrollan colecciones?",
+      "answer": "Sí. Se publica desarrollo de colecciones y diseño según requerimientos.",
+      "keywords": [
+        "coleccion",
+        "diseno"
+      ]
+    },
+    {
+      "question": "¿Qué materiales ofrecen?",
+      "answer": "El catálogo menciona EVA, PU, Neolite, yute y acabados especiales, según la línea.",
+      "keywords": [
+        "material",
+        "eva",
+        "pu"
+      ]
+    },
+    {
+      "question": "¿La curva ya es una orden?",
+      "answer": "No. Es un reparto de unidades de ejemplo. Modelo, horma, materiales y muestra se aprueban antes de producir.",
+      "keywords": [
+        "curva",
+        "orden",
+        "muestra"
+      ]
+    },
+    {
+      "question": "¿Qué es Sandalias planas?",
+      "answer": "Línea con opciones de suela EVA, PU y Neolite; detalles por requerimiento. Ficha oficial: https://ordcompany.com.co/productos.html",
+      "keywords": [
+        "sandalias planas",
+        "sandalias",
+        "planas"
+      ]
+    },
+    {
+      "question": "¿Qué es Plataformas?",
+      "answer": "Modelos de diferentes alturas y materiales, incluido yute. Ficha oficial: https://ordcompany.com.co/productos.html",
+      "keywords": [
+        "plataformas",
+        "plataformas"
+      ]
+    },
+    {
+      "question": "¿Qué es Tacones?",
+      "answer": "Línea con forrados y acabados a definir según diseño. Ficha oficial: https://ordcompany.com.co/productos.html",
+      "keywords": [
+        "tacones",
+        "tacones"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Matriz de producción por talla",
+    "steps": [
+      {
+        "key": "referencia",
+        "label": "Referencia",
+        "question": "¿Qué modelo o línea quieres consultar?",
+        "required": true
+      },
+      {
+        "key": "tallas",
+        "label": "Tallas y unidades",
+        "question": "¿Cuántos pares necesitas por talla?",
+        "required": true
+      },
+      {
+        "key": "uso",
+        "label": "Uso",
+        "question": "¿Es compra individual, surtido, colección o dotación?",
+        "required": true
+      },
+      {
+        "key": "variante",
+        "label": "Variantes",
+        "question": "¿Qué colores, materiales o acabados necesitas validar?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿En qué ciudad se entregaría?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://ordcompany.com.co/",
+      "claim": "Actividad, catálogo y canales oficiales de ORD Company"
+    },
+    {
+      "url": "https://ordcompany.com.co/productos.html",
+      "claim": "Ficha o línea publicada: Sandalias planas"
+    },
+    {
+      "url": "https://ordcompany.com.co/servicios.html",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#b54c28",
+    "background": "#f8f3e9",
+    "foreground": "#2d2522",
+    "font": "'Manrope',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

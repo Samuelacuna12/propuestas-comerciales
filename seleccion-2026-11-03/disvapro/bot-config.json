@@ -1,0 +1,180 @@
+{
+  "company": "Disvapro",
+  "language": "es",
+  "website": "https://disvapro.com/",
+  "description": "Vende materiales de empaque en línea y recibe solicitudes de etiquetas con medidas, cantidad y arte; publica precios por volumen.",
+  "theme": {
+    "accent": "#e5ab17",
+    "background": "#f8f7ef",
+    "foreground": "#272923",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Etiquetas térmicas directas 2 × 1 pulgadas",
+      "url": "https://disvapro.com/producto/rollo-de-etiquetas-termicas-directas-2x1",
+      "description": "La ficha publica 1.000 etiquetas por rollo y núcleo de 1 pulgada.",
+      "image": "https://khzuvhtzldnbdlqbsnrn.supabase.co/storage/v1/object/public/web-productos/migradas/rollo-de-etiquetas-termicas-directas-2x1/0-Etiqueta-termica-directa-2-x-1-pulgada.png",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Cinta Thank You / Gracias",
+      "url": "https://disvapro.com/producto/cinta-adhesiva-impresa-2-x-50yds-diseno-thank-you-gracias",
+      "description": "Cinta impresa de 2 pulgadas por 50 yardas.",
+      "image": "https://khzuvhtzldnbdlqbsnrn.supabase.co/storage/v1/object/public/web-productos/migradas/cinta-adhesiva-impresa-2-x-50yds-diseno-thank-you-gracias/2-Tape-Gracias-Thank-You.png",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Cinta transparente 40 micras",
+      "url": "https://disvapro.com/producto/cinta-adhesiva-transparente-estandar",
+      "description": "Cinta transparente de 2 pulgadas por 90 yardas, 40 micras.",
+      "image": "https://khzuvhtzldnbdlqbsnrn.supabase.co/storage/v1/object/public/web-productos/migradas/cinta-adhesiva-transparente-estandar/0-Rollo-de-cinta-transparente-Ultimate-tape.png",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Etiquetas térmicas directas 2 × 1 pulgadas?",
+      "answer": "La ficha publica 1.000 etiquetas por rollo y núcleo de 1 pulgada.",
+      "keywords": [
+        "etiquetas",
+        "térmicas",
+        "directas",
+        "2",
+        "1",
+        "pulgadas"
+      ]
+    },
+    {
+      "question": "¿Qué es Cinta Thank You / Gracias?",
+      "answer": "Cinta impresa de 2 pulgadas por 50 yardas.",
+      "keywords": [
+        "cinta",
+        "thank",
+        "you",
+        "gracias"
+      ]
+    },
+    {
+      "question": "¿Qué es Cinta transparente 40 micras?",
+      "answer": "Cinta transparente de 2 pulgadas por 90 yardas, 40 micras.",
+      "keywords": [
+        "cinta",
+        "transparente",
+        "40",
+        "micras"
+      ]
+    },
+    {
+      "question": "¿Hacen etiquetas personalizadas?",
+      "answer": "Sí. El sitio solicita forma, medidas, cantidad y arte.",
+      "keywords": [
+        "etiquetas",
+        "personalizadas"
+      ]
+    },
+    {
+      "question": "¿El precio de una etiqueta se confirma de inmediato?",
+      "answer": "La web indica que el precio final se confirma después de revisar el arte.",
+      "keywords": [
+        "precio",
+        "de",
+        "una",
+        "etiqueta",
+        "se",
+        "confirma",
+        "de"
+      ]
+    },
+    {
+      "question": "¿Cómo se compra?",
+      "answer": "Puede armarse el pedido en la tienda o consultar al canal comercial.",
+      "keywords": [
+        "se",
+        "compra"
+      ]
+    },
+    {
+      "question": "¿Qué medios de pago anuncia?",
+      "answer": "La web menciona transferencia, depósito o tarjeta; confirmar en el pedido oficial.",
+      "keywords": [
+        "medios",
+        "de",
+        "pago",
+        "anuncia"
+      ]
+    },
+    {
+      "question": "¿Dónde está la empresa?",
+      "answer": "El sitio publica una ubicación en zona 4 de Mixco, Guatemala.",
+      "keywords": [
+        "está",
+        "la",
+        "empresa"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Disvapro",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Tipo de etiqueta",
+        "question": "Indica tipo de etiqueta.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Cantidad de productos a identificar",
+        "question": "Indica cantidad de productos a identificar.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Etiquetas por producto",
+        "question": "Indica etiquetas por producto.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Medida e impresora",
+        "question": "Indica medida e impresora.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Arte y contenido a revisar",
+        "question": "Indica arte y contenido a revisar.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://disvapro.com/",
+      "claim": "Tienda, proceso de cotización de etiquetas, envíos nacionales y dirección en zona 4 de Mixco."
+    },
+    {
+      "url": "https://disvapro.com/producto/rollo-de-etiquetas-termicas-directas-2x1",
+      "claim": "Etiquetas térmicas directas 2 × 1 pulgadas: La ficha publica 1.000 etiquetas por rollo y núcleo de 1 pulgada."
+    },
+    {
+      "url": "https://disvapro.com/producto/cinta-adhesiva-impresa-2-x-50yds-diseno-thank-you-gracias",
+      "claim": "Cinta Thank You / Gracias: Cinta impresa de 2 pulgadas por 50 yardas."
+    },
+    {
+      "url": "https://disvapro.com/producto/cinta-adhesiva-transparente-estandar",
+      "claim": "Cinta transparente 40 micras: Cinta transparente de 2 pulgadas por 90 yardas, 40 micras."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

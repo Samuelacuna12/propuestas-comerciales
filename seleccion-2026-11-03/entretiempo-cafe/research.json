@@ -1,0 +1,212 @@
+{
+  "company": "Entretiempo Café",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://entretiempo.co/",
+      "claim": "Actividad, catálogo y canales oficiales de [Entretiempo]"
+    },
+    {
+      "url": "https://entretiempo.co/productos/cafe-entre-sonrisas-operacion-sonrisa/",
+      "claim": "Ficha o línea publicada: Café Entre Sonrisas · 340 g"
+    },
+    {
+      "url": "https://entretiempo.co/productos/caturron-natural-huila/",
+      "claim": "Ficha o línea publicada: Caturrón Natural · Huila"
+    },
+    {
+      "url": "https://entretiempo.co/productos/costa-rica-black-honey-tolima1/",
+      "claim": "Ficha o línea publicada: Costa Rica Black Honey · Tolima 340 g"
+    },
+    {
+      "url": "https://entretiempo.co/productos/",
+      "claim": "Proceso o información complementaria oficial"
+    },
+    {
+      "url": "https://entretiempo.co/suscripciones/",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "products": [
+    {
+      "name": "Café Entre Sonrisas · 340 g",
+      "description": "Referencia publicada en colaboración con Operación Sonrisa Colombia.",
+      "url": "https://entretiempo.co/productos/cafe-entre-sonrisas-operacion-sonrisa/",
+      "image": "https://acdn-us.mitiendanube.com/stores/006/787/118/products/chatgpt-image-23-sept-2026-16_29_58-efac5cc2d00811b6ce17901990251696-640-0.webp",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Caturrón Natural · Huila",
+      "description": "Café de la selección efímera; variedad y origen identificados en su ficha.",
+      "url": "https://entretiempo.co/productos/caturron-natural-huila/",
+      "image": "https://acdn-us.mitiendanube.com/stores/006/787/118/products/cafa-catur_ran_-dulce-y-frutal-1-c76e901ec5c9c3215517922063885795-640-0.webp",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Costa Rica Black Honey · Tolima 340 g",
+      "description": "Café identificado por variedad, proceso y origen.",
+      "url": "https://entretiempo.co/productos/costa-rica-black-honey-tolima1/",
+      "image": "https://acdn-us.mitiendanube.com/stores/006/787/118/products/c79ad2c2-4220-4dc7-a927-750576f8ef7a-9f72fa7fd6e1ea839117901956616817-640-0.webp",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/006/787/118/themes/toluca/2-slide-1789444420593-5609048109-ef48ad20f7c94c038abf38e8b83876771789444425-480-0.webp?5906520545070355550",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/006/787/118/products/chatgpt-image-23-sept-2026-16_29_58-efac5cc2d00811b6ce17901990251696-640-0.webp",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/006/787/118/products/cafa-catur_ran_-dulce-y-frutal-1-c76e901ec5c9c3215517922063885795-640-0.webp",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://acdn-us.mitiendanube.com/stores/006/787/118/products/c79ad2c2-4220-4dc7-a927-750576f8ef7a-9f72fa7fd6e1ea839117901956616817-640-0.webp",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://entretiempo.co/",
+    "secondary": "https://onyxcoffeelab.com/collections/coffee",
+    "layout": "subscription",
+    "palette": [
+      "#c83723",
+      "#f7eedc",
+      "#32261f",
+      "#e8b866"
+    ],
+    "typography": "'Space Grotesk',sans-serif",
+    "decisions": "Una pausa como concepto: titular en bloque tipográfico, bandas de color tostado, productos con origen visible y comparación de consumo.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "La tienda organiza el café por origen, variedad y proceso.",
+      "El sitio ofrece molienda según método y una sección de suscripciones.",
+      "Las fichas identifican referencias concretas; la demo complementa esa selección con cálculo de consumo."
+    ],
+    "hypothesis": "Ayudar a elegir una frecuencia de compra que corresponda al consumo real antes de seleccionar un plan oficial.",
+    "operation": "Simulador de frecuencia y consumo",
+    "boundaries": [
+      "Pesos de bolsa del simulador editables; deben vincularse a variantes oficiales antes de activar compra."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://acdn-us.mitiendanube.com/stores/006/787/118/themes/toluca/2-slide-1789444420593-5609048109-ef48ad20f7c94c038abf38e8b83876771789444425-480-0.webp?5906520545070355550",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://acdn-us.mitiendanube.com/stores/006/787/118/products/chatgpt-image-23-sept-2026-16_29_58-efac5cc2d00811b6ce17901990251696-640-0.webp",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://acdn-us.mitiendanube.com/stores/006/787/118/products/cafa-catur_ran_-dulce-y-frutal-1-c76e901ec5c9c3215517922063885795-640-0.webp",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://acdn-us.mitiendanube.com/stores/006/787/118/products/c79ad2c2-4220-4dc7-a927-750576f8ef7a-9f72fa7fd6e1ea839117901956616817-640-0.webp",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "entretiempo-cafe",
+      "company": "Entretiempo Café",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "Pesos de bolsa del simulador editables; deben vincularse a variantes oficiales antes de activar compra."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://entretiempo.co/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://entretiempo.co/productos/cafe-entre-sonrisas-operacion-sonrisa/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://entretiempo.co/productos/caturron-natural-huila/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://entretiempo.co/productos/costa-rica-black-honey-tolima1/",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 18612
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 68374
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 67000
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 58406
+      }
+    ]
+  },
+  "publicOnly": true
+}

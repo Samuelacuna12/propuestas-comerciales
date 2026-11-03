@@ -1,0 +1,190 @@
+{
+  "company": "Minimalism Brand",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "es",
+  "sources": [
+    {
+      "url": "https://minimalismbrand.com/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://minimalismbrand.com/products/camiseta-algodon-organicox3",
+      "claim": "Camiseta algodón orgánico - Pack 3 uds: Pack de tres camisetas de algodón orgánico; tallas y colores se eligen en la tienda oficial."
+    },
+    {
+      "url": "https://minimalismbrand.com/products/calzoncillos-organicos-x3-1",
+      "claim": "Calzoncillos Bóxers Orgánicos | Pack 3 uds: Pack de tres bóxers: la ficha declara 95% algodón orgánico y 5% elastano."
+    },
+    {
+      "url": "https://minimalismbrand.com/products/mochila-minimalism",
+      "claim": "Mochila 360: Mochila 360 de la colección de accesorios; consulta medidas y compartimentos en su ficha."
+    },
+    {
+      "url": "https://minimalismbrand.com/",
+      "claim": "Catálogo de básicos y packs; web española con opción inglesa."
+    },
+    {
+      "url": "https://minimalismbrand.com/pages/contacto",
+      "claim": "Atención sobre tallas y pedidos."
+    },
+    {
+      "url": "https://minimalismbrand.com/pages/aviso-legal",
+      "claim": "Sede y entidad comercial."
+    }
+  ],
+  "products": [
+    {
+      "name": "Camiseta algodón orgánico - Pack 3 uds",
+      "url": "https://minimalismbrand.com/products/camiseta-algodon-organicox3",
+      "description": "Pack de tres camisetas de algodón orgánico; tallas y colores se eligen en la tienda oficial.",
+      "image": "https://minimalismbrand.com/cdn/shop/files/pack-tres-camisetas-algodon-organico-sin-logos_1500x.jpg?v=1718022802",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Calzoncillos Bóxers Orgánicos | Pack 3 uds",
+      "url": "https://minimalismbrand.com/products/calzoncillos-organicos-x3-1",
+      "description": "Pack de tres bóxers: la ficha declara 95% algodón orgánico y 5% elastano.",
+      "image": "https://minimalismbrand.com/cdn/shop/files/pack-tres-calzoncillos-boxer-algodon-organico-1_1500x.jpg?v=1732704123",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Mochila 360",
+      "url": "https://minimalismbrand.com/products/mochila-minimalism",
+      "description": "Mochila 360 de la colección de accesorios; consulta medidas y compartimentos en su ficha.",
+      "image": "https://minimalismbrand.com/cdn/shop/files/360-backpack-mochila-sostenible-minimalista-eco_1500x.jpg?v=1701700741",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "Camiseta algodón orgánico - Pack 3 uds",
+      "url": "https://minimalismbrand.com/cdn/shop/files/pack-tres-camisetas-algodon-organico-sin-logos_1500x.jpg?v=1718022802",
+      "local": "assets/product-1.jpg",
+      "mime": "image/jpeg",
+      "bytes": 27644,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://minimalismbrand.com/products/camiseta-algodon-organicox3"
+    },
+    {
+      "product": "Calzoncillos Bóxers Orgánicos | Pack 3 uds",
+      "url": "https://minimalismbrand.com/cdn/shop/files/pack-tres-calzoncillos-boxer-algodon-organico-1_1500x.jpg?v=1732704123",
+      "local": "assets/product-2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 44215,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://minimalismbrand.com/products/calzoncillos-organicos-x3-1"
+    },
+    {
+      "product": "Mochila 360",
+      "url": "https://minimalismbrand.com/cdn/shop/files/360-backpack-mochila-sostenible-minimalista-eco_1500x.jpg?v=1701700741",
+      "local": "assets/product-3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 115219,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://minimalismbrand.com/products/mochila-minimalism"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://minimalismbrand.com/",
+    "secondary": "https://grovemade.com/",
+    "boundedBorrowing": "Composición austera, tipografía directa y protagonismo absoluto del producto.",
+    "layout": "minimal",
+    "palette": {
+      "accent": "#202020",
+      "background": "#f6f6f4"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Organiza unidades por personas o conjuntos, descuenta las que ya se tienen y calcula packs de tamaño confirmado por ficha."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://minimalismbrand.com/products/camiseta-algodon-organicox3",
+        "httpOk": true
+      },
+      {
+        "url": "https://minimalismbrand.com/products/calzoncillos-organicos-x3-1",
+        "httpOk": true
+      },
+      {
+        "url": "https://minimalismbrand.com/products/mochila-minimalism",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

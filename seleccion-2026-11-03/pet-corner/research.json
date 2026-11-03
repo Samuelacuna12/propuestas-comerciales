@@ -1,0 +1,149 @@
+{
+  "company": "Pet Corner",
+  "reviewedAt": "2026-11-03",
+  "website": "https://www.petcornercr.com/",
+  "publicFacts": [
+    {
+      "url": "https://www.petcornercr.com/",
+      "claim": "Productos, opciones y carrito de compra visibles."
+    },
+    {
+      "url": "https://www.petcornercr.com/pages/contact",
+      "claim": "Página comercial con formulario y dirección San José, Costa Rica."
+    },
+    {
+      "url": "https://www.petcornercr.com/products/mat-de-enfriamiento-pet-cooling-mat",
+      "claim": "Mat de Verano: Diseño de paleta de helado; dimensiones publicadas 55 × 70 × 3 cm."
+    },
+    {
+      "url": "https://www.petcornercr.com/products/lego-bowl-tazon-base-lego",
+      "claim": "LEGO BOWL: tazón y base: Piezas modulares vendidas por separado; elegir la base y el bowl en la tienda."
+    },
+    {
+      "url": "https://www.petcornercr.com/products/tina-para-mascotas",
+      "claim": "Tina plegable para mascotas: Tina plegable; medidas publicadas 67 × 44 × 20 cm."
+    }
+  ],
+  "products": [
+    {
+      "name": "Mat de Verano",
+      "url": "https://www.petcornercr.com/products/mat-de-enfriamiento-pet-cooling-mat",
+      "description": "Diseño de paleta de helado; dimensiones publicadas 55 × 70 × 3 cm.",
+      "image": "https://www.petcornercr.com/cdn/shop/files/3_678e4d73-5431-4365-aa5c-a1ef739f6022.png?v=1736461217&width=1920",
+      "kind": "product"
+    },
+    {
+      "name": "LEGO BOWL: tazón y base",
+      "url": "https://www.petcornercr.com/products/lego-bowl-tazon-base-lego",
+      "description": "Piezas modulares vendidas por separado; elegir la base y el bowl en la tienda.",
+      "image": "https://www.petcornercr.com/cdn/shop/files/IMG_2037_8292a412-dc56-40e0-9cce-25de8628c930.jpg?v=1738259154&width=1920",
+      "kind": "product"
+    },
+    {
+      "name": "Tina plegable para mascotas",
+      "url": "https://www.petcornercr.com/products/tina-para-mascotas",
+      "description": "Tina plegable; medidas publicadas 67 × 44 × 20 cm.",
+      "image": "https://www.petcornercr.com/cdn/shop/products/IMG_36702.jpg?v=1740083917&width=1920",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://www.petcornercr.com/cdn/shop/files/3_678e4d73-5431-4365-aa5c-a1ef739f6022.png?v=1736461217&width=1920",
+      "sourcePage": "https://www.petcornercr.com/products/mat-de-enfriamiento-pet-cooling-mat",
+      "use": "Mat de Verano"
+    },
+    {
+      "url": "https://www.petcornercr.com/cdn/shop/files/IMG_2037_8292a412-dc56-40e0-9cce-25de8628c930.jpg?v=1738259154&width=1920",
+      "sourcePage": "https://www.petcornercr.com/products/lego-bowl-tazon-base-lego",
+      "use": "LEGO BOWL: tazón y base"
+    },
+    {
+      "url": "https://www.petcornercr.com/cdn/shop/products/IMG_36702.jpg?v=1740083917&width=1920",
+      "sourcePage": "https://www.petcornercr.com/products/tina-para-mascotas",
+      "use": "Tina plegable para mascotas"
+    },
+    {
+      "url": "https://www.petcornercr.com/cdn/shop/files/3_678e4d73-5431-4365-aa5c-a1ef739f6022.png?v=1736461217&width=1920",
+      "sourcePage": "https://www.petcornercr.com/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://www.petcornercr.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://ruffwear.com/collections/dog-harnesses",
+      "observedPattern": "Selección por uso y atributos de producto; guía comparativa antes de elegir talla."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "playful",
+      "headline": "Pequeños objetos.\nGrandes días juntos.",
+      "palette": [
+        "#bb416b",
+        "#fcf0f3",
+        "#472c44"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Armador de kit para mascota",
+      "reason": "Un kit por rutina con cantidades y medidas podría hacer más sencilla la elección entre accesorios complementarios.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 8,
+      "passed": 6,
+      "transientFailures": [
+        {
+          "url": "https://www.petcornercr.com/pages/contact",
+          "status": 429,
+          "note": "Lectura GET previa disponible; fallo en comprobación HEAD final."
+        },
+        {
+          "url": "https://www.petcornercr.com/products/lego-bowl-tazon-base-lego",
+          "status": 429,
+          "note": "Lectura GET previa disponible; fallo en comprobación HEAD final."
+        }
+      ]
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

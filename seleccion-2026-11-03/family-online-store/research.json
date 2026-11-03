@@ -1,0 +1,138 @@
+{
+  "company": "Family Online Store",
+  "reviewedAt": "2026-11-03",
+  "website": "https://familyonlinecr.com/",
+  "publicFacts": [
+    {
+      "url": "https://familyonlinecr.com/tienda/pagina/sobre-nosotros/",
+      "claim": "Empresa familiar, ubicación, categorías y operación de venta en línea."
+    },
+    {
+      "url": "https://familyonlinecr.com/tienda/pagina/contacto/",
+      "claim": "Página oficial de contacto."
+    },
+    {
+      "url": "https://familyonlinecr.com/product/batidora-de-mano-250w-voltaje-120v-con-cuchillas-de-acero-inoxidable-y-accesorios-para-preparaciones-varias/",
+      "claim": "Batidora de mano 250 W: Batidora de mano de 250 W y 120 V; revisar accesorios en ficha oficial."
+    },
+    {
+      "url": "https://familyonlinecr.com/product/hervidor-electrico-luma-bella-lb-59029-de-2-5-litros-y-1500-w-color-crema/",
+      "claim": "Hervidor Luma Bella 2,5 L: Modelo LB-59029, capacidad de 2,5 litros y potencia publicada de 1500 W."
+    },
+    {
+      "url": "https://familyonlinecr.com/product/sarten-de-acero-inoxidable-316-con-capacidad-de-2-litros-diametro-22-cm-y-mango-de-aluminio-para-cocina/",
+      "claim": "Sartén de acero inoxidable 22 cm: Sartén de 22 cm y capacidad publicada de 2 litros."
+    }
+  ],
+  "products": [
+    {
+      "name": "Batidora de mano 250 W",
+      "url": "https://familyonlinecr.com/product/batidora-de-mano-250w-voltaje-120v-con-cuchillas-de-acero-inoxidable-y-accesorios-para-preparaciones-varias/",
+      "description": "Batidora de mano de 250 W y 120 V; revisar accesorios en ficha oficial.",
+      "image": "https://familyonlinecr.com/wp-content/uploads/2026/10/chatgpt-19-1.webp",
+      "kind": "product"
+    },
+    {
+      "name": "Hervidor Luma Bella 2,5 L",
+      "url": "https://familyonlinecr.com/product/hervidor-electrico-luma-bella-lb-59029-de-2-5-litros-y-1500-w-color-crema/",
+      "description": "Modelo LB-59029, capacidad de 2,5 litros y potencia publicada de 1500 W.",
+      "image": "https://familyonlinecr.com/wp-content/uploads/2026/09/fec71782-7d89-4e46-820e-968ef7192b23.webp",
+      "kind": "product"
+    },
+    {
+      "name": "Sartén de acero inoxidable 22 cm",
+      "url": "https://familyonlinecr.com/product/sarten-de-acero-inoxidable-316-con-capacidad-de-2-litros-diametro-22-cm-y-mango-de-aluminio-para-cocina/",
+      "description": "Sartén de 22 cm y capacidad publicada de 2 litros.",
+      "image": "https://familyonlinecr.com/wp-content/uploads/2026/10/unnamed-1.webp",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://familyonlinecr.com/wp-content/uploads/2026/10/chatgpt-19-1.webp",
+      "sourcePage": "https://familyonlinecr.com/product/batidora-de-mano-250w-voltaje-120v-con-cuchillas-de-acero-inoxidable-y-accesorios-para-preparaciones-varias/",
+      "use": "Batidora de mano 250 W"
+    },
+    {
+      "url": "https://familyonlinecr.com/wp-content/uploads/2026/09/fec71782-7d89-4e46-820e-968ef7192b23.webp",
+      "sourcePage": "https://familyonlinecr.com/product/hervidor-electrico-luma-bella-lb-59029-de-2-5-litros-y-1500-w-color-crema/",
+      "use": "Hervidor Luma Bella 2,5 L"
+    },
+    {
+      "url": "https://familyonlinecr.com/wp-content/uploads/2026/10/unnamed-1.webp",
+      "sourcePage": "https://familyonlinecr.com/product/sarten-de-acero-inoxidable-316-con-capacidad-de-2-litros-diametro-22-cm-y-mango-de-aluminio-para-cocina/",
+      "use": "Sartén de acero inoxidable 22 cm"
+    },
+    {
+      "url": "https://familyonlinecr.com/wp-content/uploads/2026/10/chatgpt-19-1.webp",
+      "sourcePage": "https://familyonlinecr.com/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://familyonlinecr.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://www.everlane.com/collections/womens-all",
+      "observedPattern": "Catálogo por necesidad y atributos legibles sin saturar la ficha."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "retail",
+      "headline": "Cocina cotidiana.\nBien equipada.",
+      "palette": [
+        "#1666b2",
+        "#f3f7fb",
+        "#142a42"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Lista de preparación por ambiente",
+      "reason": "Un armado de lista con cantidades y revisión de entrega podría facilitar compras de varios artículos para un mismo ambiente.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 9,
+      "passed": 9,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

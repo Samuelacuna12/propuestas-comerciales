@@ -1,0 +1,159 @@
+{
+  "company": "El Club de la Madera",
+  "language": "es",
+  "website": "https://www.elclubdelamadera.mx/",
+  "description": "El Club de la Madera · Muebles y objetos de madera. El Club ofrece objetos, muebles sobre diseño y experiencias de taller.",
+  "products": [
+    {
+      "name": "Veta · Tzalam",
+      "url": "https://www.elclubdelamadera.mx/product-page/veta-tzalam",
+      "description": "Pieza de tzalam publicada con construcción face grain.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Platos paralelos",
+      "url": "https://www.elclubdelamadera.mx/product-page/platos-paralelos",
+      "description": "Pieza edge grain que combina especies de madera.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Paralela personal",
+      "url": "https://www.elclubdelamadera.mx/product-page/paralela-personal",
+      "description": "Referencia edge grain de la tienda oficial.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cada pieza se ve idéntica?",
+      "answer": "La ficha de Platos paralelos advierte variaciones naturales de color y veta.",
+      "keywords": [
+        "veta",
+        "color",
+        "igual"
+      ]
+    },
+    {
+      "question": "¿Puedo pedir un mueble sobre diseño?",
+      "answer": "Sí. El sitio ofrece muebles a partir de ideas del cliente.",
+      "keywords": [
+        "mueble",
+        "diseno"
+      ]
+    },
+    {
+      "question": "¿Se puede visitar el taller?",
+      "answer": "El sitio indica atención con cita previa en Ciudad de México.",
+      "keywords": [
+        "visita",
+        "cita"
+      ]
+    },
+    {
+      "question": "¿El corte considera la veta?",
+      "answer": "El cálculo muestra una orientación alternativa, pero el taller debe aprobar si puede girarse por la dirección de veta.",
+      "keywords": [
+        "corte",
+        "veta",
+        "girar"
+      ]
+    },
+    {
+      "question": "¿Cómo se cuidan las tablas?",
+      "answer": "La ficha de Platos paralelos describe acabado con aceite mineral y cera. Consulta instrucciones de mantenimiento para la pieza concreta.",
+      "keywords": [
+        "cuidado",
+        "aceite",
+        "tabla"
+      ]
+    },
+    {
+      "question": "¿Qué es Veta · Tzalam?",
+      "answer": "Pieza de tzalam publicada con construcción face grain. Ficha oficial: https://www.elclubdelamadera.mx/product-page/veta-tzalam",
+      "keywords": [
+        "veta · tzalam",
+        "tzalam"
+      ]
+    },
+    {
+      "question": "¿Qué es Platos paralelos?",
+      "answer": "Pieza edge grain que combina especies de madera. Ficha oficial: https://www.elclubdelamadera.mx/product-page/platos-paralelos",
+      "keywords": [
+        "platos paralelos",
+        "platos",
+        "paralelos"
+      ]
+    },
+    {
+      "question": "¿Qué es Paralela personal?",
+      "answer": "Referencia edge grain de la tienda oficial. Ficha oficial: https://www.elclubdelamadera.mx/product-page/paralela-personal",
+      "keywords": [
+        "paralela personal",
+        "paralela",
+        "personal"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Planeador de cortes rectangulares",
+    "steps": [
+      {
+        "key": "pieza",
+        "label": "Pieza",
+        "question": "¿Qué objeto o pieza necesitas fabricar?",
+        "required": true
+      },
+      {
+        "key": "medidas",
+        "label": "Despiece",
+        "question": "¿Qué medidas y cantidades tendría cada pieza?",
+        "required": true
+      },
+      {
+        "key": "material",
+        "label": "Material",
+        "question": "¿Qué madera, espesor y dirección de veta deseas revisar?",
+        "required": true
+      },
+      {
+        "key": "acabado",
+        "label": "Acabado",
+        "question": "¿Qué uso y acabado buscas?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://www.elclubdelamadera.mx/",
+      "claim": "Actividad, catálogo y canales oficiales de El Club de la Madera"
+    },
+    {
+      "url": "https://www.elclubdelamadera.mx/product-page/veta-tzalam",
+      "claim": "Ficha o línea publicada: Veta · Tzalam"
+    },
+    {
+      "url": "https://www.elclubdelamadera.mx/product-page/platos-paralelos",
+      "claim": "Ficha o línea publicada: Platos paralelos"
+    },
+    {
+      "url": "https://www.elclubdelamadera.mx/product-page/paralela-personal",
+      "claim": "Ficha o línea publicada: Paralela personal"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#3b6359",
+    "background": "#f6f1e7",
+    "foreground": "#2d3029",
+    "font": "'Playfair Display',Georgia,serif"
+  },
+  "heroImage": "assets/hero.img"
+}

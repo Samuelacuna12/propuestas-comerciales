@@ -1,0 +1,204 @@
+{
+  "company": "El Club de la Madera",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://www.elclubdelamadera.mx/",
+      "claim": "Actividad, catálogo y canales oficiales de El Club de la Madera"
+    },
+    {
+      "url": "https://www.elclubdelamadera.mx/product-page/veta-tzalam",
+      "claim": "Ficha o línea publicada: Veta · Tzalam"
+    },
+    {
+      "url": "https://www.elclubdelamadera.mx/product-page/platos-paralelos",
+      "claim": "Ficha o línea publicada: Platos paralelos"
+    },
+    {
+      "url": "https://www.elclubdelamadera.mx/product-page/paralela-personal",
+      "claim": "Ficha o línea publicada: Paralela personal"
+    }
+  ],
+  "products": [
+    {
+      "name": "Veta · Tzalam",
+      "description": "Pieza de tzalam publicada con construcción face grain.",
+      "url": "https://www.elclubdelamadera.mx/product-page/veta-tzalam",
+      "image": "https://static.wixstatic.com/media/8fb93f_f36ed4ec96594896ab81635cc78eaa86~mv2.png",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Platos paralelos",
+      "description": "Pieza edge grain que combina especies de madera.",
+      "url": "https://www.elclubdelamadera.mx/product-page/platos-paralelos",
+      "image": "https://static.wixstatic.com/media/8fb93f_a83dfe2cc2434d2281c71288576cb12e~mv2.png",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Paralela personal",
+      "description": "Referencia edge grain de la tienda oficial.",
+      "url": "https://www.elclubdelamadera.mx/product-page/paralela-personal",
+      "image": "https://static.wixstatic.com/media/8fb93f_53ea44944a134b3abc91f3069efff5b4~mv2.png",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/8fb93f_a83dfe2cc2434d2281c71288576cb12e~mv2.png/v1/fit/w_4030,h_3240,q_90/file.png/v1/fit/w_500,h_500,q_90/file.png",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/8fb93f_f36ed4ec96594896ab81635cc78eaa86~mv2.png",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/8fb93f_a83dfe2cc2434d2281c71288576cb12e~mv2.png",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/8fb93f_53ea44944a134b3abc91f3069efff5b4~mv2.png",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://www.elclubdelamadera.mx/",
+    "secondary": "https://www.muuto.com/",
+    "layout": "woodobjects",
+    "palette": [
+      "#3b6359",
+      "#f6f1e7",
+      "#2d3029",
+      "#c99863"
+    ],
+    "typography": "'Playfair Display',Georgia,serif",
+    "decisions": "Galería de objetos de madera con piezas aisladas a gran tamaño, serif contenida y lista de corte que hace visibles los supuestos.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "El Club ofrece objetos, muebles sobre diseño y experiencias de taller.",
+      "Las fichas identifican construcciones face grain y edge grain.",
+      "El taller recibe con cita y explica que veta y color varían naturalmente."
+    ],
+    "hypothesis": "Preparar solicitudes de piezas o muebles con un despiece inicial que el taller pueda corregir y aprobar.",
+    "operation": "Planeador de cortes rectangulares",
+    "boundaries": [
+      "El plan de corte es uniforme, no optimización de patrones mixtos ni aprobación de ensambles."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://static.wixstatic.com/media/8fb93f_a83dfe2cc2434d2281c71288576cb12e~mv2.png/v1/fit/w_4030,h_3240,q_90/file.png/v1/fit/w_500,h_500,q_90/file.png",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/8fb93f_f36ed4ec96594896ab81635cc78eaa86~mv2.png",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/8fb93f_a83dfe2cc2434d2281c71288576cb12e~mv2.png",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/8fb93f_53ea44944a134b3abc91f3069efff5b4~mv2.png",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "el-club-de-la-madera",
+      "company": "El Club de la Madera",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "El plan de corte es uniforme, no optimización de patrones mixtos ni aprobación de ensambles."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://www.elclubdelamadera.mx/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.elclubdelamadera.mx/product-page/paralela-personal",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.elclubdelamadera.mx/product-page/platos-paralelos",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.elclubdelamadera.mx/product-page/veta-tzalam",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 35662
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 205186
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 202984
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 177224
+      }
+    ]
+  },
+  "publicOnly": true
+}

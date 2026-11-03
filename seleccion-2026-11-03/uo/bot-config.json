@@ -1,0 +1,188 @@
+{
+  "company": "UO",
+  "language": "es",
+  "website": "https://weareuo.com/",
+  "description": "Elige un mensaje de la colección real y organiza cantidades para regalar sin perder el detalle de cada referencia.",
+  "products": [
+    {
+      "name": "Calcetines \"Happy Family\"",
+      "url": "https://weareuo.com/products/calcetines-happy-family",
+      "description": "Calcetines con el mensaje «Happy Family», de la colección de regalos.",
+      "image": "https://weareuo.com/cdn/shop/files/30745-min.jpg?v=1714119171&width=800",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Calcetines \"Los 30's son los nuevos 20's\"",
+      "url": "https://weareuo.com/products/calcetines-los-30s-son-los-nuevos-20s",
+      "description": "Calcetines con un mensaje dedicado a quienes cumplen o viven la treintena.",
+      "image": "https://weareuo.com/cdn/shop/files/21911-min.jpg?v=1700951144&width=800",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Calcetines \"Mamá leona\" Teja",
+      "url": "https://weareuo.com/products/calcetines-mama-leona-teja",
+      "description": "Calcetines «Mamá leona» en color teja, con ficha propia de tallas.",
+      "image": "https://weareuo.com/cdn/shop/products/26352.jpg?v=1695958525&width=800",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué puedo encontrar en UO?",
+      "answer": "UO ofrece calcetines, tazas, agendas y regalos personalizados.",
+      "keywords": [
+        "qué",
+        "puedo",
+        "encontrar"
+      ]
+    },
+    {
+      "question": "¿Hay un canal para distribuidores?",
+      "answer": "La web publica una ruta para distribuidores.",
+      "keywords": [
+        "hay",
+        "canal",
+        "para",
+        "distribuidores"
+      ]
+    },
+    {
+      "question": "¿Todos los productos son personalizables?",
+      "answer": "La personalización tiene su propia sección; no implica que todos los modelos del catálogo sean personalizables.",
+      "keywords": [
+        "todos",
+        "productos",
+        "personalizables"
+      ]
+    },
+    {
+      "question": "¿Qué es Calcetines \"Happy Family\"?",
+      "answer": "Calcetines con el mensaje «Happy Family», de la colección de regalos. Ficha oficial: https://weareuo.com/products/calcetines-happy-family",
+      "keywords": [
+        "calcetines",
+        "\"happy",
+        "family\""
+      ]
+    },
+    {
+      "question": "¿Qué es Calcetines \"Los 30's son los nuevos 20's\"?",
+      "answer": "Calcetines con un mensaje dedicado a quienes cumplen o viven la treintena. Ficha oficial: https://weareuo.com/products/calcetines-los-30s-son-los-nuevos-20s",
+      "keywords": [
+        "calcetines",
+        "\"los",
+        "30's",
+        "nuevos",
+        "20's\""
+      ]
+    },
+    {
+      "question": "¿Qué es Calcetines \"Mamá leona\" Teja?",
+      "answer": "Calcetines «Mamá leona» en color teja, con ficha propia de tallas. Ficha oficial: https://weareuo.com/products/calcetines-mama-leona-teja",
+      "keywords": [
+        "calcetines",
+        "\"mamá",
+        "leona\"",
+        "teja"
+      ]
+    },
+    {
+      "question": "¿Qué precio y disponibilidad tiene mi selección?",
+      "answer": "Confirma precio, variantes y disponibilidad en las fichas oficiales. Esta propuesta no tiene acceso al inventario ni confirma reservas.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "¿Cómo continúo con una consulta real?",
+      "answer": "Prepara el resumen local y revísalo antes de usar el canal oficial: https://weareuo.com/pages/contact",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Reparto de regalos por destinatario",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selección",
+        "question": "¿Qué mensaje te interesa: Happy Family, Los 30 son los nuevos 20 o Mamá leona?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Cantidad",
+        "question": "¿Para cuántas personas estás preparando el regalo?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Detalles",
+        "question": "¿Cuántos pares por persona y qué tallas quieres consultar?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "Por confirmar",
+        "question": "¿Quieres combinar mensajes o revisar otra categoría de regalo?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief para revisión humana"
+  },
+  "sources": [
+    {
+      "url": "https://weareuo.com/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://weareuo.com/products/calcetines-happy-family",
+      "claim": "Calcetines \"Happy Family\": Calcetines con el mensaje «Happy Family», de la colección de regalos."
+    },
+    {
+      "url": "https://weareuo.com/products/calcetines-los-30s-son-los-nuevos-20s",
+      "claim": "Calcetines \"Los 30's son los nuevos 20's\": Calcetines con un mensaje dedicado a quienes cumplen o viven la treintena."
+    },
+    {
+      "url": "https://weareuo.com/products/calcetines-mama-leona-teja",
+      "claim": "Calcetines \"Mamá leona\" Teja: Calcetines «Mamá leona» en color teja, con ficha propia de tallas."
+    },
+    {
+      "url": "https://weareuo.com/",
+      "claim": "Catálogo, personalización y distribuidores."
+    },
+    {
+      "url": "https://weareuo.com/pages/contact",
+      "claim": "Atención comercial."
+    },
+    {
+      "url": "https://weareuo.com/pages/aviso-legal",
+      "claim": "Entidad y sede Valencia."
+    }
+  ],
+  "boundaries": [
+    "Demostración local basada en reglas; no es una IA conectada al negocio.",
+    "No acceso a pedidos, clientes, pagos ni stock.",
+    "No confirmar precios, entrega, compatibilidad o políticas no verificadas.",
+    "Calcula unidades y grupos de preparación con selección por mensaje; no confirma personalización ni crea pedidos."
+  ],
+  "theme": {
+    "accent": "#c3284c",
+    "background": "#fff0f3",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

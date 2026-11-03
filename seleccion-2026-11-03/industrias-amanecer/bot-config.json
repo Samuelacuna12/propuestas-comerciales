@@ -1,0 +1,166 @@
+{
+  "company": "Industrias Amanecer",
+  "language": "es",
+  "website": "https://tapiceriaamanecer.com.co/",
+  "description": "Industrias Amanecer · Tapicería y renovación de mobiliario. La empresa publica servicios de retapizado y una tienda de mobiliario.",
+  "products": [
+    {
+      "name": "Sofacama Taupe",
+      "url": "https://tapiceriaamanecer.com.co/tienda/p/sofacama-taupe",
+      "description": "Sofacama identificado en la tienda. Su ficha requiere confirmar especificaciones.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Cojines decorativos",
+      "url": "https://tapiceriaamanecer.com.co/tienda/p/cojines-decorativos",
+      "description": "Colección de complementos textiles; selección de telas por confirmar.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Silla Asturias",
+      "url": "https://tapiceriaamanecer.com.co/tienda/p/silla-asturias",
+      "description": "Silla con brazos; ficha publicada de 95 cm de ancho y 85 cm de profundidad.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Puedo retapizar un mueble que ya tengo?",
+      "answer": "Sí. La web anuncia servicios de tapizado, además de venta de muebles.",
+      "keywords": [
+        "retapizar",
+        "tapizado"
+      ]
+    },
+    {
+      "question": "¿Qué telas aparecen?",
+      "answer": "Se listan microfibra, microchenille, tipo lino, jacquard, exterior y otras alternativas. La referencia exacta se selecciona con el equipo.",
+      "keywords": [
+        "telas",
+        "material"
+      ]
+    },
+    {
+      "question": "¿Hay opción para hogares con mascotas?",
+      "answer": "La empresa publica una línea de telas orientada a mascotas. No se asume resistencia absoluta a uñas o daños.",
+      "keywords": [
+        "mascota",
+        "gato",
+        "perro"
+      ]
+    },
+    {
+      "question": "¿El cálculo incluye costuras?",
+      "answer": "Solo considera paneles rectangulares y la merma que tú definas. No sustituye el despiece del tapicero.",
+      "keywords": [
+        "costura",
+        "metraje",
+        "corte"
+      ]
+    },
+    {
+      "question": "¿Cómo verifico el estado de la estructura?",
+      "answer": "Debe revisarlo el equipo antes de cotizar relleno, madera o reparación interna.",
+      "keywords": [
+        "estructura",
+        "espuma",
+        "reparacion"
+      ]
+    },
+    {
+      "question": "¿Qué es Sofacama Taupe?",
+      "answer": "Sofacama identificado en la tienda. Su ficha requiere confirmar especificaciones. Ficha oficial: https://tapiceriaamanecer.com.co/tienda/p/sofacama-taupe",
+      "keywords": [
+        "sofacama taupe",
+        "sofacama",
+        "taupe"
+      ]
+    },
+    {
+      "question": "¿Qué es Cojines decorativos?",
+      "answer": "Colección de complementos textiles; selección de telas por confirmar. Ficha oficial: https://tapiceriaamanecer.com.co/tienda/p/cojines-decorativos",
+      "keywords": [
+        "cojines decorativos",
+        "cojines",
+        "decorativos"
+      ]
+    },
+    {
+      "question": "¿Qué es Silla Asturias?",
+      "answer": "Silla con brazos; ficha publicada de 95 cm de ancho y 85 cm de profundidad. Ficha oficial: https://tapiceriaamanecer.com.co/tienda/p/silla-asturias",
+      "keywords": [
+        "silla asturias",
+        "silla",
+        "asturias"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparación de metraje para tapicería",
+    "steps": [
+      {
+        "key": "pieza",
+        "label": "Pieza",
+        "question": "¿Qué mueble deseas tapizar y cuántas piezas son?",
+        "required": true
+      },
+      {
+        "key": "medidas",
+        "label": "Medidas",
+        "question": "¿Tienes medidas aproximadas de asientos, respaldos y brazos?",
+        "required": true
+      },
+      {
+        "key": "estado",
+        "label": "Estado",
+        "question": "¿Solo cambiarías la tela o también hay relleno o estructura por revisar?",
+        "required": true
+      },
+      {
+        "key": "textil",
+        "label": "Textil",
+        "question": "¿Qué uso tendrá y qué tipo de tela buscas?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Ubicación",
+        "question": "¿En qué ciudad está el mueble?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://tapiceriaamanecer.com.co/",
+      "claim": "Actividad, catálogo y canales oficiales de Industrias Amanecer"
+    },
+    {
+      "url": "https://tapiceriaamanecer.com.co/tienda/p/sofacama-taupe",
+      "claim": "Ficha o línea publicada: Sofacama Taupe"
+    },
+    {
+      "url": "https://tapiceriaamanecer.com.co/tienda/p/cojines-decorativos",
+      "claim": "Ficha o línea publicada: Cojines decorativos"
+    },
+    {
+      "url": "https://tapiceriaamanecer.com.co/tienda/p/silla-asturias",
+      "claim": "Ficha o línea publicada: Silla Asturias"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#805438",
+    "background": "#f7f2e9",
+    "foreground": "#352e28",
+    "font": "'Playfair Display',Georgia,serif"
+  },
+  "heroImage": "assets/hero.img"
+}

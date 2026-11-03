@@ -1,0 +1,164 @@
+{
+  "company": "Café Don Mayo",
+  "reviewedAt": "2026-11-03",
+  "website": "https://www.cafedonmayocr.com/",
+  "publicFacts": [
+    {
+      "url": "https://www.cafedonmayocr.com/",
+      "claim": "Identidad familiar, producción propia y oficina en San Marcos de Tarrazú."
+    },
+    {
+      "url": "https://tienda.cafedonmayocr.com/tienda/",
+      "claim": "Catálogo de nueve referencias con variantes y carrito."
+    },
+    {
+      "url": "https://www.cafedonmayocr.com/contactenos.php",
+      "claim": "Página oficial de mercadeo, ventas y contacto."
+    },
+    {
+      "url": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-black-honey/",
+      "claim": "Black Honey: Proceso que conserva la miel del café durante parte del beneficiado."
+    },
+    {
+      "url": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-fully-washed/",
+      "claim": "Fully Washed: Café lavado de finca Bellavista, con tueste medio según su ficha."
+    },
+    {
+      "url": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-geisha/",
+      "claim": "Geisha: Variedad Geisha; la ficha describe un perfil floral y delicado."
+    }
+  ],
+  "products": [
+    {
+      "name": "Black Honey",
+      "url": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-black-honey/",
+      "description": "Proceso que conserva la miel del café durante parte del beneficiado.",
+      "image": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/WEBslider-black-honey.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Fully Washed",
+      "url": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-fully-washed/",
+      "description": "Café lavado de finca Bellavista, con tueste medio según su ficha.",
+      "image": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/WEBslider-fully-washed.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Geisha",
+      "url": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-geisha/",
+      "description": "Variedad Geisha; la ficha describe un perfil floral y delicado.",
+      "image": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/webgeisha2.jpg",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/WEBslider-black-honey.jpg",
+      "sourcePage": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-black-honey/",
+      "use": "Black Honey"
+    },
+    {
+      "url": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/WEBslider-fully-washed.jpg",
+      "sourcePage": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-fully-washed/",
+      "use": "Fully Washed"
+    },
+    {
+      "url": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/webgeisha2.jpg",
+      "sourcePage": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-geisha/",
+      "use": "Geisha"
+    },
+    {
+      "url": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/WEBslider-black-honey.jpg",
+      "sourcePage": "https://www.cafedonmayocr.com/",
+      "use": "Hero"
+    },
+    {
+      "url": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/Group-11.jpg",
+      "sourcePage": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-black-honey/",
+      "localPath": "assets/bolsa-11.jpg",
+      "use": "Black Honey · bolsa completa; hero y catálogo",
+      "visualCheck": "Fotografía de bolsa sin banner. Etiqueta visible: 340 g / 12 oz. No se afirma vigencia de stock."
+    },
+    {
+      "url": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/Group-12.jpg",
+      "sourcePage": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-fully-washed/",
+      "localPath": "assets/bolsa-12.jpg",
+      "use": "Fully Washed · bolsa completa; catálogo",
+      "visualCheck": "Fotografía de bolsa sin banner. Etiqueta visible: 340 g / 12 oz. No se afirma vigencia de stock."
+    },
+    {
+      "url": "https://tienda.cafedonmayocr.com/wp-content/uploads/2023/01/Group-13.jpg",
+      "sourcePage": "https://tienda.cafedonmayocr.com/producto/cafe-don-mayo-proceso-geisha/",
+      "localPath": "assets/bolsa-13.jpg",
+      "use": "Geisha · bolsa completa; catálogo",
+      "visualCheck": "Fotografía de bolsa sin banner. Etiqueta visible: 340 g / 12 oz. No se afirma vigencia de stock."
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://www.cafedonmayocr.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://onyxcoffeelab.com/collections/coffee",
+      "observedPattern": "Identificación por origen y proceso; separar exploración del café y preparación del pedido."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "coffee",
+      "headline": "Tarrazú,\nproceso a proceso.",
+      "palette": [
+        "#782a39",
+        "#f4eadb",
+        "#282321"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Mesa de preparación de café",
+      "reason": "Agrupar bolsas por referencia y molienda podría facilitar la preparación de pedidos sin mezclar procesos.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 9,
+      "passed": 9,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage.",
+    "heroImageQA": "Corregido a bolsa oficial completa; pendiente revisión de render por coordinador"
+  }
+}

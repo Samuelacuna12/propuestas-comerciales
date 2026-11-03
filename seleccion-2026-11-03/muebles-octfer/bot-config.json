@@ -1,0 +1,167 @@
+{
+  "company": "Muebles Octfer",
+  "language": "es",
+  "website": "https://mueblesoctfer.com/",
+  "description": "Muebles Octfer · Fabricación de muebles. Octfer publica líneas para exhibición, dispensación, hogar y estaciones cerveceras.",
+  "products": [
+    {
+      "name": "Estación cervecera",
+      "url": "https://mueblesoctfer.com/index.php/servicios/estacion-cervecera",
+      "description": "Línea de mobiliario para servir y presentar bebidas.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Mueble exhibidor",
+      "url": "https://mueblesoctfer.com/index.php/servicios/mueble-exhibidor1",
+      "description": "Mobiliario para presentación comercial de productos.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Muebles para el hogar",
+      "url": "https://mueblesoctfer.com/index.php/servicios/muebles-para-el-hogar",
+      "description": "Proyectos domésticos publicados dentro del portafolio.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Hacen muebles comerciales?",
+      "answer": "Sí. El sitio muestra exhibidores, dispensadores y estaciones cerveceras.",
+      "keywords": [
+        "comercial",
+        "exhibidor",
+        "dispensador"
+      ]
+    },
+    {
+      "question": "¿Cómo inicia el proyecto?",
+      "answer": "El proceso publicado incluye visita técnica y cotización antes de fabricación.",
+      "keywords": [
+        "proceso",
+        "visita"
+      ]
+    },
+    {
+      "question": "¿El sistema calcula carga?",
+      "answer": "No. La estructura, peso soportado y anclajes deben diseñarse y validarse por el fabricante.",
+      "keywords": [
+        "carga",
+        "peso",
+        "estructura"
+      ]
+    },
+    {
+      "question": "¿Incluye equipo de refrigeración o dispensación?",
+      "answer": "El alcance del equipo debe confirmarse en cada cotización. No se deduce de la foto del mueble.",
+      "keywords": [
+        "equipo",
+        "refrigeracion",
+        "cervecera"
+      ]
+    },
+    {
+      "question": "¿Se puede fabricar desde este dibujo?",
+      "answer": "No. La huella orienta la conversación; planos y medidas finales requieren validación.",
+      "keywords": [
+        "fabricar",
+        "dibujo",
+        "plano"
+      ]
+    },
+    {
+      "question": "¿Qué es Estación cervecera?",
+      "answer": "Línea de mobiliario para servir y presentar bebidas. Ficha oficial: https://mueblesoctfer.com/index.php/servicios/estacion-cervecera",
+      "keywords": [
+        "estación cervecera",
+        "estación",
+        "cervecera"
+      ]
+    },
+    {
+      "question": "¿Qué es Mueble exhibidor?",
+      "answer": "Mobiliario para presentación comercial de productos. Ficha oficial: https://mueblesoctfer.com/index.php/servicios/mueble-exhibidor1",
+      "keywords": [
+        "mueble exhibidor",
+        "mueble",
+        "exhibidor"
+      ]
+    },
+    {
+      "question": "¿Qué es Muebles para el hogar?",
+      "answer": "Proyectos domésticos publicados dentro del portafolio. Ficha oficial: https://mueblesoctfer.com/index.php/servicios/muebles-para-el-hogar",
+      "keywords": [
+        "muebles para el hogar",
+        "muebles",
+        "hogar"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Planeador de mobiliario para punto de venta",
+    "steps": [
+      {
+        "key": "pieza",
+        "label": "Pieza",
+        "question": "¿Qué mueble o línea te interesa y para qué uso?",
+        "required": true
+      },
+      {
+        "key": "espacio",
+        "label": "Espacio",
+        "question": "¿Cuánto mide el espacio disponible, de ancho y fondo?",
+        "required": true
+      },
+      {
+        "key": "medidas",
+        "label": "Mueble",
+        "question": "¿Qué medidas aproximadas imaginas para la pieza?",
+        "required": true
+      },
+      {
+        "key": "acceso",
+        "label": "Restricciones",
+        "question": "¿Hay puertas, instalaciones, escaleras o restricciones de acceso que deban revisarse?",
+        "required": true
+      },
+      {
+        "key": "acabado",
+        "label": "Acabado",
+        "question": "¿Tienes una referencia de material o acabado?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://mueblesoctfer.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Muebles Octfer"
+    },
+    {
+      "url": "https://mueblesoctfer.com/index.php/servicios/estacion-cervecera",
+      "claim": "Ficha o línea publicada: Estación cervecera"
+    },
+    {
+      "url": "https://mueblesoctfer.com/index.php/servicios/mueble-exhibidor1",
+      "claim": "Ficha o línea publicada: Mueble exhibidor"
+    },
+    {
+      "url": "https://mueblesoctfer.com/index.php/servicios/muebles-para-el-hogar",
+      "claim": "Ficha o línea publicada: Muebles para el hogar"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#da6e1e",
+    "background": "#f2f2ed",
+    "foreground": "#232c2a",
+    "font": "'Space Grotesk',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

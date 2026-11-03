@@ -1,0 +1,183 @@
+{
+  "company": "Pet Corner",
+  "language": "es",
+  "website": "https://www.petcornercr.com/",
+  "description": "Tienda con carrito, variantes y precios en colones; vende camas, juguetes, artículos de cuidado y transporte.",
+  "theme": {
+    "accent": "#bb416b",
+    "background": "#fcf0f3",
+    "foreground": "#472c44",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Mat de Verano",
+      "url": "https://www.petcornercr.com/products/mat-de-enfriamiento-pet-cooling-mat",
+      "description": "Diseño de paleta de helado; dimensiones publicadas 55 × 70 × 3 cm.",
+      "image": "https://www.petcornercr.com/cdn/shop/files/3_678e4d73-5431-4365-aa5c-a1ef739f6022.png?v=1736461217&width=1920",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "LEGO BOWL: tazón y base",
+      "url": "https://www.petcornercr.com/products/lego-bowl-tazon-base-lego",
+      "description": "Piezas modulares vendidas por separado; elegir la base y el bowl en la tienda.",
+      "image": "https://www.petcornercr.com/cdn/shop/files/IMG_2037_8292a412-dc56-40e0-9cce-25de8628c930.jpg?v=1738259154&width=1920",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Tina plegable para mascotas",
+      "url": "https://www.petcornercr.com/products/tina-para-mascotas",
+      "description": "Tina plegable; medidas publicadas 67 × 44 × 20 cm.",
+      "image": "https://www.petcornercr.com/cdn/shop/products/IMG_36702.jpg?v=1740083917&width=1920",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Mat de Verano?",
+      "answer": "Diseño de paleta de helado; dimensiones publicadas 55 × 70 × 3 cm.",
+      "keywords": [
+        "mat",
+        "de",
+        "verano"
+      ]
+    },
+    {
+      "question": "¿Qué es LEGO BOWL: tazón y base?",
+      "answer": "Piezas modulares vendidas por separado; elegir la base y el bowl en la tienda.",
+      "keywords": [
+        "lego",
+        "bowl",
+        "tazón",
+        "y",
+        "base"
+      ]
+    },
+    {
+      "question": "¿Qué es Tina plegable para mascotas?",
+      "answer": "Tina plegable; medidas publicadas 67 × 44 × 20 cm.",
+      "keywords": [
+        "tina",
+        "plegable",
+        "para",
+        "mascotas"
+      ]
+    },
+    {
+      "question": "¿Hay productos para perros y gatos?",
+      "answer": "Sí. El menú oficial separa ambas categorías.",
+      "keywords": [
+        "productos",
+        "para",
+        "perros",
+        "y",
+        "gatos"
+      ]
+    },
+    {
+      "question": "¿Qué otras categorías tiene la tienda?",
+      "answer": "Publica camas, comederos, cuidado e higiene y favoritos.",
+      "keywords": [
+        "otras",
+        "categorías",
+        "tiene",
+        "la",
+        "tienda"
+      ]
+    },
+    {
+      "question": "¿Se compra en línea?",
+      "answer": "Sí. Cada ficha permite seleccionar opciones y añadir al carrito.",
+      "keywords": [
+        "compra",
+        "en",
+        "línea"
+      ]
+    },
+    {
+      "question": "¿Dónde opera Pet Corner?",
+      "answer": "La página de contacto publica San José, Costa Rica.",
+      "keywords": [
+        "opera",
+        "pet",
+        "corner"
+      ]
+    },
+    {
+      "question": "¿El kit está reservado?",
+      "answer": "No. Es una lista local; variantes, unidades y entrega se confirman en la tienda oficial.",
+      "keywords": [
+        "kit",
+        "está",
+        "reservado"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Pet Corner",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Mascota y rutina",
+        "question": "Indica mascota y rutina.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Productos elegidos",
+        "question": "Indica productos elegidos.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Cantidad de cada pieza",
+        "question": "Indica cantidad de cada pieza.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Medidas de la mascota y espacio",
+        "question": "Indica medidas de la mascota y espacio.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Variante deseada",
+        "question": "Indica variante deseada.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://www.petcornercr.com/",
+      "claim": "Productos, opciones y carrito de compra visibles."
+    },
+    {
+      "url": "https://www.petcornercr.com/pages/contact",
+      "claim": "Página comercial con formulario y dirección San José, Costa Rica."
+    },
+    {
+      "url": "https://www.petcornercr.com/products/mat-de-enfriamiento-pet-cooling-mat",
+      "claim": "Mat de Verano: Diseño de paleta de helado; dimensiones publicadas 55 × 70 × 3 cm."
+    },
+    {
+      "url": "https://www.petcornercr.com/products/lego-bowl-tazon-base-lego",
+      "claim": "LEGO BOWL: tazón y base: Piezas modulares vendidas por separado; elegir la base y el bowl en la tienda."
+    },
+    {
+      "url": "https://www.petcornercr.com/products/tina-para-mascotas",
+      "claim": "Tina plegable para mascotas: Tina plegable; medidas publicadas 67 × 44 × 20 cm."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

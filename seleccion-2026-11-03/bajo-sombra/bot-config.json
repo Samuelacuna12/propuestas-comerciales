@@ -1,0 +1,170 @@
+{
+  "company": "Bajo Sombra",
+  "language": "es",
+  "website": "https://www.bajosombra.com/",
+  "description": "Vende cafés por origen y molienda, anuncia tueste por pedido y atención a cafeterías, restaurantes y oficinas.",
+  "theme": {
+    "accent": "#d4a54b",
+    "background": "#e9ebda",
+    "foreground": "#1d392f",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Caturra Cubulco",
+      "url": "https://www.bajosombra.com/tienda/caturra-cubulco",
+      "description": "Lavado de Cubulco, Baja Verapaz; bolsa publicada de 360 g.",
+      "image": "https://www.bajosombra.com/fotos/producto/caturra-cubulco.webp",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Caturra Honey",
+      "url": "https://www.bajosombra.com/tienda/caturra-honey",
+      "description": "Honey de Santa Cruz Verapaz; bolsa publicada de 360 g.",
+      "image": "https://www.bajosombra.com/fotos/producto/caturra-honey.webp",
+      "asset": "assets/catalog-3.webp"
+    },
+    {
+      "name": "Caturra Natural",
+      "url": "https://www.bajosombra.com/tienda/caturra-natural",
+      "description": "Natural de Santa Cruz Verapaz; bolsa publicada de 360 g.",
+      "image": "https://www.bajosombra.com/fotos/producto/caturra-natural.webp",
+      "asset": "assets/catalog-4.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Caturra Cubulco?",
+      "answer": "Lavado de Cubulco, Baja Verapaz; bolsa publicada de 360 g.",
+      "keywords": [
+        "caturra",
+        "cubulco"
+      ]
+    },
+    {
+      "question": "¿Qué es Caturra Honey?",
+      "answer": "Honey de Santa Cruz Verapaz; bolsa publicada de 360 g.",
+      "keywords": [
+        "caturra",
+        "honey"
+      ]
+    },
+    {
+      "question": "¿Qué es Caturra Natural?",
+      "answer": "Natural de Santa Cruz Verapaz; bolsa publicada de 360 g.",
+      "keywords": [
+        "caturra",
+        "natural"
+      ]
+    },
+    {
+      "question": "¿Cuándo se tuesta?",
+      "answer": "La web indica que tuestan después de recibir el pedido.",
+      "keywords": [
+        "se",
+        "tuesta"
+      ]
+    },
+    {
+      "question": "¿Puedo elegir molienda?",
+      "answer": "El sitio invita a elegir la molienda según la preparación.",
+      "keywords": [
+        "elegir",
+        "molienda"
+      ]
+    },
+    {
+      "question": "¿Atienden negocios?",
+      "answer": "Publican atención a cafeterías, restaurantes y oficinas.",
+      "keywords": [
+        "negocios"
+      ]
+    },
+    {
+      "question": "¿Dónde opera el equipo?",
+      "answer": "Su página de contacto sitúa la operación en Ciudad de Guatemala.",
+      "keywords": [
+        "opera",
+        "el",
+        "equipo"
+      ]
+    },
+    {
+      "question": "¿Las notas son ingredientes añadidos?",
+      "answer": "Las fichas las presentan como perfil del café; no se listan como ingredientes añadidos.",
+      "keywords": [
+        "notas",
+        "son",
+        "ingredientes",
+        "añadidos"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Bajo Sombra",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Origen o proceso",
+        "question": "¿Qué café o proceso quieres consultar?",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Número de bolsas de 360 g",
+        "question": "Indica número de bolsas de 360 g.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Molienda",
+        "question": "Indica molienda.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Uso doméstico o negocio",
+        "question": "Indica uso doméstico o negocio.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Frecuencia de reposición",
+        "question": "Indica frecuencia de reposición.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://www.bajosombra.com/",
+      "claim": "Café tostado en Guatemala, catálogo, molienda y canal mayorista."
+    },
+    {
+      "url": "https://www.bajosombra.com/contacto",
+      "claim": "Equipo pequeño, atención comercial y operación desde Ciudad de Guatemala."
+    },
+    {
+      "url": "https://www.bajosombra.com/tienda/caturra-cubulco",
+      "claim": "Caturra Cubulco: Lavado de Cubulco, Baja Verapaz; bolsa publicada de 360 g."
+    },
+    {
+      "url": "https://www.bajosombra.com/tienda/caturra-honey",
+      "claim": "Caturra Honey: Honey de Santa Cruz Verapaz; bolsa publicada de 360 g."
+    },
+    {
+      "url": "https://www.bajosombra.com/tienda/caturra-natural",
+      "claim": "Caturra Natural: Natural de Santa Cruz Verapaz; bolsa publicada de 360 g."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

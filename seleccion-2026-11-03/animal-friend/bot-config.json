@@ -1,0 +1,175 @@
+{
+  "company": "Animal Friend",
+  "language": "es",
+  "website": "https://animalfriendcr.com/",
+  "description": "Distribuye productos para tiendas y veterinarias y vende en línea al consumidor; catálogo de alimentos, accesorios e higiene.",
+  "theme": {
+    "accent": "#dc4829",
+    "background": "#f1f0e7",
+    "foreground": "#173b38",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Ruffwear Dirtbag Seat Cover",
+      "url": "https://animalfriendcr.com/producto/ruffwear-dirtbag-seat-cover-nuevo/",
+      "description": "Cobertor para el asiento del vehículo; la ficha presenta montaje tipo banco o hamaca.",
+      "image": "https://animalfriendcr.com/wp-content/uploads/2024/09/dirt-bag-4.webp",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Ruffwear Sun Shower",
+      "url": "https://animalfriendcr.com/producto/capa-impermeable-para-perrros/",
+      "description": "Capa para lluvia con opciones de talla en la ficha oficial.",
+      "image": "https://animalfriendcr.com/wp-content/uploads/2024/05/capa-impermeable-para-perros-ruffwear.webp",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Ruffwear Flagline",
+      "url": "https://animalfriendcr.com/producto/pechera-para-perro-ruffwear-flagline/",
+      "description": "Pechera Ruffwear con ajuste; revisar medidas y variantes antes de comprar.",
+      "image": "https://animalfriendcr.com/wp-content/uploads/2024/03/Flagline-1--jpg.webp",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Ruffwear Dirtbag Seat Cover?",
+      "answer": "Cobertor para el asiento del vehículo; la ficha presenta montaje tipo banco o hamaca.",
+      "keywords": [
+        "ruffwear",
+        "dirtbag",
+        "seat",
+        "cover"
+      ]
+    },
+    {
+      "question": "¿Qué es Ruffwear Sun Shower?",
+      "answer": "Capa para lluvia con opciones de talla en la ficha oficial.",
+      "keywords": [
+        "ruffwear",
+        "sun",
+        "shower"
+      ]
+    },
+    {
+      "question": "¿Qué es Ruffwear Flagline?",
+      "answer": "Pechera Ruffwear con ajuste; revisar medidas y variantes antes de comprar.",
+      "keywords": [
+        "ruffwear",
+        "flagline"
+      ]
+    },
+    {
+      "question": "¿Venden al público?",
+      "answer": "Sí. El sitio ofrece tienda al consumidor y distribución para tiendas y veterinarias.",
+      "keywords": [
+        "al",
+        "público"
+      ]
+    },
+    {
+      "question": "¿Hay productos para gatos?",
+      "answer": "El catálogo también incluye alimentos, higiene, juguetes y accesorios para gatos.",
+      "keywords": [
+        "productos",
+        "para",
+        "gatos"
+      ]
+    },
+    {
+      "question": "¿Puedo solicitar distribución?",
+      "answer": "El sitio publica una opción para ser distribuidor; su equipo confirma requisitos.",
+      "keywords": [
+        "solicitar",
+        "distribución"
+      ]
+    },
+    {
+      "question": "¿Dónde opera la empresa?",
+      "answer": "La página de contacto sitúa la empresa en San José, Costa Rica.",
+      "keywords": [
+        "opera",
+        "la",
+        "empresa"
+      ]
+    },
+    {
+      "question": "¿Dónde confirmo talla y disponibilidad?",
+      "answer": "Cada ficha oficial tiene opciones; la selección de esta muestra no reserva existencias.",
+      "keywords": [
+        "confirmo",
+        "talla",
+        "y",
+        "disponibilidad"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Animal Friend",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Tipo de paseo",
+        "question": "¿Qué paseo o viaje estás preparando?",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Productos de interés",
+        "question": "Indica productos de interés.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Cantidad de perros",
+        "question": "Indica cantidad de perros.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Medidas y talla por confirmar",
+        "question": "Indica medidas y talla por confirmar.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Destino de entrega",
+        "question": "Indica destino de entrega.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://animalfriendcr.com/nosotros/",
+      "claim": "Modelo mayorista y minorista, categorías, operación y envíos en Costa Rica."
+    },
+    {
+      "url": "https://animalfriendcr.com/contactenos/",
+      "claim": "Formulario comercial y ubicación San José, Costa Rica."
+    },
+    {
+      "url": "https://animalfriendcr.com/producto/ruffwear-dirtbag-seat-cover-nuevo/",
+      "claim": "Ruffwear Dirtbag Seat Cover: Cobertor para el asiento del vehículo; la ficha presenta montaje tipo banco o hamaca."
+    },
+    {
+      "url": "https://animalfriendcr.com/producto/capa-impermeable-para-perrros/",
+      "claim": "Ruffwear Sun Shower: Capa para lluvia con opciones de talla en la ficha oficial."
+    },
+    {
+      "url": "https://animalfriendcr.com/producto/pechera-para-perro-ruffwear-flagline/",
+      "claim": "Ruffwear Flagline: Pechera Ruffwear con ajuste; revisar medidas y variantes antes de comprar."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

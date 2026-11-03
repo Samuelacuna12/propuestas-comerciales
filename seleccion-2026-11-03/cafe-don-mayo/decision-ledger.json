@@ -1,0 +1,33 @@
+{
+  "company": "Café Don Mayo",
+  "decisions": [
+    {
+      "decision": "Composición coffee",
+      "rationale": "Tarrazú, proceso a proceso. · recursos oficiales dominantes; reglas específicas de composición en CSS."
+    },
+    {
+      "decision": "Mesa de preparación de café",
+      "rationale": "Agrupar bolsas por referencia y molienda podría facilitar la preparación de pedidos sin mezclar procesos."
+    },
+    {
+      "decision": "Sin precios ni existencias del catálogo en la muestra",
+      "rationale": "No existe conexión con inventario o condiciones vigentes."
+    },
+    {
+      "decision": "Web y bot de Samuel a COP 500.000 cada uno; demo gratuita",
+      "rationale": "Oferta vigente recibida del coordinador; alcance y consumos por cotizar, sin mensualidad inventada."
+    },
+    {
+      "decision": "Reemplazar banners panorámicos por fotografías oficiales de bolsa de las tres referencias.",
+      "rationale": "Fichas oficiales Black Honey, Fully Washed y Geisha; inspección visual de Group-11/12/13.jpg. Las tres etiquetas muestran 340 g. Conservar composición coffee, arco y fotografía entera.",
+      "date": "2026-11-03",
+      "trigger": "QA visual del coordinador"
+    }
+  ],
+  "referenceLock": "reference-lock.json",
+  "rejected": [
+    "Galería con imágenes que no corresponden a la referencia",
+    "Confirmación falsa de pedido",
+    "Mensajes privados dentro del repo"
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "company": "The Growers Exchange",
+  "reviewedAt": "2026-11-03T15:28:50.531531+00:00",
+  "language": "en",
+  "sources": [
+    {
+      "url": "https://thegrowers-exchange.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://thegrowers-exchange.com/products/her-bay",
+      "claim": "Bay laurel: Bay laurel (Laurus nobilis), an evergreen plant offered by the nursery."
+    },
+    {
+      "url": "https://thegrowers-exchange.com/products/her-com01",
+      "claim": "Comfrey 'Common': Common comfrey (Symphytum officinale), with its own growing guide."
+    },
+    {
+      "url": "https://thegrowers-exchange.com/products/container-herb-collection",
+      "claim": "Signature Herb Container Collection: A curated herb collection for containers; verify included plants on the official page."
+    },
+    {
+      "url": "https://thegrowers-exchange.com/pages/about-us",
+      "claim": "Historia, declaración de pequeña empresa y catálogo."
+    },
+    {
+      "url": "https://thegrowers-exchange.com/pages/contact-us",
+      "claim": "Atención y dirección comercial en Sandston."
+    }
+  ],
+  "products": [
+    {
+      "name": "Bay laurel",
+      "url": "https://thegrowers-exchange.com/products/her-bay",
+      "description": "Bay laurel (Laurus nobilis), an evergreen plant offered by the nursery.",
+      "image": "https://thegrowers-exchange.com/cdn/shop/products/BayTree.jpg?v=1793641497&width=1920",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Comfrey 'Common'",
+      "url": "https://thegrowers-exchange.com/products/her-com01",
+      "description": "Common comfrey (Symphytum officinale), with its own growing guide.",
+      "image": "https://thegrowers-exchange.com/cdn/shop/products/comfrey_25cf211a-1479-4a3f-9094-196cc52fc3e0.jpg?v=1793641318&width=1920",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Signature Herb Container Collection",
+      "url": "https://thegrowers-exchange.com/products/container-herb-collection",
+      "description": "A curated herb collection for containers; verify included plants on the official page.",
+      "image": "https://thegrowers-exchange.com/cdn/shop/files/Herbsandflowersonawindowsill.png?v=1793637884&width=1920",
+      "asset": "assets/product-3-optimized.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "Bay laurel",
+      "url": "https://thegrowers-exchange.com/cdn/shop/products/BayTree.jpg?v=1793641497&width=1920",
+      "local": "assets/product-1.jpg",
+      "mime": "image/jpeg",
+      "bytes": 120003,
+      "verifiedAt": "2026-11-03T15:28:50.531531+00:00",
+      "sourcePage": "https://thegrowers-exchange.com/products/her-bay"
+    },
+    {
+      "product": "Comfrey 'Common'",
+      "url": "https://thegrowers-exchange.com/cdn/shop/products/comfrey_25cf211a-1479-4a3f-9094-196cc52fc3e0.jpg?v=1793641318&width=1920",
+      "local": "assets/product-2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 260351,
+      "verifiedAt": "2026-11-03T15:28:50.531531+00:00",
+      "sourcePage": "https://thegrowers-exchange.com/products/her-com01"
+    },
+    {
+      "product": "Signature Herb Container Collection",
+      "url": "https://thegrowers-exchange.com/cdn/shop/files/Herbsandflowersonawindowsill.png?v=1793637884&width=1920",
+      "local": "assets/product-3-optimized.jpg",
+      "mime": "image/jpeg",
+      "bytes": 301156,
+      "verifiedAt": "2026-11-03T15:28:50.531531+00:00",
+      "sourcePage": "https://thegrowers-exchange.com/products/container-herb-collection",
+      "optimization": {
+        "method": "JPEG quality82, max1200px; no crop or scene alteration",
+        "sourceBytes": 557820
+      }
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://thegrowers-exchange.com/",
+    "secondary": "https://grovemade.com/",
+    "boundedBorrowing": "A project-oriented collection view with visible specification handoff.",
+    "layout": "field",
+    "palette": {
+      "accent": "#37663c",
+      "background": "#f0f5e8"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Calculate plants per repeated bed or container from a gardener-entered plan. No climate, spacing or plant-safety recommendation is inferred."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://thegrowers-exchange.com/products/her-bay",
+        "httpOk": true
+      },
+      {
+        "url": "https://thegrowers-exchange.com/products/her-com01",
+        "httpOk": true
+      },
+      {
+        "url": "https://thegrowers-exchange.com/products/container-herb-collection",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

@@ -1,0 +1,196 @@
+{
+  "company": "Woodendot",
+  "language": "en",
+  "website": "https://woodendot.com/",
+  "description": "Explore two Dalea compositions and an Etna candle holder, then prepare a dimensional brief for your space.",
+  "products": [
+    {
+      "name": "Dalea Wall-Mounted TV Unit · Natural Oak – 6 Modules XL",
+      "url": "https://woodendot.com/products/dalea-wall-mounted-tv-unit-natural-oak-6-modules-xl",
+      "description": "Six-module XL wall-mounted TV unit in Natural Oak veneer.",
+      "image": "https://woodendot.com/cdn/shop/files/dalea-xl-floating-tv-unit-oak-6-modules-front2.jpg?v=1791964254&width=1100",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Dalea Wall-Mounted Sideboard · Natural Walnut – 4 Modules XL",
+      "url": "https://woodendot.com/products/dalea-wall-mounted-sideboard-natural-walnut-xl",
+      "description": "Four-module XL floating sideboard in Natural Walnut veneer.",
+      "image": "https://woodendot.com/cdn/shop/files/dalea-xl-floating-tv-unit-walnut-4-modules-open-storage-front-view.jpg?v=1791455115&width=1100",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Etna Floor Candle Holder · Medium green",
+      "url": "https://woodendot.com/products/etna-floor-candle-holder-medium-green",
+      "description": "Medium green wooden floor candle holder from the Etna collection.",
+      "image": "https://woodendot.com/cdn/shop/products/EtnagreenM_c93ff562-6a43-449a-9cb1-7bafc8f70f89.jpg?v=1679615558&width=1100",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Is there a made-to-measure route?",
+      "answer": "Woodendot publishes furniture collections and a Made to Measure route.",
+      "keywords": [
+        "there",
+        "made-to-measure",
+        "route"
+      ]
+    },
+    {
+      "question": "Are these finishes the same material?",
+      "answer": "The selected Dalea listings distinguish natural oak and natural walnut compositions.",
+      "keywords": [
+        "these",
+        "finishes",
+        "same",
+        "material"
+      ]
+    },
+    {
+      "question": "Does this planner approve wall installation?",
+      "answer": "Wall-mounted furniture needs a review of actual measurements, wall construction and the official installation instructions.",
+      "keywords": [
+        "does",
+        "this",
+        "planner",
+        "approve",
+        "wall",
+        "installation"
+      ]
+    },
+    {
+      "question": "What is Dalea Wall-Mounted TV Unit · Natural Oak – 6 Modules XL?",
+      "answer": "Six-module XL wall-mounted TV unit in Natural Oak veneer. Official product: https://woodendot.com/products/dalea-wall-mounted-tv-unit-natural-oak-6-modules-xl",
+      "keywords": [
+        "dalea",
+        "wall-mounted",
+        "unit",
+        "natural",
+        "modules"
+      ]
+    },
+    {
+      "question": "What is Dalea Wall-Mounted Sideboard · Natural Walnut – 4 Modules XL?",
+      "answer": "Four-module XL floating sideboard in Natural Walnut veneer. Official product: https://woodendot.com/products/dalea-wall-mounted-sideboard-natural-walnut-xl",
+      "keywords": [
+        "dalea",
+        "wall-mounted",
+        "sideboard",
+        "natural",
+        "walnut",
+        "modules"
+      ]
+    },
+    {
+      "question": "What is Etna Floor Candle Holder · Medium green?",
+      "answer": "Medium green wooden floor candle holder from the Etna collection. Official product: https://woodendot.com/products/etna-floor-candle-holder-medium-green",
+      "keywords": [
+        "etna",
+        "floor",
+        "candle",
+        "holder",
+        "medium",
+        "green"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://woodendot.com/pages/contact",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Furniture placement brief",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Are you considering a Dalea composition or an Etna candle holder?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many pieces are you planning, and for which room?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "What are the available wall width, room depth and preferred furniture dimensions?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Which finish, mounting or Made to Measure details would you like the team to confirm?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://woodendot.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://woodendot.com/products/dalea-wall-mounted-tv-unit-natural-oak-6-modules-xl",
+      "claim": "Dalea Wall-Mounted TV Unit · Natural Oak – 6 Modules XL: Six-module XL wall-mounted TV unit in Natural Oak veneer."
+    },
+    {
+      "url": "https://woodendot.com/products/dalea-wall-mounted-sideboard-natural-walnut-xl",
+      "claim": "Dalea Wall-Mounted Sideboard · Natural Walnut – 4 Modules XL: Four-module XL floating sideboard in Natural Walnut veneer."
+    },
+    {
+      "url": "https://woodendot.com/products/etna-floor-candle-holder-medium-green",
+      "claim": "Etna Floor Candle Holder · Medium green: Medium green wooden floor candle holder from the Etna collection."
+    },
+    {
+      "url": "https://woodendot.com/pages/our-story",
+      "claim": "Fundadores, origen local y operación actual de muebles a medida."
+    },
+    {
+      "url": "https://woodendot.com/",
+      "claim": "Ecommerce, configurador y canal PRO; inglés observado y selector de español disponible."
+    },
+    {
+      "url": "https://woodendot.com/pages/contact",
+      "claim": "Atención general, sede Madrid y fabricación Íscar."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Compare user-entered rectangular footprints with a room area and record quantity. It does not certify wall mounting, loads or clearances."
+  ],
+  "theme": {
+    "accent": "#5c4936",
+    "background": "#f4f1eb",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

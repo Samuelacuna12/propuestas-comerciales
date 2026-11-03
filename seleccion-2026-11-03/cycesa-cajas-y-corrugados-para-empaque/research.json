@@ -1,0 +1,196 @@
+{
+  "company": "CYCESA — Cajas y Corrugados para Empaque",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://www.cycesa.mx/",
+      "claim": "Actividad, catálogo y canales oficiales de CYCESA"
+    },
+    {
+      "url": "https://www.cycesa.mx/cat%C3%A1logo",
+      "claim": "Ficha o línea publicada: Caja de pizza octagonal · 35 × 35 × 4 cm"
+    },
+    {
+      "url": "https://www.cycesa.mx/manualdelcorrugadocycesa",
+      "claim": "Proceso o información complementaria oficial"
+    },
+    {
+      "url": "https://www.cycesa.mx/creatuproducto",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "products": [
+    {
+      "name": "Caja de pizza octagonal · 35 × 35 × 4 cm",
+      "url": "https://www.cycesa.mx/cat%C3%A1logo",
+      "description": "Medida nominal publicada en el catálogo; el simulador usa su envolvente rectangular.",
+      "image": "https://static.wixstatic.com/media/aeb2e0_036b752b018a4fccbb30735ad73b2fee~mv2.png",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Caja de pizza cuadrada · 36 × 36 × 4 cm",
+      "url": "https://www.cycesa.mx/cat%C3%A1logo",
+      "description": "Formato cuadrado publicado para pizza.",
+      "image": "https://static.wixstatic.com/media/aeb2e0_f6e4ba5586e8440ebfce6e895cdf528f~mv2.png",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Caja de rosca rectangular · 42 × 32 × 7,5 cm",
+      "url": "https://www.cycesa.mx/cat%C3%A1logo",
+      "description": "Formato tipo almeja del catálogo oficial.",
+      "image": "https://static.wixstatic.com/media/aeb2e0_132e271f742a4a8b9d8b6490971b6ff5~mv2.png",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/aeb2e0_036b752b018a4fccbb30735ad73b2fee~mv2.png",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/aeb2e0_036b752b018a4fccbb30735ad73b2fee~mv2.png",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/aeb2e0_f6e4ba5586e8440ebfce6e895cdf528f~mv2.png",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://static.wixstatic.com/media/aeb2e0_132e271f742a4a8b9d8b6490971b6ff5~mv2.png",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://www.cycesa.mx/",
+    "secondary": "https://packhelp.com/",
+    "layout": "corrugated",
+    "palette": [
+      "#a92c2c",
+      "#faf6ed",
+      "#342c28",
+      "#d6a95c"
+    ],
+    "typography": "'Space Grotesk',sans-serif",
+    "decisions": "Catálogo técnico de fabricante con caja como objeto protagonista, numeración de especificación y fotografía de formatos sobre blanco.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "CYCESA ofrece empaques estándar y desarrollo personalizado.",
+      "La guía de personalización distingue producto, forma, material, impresión y forma de entrega.",
+      "El catálogo publica medidas para varias cajas de pizza y rosca."
+    ],
+    "hypothesis": "Convertir una consulta general de empaque en una especificación que diseño y ventas puedan revisar.",
+    "operation": "Especificación de caja y acomodo",
+    "boundaries": [
+      "No se reproducen páginas del manual protegido; solo se enlaza como recurso oficial.",
+      "El acomodo no equivale a certificación de apilamiento."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://static.wixstatic.com/media/aeb2e0_036b752b018a4fccbb30735ad73b2fee~mv2.png",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/aeb2e0_036b752b018a4fccbb30735ad73b2fee~mv2.png",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/aeb2e0_f6e4ba5586e8440ebfce6e895cdf528f~mv2.png",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://static.wixstatic.com/media/aeb2e0_132e271f742a4a8b9d8b6490971b6ff5~mv2.png",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "cycesa-cajas-y-corrugados-para-empaque",
+      "company": "CYCESA — Cajas y Corrugados para Empaque",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "No se reproducen páginas del manual protegido; solo se enlaza como recurso oficial.",
+        "El acomodo no equivale a certificación de apilamiento."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://www.cycesa.mx/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://www.cycesa.mx/cat%C3%A1logo",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 16916
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 16916
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 16896
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 22796
+      }
+    ]
+  },
+  "publicOnly": true
+}

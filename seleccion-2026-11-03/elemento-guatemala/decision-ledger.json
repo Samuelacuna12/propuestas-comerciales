@@ -1,0 +1,27 @@
+{
+  "company": "ELEMENTO Guatemala",
+  "decisions": [
+    {
+      "decision": "Composición fashion",
+      "rationale": "Prendas que se quedan. · recursos oficiales dominantes; reglas específicas de composición en CSS."
+    },
+    {
+      "decision": "Mesa de selección por prenda y talla",
+      "rationale": "Una selección ordenada por prenda, talla y cantidad podría facilitar consultas de disponibilidad o prendas bajo pedido."
+    },
+    {
+      "decision": "Sin precios ni existencias del catálogo en la muestra",
+      "rationale": "No existe conexión con inventario o condiciones vigentes."
+    },
+    {
+      "decision": "Web y bot de Samuel a COP 500.000 cada uno; demo gratuita",
+      "rationale": "Oferta vigente recibida del coordinador; alcance y consumos por cotizar, sin mensualidad inventada."
+    }
+  ],
+  "referenceLock": "reference-lock.json",
+  "rejected": [
+    "Galería con imágenes que no corresponden a la referencia",
+    "Confirmación falsa de pedido",
+    "Mensajes privados dentro del repo"
+  ]
+}

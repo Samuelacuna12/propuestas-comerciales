@@ -1,0 +1,186 @@
+{
+  "company": "Green Paper Products",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "en",
+  "sources": [
+    {
+      "url": "https://greenpaperproducts.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://greenpaperproducts.com/products/disposable-compostable-10ounce-cups-gc9",
+      "claim": "9 oz Cold Cup | Corn Plastic | Made in USA: Clear 9 oz PLA cold cup; the listing identifies US manufacture."
+    },
+    {
+      "url": "https://greenpaperproducts.com/products/disposable-compostable-clear-16oz-world-centric-cups-cp-cs-16",
+      "claim": "16 oz Cold Cup | Clear | Certified Compostable: World Centric 16 oz clear PLA cup for cold beverages."
+    },
+    {
+      "url": "https://greenpaperproducts.com/products/compostable-12oz-no-tree-paper-cold-cup-cu-su-12c",
+      "claim": "12 oz NoTree® Paper Cold Cup | Brown | Compostable: 12 oz NoTree cold cup in brown bamboo paper with a bio-based lining."
+    },
+    {
+      "url": "https://greenpaperproducts.com/about-us",
+      "claim": "Empresa pequeña familiar, equipo y catálogo de suministros."
+    },
+    {
+      "url": "https://greenpaperproducts.com/contact",
+      "claim": "Contacto comercial y dirección Highland Heights."
+    }
+  ],
+  "products": [
+    {
+      "name": "9 oz Cold Cup | Corn Plastic | Made in USA",
+      "url": "https://greenpaperproducts.com/products/disposable-compostable-10ounce-cups-gc9",
+      "description": "Clear 9 oz PLA cold cup; the listing identifies US manufacture.",
+      "image": "https://cdn.shopify.com/s/files/1/0612/3690/4162/products/compostable-cold-cup-med-GC9.jpg?v=1769629751",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "16 oz Cold Cup | Clear | Certified Compostable",
+      "url": "https://greenpaperproducts.com/products/disposable-compostable-clear-16oz-world-centric-cups-cp-cs-16",
+      "description": "World Centric 16 oz clear PLA cup for cold beverages.",
+      "image": "https://cdn.shopify.com/s/files/1/0612/3690/4162/files/CP-CS-16.jpg?v=1769540876",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "12 oz NoTree® Paper Cold Cup | Brown | Compostable",
+      "url": "https://greenpaperproducts.com/products/compostable-12oz-no-tree-paper-cold-cup-cu-su-12c",
+      "description": "12 oz NoTree cold cup in brown bamboo paper with a bio-based lining.",
+      "image": "https://cdn.shopify.com/s/files/1/0612/3690/4162/products/CU-SU-12C_330.jpg?v=1769544929",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "9 oz Cold Cup | Corn Plastic | Made in USA",
+      "url": "https://cdn.shopify.com/s/files/1/0612/3690/4162/products/compostable-cold-cup-med-GC9.jpg?v=1769629751",
+      "local": "assets/product-1.jpg",
+      "mime": "image/jpeg",
+      "bytes": 13408,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://greenpaperproducts.com/products/disposable-compostable-10ounce-cups-gc9"
+    },
+    {
+      "product": "16 oz Cold Cup | Clear | Certified Compostable",
+      "url": "https://cdn.shopify.com/s/files/1/0612/3690/4162/files/CP-CS-16.jpg?v=1769540876",
+      "local": "assets/product-2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 31785,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://greenpaperproducts.com/products/disposable-compostable-clear-16oz-world-centric-cups-cp-cs-16"
+    },
+    {
+      "product": "12 oz NoTree® Paper Cold Cup | Brown | Compostable",
+      "url": "https://cdn.shopify.com/s/files/1/0612/3690/4162/products/CU-SU-12C_330.jpg?v=1769544929",
+      "local": "assets/product-3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 9380,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://greenpaperproducts.com/products/compostable-12oz-no-tree-paper-cold-cup-cu-su-12c"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://greenpaperproducts.com/",
+    "secondary": "https://www.papermart.com/",
+    "boundedBorrowing": "Fast product comparison through intended use and specification labels.",
+    "layout": "service",
+    "palette": {
+      "accent": "#2f6c3b",
+      "background": "#f2f7ee"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Calculate cups needed from daily drinks and service days; deduct the stock you enter and round to a confirmed case quantity."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://greenpaperproducts.com/products/disposable-compostable-10ounce-cups-gc9",
+        "httpOk": true
+      },
+      {
+        "url": "https://greenpaperproducts.com/products/disposable-compostable-clear-16oz-world-centric-cups-cp-cs-16",
+        "httpOk": true
+      },
+      {
+        "url": "https://greenpaperproducts.com/products/compostable-12oz-no-tree-paper-cold-cup-cu-su-12c",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

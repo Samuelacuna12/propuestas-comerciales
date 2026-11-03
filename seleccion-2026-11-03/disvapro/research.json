@@ -1,0 +1,134 @@
+{
+  "company": "Disvapro",
+  "reviewedAt": "2026-11-03",
+  "website": "https://disvapro.com/",
+  "publicFacts": [
+    {
+      "url": "https://disvapro.com/",
+      "claim": "Tienda, proceso de cotización de etiquetas, envíos nacionales y dirección en zona 4 de Mixco."
+    },
+    {
+      "url": "https://disvapro.com/producto/rollo-de-etiquetas-termicas-directas-2x1",
+      "claim": "Etiquetas térmicas directas 2 × 1 pulgadas: La ficha publica 1.000 etiquetas por rollo y núcleo de 1 pulgada."
+    },
+    {
+      "url": "https://disvapro.com/producto/cinta-adhesiva-impresa-2-x-50yds-diseno-thank-you-gracias",
+      "claim": "Cinta Thank You / Gracias: Cinta impresa de 2 pulgadas por 50 yardas."
+    },
+    {
+      "url": "https://disvapro.com/producto/cinta-adhesiva-transparente-estandar",
+      "claim": "Cinta transparente 40 micras: Cinta transparente de 2 pulgadas por 90 yardas, 40 micras."
+    }
+  ],
+  "products": [
+    {
+      "name": "Etiquetas térmicas directas 2 × 1 pulgadas",
+      "url": "https://disvapro.com/producto/rollo-de-etiquetas-termicas-directas-2x1",
+      "description": "La ficha publica 1.000 etiquetas por rollo y núcleo de 1 pulgada.",
+      "image": "https://khzuvhtzldnbdlqbsnrn.supabase.co/storage/v1/object/public/web-productos/migradas/rollo-de-etiquetas-termicas-directas-2x1/0-Etiqueta-termica-directa-2-x-1-pulgada.png",
+      "kind": "product"
+    },
+    {
+      "name": "Cinta Thank You / Gracias",
+      "url": "https://disvapro.com/producto/cinta-adhesiva-impresa-2-x-50yds-diseno-thank-you-gracias",
+      "description": "Cinta impresa de 2 pulgadas por 50 yardas.",
+      "image": "https://khzuvhtzldnbdlqbsnrn.supabase.co/storage/v1/object/public/web-productos/migradas/cinta-adhesiva-impresa-2-x-50yds-diseno-thank-you-gracias/2-Tape-Gracias-Thank-You.png",
+      "kind": "product"
+    },
+    {
+      "name": "Cinta transparente 40 micras",
+      "url": "https://disvapro.com/producto/cinta-adhesiva-transparente-estandar",
+      "description": "Cinta transparente de 2 pulgadas por 90 yardas, 40 micras.",
+      "image": "https://khzuvhtzldnbdlqbsnrn.supabase.co/storage/v1/object/public/web-productos/migradas/cinta-adhesiva-transparente-estandar/0-Rollo-de-cinta-transparente-Ultimate-tape.png",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://khzuvhtzldnbdlqbsnrn.supabase.co/storage/v1/object/public/web-productos/migradas/rollo-de-etiquetas-termicas-directas-2x1/0-Etiqueta-termica-directa-2-x-1-pulgada.png",
+      "sourcePage": "https://disvapro.com/producto/rollo-de-etiquetas-termicas-directas-2x1",
+      "use": "Etiquetas térmicas directas 2 × 1 pulgadas"
+    },
+    {
+      "url": "https://khzuvhtzldnbdlqbsnrn.supabase.co/storage/v1/object/public/web-productos/migradas/cinta-adhesiva-impresa-2-x-50yds-diseno-thank-you-gracias/2-Tape-Gracias-Thank-You.png",
+      "sourcePage": "https://disvapro.com/producto/cinta-adhesiva-impresa-2-x-50yds-diseno-thank-you-gracias",
+      "use": "Cinta Thank You / Gracias"
+    },
+    {
+      "url": "https://khzuvhtzldnbdlqbsnrn.supabase.co/storage/v1/object/public/web-productos/migradas/cinta-adhesiva-transparente-estandar/0-Rollo-de-cinta-transparente-Ultimate-tape.png",
+      "sourcePage": "https://disvapro.com/producto/cinta-adhesiva-transparente-estandar",
+      "use": "Cinta transparente 40 micras"
+    },
+    {
+      "url": "https://khzuvhtzldnbdlqbsnrn.supabase.co/storage/v1/object/public/web-productos/migradas/rollo-de-etiquetas-termicas-directas-2x1/0-Etiqueta-termica-directa-2-x-1-pulgada.png",
+      "sourcePage": "https://disvapro.com/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://disvapro.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://packhelp.com/",
+      "observedPattern": "Entradas por formato y aplicación; especificación del empaque antes de la cotización."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "label",
+      "headline": "Tu envío,\nbien identificado.",
+      "palette": [
+        "#e5ab17",
+        "#f8f7ef",
+        "#272923"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Plan de etiquetas y rollos",
+      "reason": "Calcular etiquetas por pedido y validar el arte podría reducir faltantes al preparar una tanda de envíos.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 7,
+      "passed": 7,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 3,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

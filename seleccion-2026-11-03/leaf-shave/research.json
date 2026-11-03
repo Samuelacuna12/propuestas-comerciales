@@ -1,0 +1,190 @@
+{
+  "company": "Leaf Shave",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "en",
+  "sources": [
+    {
+      "url": "https://leafshave.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://leafshave.com/products/leaf-two-razor",
+      "claim": "Leaf Two Razor: A metal pivoting razor with two blade positions."
+    },
+    {
+      "url": "https://leafshave.com/products/blade-packs",
+      "claim": "Blade Packs: Single-edge steel refill blades; check the official compatibility guidance."
+    },
+    {
+      "url": "https://leafshave.com/products/blade-recycling-tin",
+      "claim": "Recycling Tin: A dedicated tin for collecting used blades and guards before appropriate recycling."
+    },
+    {
+      "url": "https://leafshave.com/pages/about-us",
+      "claim": "Pequeña empresa independiente; productos y programa de recambios."
+    },
+    {
+      "url": "https://leafshave.com/pages/get-in-touch",
+      "claim": "Canal oficial de atención comercial."
+    },
+    {
+      "url": "https://leafshave.com/policies/privacy-policy",
+      "claim": "Dirección comercial estadounidense en Stonington; documento fechado en 2020, sede actual por confirmar."
+    }
+  ],
+  "products": [
+    {
+      "name": "Leaf Two Razor",
+      "url": "https://leafshave.com/products/leaf-two-razor",
+      "description": "A metal pivoting razor with two blade positions.",
+      "image": "https://leafshave.com/cdn/shop/files/PDP-Leaf-Two-Razor-Prism-CH_Filler-Web.jpg?v=1784745427",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Blade Packs",
+      "url": "https://leafshave.com/products/blade-packs",
+      "description": "Single-edge steel refill blades; check the official compatibility guidance.",
+      "image": "https://leafshave.com/cdn/shop/files/PDP_BladePacks_Hero_Cover.jpg?v=1719184325",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Recycling Tin",
+      "url": "https://leafshave.com/products/blade-recycling-tin",
+      "description": "A dedicated tin for collecting used blades and guards before appropriate recycling.",
+      "image": "https://leafshave.com/cdn/shop/files/PDP_RecyclingTin_Hero_Cover.jpg?v=1719186838&width=1920",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "Leaf Two Razor",
+      "url": "https://leafshave.com/cdn/shop/files/PDP-Leaf-Two-Razor-Prism-CH_Filler-Web.jpg?v=1784745427",
+      "local": "assets/product-1.jpg",
+      "mime": "image/jpeg",
+      "bytes": 76841,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://leafshave.com/products/leaf-two-razor"
+    },
+    {
+      "product": "Blade Packs",
+      "url": "https://leafshave.com/cdn/shop/files/PDP_BladePacks_Hero_Cover.jpg?v=1719184325",
+      "local": "assets/product-2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 109427,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://leafshave.com/products/blade-packs"
+    },
+    {
+      "product": "Recycling Tin",
+      "url": "https://leafshave.com/cdn/shop/files/PDP_RecyclingTin_Hero_Cover.jpg?v=1719186838&width=1920",
+      "local": "assets/product-3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 88744,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://leafshave.com/products/blade-recycling-tin"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://leafshave.com/",
+    "secondary": "https://grovemade.com/",
+    "boundedBorrowing": "Precision product focus, quiet background and accessory hierarchy.",
+    "layout": "precision",
+    "palette": {
+      "accent": "#24556b",
+      "background": "#f1f6f8"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Estimate refill quantity from user-entered blade use and planning days; no medical or skin advice and no subscription changes."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://leafshave.com/products/leaf-two-razor",
+        "httpOk": true
+      },
+      {
+        "url": "https://leafshave.com/products/blade-packs",
+        "httpOk": true
+      },
+      {
+        "url": "https://leafshave.com/products/blade-recycling-tin",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

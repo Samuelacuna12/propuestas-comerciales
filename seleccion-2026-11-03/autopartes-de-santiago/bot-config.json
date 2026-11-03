@@ -1,0 +1,171 @@
+{
+  "company": "Autopartes de Santiago",
+  "language": "es",
+  "website": "https://autopartesdesantiago.com/",
+  "description": "Autopartes de Santiago · Repuestos automotrices. El sitio ofrece búsqueda por vehículo y catálogo por tipo de refacción.",
+  "products": [
+    {
+      "name": "Bujía NGK ZFR6F-11",
+      "url": "https://autopartesdesantiago.com/partes/ZFR6F-11",
+      "description": "Referencia identificada en el catálogo; aplicación por verificar.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Bujía NGK ZFR6AGP",
+      "url": "https://autopartesdesantiago.com/partes/ZFR6AGP",
+      "description": "Código de bujía publicado por el comercio; confirmar vehículo.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Bujía NGK ZFR5N",
+      "url": "https://autopartesdesantiago.com/partes/ZFR5N",
+      "description": "Referencia de encendido del catálogo; no universal.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿El código garantiza que sirve?",
+      "answer": "No. Se debe contrastar con vehículo, año, motor y especificación de aplicación.",
+      "keywords": [
+        "compatible",
+        "codigo"
+      ]
+    },
+    {
+      "question": "¿También instalan?",
+      "answer": "El sitio tiene una sección de instalaciones para cristales, faros y otros accesorios. Se confirma cada trabajo y agenda.",
+      "keywords": [
+        "instalan",
+        "servicio"
+      ]
+    },
+    {
+      "question": "¿Puedo llevar mi pieza?",
+      "answer": "La página de instalaciones contempla algunos trabajos con piezas del cliente. Confirma el trabajo concreto antes de acudir.",
+      "keywords": [
+        "llevar",
+        "pieza propia"
+      ]
+    },
+    {
+      "question": "¿Qué hago si no sé el código?",
+      "answer": "Describe la pieza y reúne datos del vehículo. El resultado marcará el código como dato por validar.",
+      "keywords": [
+        "no se",
+        "sin codigo"
+      ]
+    },
+    {
+      "question": "¿Se hace el pedido desde la demo?",
+      "answer": "No. La ficha local se utiliza para revisión; compra y disponibilidad se consultan en el comercio oficial.",
+      "keywords": [
+        "pedido",
+        "comprar"
+      ]
+    },
+    {
+      "question": "¿Qué es Bujía NGK ZFR6F-11?",
+      "answer": "Referencia identificada en el catálogo; aplicación por verificar. Ficha oficial: https://autopartesdesantiago.com/partes/ZFR6F-11",
+      "keywords": [
+        "bujía ngk zfr6f-11",
+        "bujía",
+        "zfr6f-11"
+      ]
+    },
+    {
+      "question": "¿Qué es Bujía NGK ZFR6AGP?",
+      "answer": "Código de bujía publicado por el comercio; confirmar vehículo. Ficha oficial: https://autopartesdesantiago.com/partes/ZFR6AGP",
+      "keywords": [
+        "bujía ngk zfr6agp",
+        "bujía",
+        "zfr6agp"
+      ]
+    },
+    {
+      "question": "¿Qué es Bujía NGK ZFR5N?",
+      "answer": "Referencia de encendido del catálogo; no universal. Ficha oficial: https://autopartesdesantiago.com/partes/ZFR5N",
+      "keywords": [
+        "bujía ngk zfr5n",
+        "bujía",
+        "zfr5n"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Mesa de verificación de refacciones",
+    "steps": [
+      {
+        "key": "vehiculo",
+        "label": "Vehículo",
+        "question": "¿Cuál es la marca, modelo y año del vehículo?",
+        "required": true
+      },
+      {
+        "key": "motor",
+        "label": "Motor",
+        "question": "¿Cuál es el motor o la cilindrada?",
+        "required": true
+      },
+      {
+        "key": "pieza",
+        "label": "Refacción",
+        "question": "¿Qué pieza necesitas y cuál es su código si lo conoces?",
+        "required": true
+      },
+      {
+        "key": "posicion",
+        "label": "Aplicación",
+        "question": "¿Es de algún lado o posición específica?",
+        "required": true
+      },
+      {
+        "key": "cantidad",
+        "label": "Cantidad",
+        "question": "¿Cuántas unidades necesitas y en qué ciudad?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://autopartesdesantiago.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Autopartes de Santiago"
+    },
+    {
+      "url": "https://autopartesdesantiago.com/partes/ZFR6F-11",
+      "claim": "Ficha o línea publicada: Bujía NGK ZFR6F-11"
+    },
+    {
+      "url": "https://autopartesdesantiago.com/partes/ZFR6AGP",
+      "claim": "Ficha o línea publicada: Bujía NGK ZFR6AGP"
+    },
+    {
+      "url": "https://autopartesdesantiago.com/partes/ZFR5N",
+      "claim": "Ficha o línea publicada: Bujía NGK ZFR5N"
+    },
+    {
+      "url": "https://autopartesdesantiago.com/instalaciones",
+      "claim": "Proceso o información complementaria oficial"
+    },
+    {
+      "url": "https://autopartesdesantiago.com/partes",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#c53a25",
+    "background": "#f3f3ef",
+    "foreground": "#1e2a31",
+    "font": "'Space Grotesk',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

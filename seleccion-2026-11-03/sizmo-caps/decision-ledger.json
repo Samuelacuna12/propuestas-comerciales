@@ -1,0 +1,27 @@
+{
+  "company": "Sizmo Caps",
+  "decisions": [
+    {
+      "decision": "Composición street",
+      "rationale": "Llevá Guate. A tu manera. · recursos oficiales dominantes; reglas específicas de composición en CSS."
+    },
+    {
+      "decision": "Armador de sets y accesorios",
+      "rationale": "Agrupar gorras y pines por set podría simplificar la revisión de cantidades para regalos o compras de varias piezas."
+    },
+    {
+      "decision": "Sin precios ni existencias del catálogo en la muestra",
+      "rationale": "No existe conexión con inventario o condiciones vigentes."
+    },
+    {
+      "decision": "Web y bot de Samuel a COP 500.000 cada uno; demo gratuita",
+      "rationale": "Oferta vigente recibida del coordinador; alcance y consumos por cotizar, sin mensualidad inventada."
+    }
+  ],
+  "referenceLock": "reference-lock.json",
+  "rejected": [
+    "Galería con imágenes que no corresponden a la referencia",
+    "Confirmación falsa de pedido",
+    "Mensajes privados dentro del repo"
+  ]
+}

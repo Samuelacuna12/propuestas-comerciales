@@ -1,0 +1,190 @@
+{
+  "company": "Bolsalea",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "es",
+  "sources": [
+    {
+      "url": "https://www.bolsalea.com/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://www.bolsalea.com/bolsas-de-papel/kraft/18x24x8-43",
+      "claim": "Bolsas de papel kraft de colores 18x24x8: Bolsa de papel de 18 × 24 cm y fuelle de 8 cm, con asas de papel rizado."
+    },
+    {
+      "url": "https://www.bolsalea.com/bolsas-de-tela/mochilas/36x42-345",
+      "claim": "Mochila de tela 36x42: Mochila TST de 36 × 42 cm, con cierre fruncido y doble cordón."
+    },
+    {
+      "url": "https://www.bolsalea.com/bolsas-de-papel/kraft/22x23x9-187",
+      "claim": "Bolsas de papel kraft 22x23x9: Bolsa kraft reciclada de 22 × 23 cm y fuelle de 9 cm, con asas rizadas."
+    },
+    {
+      "url": "https://www.bolsalea.com/",
+      "claim": "Catálogo B2B y personalización."
+    },
+    {
+      "url": "https://www.bolsalea.com/c/aviso-legal-8",
+      "claim": "Sede, canal comercial, operación exclusivamente B2B y presupuestos."
+    },
+    {
+      "url": "https://es.linkedin.com/company/bolsalea",
+      "claim": "Perfil corporativo: rango de 2 a 10 empleados."
+    }
+  ],
+  "products": [
+    {
+      "name": "Bolsas de papel kraft de colores 18x24x8",
+      "url": "https://www.bolsalea.com/bolsas-de-papel/kraft/18x24x8-43",
+      "description": "Bolsa de papel de 18 × 24 cm y fuelle de 8 cm, con asas de papel rizado.",
+      "image": "https://www.bolsalea.com/media/cache/sylius_shop_product_thumbnail/3d/76/01270-bolsas-de-papel-ecolo%CC%81gico-de-colores-18x24x8-v2.png",
+      "asset": "assets/product-1.png"
+    },
+    {
+      "name": "Mochila de tela 36x42",
+      "url": "https://www.bolsalea.com/bolsas-de-tela/mochilas/36x42-345",
+      "description": "Mochila TST de 36 × 42 cm, con cierre fruncido y doble cordón.",
+      "image": "https://www.bolsalea.com/media/cache/sylius_shop_product_thumbnail/7c/e1/02725-mochila-tst-80-gr-36x42-blanco-bolsalea-v2.png",
+      "asset": "assets/product-2.png"
+    },
+    {
+      "name": "Bolsas de papel kraft 22x23x9",
+      "url": "https://www.bolsalea.com/bolsas-de-papel/kraft/22x23x9-187",
+      "description": "Bolsa kraft reciclada de 22 × 23 cm y fuelle de 9 cm, con asas rizadas.",
+      "image": "https://www.bolsalea.com/media/cache/sylius_shop_product_thumbnail/52/e4/imagen-de-chatgpt-29-oct-2026-15-10-22.png",
+      "asset": "assets/product-3.png"
+    }
+  ],
+  "images": [
+    {
+      "product": "Bolsas de papel kraft de colores 18x24x8",
+      "url": "https://www.bolsalea.com/media/cache/sylius_shop_product_thumbnail/3d/76/01270-bolsas-de-papel-ecolo%CC%81gico-de-colores-18x24x8-v2.png",
+      "local": "assets/product-1.png",
+      "mime": "image/png",
+      "bytes": 225896,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://www.bolsalea.com/bolsas-de-papel/kraft/18x24x8-43"
+    },
+    {
+      "product": "Mochila de tela 36x42",
+      "url": "https://www.bolsalea.com/media/cache/sylius_shop_product_thumbnail/7c/e1/02725-mochila-tst-80-gr-36x42-blanco-bolsalea-v2.png",
+      "local": "assets/product-2.png",
+      "mime": "image/png",
+      "bytes": 178139,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://www.bolsalea.com/bolsas-de-tela/mochilas/36x42-345"
+    },
+    {
+      "product": "Bolsas de papel kraft 22x23x9",
+      "url": "https://www.bolsalea.com/media/cache/sylius_shop_product_thumbnail/52/e4/imagen-de-chatgpt-29-oct-2026-15-10-22.png",
+      "local": "assets/product-3.png",
+      "mime": "image/png",
+      "bytes": 244686,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://www.bolsalea.com/bolsas-de-papel/kraft/22x23x9-187"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://www.bolsalea.com/",
+    "secondary": "https://www.papermart.com/",
+    "boundedBorrowing": "Comparación por medidas y material con fotografía de producto limpia.",
+    "layout": "atelier",
+    "palette": {
+      "accent": "#ab5b2c",
+      "background": "#fbf3e9"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Contrasta las medidas útiles que introduce el usuario y calcula cantidad por lote. La impresión y el ajuste final quedan sujetos a validación."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://www.bolsalea.com/bolsas-de-papel/kraft/18x24x8-43",
+        "httpOk": true
+      },
+      {
+        "url": "https://www.bolsalea.com/bolsas-de-tela/mochilas/36x42-345",
+        "httpOk": true
+      },
+      {
+        "url": "https://www.bolsalea.com/bolsas-de-papel/kraft/22x23x9-187",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

@@ -1,0 +1,185 @@
+{
+  "company": "Bean Products",
+  "language": "en",
+  "website": "https://beanproducts.com/",
+  "description": "Thoughtful equipment for seated practice, restorative sessions and quieter spaces. Start with a studio list that you can actually review.",
+  "products": [
+    {
+      "name": "Cotton Zafu and Zabuton Meditation Set",
+      "url": "https://beanproducts.com/products/zafu-zabuton-meditation-cushion-set-cotton",
+      "description": "Cotton set pairing a zafu seat cushion with a zabuton floor cushion.",
+      "image": "https://beanproducts.com/cdn/shop/products/ZZComboRoundStoneGray_d82d3f08-9b87-44e8-9c0f-d62d23eddc84.jpg?v=1605806078",
+      "asset": "assets/product-1-mobile.jpg"
+    },
+    {
+      "name": "Cotton Yoga Bolster",
+      "url": "https://beanproducts.com/products/yoga-bolsters",
+      "description": "Cotton bolster offered in round, rectangular and pranayama formats.",
+      "image": "https://beanproducts.com/cdn/shop/products/BolstersGroupPeriwinkle.jpg?v=1606318001",
+      "asset": "assets/product-2-mobile.jpg"
+    },
+    {
+      "name": "ComfyBean Adult Lounger - Organic Cotton",
+      "url": "https://beanproducts.com/products/comfy-bean-lounger-organic-cotton",
+      "description": "Organic-cotton adult lounger with a removable cover and fill choices.",
+      "image": "https://beanproducts.com/cdn/shop/products/ComfyBeanHempComparison_RedHemp.jpg?v=1562891455",
+      "asset": "assets/product-3-mobile.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Where are the products made?",
+      "answer": "Bean Products describes its goods as handmade in Chicago since 1987.",
+      "keywords": [
+        "where",
+        "products",
+        "made"
+      ]
+    },
+    {
+      "question": "Which product families are available?",
+      "answer": "The official store includes meditation sets, yoga bolsters, loungers and fill materials.",
+      "keywords": [
+        "which",
+        "product",
+        "families",
+        "available"
+      ]
+    },
+    {
+      "question": "Is there a business enquiry route?",
+      "answer": "Wholesale, custom-order and private-label enquiry routes are published on the website.",
+      "keywords": [
+        "there",
+        "business",
+        "enquiry",
+        "route"
+      ]
+    },
+    {
+      "question": "What is Cotton Zafu and Zabuton Meditation Set?",
+      "answer": "Cotton set pairing a zafu seat cushion with a zabuton floor cushion. Official product: https://beanproducts.com/products/zafu-zabuton-meditation-cushion-set-cotton",
+      "keywords": [
+        "cotton",
+        "zafu",
+        "zabuton",
+        "meditation"
+      ]
+    },
+    {
+      "question": "What is Cotton Yoga Bolster?",
+      "answer": "Cotton bolster offered in round, rectangular and pranayama formats. Official product: https://beanproducts.com/products/yoga-bolsters",
+      "keywords": [
+        "cotton",
+        "yoga",
+        "bolster"
+      ]
+    },
+    {
+      "question": "What is ComfyBean Adult Lounger - Organic Cotton?",
+      "answer": "Organic-cotton adult lounger with a removable cover and fill choices. Official product: https://beanproducts.com/products/comfy-bean-lounger-organic-cotton",
+      "keywords": [
+        "comfybean",
+        "adult",
+        "lounger",
+        "organic",
+        "cotton"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://beanproducts.com/pages/contact",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Studio equipment allocation",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Are you planning a meditation space, yoga studio or home seating area?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many people should the space accommodate?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "Which equipment do you need, and how many units do you already have?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Do you need help confirming a bolster shape, cover material or fill option?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://beanproducts.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://beanproducts.com/products/zafu-zabuton-meditation-cushion-set-cotton",
+      "claim": "Cotton Zafu and Zabuton Meditation Set: Cotton set pairing a zafu seat cushion with a zabuton floor cushion."
+    },
+    {
+      "url": "https://beanproducts.com/products/yoga-bolsters",
+      "claim": "Cotton Yoga Bolster: Cotton bolster offered in round, rectangular and pranayama formats."
+    },
+    {
+      "url": "https://beanproducts.com/products/comfy-bean-lounger-organic-cotton",
+      "claim": "ComfyBean Adult Lounger - Organic Cotton: Organic-cotton adult lounger with a removable cover and fill choices."
+    },
+    {
+      "url": "https://beanproducts.com/pages/about-us",
+      "claim": "Fabricación en Chicago y productos; opciones de proyectos personalizados."
+    },
+    {
+      "url": "https://beanproducts.com/pages/contact",
+      "claim": "Página oficial de contacto comercial."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Calculate equipment needed for participants and stations, subtract the studio’s own count, and export a purchasing brief."
+  ],
+  "theme": {
+    "accent": "#963f27",
+    "background": "#f5f2ee",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1-mobile.jpg"
+}

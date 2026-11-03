@@ -1,0 +1,204 @@
+{
+  "company": "Muebles Octfer",
+  "reviewedAt": "2026-11-03T15:51:40.145504+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://mueblesoctfer.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Muebles Octfer"
+    },
+    {
+      "url": "https://mueblesoctfer.com/index.php/servicios/estacion-cervecera",
+      "claim": "Ficha o línea publicada: Estación cervecera"
+    },
+    {
+      "url": "https://mueblesoctfer.com/index.php/servicios/mueble-exhibidor1",
+      "claim": "Ficha o línea publicada: Mueble exhibidor"
+    },
+    {
+      "url": "https://mueblesoctfer.com/index.php/servicios/muebles-para-el-hogar",
+      "claim": "Ficha o línea publicada: Muebles para el hogar"
+    }
+  ],
+  "products": [
+    {
+      "name": "Estación cervecera",
+      "url": "https://mueblesoctfer.com/index.php/servicios/estacion-cervecera",
+      "description": "Línea de mobiliario para servir y presentar bebidas.",
+      "image": "https://mueblesoctfer.com/images/spsimpleportfolio/estacion-cervecera/est1_600x800.png",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Mueble exhibidor",
+      "url": "https://mueblesoctfer.com/index.php/servicios/mueble-exhibidor1",
+      "description": "Mobiliario para presentación comercial de productos.",
+      "image": "https://mueblesoctfer.com/images/2022/02/25/mueble-exhebiciondivino.png",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "Muebles para el hogar",
+      "url": "https://mueblesoctfer.com/index.php/servicios/muebles-para-el-hogar",
+      "description": "Proyectos domésticos publicados dentro del portafolio.",
+      "image": "https://mueblesoctfer.com/images/2022/02/03/hoga1.png",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://mueblesoctfer.com/images/2022/02/25/mueble-exhebiciondivino.png",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://mueblesoctfer.com/images/spsimpleportfolio/estacion-cervecera/est1_600x800.png",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://mueblesoctfer.com/images/2022/02/25/mueble-exhebiciondivino.png",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://mueblesoctfer.com/images/2022/02/03/hoga1.png",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://mueblesoctfer.com/",
+    "secondary": "https://www.muuto.com/",
+    "layout": "retail",
+    "palette": [
+      "#da6e1e",
+      "#f2f2ed",
+      "#232c2a",
+      "#d9b586"
+    ],
+    "typography": "'Space Grotesk',sans-serif",
+    "decisions": "Mobiliario como herramienta comercial: bloque oscuro industrial, imagen de exhibición y franja técnica de espacio, conexiones y acceso.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "Octfer publica líneas para exhibición, dispensación, hogar y estaciones cerveceras.",
+      "Su proceso identifica visita técnica, cotización, fabricación y entrega.",
+      "La empresa se presenta como microempresa de diseño y desarrollo de mobiliario."
+    ],
+    "hypothesis": "Recibir proyectos comerciales con uso, espacio y restricciones mejor definidos antes de visitar.",
+    "operation": "Planeador de mobiliario para punto de venta",
+    "boundaries": [
+      "Las imágenes no confirman equipos o accesorios incluidos."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://mueblesoctfer.com/images/2022/02/25/mueble-exhebiciondivino.png",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://mueblesoctfer.com/images/spsimpleportfolio/estacion-cervecera/est1_600x800.png",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://mueblesoctfer.com/images/2022/02/25/mueble-exhebiciondivino.png",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://mueblesoctfer.com/images/2022/02/03/hoga1.png",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "muebles-octfer",
+      "company": "Muebles Octfer",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "Las imágenes no confirman equipos o accesorios incluidos."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://mueblesoctfer.com/",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://mueblesoctfer.com/index.php/servicios/estacion-cervecera",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://mueblesoctfer.com/index.php/servicios/mueble-exhibidor1",
+        "status": 200,
+        "networkError": null
+      },
+      {
+        "url": "https://mueblesoctfer.com/index.php/servicios/muebles-para-el-hogar",
+        "status": 200,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 78252
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 81074
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 78252
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 22844
+      }
+    ]
+  },
+  "publicOnly": true
+}

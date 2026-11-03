@@ -1,0 +1,186 @@
+{
+  "company": "Pepe Pinreles",
+  "reviewedAt": "2026-11-03T15:26:19.109254+00:00",
+  "language": "es",
+  "sources": [
+    {
+      "url": "https://pepepinreles.com/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://pepepinreles.com/calcetines-sentencia.html",
+      "claim": "La Sentencia: Calcetines de la colección Semana Santa dedicados a La Sentencia."
+    },
+    {
+      "url": "https://pepepinreles.com/calcetines-san-gonzalo.html",
+      "claim": "Caifás San Gonzalo: Diseño de calcetines de San Gonzalo; consulta la talla de la variante oficial."
+    },
+    {
+      "url": "https://pepepinreles.com/calcetines-torrijas.html",
+      "claim": "Torrijas: Calcetines con diseño de torrijas de la Confitería La Campana de Sevilla."
+    },
+    {
+      "url": "https://pepepinreles.com/",
+      "claim": "Catálogo, colecciones, packs y compra online."
+    },
+    {
+      "url": "https://pepepinreles.com/contacto",
+      "claim": "Oficina Sevilla y contacto comercial."
+    }
+  ],
+  "products": [
+    {
+      "name": "La Sentencia",
+      "url": "https://pepepinreles.com/calcetines-sentencia.html",
+      "description": "Calcetines de la colección Semana Santa dedicados a La Sentencia.",
+      "image": "https://pepepinreles.com/7067-large_default/calcetines-sentencia.jpg",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Caifás San Gonzalo",
+      "url": "https://pepepinreles.com/calcetines-san-gonzalo.html",
+      "description": "Diseño de calcetines de San Gonzalo; consulta la talla de la variante oficial.",
+      "image": "https://pepepinreles.com/6998-large_default/calcetines-san-gonzalo.jpg",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Torrijas",
+      "url": "https://pepepinreles.com/calcetines-torrijas.html",
+      "description": "Calcetines con diseño de torrijas de la Confitería La Campana de Sevilla.",
+      "image": "https://pepepinreles.com/7111-large_default/calcetines-torrijas.jpg",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "images": [
+    {
+      "product": "La Sentencia",
+      "url": "https://pepepinreles.com/7067-large_default/calcetines-sentencia.jpg",
+      "local": "assets/product-1.jpg",
+      "mime": "image/jpeg",
+      "bytes": 15023,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://pepepinreles.com/calcetines-sentencia.html"
+    },
+    {
+      "product": "Caifás San Gonzalo",
+      "url": "https://pepepinreles.com/6998-large_default/calcetines-san-gonzalo.jpg",
+      "local": "assets/product-2.jpg",
+      "mime": "image/jpeg",
+      "bytes": 15036,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://pepepinreles.com/calcetines-san-gonzalo.html"
+    },
+    {
+      "product": "Torrijas",
+      "url": "https://pepepinreles.com/7111-large_default/calcetines-torrijas.jpg",
+      "local": "assets/product-3.jpg",
+      "mime": "image/jpeg",
+      "bytes": 17037,
+      "verifiedAt": "2026-11-03T15:26:19.109254+00:00",
+      "sourcePage": "https://pepepinreles.com/calcetines-torrijas.html"
+    }
+  ],
+  "referenceLock": {
+    "primary": "https://pepepinreles.com/",
+    "secondary": "https://www.papermart.com/",
+    "boundedBorrowing": "Exploración por ocasión y una selección de producto fácil de comparar.",
+    "layout": "playful",
+    "palette": {
+      "accent": "#bc2436",
+      "background": "#fff4d4"
+    },
+    "typography": "Arial; Georgia only in editorial/botanical/atelier headings",
+    "constraints": [
+      "No invented stock or product prices",
+      "Official product photography",
+      "Distinct layout direction",
+      "44px controls and visible focus",
+      "Single-column mobile flow"
+    ],
+    "fallback": "Refero live research unavailable: NO_SUBSCRIPTION. Official catalogs, sector reference and bundled craft-details/typography/anti-ai-slop used."
+  },
+  "decisions": [
+    {
+      "decision": "Operational scope",
+      "reason": "Agrupa cantidades por destinatarios y pares por regalo; guarda cada diseño por separado sin inventar tallas disponibles."
+    },
+    {
+      "decision": "No checkout in preview",
+      "reason": "Real stock, pricing and commerce accounts are not connected."
+    },
+    {
+      "decision": "Local rule-based bot",
+      "reason": "Connected AI is proposed, not represented as already deployed."
+    }
+  ],
+  "tests": {
+    "imageHttp": "passed for three assets",
+    "productPages": [
+      {
+        "url": "https://pepepinreles.com/calcetines-sentencia.html",
+        "httpOk": true
+      },
+      {
+        "url": "https://pepepinreles.com/calcetines-san-gonzalo.html",
+        "httpOk": true
+      },
+      {
+        "url": "https://pepepinreles.com/calcetines-torrijas.html",
+        "httpOk": true
+      }
+    ],
+    "logic": {
+      "status": "passed",
+      "checks": 23,
+      "coverage": [
+        "batch/pack rounding",
+        "consistent quantity units",
+        "zero shortfall",
+        "invalid input rejection",
+        "2D rotation",
+        "3D rotations and depth rejection",
+        "space area and piece dimensions",
+        "reply and closure stop follow-up"
+      ]
+    },
+    "responsive": {
+      "status": "passed",
+      "browser": "Google Chrome",
+      "widths": [
+        1280,
+        390
+      ],
+      "method": "same-origin rendered iframes with exact CSS viewport dimensions; top and lower screenshots, DOM scrollWidth checks",
+      "checkedAt": "2026-11-03T15:58:54.058399+00:00"
+    },
+    "botHtml": {
+      "owner": "parent shared engine",
+      "exists": true,
+      "sampledInChrome": false
+    },
+    "structure": {
+      "status": "passed",
+      "checks": [
+        "three pages",
+        "local asset existence",
+        "one H1 per page",
+        "image alt text",
+        "inline JavaScript syntax",
+        "engine syntax",
+        "3 products",
+        "8 FAQs",
+        "private message link order"
+      ],
+      "issues": []
+    },
+    "browserOperations": {
+      "selectionAddRemove": "passed",
+      "calculation": "passed",
+      "replyStopsFollowUp": "passed",
+      "summaryPreview": "implemented; shared engine verified in Woodendot",
+      "download": "implemented; Chrome download-event verification timed out; readable selectable summary is available",
+      "noExternalSubmission": true
+    }
+  },
+  "commercialSource": "Samuel explicit instruction 2026-11-03: web COP500000, bot COP500000; integral restricted to >1500 confirmed sales/mo"
+}

@@ -1,0 +1,180 @@
+{
+  "company": "The Growers Exchange",
+  "language": "en",
+  "website": "https://thegrowers-exchange.com/",
+  "description": "Explore a small selection from the nursery and prepare a planting quantity worksheet for an informed conversation.",
+  "products": [
+    {
+      "name": "Bay laurel",
+      "url": "https://thegrowers-exchange.com/products/her-bay",
+      "description": "Bay laurel (Laurus nobilis), an evergreen plant offered by the nursery.",
+      "image": "https://thegrowers-exchange.com/cdn/shop/products/BayTree.jpg?v=1793641497&width=1920",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Comfrey 'Common'",
+      "url": "https://thegrowers-exchange.com/products/her-com01",
+      "description": "Common comfrey (Symphytum officinale), with its own growing guide.",
+      "image": "https://thegrowers-exchange.com/cdn/shop/products/comfrey_25cf211a-1479-4a3f-9094-196cc52fc3e0.jpg?v=1793641318&width=1920",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Signature Herb Container Collection",
+      "url": "https://thegrowers-exchange.com/products/container-herb-collection",
+      "description": "A curated herb collection for containers; verify included plants on the official page.",
+      "image": "https://thegrowers-exchange.com/cdn/shop/files/Herbsandflowersonawindowsill.png?v=1793637884&width=1920",
+      "asset": "assets/product-3-optimized.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How can I browse plants?",
+      "answer": "The nursery organizes plants by variety and gardening traits.",
+      "keywords": [
+        "browse",
+        "plants"
+      ]
+    },
+    {
+      "question": "Are there grouped collections?",
+      "answer": "The official catalog includes individual herbs and curated garden collections.",
+      "keywords": [
+        "there",
+        "grouped",
+        "collections"
+      ]
+    },
+    {
+      "question": "Does this planner confirm growing suitability?",
+      "answer": "Each plant listing is the source for care information; suitability depends on the actual site.",
+      "keywords": [
+        "does",
+        "this",
+        "planner",
+        "confirm",
+        "growing",
+        "suitability"
+      ]
+    },
+    {
+      "question": "What is Bay laurel?",
+      "answer": "Bay laurel (Laurus nobilis), an evergreen plant offered by the nursery. Official product: https://thegrowers-exchange.com/products/her-bay",
+      "keywords": [
+        "laurel"
+      ]
+    },
+    {
+      "question": "What is Comfrey 'Common'?",
+      "answer": "Common comfrey (Symphytum officinale), with its own growing guide. Official product: https://thegrowers-exchange.com/products/her-com01",
+      "keywords": [
+        "comfrey",
+        "'common'"
+      ]
+    },
+    {
+      "question": "What is Signature Herb Container Collection?",
+      "answer": "A curated herb collection for containers; verify included plants on the official page. Official product: https://thegrowers-exchange.com/products/container-herb-collection",
+      "keywords": [
+        "signature",
+        "herb",
+        "container",
+        "collection"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://thegrowers-exchange.com/pages/contact-us",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Planting-group quantity planner",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Which plant or collection are you interested in?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many beds or containers are you planning?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "How many plants are in your plan for each bed or container?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "What growing conditions or plant-care details do you need to check with the nursery?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://thegrowers-exchange.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://thegrowers-exchange.com/products/her-bay",
+      "claim": "Bay laurel: Bay laurel (Laurus nobilis), an evergreen plant offered by the nursery."
+    },
+    {
+      "url": "https://thegrowers-exchange.com/products/her-com01",
+      "claim": "Comfrey 'Common': Common comfrey (Symphytum officinale), with its own growing guide."
+    },
+    {
+      "url": "https://thegrowers-exchange.com/products/container-herb-collection",
+      "claim": "Signature Herb Container Collection: A curated herb collection for containers; verify included plants on the official page."
+    },
+    {
+      "url": "https://thegrowers-exchange.com/pages/about-us",
+      "claim": "Historia, declaración de pequeña empresa y catálogo."
+    },
+    {
+      "url": "https://thegrowers-exchange.com/pages/contact-us",
+      "claim": "Atención y dirección comercial en Sandston."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Calculate plants per repeated bed or container from a gardener-entered plan. No climate, spacing or plant-safety recommendation is inferred."
+  ],
+  "theme": {
+    "accent": "#37663c",
+    "background": "#f0f5e8",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

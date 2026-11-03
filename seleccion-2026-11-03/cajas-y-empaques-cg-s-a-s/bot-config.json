@@ -1,0 +1,185 @@
+{
+  "company": "Cajas y Empaques CG S.A.S.",
+  "language": "es",
+  "website": "https://www.cajascyg.shop/",
+  "description": "Cajas y Empaques CG S.A.S. · Fabricación de empaques. La oferta incluye cajas personalizadas, troqueladas, archivo X200/X300 y embalaje para ecommerce.",
+  "products": [
+    {
+      "name": "Cajas corporativas personalizadas",
+      "url": "https://www.cajascyg.shop/productos",
+      "description": "Formato a medida para presentación y protección. Dimensiones y resistencia a validar."
+    },
+    {
+      "name": "Cajas de archivo X200 y X300",
+      "url": "https://www.cajascyg.shop/productos",
+      "description": "Línea de organización documental publicada en el catálogo."
+    },
+    {
+      "name": "Plástico burbuja",
+      "url": "https://www.cajascyg.shop/insumos",
+      "description": "Material de protección listado como insumo de embalaje.",
+      "image": "assets/product-3.img"
+    },
+    {
+      "name": "Vinipel / stretch film",
+      "url": "https://www.cajascyg.shop/insumos",
+      "description": "Insumo para envolver cargas y paquetes.",
+      "image": "assets/product-4.img"
+    },
+    {
+      "name": "Cinta de embalaje",
+      "url": "https://www.cajascyg.shop/insumos",
+      "description": "Cinta para cierre de empaque; especificación a confirmar.",
+      "image": "assets/product-5.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Hacen cajas a medida?",
+      "answer": "El catálogo incluye cajas corporativas personalizadas y troqueladas. El diseño definitivo se valida con la empresa.",
+      "keywords": [
+        "medida",
+        "personalizada",
+        "troquel"
+      ]
+    },
+    {
+      "question": "¿Qué opciones de cartón publican?",
+      "answer": "Clave 620, Clave 720, microcorrugado y doble pared. La resistencia adecuada no se deduce solo del tamaño.",
+      "keywords": [
+        "material",
+        "carton",
+        "resistencia"
+      ]
+    },
+    {
+      "question": "¿Tienen cajas de archivo?",
+      "answer": "Sí, se listan X200 y X300. Confirma dimensiones y disponibilidad antes de pedir.",
+      "keywords": [
+        "archivo",
+        "x200",
+        "x300"
+      ]
+    },
+    {
+      "question": "¿El dibujo es un plano de fabricación?",
+      "answer": "No. Es un esquema geométrico orientativo: no incluye flautas, tolerancias, cierre, troquel ni cálculo de resistencia.",
+      "keywords": [
+        "plano",
+        "fabricacion",
+        "dibujo"
+      ]
+    },
+    {
+      "question": "¿Cómo se valida la capacidad?",
+      "answer": "La carga y el apilamiento deben revisarse por la empresa con peso, producto, transporte y humedad.",
+      "keywords": [
+        "carga",
+        "apilamiento",
+        "peso"
+      ]
+    },
+    {
+      "question": "¿Qué es Cajas corporativas personalizadas?",
+      "answer": "Formato a medida para presentación y protección. Dimensiones y resistencia a validar. Ficha oficial: https://www.cajascyg.shop/productos",
+      "keywords": [
+        "cajas corporativas personalizadas",
+        "cajas",
+        "corporativas",
+        "personalizadas"
+      ]
+    },
+    {
+      "question": "¿Qué es Cajas de archivo X200 y X300?",
+      "answer": "Línea de organización documental publicada en el catálogo. Ficha oficial: https://www.cajascyg.shop/productos",
+      "keywords": [
+        "cajas de archivo x200 y x300",
+        "cajas",
+        "archivo"
+      ]
+    },
+    {
+      "question": "¿Qué es Plástico burbuja?",
+      "answer": "Material de protección listado como insumo de embalaje. Ficha oficial: https://www.cajascyg.shop/insumos",
+      "keywords": [
+        "plástico burbuja",
+        "plástico",
+        "burbuja"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Mesa técnica de empaque",
+    "steps": [
+      {
+        "key": "producto",
+        "label": "Contenido",
+        "question": "¿Qué producto vas a empacar?",
+        "required": true
+      },
+      {
+        "key": "medidas",
+        "label": "Medidas",
+        "question": "¿Cuánto mide de largo, ancho y alto, y en qué unidad?",
+        "required": true
+      },
+      {
+        "key": "peso",
+        "label": "Peso y manejo",
+        "question": "¿Cuánto pesa y cómo se transporta o almacena?",
+        "required": true
+      },
+      {
+        "key": "cantidad",
+        "label": "Cantidad",
+        "question": "¿Cuántas cajas necesitas?",
+        "required": true
+      },
+      {
+        "key": "diseno",
+        "label": "Acabado",
+        "question": "¿Necesitas impresión, ventana o alguna condición especial?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿En qué ciudad se entregaría?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://www.cajascyg.shop/",
+      "claim": "Actividad, catálogo y canales oficiales de Cajas & Empaques CG"
+    },
+    {
+      "url": "https://www.cajascyg.shop/productos",
+      "claim": "Ficha o línea publicada: Cajas corporativas personalizadas"
+    },
+    {
+      "url": "https://www.cajascyg.shop/insumos",
+      "claim": "Ficha o línea publicada: Plástico burbuja"
+    },
+    {
+      "url": "https://www.cajascyg.shop/cotizaciones",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#08733d",
+    "background": "#f3f1e8",
+    "foreground": "#16362a",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

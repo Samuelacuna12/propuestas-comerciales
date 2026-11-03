@@ -1,0 +1,182 @@
+{
+  "company": "Leaf Shave",
+  "language": "en",
+  "website": "https://leafshave.com/",
+  "description": "Explore a razor, blade refills and a recycling accessory. Keep the next refill decision based on your own use.",
+  "products": [
+    {
+      "name": "Leaf Two Razor",
+      "url": "https://leafshave.com/products/leaf-two-razor",
+      "description": "A metal pivoting razor with two blade positions.",
+      "image": "https://leafshave.com/cdn/shop/files/PDP-Leaf-Two-Razor-Prism-CH_Filler-Web.jpg?v=1784745427",
+      "asset": "assets/product-1.jpg"
+    },
+    {
+      "name": "Blade Packs",
+      "url": "https://leafshave.com/products/blade-packs",
+      "description": "Single-edge steel refill blades; check the official compatibility guidance.",
+      "image": "https://leafshave.com/cdn/shop/files/PDP_BladePacks_Hero_Cover.jpg?v=1719184325",
+      "asset": "assets/product-2.jpg"
+    },
+    {
+      "name": "Recycling Tin",
+      "url": "https://leafshave.com/products/blade-recycling-tin",
+      "description": "A dedicated tin for collecting used blades and guards before appropriate recycling.",
+      "image": "https://leafshave.com/cdn/shop/files/PDP_RecyclingTin_Hero_Cover.jpg?v=1719186838&width=1920",
+      "asset": "assets/product-3.jpg"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What can I build a setup around?",
+      "answer": "Leaf publishes separate razor, accessory and shave-care categories.",
+      "keywords": [
+        "what",
+        "build",
+        "setup",
+        "around"
+      ]
+    },
+    {
+      "question": "Are all refill types interchangeable?",
+      "answer": "Blade Packs and Dermaplaner Refills are different product listings.",
+      "keywords": [
+        "refill",
+        "types",
+        "interchangeable"
+      ]
+    },
+    {
+      "question": "Where are care and disposal instructions?",
+      "answer": "The official website provides an instructions-and-care section and a recycling information section.",
+      "keywords": [
+        "where",
+        "care",
+        "disposal",
+        "instructions"
+      ]
+    },
+    {
+      "question": "What is Leaf Two Razor?",
+      "answer": "A metal pivoting razor with two blade positions. Official product: https://leafshave.com/products/leaf-two-razor",
+      "keywords": [
+        "leaf",
+        "razor"
+      ]
+    },
+    {
+      "question": "What is Blade Packs?",
+      "answer": "Single-edge steel refill blades; check the official compatibility guidance. Official product: https://leafshave.com/products/blade-packs",
+      "keywords": [
+        "blade",
+        "packs"
+      ]
+    },
+    {
+      "question": "What is Recycling Tin?",
+      "answer": "A dedicated tin for collecting used blades and guards before appropriate recycling. Official product: https://leafshave.com/products/blade-recycling-tin",
+      "keywords": [
+        "recycling"
+      ]
+    },
+    {
+      "question": "What are the price and availability of my selection?",
+      "answer": "Confirm price, variants and availability on the official product pages. This proposal cannot access inventory or reserve products.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "How do I continue with a real enquiry?",
+      "answer": "Prepare and review the local brief before using the official contact route: https://leafshave.com/pages/get-in-touch",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Personal blade refill planner",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selection",
+        "question": "Are you choosing a razor, blade refills or a recycling tin?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Quantity",
+        "question": "How many blades do you currently have?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Details",
+        "question": "How many blades do you normally use over the period you want to cover?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "To confirm",
+        "question": "Which razor or refill compatibility detail would you like to confirm?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief for human review"
+  },
+  "sources": [
+    {
+      "url": "https://leafshave.com/",
+      "claim": "Observed catalog, categories and commercial routes."
+    },
+    {
+      "url": "https://leafshave.com/products/leaf-two-razor",
+      "claim": "Leaf Two Razor: A metal pivoting razor with two blade positions."
+    },
+    {
+      "url": "https://leafshave.com/products/blade-packs",
+      "claim": "Blade Packs: Single-edge steel refill blades; check the official compatibility guidance."
+    },
+    {
+      "url": "https://leafshave.com/products/blade-recycling-tin",
+      "claim": "Recycling Tin: A dedicated tin for collecting used blades and guards before appropriate recycling."
+    },
+    {
+      "url": "https://leafshave.com/pages/about-us",
+      "claim": "Pequeña empresa independiente; productos y programa de recambios."
+    },
+    {
+      "url": "https://leafshave.com/pages/get-in-touch",
+      "claim": "Canal oficial de atención comercial."
+    },
+    {
+      "url": "https://leafshave.com/policies/privacy-policy",
+      "claim": "Dirección comercial estadounidense en Stonington; documento fechado en 2020, sede actual por confirmar."
+    }
+  ],
+  "boundaries": [
+    "Local rule-based demonstration, not AI connected to the business.",
+    "No access to orders, customers, payments or stock.",
+    "Do not confirm unverified prices, delivery, compatibility or policies.",
+    "Estimate refill quantity from user-entered blade use and planning days; no medical or skin advice and no subscription changes."
+  ],
+  "theme": {
+    "accent": "#24556b",
+    "background": "#f1f6f8",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.jpg"
+}

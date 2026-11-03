@@ -1,0 +1,155 @@
+{
+  "company": "Empaques Industriales",
+  "language": "es",
+  "website": "https://empaques-industriales.mx/",
+  "description": "Empaques Industriales · Fabricación de cajas de cartón. La empresa fabrica cajas y opera una tienda por categorías.",
+  "products": [
+    {
+      "name": "Caja 13 × 13 × 4 café",
+      "url": "https://empaques-industriales.mx/producto/caja-13x13x4-cafe/",
+      "description": "Caja microcorrugada; la ficha indica paquete de 50 piezas.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Caja 23,5 × 23,5 blanca",
+      "url": "https://empaques-industriales.mx/producto/caja-23-5x23-5-blanca/",
+      "description": "Referencia publicada en la categoría Pastel; verificar presentación.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Caja 36 × 36 × 12 blanca",
+      "url": "https://empaques-industriales.mx/producto/caja-36x36x12-blanca/",
+      "description": "Caja para pastel publicada en el catálogo; confirmar piezas por paquete.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuántas piezas trae la caja pequeña?",
+      "answer": "La ficha Caja 13×13×4 café indica paquete de 50 piezas. No se aplica ese número automáticamente a otras referencias.",
+      "keywords": [
+        "paquete",
+        "50",
+        "piezas"
+      ]
+    },
+    {
+      "question": "¿Las medidas adicionales son de la caja?",
+      "answer": "La ficha advierte que peso y dimensiones adicionales corresponden al paquete. Hay que distinguirlos de la caja individual.",
+      "keywords": [
+        "dimension",
+        "peso"
+      ]
+    },
+    {
+      "question": "¿Tienen reparto?",
+      "answer": "La portada menciona rutas en Michoacán; cobertura y fechas se consultan con la empresa.",
+      "keywords": [
+        "ruta",
+        "envio",
+        "michoacan"
+      ]
+    },
+    {
+      "question": "¿Hacen medidas especiales?",
+      "answer": "El sitio anuncia fabricación de cajas con medidas especiales para proyectos.",
+      "keywords": [
+        "especial",
+        "medida"
+      ]
+    },
+    {
+      "question": "¿El sobrante es desperdicio?",
+      "answer": "Es la diferencia entre paquetes completos y necesidad calculada. Puede convertirse en existencia, según tu operación.",
+      "keywords": [
+        "sobrante",
+        "redondeo"
+      ]
+    },
+    {
+      "question": "¿Qué es Caja 13 × 13 × 4 café?",
+      "answer": "Caja microcorrugada; la ficha indica paquete de 50 piezas. Ficha oficial: https://empaques-industriales.mx/producto/caja-13x13x4-cafe/",
+      "keywords": [
+        "caja 13 × 13 × 4 café"
+      ]
+    },
+    {
+      "question": "¿Qué es Caja 23,5 × 23,5 blanca?",
+      "answer": "Referencia publicada en la categoría Pastel; verificar presentación. Ficha oficial: https://empaques-industriales.mx/producto/caja-23-5x23-5-blanca/",
+      "keywords": [
+        "caja 23,5 × 23,5 blanca",
+        "blanca"
+      ]
+    },
+    {
+      "question": "¿Qué es Caja 36 × 36 × 12 blanca?",
+      "answer": "Caja para pastel publicada en el catálogo; confirmar piezas por paquete. Ficha oficial: https://empaques-industriales.mx/producto/caja-36x36x12-blanca/",
+      "keywords": [
+        "caja 36 × 36 × 12 blanca",
+        "blanca"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Reposición por unidades y paquetes",
+    "steps": [
+      {
+        "key": "referencia",
+        "label": "Referencia",
+        "question": "¿Qué caja o empaque necesitas?",
+        "required": true
+      },
+      {
+        "key": "unidades",
+        "label": "Unidades",
+        "question": "¿Cuántas piezas necesitas, sin confundirlas con paquetes?",
+        "required": true
+      },
+      {
+        "key": "paquete",
+        "label": "Presentación",
+        "question": "¿Conoces cuántas piezas trae el paquete de esa referencia?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿Para qué ciudad o ruta quieres consultar?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://empaques-industriales.mx/",
+      "claim": "Actividad, catálogo y canales oficiales de Empaques Industriales"
+    },
+    {
+      "url": "https://empaques-industriales.mx/producto/caja-13x13x4-cafe/",
+      "claim": "Ficha o línea publicada: Caja 13 × 13 × 4 café"
+    },
+    {
+      "url": "https://empaques-industriales.mx/producto/caja-23-5x23-5-blanca/",
+      "claim": "Ficha o línea publicada: Caja 23,5 × 23,5 blanca"
+    },
+    {
+      "url": "https://empaques-industriales.mx/producto/caja-36x36x12-blanca/",
+      "claim": "Ficha o línea publicada: Caja 36 × 36 × 12 blanca"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#1b6b53",
+    "background": "#f7f4e9",
+    "foreground": "#263e32",
+    "font": "'Manrope',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

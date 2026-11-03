@@ -1,0 +1,30 @@
+{
+  "primary": {
+    "url": "https://rosejoyeriacr.com/",
+    "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+    "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+  },
+  "sector": {
+    "url": "https://www.everlane.com/collections/womens-all",
+    "observedPattern": "Fotografía protagonista y detalle de corte o uso antes de seleccionar."
+  },
+  "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+  "direction": {
+    "layout": "jewelry",
+    "headline": "Una pieza.\nAlgo que decir.",
+    "palette": [
+      "#865c35",
+      "#faf6ee",
+      "#303324"
+    ],
+    "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+    "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+    "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+  },
+  "rejected": [
+    "Formularios como entrega principal",
+    "Testimonios o métricas inventados",
+    "Precios de catálogo copiados sin actualización",
+    "Mismo hero y misma composición para todas las empresas"
+  ]
+}

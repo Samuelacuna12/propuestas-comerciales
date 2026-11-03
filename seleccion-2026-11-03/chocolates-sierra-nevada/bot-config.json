@@ -1,0 +1,186 @@
+{
+  "company": "Chocolates Sierra Nevada",
+  "language": "es",
+  "website": "https://chocolatesierranevada.com/",
+  "description": "Descubre tres elaboraciones reales y prepara el reparto de un regalo con cantidades y revisión de ingredientes.",
+  "products": [
+    {
+      "name": "Chocolate Nazarí estilo Dubai",
+      "url": "https://chocolatesierranevada.com/comprar/chocolate-dubai-pistacho.html",
+      "description": "Chocolate Nazarí estilo Dubai con pistacho; revisa ingredientes y alérgenos en la ficha.",
+      "image": "https://chocolatesierranevada.com/img/productos/t1/chocolate-estilo-dubai-chocolates-sierra-nevada-18.png",
+      "asset": "assets/product-1.png"
+    },
+    {
+      "name": "Tableta de Chocolate Negro 100% 100 g",
+      "url": "https://chocolatesierranevada.com/comprar/tableta-chocolate-negro-100.html",
+      "description": "Tableta de chocolate negro 100%, en formato de 100 g.",
+      "image": "https://chocolatesierranevada.com/img/productos/t1/tableta-chocolate-negro-100-43.png",
+      "asset": "assets/product-2.png"
+    },
+    {
+      "name": "Bombones de higo al Brandy",
+      "url": "https://chocolatesierranevada.com/comprar/bombon-higo-brandy.html",
+      "description": "Bombones elaborados con higos y Brandy; contiene alcohol.",
+      "image": "https://chocolatesierranevada.com/img/productos/t1/bombones-higo-brandy-chocolates-sierra-nevada-36.png",
+      "asset": "assets/product-3.png"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuál es el origen de la elaboración?",
+      "answer": "La empresa presenta elaboración artesanal en La Alpujarra desde 2008.",
+      "keywords": [
+        "cuál",
+        "origen",
+        "elaboración"
+      ]
+    },
+    {
+      "question": "¿Solo vende tabletas?",
+      "answer": "El catálogo incluye tabletas y bombones, entre ellos higos al Brandy.",
+      "keywords": [
+        "solo",
+        "vende",
+        "tabletas"
+      ]
+    },
+    {
+      "question": "¿Cómo reviso los alérgenos?",
+      "answer": "Los ingredientes y alérgenos deben revisarse producto a producto; no se infiere que un surtido sea apto para una dieta.",
+      "keywords": [
+        "cómo",
+        "reviso",
+        "alérgenos"
+      ]
+    },
+    {
+      "question": "¿Qué es Chocolate Nazarí estilo Dubai?",
+      "answer": "Chocolate Nazarí estilo Dubai con pistacho; revisa ingredientes y alérgenos en la ficha. Ficha oficial: https://chocolatesierranevada.com/comprar/chocolate-dubai-pistacho.html",
+      "keywords": [
+        "chocolate",
+        "nazarí",
+        "estilo",
+        "dubai"
+      ]
+    },
+    {
+      "question": "¿Qué es Tableta de Chocolate Negro 100% 100 g?",
+      "answer": "Tableta de chocolate negro 100%, en formato de 100 g. Ficha oficial: https://chocolatesierranevada.com/comprar/tableta-chocolate-negro-100.html",
+      "keywords": [
+        "tableta",
+        "chocolate",
+        "negro",
+        "100%"
+      ]
+    },
+    {
+      "question": "¿Qué es Bombones de higo al Brandy?",
+      "answer": "Bombones elaborados con higos y Brandy; contiene alcohol. Ficha oficial: https://chocolatesierranevada.com/comprar/bombon-higo-brandy.html",
+      "keywords": [
+        "bombones",
+        "higo",
+        "brandy"
+      ]
+    },
+    {
+      "question": "¿Qué precio y disponibilidad tiene mi selección?",
+      "answer": "Confirma precio, variantes y disponibilidad en las fichas oficiales. Esta propuesta no tiene acceso al inventario ni confirma reservas.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "¿Cómo continúo con una consulta real?",
+      "answer": "Prepara el resumen local y revísalo antes de usar el canal oficial: https://chocolatesierranevada.com/contacto/",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparador de lotes de chocolate",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selección",
+        "question": "¿Qué elaboración te interesa: Nazarí, chocolate 100% o bombones de higo al Brandy?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Cantidad",
+        "question": "¿Cuántos regalos o lotes quieres preparar?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Detalles",
+        "question": "¿Cuántas piezas de cada referencia quieres incluir por lote?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "Por confirmar",
+        "question": "¿Hay ingredientes, alérgenos, alcohol o conservación que quieras confirmar con la fábrica?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief para revisión humana"
+  },
+  "sources": [
+    {
+      "url": "https://chocolatesierranevada.com/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://chocolatesierranevada.com/comprar/chocolate-dubai-pistacho.html",
+      "claim": "Chocolate Nazarí estilo Dubai: Chocolate Nazarí estilo Dubai con pistacho; revisa ingredientes y alérgenos en la ficha."
+    },
+    {
+      "url": "https://chocolatesierranevada.com/comprar/tableta-chocolate-negro-100.html",
+      "claim": "Tableta de Chocolate Negro 100% 100 g: Tableta de chocolate negro 100%, en formato de 100 g."
+    },
+    {
+      "url": "https://chocolatesierranevada.com/comprar/bombon-higo-brandy.html",
+      "claim": "Bombones de higo al Brandy: Bombones elaborados con higos y Brandy; contiene alcohol."
+    },
+    {
+      "url": "https://chocolatesierranevada.com/la-fabrica/",
+      "claim": "Fábrica artesanal, origen y catálogo."
+    },
+    {
+      "url": "https://chocolatesierranevada.com/",
+      "claim": "Venta online y comercialización B2B."
+    },
+    {
+      "url": "https://chocolatesierranevada.com/contacto/",
+      "claim": "Ubicación Pitres y contacto para pedidos de empresa."
+    }
+  ],
+  "boundaries": [
+    "Demostración local basada en reglas; no es una IA conectada al negocio.",
+    "No acceso a pedidos, clientes, pagos ni stock.",
+    "No confirmar precios, entrega, compatibilidad o políticas no verificadas.",
+    "Calcula piezas por regalo y unidades de preparación. Los alérgenos, conservación y disponibilidad se validan con la ficha oficial."
+  ],
+  "theme": {
+    "accent": "#7e2a26",
+    "background": "#faf0df",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.png"
+}

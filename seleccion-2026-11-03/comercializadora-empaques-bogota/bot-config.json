@@ -1,0 +1,158 @@
+{
+  "company": "Comercializadora Empaques Bogotá",
+  "language": "es",
+  "website": "https://empaquesbogota.com.co/",
+  "description": "Comercializadora Empaques Bogotá · Empaques. La tienda organiza empaques por uso alimentario y por tipo de presentación.",
+  "products": [
+    {
+      "name": "Sushi Top Estándar",
+      "url": "https://empaquesbogota.com.co/producto/sushi-top-estandar/",
+      "description": "Formato publicado en la línea Sushi y Arroz chino.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Sushi Japón",
+      "url": "https://empaquesbogota.com.co/producto/sushi-japon/",
+      "description": "Presentación de empaque de la colección de sushi.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Sushi caja bocados",
+      "url": "https://empaquesbogota.com.co/producto/sushi-caja-bocados/",
+      "description": "Referencia para presentación de bocados; medidas por confirmar.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué formatos para sushi hay?",
+      "answer": "Se publican Sushi Top Estándar, Sushi Japón y Sushi caja bocados.",
+      "keywords": [
+        "sushi",
+        "formatos"
+      ]
+    },
+    {
+      "question": "¿Tienen bolsas kraft?",
+      "answer": "La tienda lista familias ECO, U y B. Las medidas y cantidades por paquete deben confirmarse en su ficha o canal comercial.",
+      "keywords": [
+        "kraft",
+        "bolsa"
+      ]
+    },
+    {
+      "question": "¿Sirve para líquidos o comida caliente?",
+      "answer": "La selección publicada no permite certificar temperatura ni contacto con líquidos. Consulta la especificación del material antes de usar.",
+      "keywords": [
+        "caliente",
+        "liquido",
+        "alimento"
+      ]
+    },
+    {
+      "question": "¿Venden para tortas?",
+      "answer": "El catálogo incluye cajas de torta 16×16×6, 20×20×7 y 18×18×9; confirma la unidad y disponibilidad con la empresa.",
+      "keywords": [
+        "torta",
+        "pastel"
+      ]
+    },
+    {
+      "question": "¿Se hace el pedido aquí?",
+      "answer": "No. Esta herramienta arma un escenario de consumo; la compra se realiza en el canal oficial.",
+      "keywords": [
+        "pedido",
+        "compra"
+      ]
+    },
+    {
+      "question": "¿Qué es Sushi Top Estándar?",
+      "answer": "Formato publicado en la línea Sushi y Arroz chino. Ficha oficial: https://empaquesbogota.com.co/producto/sushi-top-estandar/",
+      "keywords": [
+        "sushi top estándar",
+        "sushi",
+        "estándar"
+      ]
+    },
+    {
+      "question": "¿Qué es Sushi Japón?",
+      "answer": "Presentación de empaque de la colección de sushi. Ficha oficial: https://empaquesbogota.com.co/producto/sushi-japon/",
+      "keywords": [
+        "sushi japón",
+        "sushi",
+        "japón"
+      ]
+    },
+    {
+      "question": "¿Qué es Sushi caja bocados?",
+      "answer": "Referencia para presentación de bocados; medidas por confirmar. Ficha oficial: https://empaquesbogota.com.co/producto/sushi-caja-bocados/",
+      "keywords": [
+        "sushi caja bocados",
+        "sushi",
+        "bocados"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Reposición de empaques por servicio",
+    "steps": [
+      {
+        "key": "referencia",
+        "label": "Referencia",
+        "question": "¿Qué referencia quieres reponer?",
+        "required": true
+      },
+      {
+        "key": "variante",
+        "label": "Variante",
+        "question": "¿Qué color, talla o variante necesitas? Si no lo sabes, indícalo.",
+        "required": true
+      },
+      {
+        "key": "cantidad",
+        "label": "Unidades",
+        "question": "¿Cuántas unidades necesitas por referencia?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿En qué ciudad se entregaría?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://empaquesbogota.com.co/",
+      "claim": "Actividad, catálogo y canales oficiales de Empaques Bogotá"
+    },
+    {
+      "url": "https://empaquesbogota.com.co/producto/sushi-top-estandar/",
+      "claim": "Ficha o línea publicada: Sushi Top Estándar"
+    },
+    {
+      "url": "https://empaquesbogota.com.co/producto/sushi-japon/",
+      "claim": "Ficha o línea publicada: Sushi Japón"
+    },
+    {
+      "url": "https://empaquesbogota.com.co/producto/sushi-caja-bocados/",
+      "claim": "Ficha o línea publicada: Sushi caja bocados"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#b54620",
+    "background": "#fcf4e2",
+    "foreground": "#333019",
+    "font": "'Manrope',sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

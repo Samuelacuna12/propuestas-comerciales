@@ -1,0 +1,158 @@
+{
+  "company": "AM Mascotas",
+  "language": "es",
+  "website": "https://ammascotas.com/",
+  "description": "AM Mascotas · Fabricación de accesorios para mascotas. El sitio distingue compras de hogares y consultas de pet shops mayoristas.",
+  "products": [
+    {
+      "name": "Absorfluid 120 g",
+      "url": "https://ammascotas.com/products/absorfluid-absorbente-orina-mascotas",
+      "description": "Absorbente en polvo para limpieza de orina de mascotas.",
+      "image": "assets/product-1.img"
+    },
+    {
+      "name": "Arnés pechera",
+      "url": "https://ammascotas.com/products/arnes-pechera-perros",
+      "description": "Accesorio ajustable de paseo; ficha de 35 × 21,9 cm.",
+      "image": "assets/product-2.img"
+    },
+    {
+      "name": "Bebedero colapsable",
+      "url": "https://ammascotas.com/products/bebedero-comedero-colapsable-mascotas",
+      "description": "Recipiente plegable de silicona de 6 cm de alto y 11,6 cm de diámetro.",
+      "image": "assets/product-3.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Venden a pet shops?",
+      "answer": "Sí. El sitio tiene una entrada para mayoristas; condiciones y mínimos se consultan directamente.",
+      "keywords": [
+        "mayorista",
+        "pet shop",
+        "minimo"
+      ]
+    },
+    {
+      "question": "¿Qué datos requiere una reposición?",
+      "answer": "Referencia, variante, unidades y ciudad. La simulación añade consumo semanal y existencias ingresados por ti.",
+      "keywords": [
+        "reposicion",
+        "recompra"
+      ]
+    },
+    {
+      "question": "¿Se conoce la existencia real?",
+      "answer": "No. Este prototipo no está conectado al inventario; la disponibilidad requiere confirmación de AM.",
+      "keywords": [
+        "stock",
+        "existencia"
+      ]
+    },
+    {
+      "question": "¿Desde dónde operan?",
+      "answer": "La web publica fábrica y atención comercial en Bogotá. La cobertura concreta se confirma para cada despacho.",
+      "keywords": [
+        "bogota",
+        "ciudad",
+        "envio"
+      ]
+    },
+    {
+      "question": "¿La selección ya es una compra?",
+      "answer": "No. Es una lista local para revisar y luego llevar al canal oficial.",
+      "keywords": [
+        "comprar",
+        "pedido"
+      ]
+    },
+    {
+      "question": "¿Qué es Absorfluid 120 g?",
+      "answer": "Absorbente en polvo para limpieza de orina de mascotas. Ficha oficial: https://ammascotas.com/products/absorfluid-absorbente-orina-mascotas",
+      "keywords": [
+        "absorfluid 120 g",
+        "absorfluid"
+      ]
+    },
+    {
+      "question": "¿Qué es Arnés pechera?",
+      "answer": "Accesorio ajustable de paseo; ficha de 35 × 21,9 cm. Ficha oficial: https://ammascotas.com/products/arnes-pechera-perros",
+      "keywords": [
+        "arnés pechera",
+        "arnés",
+        "pechera"
+      ]
+    },
+    {
+      "question": "¿Qué es Bebedero colapsable?",
+      "answer": "Recipiente plegable de silicona de 6 cm de alto y 11,6 cm de diámetro. Ficha oficial: https://ammascotas.com/products/bebedero-comedero-colapsable-mascotas",
+      "keywords": [
+        "bebedero colapsable",
+        "bebedero",
+        "colapsable"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Mesa de reposición mayorista",
+    "steps": [
+      {
+        "key": "referencia",
+        "label": "Referencia",
+        "question": "¿Qué referencia quieres reponer?",
+        "required": true
+      },
+      {
+        "key": "variante",
+        "label": "Variante",
+        "question": "¿Qué color, talla o variante necesitas? Si no lo sabes, indícalo.",
+        "required": true
+      },
+      {
+        "key": "cantidad",
+        "label": "Unidades",
+        "question": "¿Cuántas unidades necesitas por referencia?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿En qué ciudad se entregaría?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://ammascotas.com/",
+      "claim": "Actividad, catálogo y canales oficiales de AM Mascotas"
+    },
+    {
+      "url": "https://ammascotas.com/products/absorfluid-absorbente-orina-mascotas",
+      "claim": "Ficha o línea publicada: Absorfluid 120 g"
+    },
+    {
+      "url": "https://ammascotas.com/products/arnes-pechera-perros",
+      "claim": "Ficha o línea publicada: Arnés pechera"
+    },
+    {
+      "url": "https://ammascotas.com/products/bebedero-comedero-colapsable-mascotas",
+      "claim": "Ficha o línea publicada: Bebedero colapsable"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#e44527",
+    "background": "#fff8ee",
+    "foreground": "#222923",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/hero.img"
+}

@@ -1,0 +1,180 @@
+{
+  "company": "Dog City",
+  "language": "es",
+  "website": "https://www.dog-gt.com/",
+  "description": "Tienda online de alimentos, arena y accesorios; publica cuatro sucursales locales y envíos nacionales.",
+  "theme": {
+    "accent": "#dc6645",
+    "background": "#f1f3f6",
+    "foreground": "#17344c",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/catalog-1.webp",
+  "products": [
+    {
+      "name": "Belcando Baseline Young",
+      "url": "https://www.dog-gt.com/products/belcando-baseline-young",
+      "description": "Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar.",
+      "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/29462425/products/613396254/5914972066.webp",
+      "asset": "assets/catalog-1.webp"
+    },
+    {
+      "name": "Belcando Baseline Joker GF",
+      "url": "https://www.dog-gt.com/products/belcando-baseline-joker-gf",
+      "description": "Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar.",
+      "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/29462425/5519015469.webp",
+      "asset": "assets/catalog-2.webp"
+    },
+    {
+      "name": "Belcando Baseline Buddy",
+      "url": "https://www.dog-gt.com/products/belcando-baseline-buddy",
+      "description": "Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar.",
+      "image": "https://d2j6dbq0eux0bg.cloudfront.net/images/29462425/5506035464.webp",
+      "asset": "assets/catalog-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Qué es Belcando Baseline Young?",
+      "answer": "Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar.",
+      "keywords": [
+        "belcando",
+        "baseline",
+        "young"
+      ]
+    },
+    {
+      "question": "¿Qué es Belcando Baseline Joker GF?",
+      "answer": "Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar.",
+      "keywords": [
+        "belcando",
+        "baseline",
+        "joker",
+        "gf"
+      ]
+    },
+    {
+      "question": "¿Qué es Belcando Baseline Buddy?",
+      "answer": "Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar.",
+      "keywords": [
+        "belcando",
+        "baseline",
+        "buddy"
+      ]
+    },
+    {
+      "question": "¿Tienen tiendas físicas?",
+      "answer": "La página de ubicaciones publica sucursales además de la tienda online.",
+      "keywords": [
+        "tiendas",
+        "físicas"
+      ]
+    },
+    {
+      "question": "¿Qué sucursales aparecen?",
+      "answer": "El sitio enumera Vistares, Atanasio, Megacentro y Mix San Cristóbal.",
+      "keywords": [
+        "sucursales",
+        "aparecen"
+      ]
+    },
+    {
+      "question": "¿Hay entregas nacionales?",
+      "answer": "La página anuncia envíos en Guatemala; verificar cobertura y condiciones al comprar.",
+      "keywords": [
+        "entregas",
+        "nacionales"
+      ]
+    },
+    {
+      "question": "¿Puedo comprar online?",
+      "answer": "El sitio muestra categorías y acceso al catálogo de productos.",
+      "keywords": [
+        "comprar",
+        "online"
+      ]
+    },
+    {
+      "question": "¿El plan recomienda una dieta?",
+      "answer": "No. Solo calcula cobertura con el consumo indicado por el usuario; la dieta requiere orientación profesional.",
+      "keywords": [
+        "plan",
+        "recomienda",
+        "una",
+        "dieta"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preparar una consulta para Dog City",
+    "steps": [
+      {
+        "key": "step1",
+        "label": "Referencia exacta de alimento o arena",
+        "question": "Indica referencia exacta de alimento o arena.",
+        "required": true
+      },
+      {
+        "key": "step2",
+        "label": "Cantidad disponible",
+        "question": "Indica cantidad disponible.",
+        "required": true
+      },
+      {
+        "key": "step3",
+        "label": "Consumo diario conocido",
+        "question": "Indica consumo diario conocido.",
+        "required": true
+      },
+      {
+        "key": "step4",
+        "label": "Plazo estimado de reposición",
+        "question": "Indica plazo estimado de reposición.",
+        "required": false
+      },
+      {
+        "key": "step5",
+        "label": "Entrega o sucursal preferida",
+        "question": "Indica entrega o sucursal preferida.",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Resumen de consulta pendiente · no enviado"
+  },
+  "sources": [
+    {
+      "url": "https://www.dog-gt.com/",
+      "claim": "Catálogo de mascotas, ecommerce, cobertura nacional y contacto comercial."
+    },
+    {
+      "url": "https://www.dog-gt.com/ubicaciones",
+      "claim": "Sucursales y oficinas en Ciudad de Guatemala y Mixco."
+    },
+    {
+      "url": "https://www.dog-gt.com/products/belcando-baseline-young",
+      "claim": "Belcando Baseline Young: Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar."
+    },
+    {
+      "url": "https://www.dog-gt.com/products/belcando-baseline-joker-gf",
+      "claim": "Belcando Baseline Joker GF: Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar."
+    },
+    {
+      "url": "https://www.dog-gt.com/products/belcando-baseline-buddy",
+      "claim": "Belcando Baseline Buddy: Referencia publicada en el catálogo Belcando de Dog City. Presentación y disponibilidad por confirmar."
+    },
+    {
+      "url": "https://www.dog-gt.com/products/belcando",
+      "claim": "Catálogo oficial indexado muestra Young, Joker GF y Buddy. Fichas individuales exponen metadatos; información ampliada depende de carga dinámica."
+    }
+  ],
+  "boundaries": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa.",
+    "El catálogo carga parte del detalle de forma dinámica. No se infieren dosis, presentación ni adecuación nutricional.",
+    "El cálculo no prescribe consumo, alimento ni medicación. Solo usa cantidades introducidas por quien realiza la prueba.",
+    "Si un dato no figura en las fuentes, indicar que debe confirmarse con la empresa.",
+    "No confirmar disponibilidad, precio, plazo, compatibilidad técnica ni adecuación médica sin evidencia."
+  ]
+}

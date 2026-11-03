@@ -1,0 +1,188 @@
+{
+  "company": "SelfPackaging",
+  "language": "es",
+  "website": "https://selfpackaging.es/",
+  "description": "Explora formas reales, contrasta medidas y prepara un briefing de packaging que pueda revisarse antes de producir.",
+  "products": [
+    {
+      "name": "Caja plana para invitaciones · Ref. 2210",
+      "url": "https://selfpackaging.es/cajas-de-carton/72-caja-plana-para-invitaciones.html",
+      "description": "Caja plana para invitaciones; la ficha permite seleccionar talla y color.",
+      "image": "assets/product-1.webp",
+      "asset": "assets/product-1.webp"
+    },
+    {
+      "name": "Caja para envíos alargada",
+      "url": "https://selfpackaging.es/cajas-de-carton/3187-caja-para-envios-alargadas.html",
+      "description": "Caja alargada para envíos, con formato y partes seleccionables.",
+      "image": "assets/product-2.webp",
+      "asset": "assets/product-2.webp"
+    },
+    {
+      "name": "Caja tipo cerillas",
+      "url": "https://selfpackaging.es/cajas-de-carton/3542-caja-de-cerillas.html",
+      "description": "Caja tipo cerillas con caja interior y faja como partes del modelo.",
+      "image": "assets/product-3.webp",
+      "asset": "assets/product-3.webp"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cómo se organiza el catálogo?",
+      "answer": "SelfPackaging ofrece cajas por forma, uso y sector.",
+      "keywords": [
+        "cómo",
+        "organiza",
+        "catálogo"
+      ]
+    },
+    {
+      "question": "¿Puedo consultar una caja a medida?",
+      "answer": "La web publica una ruta de cajas a medida.",
+      "keywords": [
+        "puedo",
+        "consultar",
+        "caja",
+        "medida"
+      ]
+    },
+    {
+      "question": "¿Las opciones son iguales para todas las cajas?",
+      "answer": "Tallas, partes y colores son opciones específicas de cada modelo.",
+      "keywords": [
+        "las",
+        "opciones",
+        "iguales",
+        "para",
+        "todas",
+        "cajas"
+      ]
+    },
+    {
+      "question": "¿Qué es Caja plana para invitaciones · Ref. 2210?",
+      "answer": "Caja plana para invitaciones; la ficha permite seleccionar talla y color. Ficha oficial: https://selfpackaging.es/cajas-de-carton/72-caja-plana-para-invitaciones.html",
+      "keywords": [
+        "caja",
+        "plana",
+        "para",
+        "invitaciones",
+        "ref",
+        "2210"
+      ]
+    },
+    {
+      "question": "¿Qué es Caja para envíos alargada?",
+      "answer": "Caja alargada para envíos, con formato y partes seleccionables. Ficha oficial: https://selfpackaging.es/cajas-de-carton/3187-caja-para-envios-alargadas.html",
+      "keywords": [
+        "caja",
+        "para",
+        "envíos",
+        "alargada"
+      ]
+    },
+    {
+      "question": "¿Qué es Caja tipo cerillas?",
+      "answer": "Caja tipo cerillas con caja interior y faja como partes del modelo. Ficha oficial: https://selfpackaging.es/cajas-de-carton/3542-caja-de-cerillas.html",
+      "keywords": [
+        "caja",
+        "tipo",
+        "cerillas"
+      ]
+    },
+    {
+      "question": "¿Qué precio y disponibilidad tiene mi selección?",
+      "answer": "Confirma precio, variantes y disponibilidad en las fichas oficiales. Esta propuesta no tiene acceso al inventario ni confirma reservas.",
+      "keywords": [
+        "precio",
+        "stock",
+        "disponibilidad",
+        "price",
+        "availability",
+        "cost"
+      ]
+    },
+    {
+      "question": "¿Cómo continúo con una consulta real?",
+      "answer": "Prepara el resumen local y revísalo antes de usar el canal oficial: https://selfpackaging.es/cajas-a-medida",
+      "keywords": [
+        "contacto",
+        "pedido",
+        "enviar",
+        "contact",
+        "order",
+        "enquiry",
+        "shipping",
+        "envío"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Preflight de caja y contenido",
+    "steps": [
+      {
+        "key": "selection",
+        "label": "Selección",
+        "question": "¿Buscas una caja plana, una caja alargada de envío o una caja tipo cerillas?",
+        "required": true
+      },
+      {
+        "key": "quantity",
+        "label": "Cantidad",
+        "question": "¿Cuántas unidades estás preparando?",
+        "required": true
+      },
+      {
+        "key": "details",
+        "label": "Detalles",
+        "question": "¿Qué ancho, largo y alto tiene el contenido, incluida la protección?",
+        "required": true
+      },
+      {
+        "key": "confirm",
+        "label": "Por confirmar",
+        "question": "¿Quieres una caja sin impresión, personalización o una muestra?",
+        "required": false
+      }
+    ],
+    "summaryLabel": "Brief para revisión humana"
+  },
+  "sources": [
+    {
+      "url": "https://selfpackaging.es/",
+      "claim": "Catálogo, categorías y rutas comerciales observadas."
+    },
+    {
+      "url": "https://selfpackaging.es/cajas-de-carton/72-caja-plana-para-invitaciones.html",
+      "claim": "Caja plana para invitaciones · Ref. 2210: Caja plana para invitaciones; la ficha permite seleccionar talla y color."
+    },
+    {
+      "url": "https://selfpackaging.es/cajas-de-carton/3187-caja-para-envios-alargadas.html",
+      "claim": "Caja para envíos alargada: Caja alargada para envíos, con formato y partes seleccionables."
+    },
+    {
+      "url": "https://selfpackaging.es/cajas-de-carton/3542-caja-de-cerillas.html",
+      "claim": "Caja tipo cerillas: Caja tipo cerillas con caja interior y faja como partes del modelo."
+    },
+    {
+      "url": "https://selfpackaging.es/",
+      "claim": "Catálogo y fabricación local en Barcelona."
+    },
+    {
+      "url": "https://selfpackaging.es/cajas-a-medida",
+      "claim": "Solicitud comercial de packaging personalizado."
+    }
+  ],
+  "boundaries": [
+    "Demostración local basada en reglas; no es una IA conectada al negocio.",
+    "No acceso a pedidos, clientes, pagos ni stock.",
+    "No confirmar precios, entrega, compatibilidad o políticas no verificadas.",
+    "Comprueba encaje rectangular según medidas útiles y holgura introducidas. Registra cantidad y diseño, sin aprobar un troquel o una impresión."
+  ],
+  "theme": {
+    "accent": "#cb4b30",
+    "background": "#fff5ed",
+    "foreground": "#242522",
+    "font": "Arial, sans-serif"
+  },
+  "heroImage": "assets/product-1.webp"
+}

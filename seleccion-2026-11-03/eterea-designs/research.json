@@ -1,0 +1,138 @@
+{
+  "company": "ETEREA Designs",
+  "reviewedAt": "2026-11-03",
+  "website": "https://www.etereadesigns.com/",
+  "publicFacts": [
+    {
+      "url": "https://www.etereadesigns.com/servicios",
+      "claim": "Fabricación a medida, fabricación para marcas y catálogo de colecciones."
+    },
+    {
+      "url": "https://www.etereadesigns.com/contacto",
+      "claim": "Contacto comercial y dirección en Ciudad de Guatemala."
+    },
+    {
+      "url": "https://www.etereadesigns.com/mesa-onda-glass",
+      "claim": "Mesa Onda Glass: Vidrio templado y bases de roble; medida publicada 240 × 110 × 75 cm."
+    },
+    {
+      "url": "https://www.etereadesigns.com/mesa-onda-glass-1",
+      "claim": "Mesa Onda Oak: Mesa de la colección Onda; consultar tamaño y acabados en la ficha oficial."
+    },
+    {
+      "url": "https://www.etereadesigns.com/mesa-onda-glass-1-1",
+      "claim": "Mesa Lateral Onda: Mesa lateral de la colección Onda; selección para completar el ambiente."
+    }
+  ],
+  "products": [
+    {
+      "name": "Mesa Onda Glass",
+      "url": "https://www.etereadesigns.com/mesa-onda-glass",
+      "description": "Vidrio templado y bases de roble; medida publicada 240 × 110 × 75 cm.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6543ca5ed45a9610699b5993/85c2b7b7-27bf-48fe-9383-685e2a5aa120/Eterea_011.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Mesa Onda Oak",
+      "url": "https://www.etereadesigns.com/mesa-onda-glass-1",
+      "description": "Mesa de la colección Onda; consultar tamaño y acabados en la ficha oficial.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6543ca5ed45a9610699b5993/6bc03140-7654-487d-b27b-7f0a5d0b6b63/Eterea_014.jpg",
+      "kind": "product"
+    },
+    {
+      "name": "Mesa Lateral Onda",
+      "url": "https://www.etereadesigns.com/mesa-onda-glass-1-1",
+      "description": "Mesa lateral de la colección Onda; selección para completar el ambiente.",
+      "image": "https://images.squarespace-cdn.com/content/v1/6543ca5ed45a9610699b5993/983c13f1-d374-417a-a959-754791553bbe/Eterea_008.jpg",
+      "kind": "product"
+    }
+  ],
+  "images": [
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6543ca5ed45a9610699b5993/85c2b7b7-27bf-48fe-9383-685e2a5aa120/Eterea_011.jpg",
+      "sourcePage": "https://www.etereadesigns.com/mesa-onda-glass",
+      "use": "Mesa Onda Glass"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6543ca5ed45a9610699b5993/6bc03140-7654-487d-b27b-7f0a5d0b6b63/Eterea_014.jpg",
+      "sourcePage": "https://www.etereadesigns.com/mesa-onda-glass-1",
+      "use": "Mesa Onda Oak"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6543ca5ed45a9610699b5993/983c13f1-d374-417a-a959-754791553bbe/Eterea_008.jpg",
+      "sourcePage": "https://www.etereadesigns.com/mesa-onda-glass-1-1",
+      "use": "Mesa Lateral Onda"
+    },
+    {
+      "url": "https://images.squarespace-cdn.com/content/v1/6543ca5ed45a9610699b5993/c59e42ea-e166-4d16-834d-db545fb655a6/cover.jpg",
+      "sourcePage": "https://www.etereadesigns.com/",
+      "use": "Hero"
+    }
+  ],
+  "referenceLock": {
+    "primary": {
+      "url": "https://www.etereadesigns.com/",
+      "evidence": "Página oficial, fichas y categorías públicas conservadas en caché de investigación.",
+      "preserve": "Nombre, referencias de catálogo, imágenes oficiales y contexto de compra."
+    },
+    "sector": {
+      "url": "https://www.muuto.com/",
+      "observedPattern": "Galerías de producto y ambientes con dimensiones y consulta por proyecto."
+    },
+    "availability": "Refero MCP: NO_SUBSCRIPTION informado por coordinador; investigación con fuentes públicas reales.",
+    "direction": {
+      "layout": "sculptural",
+      "headline": "La forma\nde habitar.",
+      "palette": [
+        "#904b3f",
+        "#e9e6df",
+        "#2d2925"
+      ],
+      "photoRule": "Imágenes publicadas por la empresa, sin reinterpretación generativa ni mezcla de marcas. No se afirma que sean fotografías no generadas.",
+      "density": "Imagen y producto dominantes; utilidades operativas en una página separada.",
+      "typography": "Sistema local sans; serif editorial solo café, joyería, textil y moda. Escala fluida 44–96 px en titulares."
+    },
+    "rejected": [
+      "Formularios como entrega principal",
+      "Testimonios o métricas inventados",
+      "Precios de catálogo copiados sin actualización",
+      "Mismo hero y misma composición para todas las empresas"
+    ]
+  },
+  "decisions": [
+    {
+      "decision": "Estudio de espacio y circulación",
+      "reason": "Un plano preliminar con medidas y margen de circulación podría enriquecer la consulta de mobiliario a medida.",
+      "status": "Hipótesis de mejora, sin acceso a procesos internos"
+    },
+    {
+      "decision": "Sin integración de producción",
+      "reason": "Demostración para evaluar antes de solicitar accesos."
+    }
+  ],
+  "limitations": [
+    "Propuesta independiente de Samuel Acuña; no es la web oficial.",
+    "Simulación local sin conexión a inventario, pagos, correo, WhatsApp ni pedidos.",
+    "Productos, imágenes y datos públicos revisados el 3 de noviembre de 2026; disponibilidad y condiciones se confirman con la empresa.",
+    "El bot demostrativo usa reglas locales; no representa una IA conectada ni al equipo de la empresa."
+  ],
+  "checks": {
+    "contentReview": "22 fuentes principales y fichas asociadas consultadas; catálogo limitado señalado cuando aplica.",
+    "visualQA": "Pendiente de revisión en Chrome por coordinador",
+    "http": {
+      "checked": 10,
+      "passed": 10,
+      "transientFailures": []
+    },
+    "functional": "13 pruebas del motor aprobadas; valores iniciales de este HTML auditados con Node. DOM/visual pendiente del coordinador.",
+    "images": {
+      "checked": 4,
+      "failed": 0
+    },
+    "localLinks": {
+      "errors": [],
+      "botHtml": "Generación y QA a cargo del coordinador"
+    },
+    "privacy": "Sin contactos individuales, estados del Sheet, mensajes ni conversaciones en el paquete. El formulario funciona en memoria local; selección en sessionStorage."
+  }
+}

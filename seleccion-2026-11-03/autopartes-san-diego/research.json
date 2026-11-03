@@ -1,0 +1,212 @@
+{
+  "company": "Autopartes San Diego",
+  "reviewedAt": "2026-11-03T16:01:26.101956+00:00",
+  "status": "web_automation_chrome_reviewed_pending_parent_bot_and_publication",
+  "sources": [
+    {
+      "url": "https://sdautopartes.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Autopartes San Diego"
+    },
+    {
+      "url": "https://sdautopartes.com/shop/product/143203",
+      "claim": "Ficha o línea publicada: Grasa ROSHFRANS Chasis ¼ kg · PT01295"
+    },
+    {
+      "url": "https://sdautopartes.com/shop/product/142477",
+      "claim": "Ficha o línea publicada: Aceite MOTORCRAFT 5W40 · MSNX-05W40-SB"
+    },
+    {
+      "url": "https://sdautopartes.com/shop/product/144022",
+      "claim": "Ficha o línea publicada: VALVOLINE MaxLife ATF · 884646"
+    }
+  ],
+  "products": [
+    {
+      "name": "Grasa ROSHFRANS Chasis ¼ kg · PT01295",
+      "url": "https://sdautopartes.com/shop/product/143203",
+      "description": "Referencia de lubricación identificada en la portada del catálogo.",
+      "image": "https://sdautopartes.com/web/image/product.template/143203/image_256",
+      "localImage": "assets/product-1.img"
+    },
+    {
+      "name": "Aceite MOTORCRAFT 5W40 · MSNX-05W40-SB",
+      "url": "https://sdautopartes.com/shop/product/142477",
+      "description": "Aceite sintético de 946 ml publicado; especificación y aplicación por confirmar.",
+      "image": "https://sdautopartes.com/web/image/product.template/142477/image_256",
+      "localImage": "assets/product-2.img"
+    },
+    {
+      "name": "VALVOLINE MaxLife ATF · 884646",
+      "url": "https://sdautopartes.com/shop/product/144022",
+      "description": "Referencia de fluido de transmisión publicada en el catálogo.",
+      "image": "https://sdautopartes.com/web/image/product.product/135419/image_1024/884646%20%E2%80%94%20ACEITE%20TRANSMISION%20VALVOLINE%20MAXLIFE%20DEX-MERC%20ATF%20FULL%20SYNTHETIC%20LITRO%20%28884646%29?unique=878c587",
+      "localImage": "assets/product-3.img"
+    }
+  ],
+  "images": [
+    {
+      "sourceUrl": "https://fsn1.your-objectstorage.com/sdautopartes/imagenes/chatgpt/SESI%C3%93N-26.jpg",
+      "localPath": "assets/hero.img"
+    },
+    {
+      "sourceUrl": "https://sdautopartes.com/web/image/product.template/143203/image_256",
+      "localPath": "assets/product-1.img"
+    },
+    {
+      "sourceUrl": "https://sdautopartes.com/web/image/product.template/142477/image_256",
+      "localPath": "assets/product-2.img"
+    },
+    {
+      "sourceUrl": "https://sdautopartes.com/web/image/product.product/135419/image_1024/884646%20%E2%80%94%20ACEITE%20TRANSMISION%20VALVOLINE%20MAXLIFE%20DEX-MERC%20ATF%20FULL%20SYNTHETIC%20LITRO%20%28884646%29?unique=878c587",
+      "localPath": "assets/product-3.img"
+    }
+  ],
+  "referenceLock": {
+    "source": "Refero unavailable: NO_SUBSCRIPTION reported by parent; official-site and sector reference fallback",
+    "primary": "https://sdautopartes.com/",
+    "secondary": "https://www.rockauto.com/",
+    "layout": "partsdesk",
+    "palette": [
+      "#116b88",
+      "#eff5f7",
+      "#183849",
+      "#e4b64a"
+    ],
+    "typography": "'Manrope',sans-serif",
+    "decisions": "Mesa de consulta con tres códigos principales, contraste azul petróleo y panel de verificación; se diferencia del selector ya existente.",
+    "lockedBeforeImplementation": true
+  },
+  "decisions": {
+    "observed": [
+      "La portada ofrece un selector de marca, modelo y año.",
+      "El catálogo organiza familias como lubricantes, frenos y suspensión.",
+      "La empresa publica sucursales en Colima, Villa de Álvarez y Manzanillo."
+    ],
+    "hypothesis": "Concentrar datos técnicos de una consulta antes de enviarla a la revisión comercial de la sucursal adecuada.",
+    "operation": "Control de completitud por vehículo",
+    "boundaries": [
+      "La descarga directa de fichas recibió restricciones HTTP; catálogo, códigos y fotografías individuales se verificaron en la página oficial abierta en Chrome.",
+      "Las fotografías de producto conservan la resolución publicada; no se infiere compatibilidad, precio vigente ni inventario."
+    ],
+    "noLiveIntegrations": true
+  },
+  "tests": {
+    "imageHTTP": [
+      {
+        "url": "https://fsn1.your-objectstorage.com/sdautopartes/imagenes/chatgpt/SESI%C3%93N-26.jpg",
+        "file": "assets/hero.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://sdautopartes.com/web/image/product.template/143203/image_256",
+        "file": "assets/product-1.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://sdautopartes.com/web/image/product.template/142477/image_256",
+        "file": "assets/product-2.img",
+        "status": 200,
+        "cached": true
+      },
+      {
+        "url": "https://sdautopartes.com/web/image/product.product/135419/image_1024/884646%20%E2%80%94%20ACEITE%20TRANSMISION%20VALVOLINE%20MAXLIFE%20DEX-MERC%20ATF%20FULL%20SYNTHETIC%20LITRO%20%28884646%29?unique=878c587",
+        "file": "assets/product-3.img",
+        "status": 200,
+        "cached": true
+      }
+    ],
+    "visualBrowser": "Desktop 1280×900 and mobile 390×844 reviewed in Chrome; headers, images, document overflow, interactions and CTA checked.",
+    "simulator": "126 pure-function assertions passed; all 25 simulators edited/calculated/reset at desktop and mobile widths. Four table operation types additionally tested for invalid values and recovery.",
+    "browserQA": {
+      "slug": "autopartes-san-diego",
+      "company": "Autopartes San Diego",
+      "reviewedAt": "2026-11-03T16:03:22.820923+00:00",
+      "browser": "Google Chrome via cua_repl",
+      "frames": [
+        {
+          "width": 1280,
+          "height": 900
+        },
+        {
+          "width": 390,
+          "height": 844
+        }
+      ],
+      "web": {
+        "screenshotsInspected": true,
+        "noDocumentHorizontalOverflow": true,
+        "officialImageAssociationReviewed": true,
+        "noBrokenLoadedImages": true,
+        "primaryCtaNavigatesToOperation": true,
+        "searchEmptyStateHidesCards": true
+      },
+      "automation": {
+        "initialResultObserved": true,
+        "inputEditedAndRecalculatedDesktopAndMobile": true,
+        "resultChanges": true,
+        "resetRestoresExample": true,
+        "exportControlEnabledForValidResult": true,
+        "negativeRowErrorRecoveryTested": false,
+        "actualDownloadedFile": "not_verified: browser download event timed out for shared handler in iframe; downloads page blocked by browser URL policy"
+      },
+      "bot": "bot.html exists; shared engine review owned by parent",
+      "visualFixes": [
+        "Official imagery recovered from rendered official website through Chrome pageAssets.",
+        "Search hidden attribute strengthened for grid products.",
+        "Table values synchronized before calculate; negative inputs keep the editor and disable export."
+      ],
+      "sourceLimitations": [
+        "La descarga directa de fichas recibió restricciones HTTP; catálogo, códigos y fotografías individuales se verificaron en la página oficial abierta en Chrome.",
+        "Las fotografías de producto conservan la resolución publicada; no se infiere compatibilidad, precio vigente ni inventario."
+      ]
+    },
+    "officialLinks": [
+      {
+        "url": "https://sdautopartes.com/",
+        "status": 403,
+        "networkError": null
+      },
+      {
+        "url": "https://sdautopartes.com/shop/product/142477",
+        "status": 403,
+        "networkError": null
+      },
+      {
+        "url": "https://sdautopartes.com/shop/product/143203",
+        "status": 403,
+        "networkError": null
+      },
+      {
+        "url": "https://sdautopartes.com/shop/product/144022",
+        "status": 403,
+        "networkError": null
+      }
+    ],
+    "assetBytes": [
+      {
+        "file": "assets/hero.img",
+        "bytes": 111740
+      },
+      {
+        "file": "assets/product-1.img",
+        "bytes": 6284
+      },
+      {
+        "file": "assets/product-2.img",
+        "bytes": 5542
+      },
+      {
+        "file": "assets/product-3.img",
+        "bytes": 10110
+      }
+    ],
+    "officialBrowserVerification": {
+      "page": "https://sdautopartes.com/",
+      "individualPage": "https://sdautopartes.com/shop/product/144022",
+      "result": "Three published SKUs and corresponding images observed in Chrome; detail 144022 rendered successfully. Direct curl restrictions do not establish a broken public page."
+    }
+  },
+  "publicOnly": true
+}

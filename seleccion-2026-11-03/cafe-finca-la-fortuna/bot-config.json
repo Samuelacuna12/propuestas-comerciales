@@ -1,0 +1,152 @@
+{
+  "company": "Café Finca La Fortuna",
+  "language": "es",
+  "website": "https://lafortunacafe.com/",
+  "description": "Café Finca La Fortuna · Producción y comercialización de café. La marca se presenta como una familia caficultora que cultiva, transforma y comercializa.",
+  "products": [
+    {
+      "name": "Café de origen de Filandia",
+      "url": "https://lafortunacafe.com/index.php/acerca-de/",
+      "description": "El sitio describe notas de caramelo y manzana, con cuerpo medio. Presentaciones y molienda por confirmar.",
+      "image": "assets/product-1.img"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "¿Cuál es el origen?",
+      "answer": "La finca se ubica en Filandia, Quindío.",
+      "keywords": [
+        "origen",
+        "filandia",
+        "quindio"
+      ]
+    },
+    {
+      "question": "¿Qué perfil describe la marca?",
+      "answer": "La página de origen menciona caramelo, manzana y cuerpo medio. El perfil del lote actual debe confirmarse.",
+      "keywords": [
+        "perfil",
+        "sabor",
+        "caramelo"
+      ]
+    },
+    {
+      "question": "¿Qué tamaños de bolsa venden?",
+      "answer": "Las fuentes revisadas no permiten verificar gramajes. Confírmalo antes de elegir una presentación.",
+      "keywords": [
+        "bolsa",
+        "gramos",
+        "peso",
+        "presentacion"
+      ]
+    },
+    {
+      "question": "¿Puedo pedir molienda para mi método?",
+      "answer": "No se verificó una política de molienda. Indica tu método para que la finca confirme la opción.",
+      "keywords": [
+        "molienda",
+        "metodo"
+      ]
+    },
+    {
+      "question": "¿La fecha del plan es un despacho?",
+      "answer": "No. Es una proyección de consumo con tus datos. La finca debe confirmar pedido, preparación y entrega.",
+      "keywords": [
+        "fecha",
+        "entrega",
+        "suscripcion"
+      ]
+    },
+    {
+      "question": "¿Dónde consultar la compra?",
+      "answer": "La página oficial de contacto ofrece atención para Quindío, Bogotá y Cartagena.",
+      "keywords": [
+        "contacto",
+        "ciudad"
+      ]
+    },
+    {
+      "question": "¿Qué es Café de origen de Filandia?",
+      "answer": "El sitio describe notas de caramelo y manzana, con cuerpo medio. Presentaciones y molienda por confirmar. Ficha oficial: https://lafortunacafe.com/index.php/acerca-de/",
+      "keywords": [
+        "café de origen de filandia",
+        "origen",
+        "filandia"
+      ]
+    },
+    {
+      "question": "¿Qué puede hacer esta demostración?",
+      "answer": "Ayudar a elegir una línea y preparar una solicitud local. No tiene conexión con inventario, agenda, pagos ni una IA activa.",
+      "keywords": [
+        "demo",
+        "funciona",
+        "ia",
+        "inteligencia"
+      ]
+    }
+  ],
+  "workflow": {
+    "title": "Planificador de consumo y próxima compra",
+    "steps": [
+      {
+        "key": "cafe",
+        "label": "Café",
+        "question": "¿Qué café o perfil te interesa?",
+        "required": true
+      },
+      {
+        "key": "consumo",
+        "label": "Consumo",
+        "question": "¿Cuántas tazas preparas por día y con qué dosis aproximada?",
+        "required": true
+      },
+      {
+        "key": "metodo",
+        "label": "Método",
+        "question": "¿Cómo lo preparas y necesitas grano o molienda?",
+        "required": true
+      },
+      {
+        "key": "frecuencia",
+        "label": "Frecuencia",
+        "question": "¿Para cuántos días quieres comprar?",
+        "required": true
+      },
+      {
+        "key": "destino",
+        "label": "Destino",
+        "question": "¿En qué ciudad lo recibirías?",
+        "required": true
+      }
+    ],
+    "summaryLabel": "Solicitud de ejemplo · Pendiente de validación humana"
+  },
+  "sources": [
+    {
+      "url": "https://lafortunacafe.com/",
+      "claim": "Actividad, catálogo y canales oficiales de Finca La Fortuna"
+    },
+    {
+      "url": "https://lafortunacafe.com/index.php/acerca-de/",
+      "claim": "Ficha o línea publicada: Café de origen de Filandia"
+    },
+    {
+      "url": "https://lafortunacafe.com/index.php/contacto/",
+      "claim": "Proceso o información complementaria oficial"
+    }
+  ],
+  "boundaries": [
+    "Demo de reglas locales; no IA activa.",
+    "No enviar ni almacenar datos en servidores.",
+    "No confirmar precios, existencias, citas, pedidos ni tiempos de entrega.",
+    "Datos no publicados: indicarlos como pendientes de confirmar.",
+    "No diagnosticar ni garantizar compatibilidad técnica sin revisión especializada."
+  ],
+  "theme": {
+    "accent": "#943f29",
+    "background": "#f7f3e8",
+    "foreground": "#213a2c",
+    "font": "Georgia, serif"
+  },
+  "heroImage": "assets/hero.img"
+}
