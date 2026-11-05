@@ -4,7 +4,7 @@
 
 Propongo construir y operar una estructura de ventas y prospección con inteligencia artificial que convierta la capacidad de diseño, fabricación y obra de la empresa en oportunidades, visitas, cotizaciones y ventas cobradas.
 
-**Mi propuesta económica es un 10%.** La modalidad —participación en la empresa, comisión sobre ventas o porcentaje de utilidades— y sus condiciones quedan pendientes de definir. Este borrador presenta el alcance de mi aporte.
+**Propongo incorporarme como socio con un 10% de participación en la empresa**, a cambio de estructurar, implementar y operar el ecosistema comercial y tecnológico descrito en esta propuesta. Las condiciones de incorporación y las responsabilidades de cada socio se acordarán por escrito.
 
 ## Qué vamos a vender
 
