@@ -2,6 +2,8 @@
 
 **Samuel Acuña · Borrador para conversar**
 
+[Ver la propuesta visual e interactiva](https://samuelacuna12.github.io/propuestas-comerciales/remodelaciones-ia/)
+
 Propongo construir y operar una estructura de ventas y prospección con inteligencia artificial que convierta la capacidad de diseño, fabricación y obra de la empresa en oportunidades, visitas, cotizaciones y ventas cobradas.
 
 **Propongo incorporarme como socio con un 10% de participación en la empresa**, a cambio de estructurar, implementar y operar el ecosistema comercial y tecnológico descrito en esta propuesta. Las condiciones de incorporación y las responsabilidades de cada socio se acordarán por escrito.
