@@ -1,30 +1,11 @@
 'use strict';
 
-const stages = {
-  captar: {label:'ABRIR CONVERSACIONES', index:'01 / 03', title:'Que lleguen. Y también salir a buscarlos.', items:[
-    ['Contenido y campañas con IA','Videos, propuestas visuales y transformaciones reales. Probamos qué trae clientes, visitas y ventas.'],
-    ['Prospección activa y personalizada','Identificamos oportunidades y preparamos acercamientos para propietarios, inversionistas y empresas.'],
-    ['Una red que recomienda','Aliados inmobiliarios, arquitectos y administradores, con seguimiento al origen de cada proyecto.']
-  ]},
-  convertir: {label:'DE LA CONVERSACIÓN AL PROYECTO', index:'02 / 03', title:'Mostrar el potencial. Facilitar la decisión.', items:[
-    ['Una foto, tres propuestas visuales','Desarrollaremos una web que permita explorar alternativas con IA, comparadores y recorridos.'],
-    ['Agentes que conversan y dan seguimiento','Chat y llamadas autorizadas para responder consultas, calificar necesidades y coordinar visitas.'],
-    ['Cotizaciones que se entienden','Propuestas interactivas con alternativas, alcance, acabados y próximos pasos. Precios tras la visita técnica.']
-  ]},
-  crecer: {label:'RELACIONES QUE SIGUEN CRECIENDO', index:'03 / 03', title:'Cada cliente puede abrir el siguiente espacio.', items:[
-    ['Seguimiento sin oportunidades olvidadas','CRM, responsables y próximas acciones. Recuperamos cotizaciones pendientes según el motivo y el momento.'],
-    ['Del primer trabajo al siguiente proyecto','Nuevos espacios de la vivienda, mantenimiento y referidos. Construimos una relación después de entregar.'],
-    ['Decidir con ventas y margen','Medimos origen del cliente, visitas, cierres e ingresos cobrados. Cuidamos costos, descuentos y adicionales.']
-  ]}
-};
-
 const offers = {
   mobiliario: {image:'assets/mueble-tv.jpg',alt:'Espacio de televisión y mobiliario a medida como inspiración',caption:'INSPIRACIÓN · MOBILIARIO A MEDIDA',kicker:'LA PRIMERA TRANSFORMACIÓN',title:'Un mueble puede ser\nel principio.',description:'Muebles para televisor, bibliotecas, closets y piezas a medida. Ofertas claras para necesidades concretas y nuevas oportunidades dentro de la misma vivienda.',features:['Presentación visual de cada solución','Opciones por material, tamaño y acabado','Seguimiento hacia el siguiente espacio']},
   cocinas: {image:'assets/cocina.jpg',alt:'Cocina moderna como inspiración para remodelación',caption:'INSPIRACIÓN · COCINAS Y BAÑOS',kicker:'ESPACIOS QUE SE VIVEN CADA DÍA',title:'La cocina que imaginas.\nEl proyecto que entiendes.',description:'Cocinas y baños completos, con una propuesta que haga visibles la distribución, los materiales y el alcance antes de tomar una decisión.',features:['Antes y después visuales','Cotizaciones con alternativas de alcance','Atención y seguimiento hasta el cierre']},
   residencias: {image:'assets/sala.jpg',alt:'Inspiración para una remodelación residencial completa',caption:'INSPIRACIÓN · RESIDENCIAS COMPLETAS',kicker:'TRANSFORMACIÓN INTEGRAL',title:'La próxima versión\nde toda una casa.',description:'Remodelaciones completas de apartamentos, casas y mansiones. Una experiencia privada para propietarios locales o en el exterior.',features:['Recorridos y decisiones visuales','Propuestas por alcance y acabados','Reportes para acompañar a distancia']}
 };
 
-const stageButtons = [...document.querySelectorAll('[data-stage]')];
 const offerButtons = [...document.querySelectorAll('[data-offer]')];
 
 function activate(buttons, key, attr) {
@@ -34,24 +15,6 @@ function activate(buttons, key, attr) {
     button.setAttribute('aria-selected', String(selected));
     button.tabIndex = selected ? 0 : -1;
   });
-}
-
-function showStage(key) {
-  const stage = stages[key];
-  if (!stage) return;
-  activate(stageButtons,key,'stage');
-  document.getElementById('stage-panel').setAttribute('aria-labelledby', 'stage-'+key);
-  document.getElementById('stage-label').textContent = stage.label;
-  document.getElementById('stage-index').textContent = stage.index;
-  document.getElementById('stage-title').textContent = stage.title;
-  document.getElementById('stage-items').replaceChildren(...stage.items.map(([title,description]) => {
-    const article=document.createElement('article');
-    const arrow=document.createElement('span');arrow.textContent='↗';arrow.setAttribute('aria-hidden','true');
-    const copy=document.createElement('div');
-    const heading=document.createElement('h4');heading.textContent=title;
-    const paragraph=document.createElement('p');paragraph.textContent=description;
-    copy.append(heading,paragraph);article.append(arrow,copy);return article;
-  }));
 }
 
 function showOffer(key) {
@@ -85,6 +48,44 @@ function wireTabs(buttons, attr, callback) {
   });
 }
 
-wireTabs(stageButtons,'stage',showStage);
 wireTabs(offerButtons,'offer',showOffer);
 document.getElementById('print-proposal').addEventListener('click',()=>window.print());
+
+const demoOptions = {
+  esencial: {index:'01',image:'assets/demo-esencial.jpg',title:'Renovación esencial',description:'Actualizamos pintura y mobiliario e incorporamos un mueble de TV a medida, conservando la distribución y los elementos principales de la sala.',scope:['Pintura y actualización del ambiente','Mobiliario y textiles renovados','Mueble de TV a medida']},
+  integral: {index:'02',image:'assets/demo-integral.jpg',title:'Diseño integral',description:'Renovamos acabados, carpintería y luz para transformar el ambiente completo, conservando la geometría del espacio.',scope:['Carpintería en madera y almacenamiento','Nuevos acabados y mobiliario','Iluminación integrada']},
+  autor: {index:'03',image:'assets/demo-autor.jpg',title:'Residencia de autor',description:'Una propuesta de alta gama que combina materiales, piezas y detalles de autor para dar una identidad propia al mismo espacio.',scope:['Piedra, madera y carpintería especial','Mobiliario y arte seleccionados','Iluminación arquitectónica']}
+};
+
+const demoButtons=[...document.querySelectorAll('[data-demo]')];
+const comparisonRange=document.getElementById('compare-range');
+const comparisonStage=document.getElementById('compare-stage');
+
+function updateComparison(value) {
+  const before=Math.min(100,Math.max(0,Number(value)));
+  comparisonStage.style.setProperty('--reveal',before+'%');
+  comparisonRange.value=String(before);
+  comparisonRange.setAttribute('aria-valuetext',before+' por ciento antes y '+(100-before)+' por ciento después');
+  document.querySelector('.compare-label-before').hidden=before<6;
+  document.querySelector('.compare-label-after').hidden=before>94;
+}
+
+function showDemo(key) {
+  const option=demoOptions[key];
+  if(!option)return;
+  activate(demoButtons,key,'demo');
+  document.getElementById('demo-result').setAttribute('aria-labelledby','demo-'+key);
+  const image=document.getElementById('demo-after-image');
+  image.src=option.image;
+  image.alt='La misma sala con la propuesta '+option.title.toLowerCase()+', simulación con IA';
+  document.getElementById('compare-after-label').textContent='DESPUÉS · OPCIÓN '+option.index;
+  document.getElementById('demo-option-title').textContent=option.title;
+  document.getElementById('demo-option-description').textContent=option.description;
+  document.getElementById('demo-option-scope').replaceChildren(...option.scope.map(text=>{const li=document.createElement('li');li.textContent=text;return li;}));
+  updateComparison(50);
+}
+
+wireTabs(demoButtons,'demo',showDemo);
+comparisonRange.addEventListener('input',event=>updateComparison(event.target.value));
+document.querySelectorAll('[data-compare]').forEach(button=>button.addEventListener('click',()=>updateComparison(button.dataset.compare)));
+Object.values(demoOptions).forEach(option=>{const preview=new Image();preview.src=option.image;});

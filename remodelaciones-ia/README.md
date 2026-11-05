@@ -4,7 +4,7 @@
 
 [Ver la propuesta visual e interactiva](https://samuelacuna12.github.io/propuestas-comerciales/remodelaciones-ia/)
 
-Propongo construir y operar una estructura de ventas y prospección con inteligencia artificial que convierta la capacidad de diseño, fabricación y obra de la empresa en oportunidades, visitas, cotizaciones y ventas cobradas.
+**Mi aporte será crear, implementar y operar el sistema comercial de la empresa.** Asumiré las ofertas, el contenido y las campañas con IA, la prospección activa, la web, el CRM, los agentes de chat y voz, las cotizaciones interactivas y la medición de resultados.
 
 **Propongo incorporarme como socio con un 10% de participación en la empresa**, a cambio de estructurar, implementar y operar el ecosistema comercial y tecnológico descrito en esta propuesta. Las condiciones de incorporación y las responsabilidades de cada socio se acordarán por escrito.
 
@@ -14,7 +14,7 @@ Organizaremos ofertas por línea: muebles para televisor, mobiliario a medida, c
 
 Buscaremos el mayor precio sostenible para cada oferta, respaldado por diseño, materiales, ejecución y servicio, cuidando el margen y la capacidad de entrega.
 
-## Qué voy a construir y operar
+## Mi aporte concreto
 
 1. **Ofertas y ecosistema comercial.** Estructurar servicios, paquetes y argumentos de valor; conectar contenido, campañas, web, atención, visitas y cierre en un mismo proceso.
 2. **Contenido y campañas con IA.** Crear y probar videos, conceptos y piezas por tipo de proyecto. Mostrar transformaciones reales documentadas e identificar como simulaciones las propuestas generadas con IA. Evaluar qué contenido trae visitas calificadas y ventas.
@@ -40,3 +40,7 @@ Primero validaremos ofertas, márgenes y capacidad de entrega. Después conectar
 La empresa aporta la ejecución técnica, fabricación y obra, precios aprobados, disponibilidad y responsables de atención. Yo aporto la estructuración, implementación y operación comercial y tecnológica del alcance acordado. Pauta, herramientas, consumo de IA, equipo y demás costos se presupuestarán y asignarán antes de activarlos.
 
 **Mediremos oportunidades calificadas, visitas realizadas, cotizaciones, cierres, ingresos cobrados, costo de adquisición y margen por proyecto.** La meta es construir una operación comercial medible y repetible.
+
+## Demo para probar la experiencia
+
+La [propuesta visual](https://samuelacuna12.github.io/propuestas-comerciales/remodelaciones-ia/#demo) incluye un comparador de antes y después y tres opciones de remodelación del mismo espacio. Son imágenes precargadas creadas con IA para demostrar el recorrido. La generación desde fotos de clientes y la conexión con agenda y CRM se implementarán dentro del proyecto.
