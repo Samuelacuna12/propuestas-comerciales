@@ -262,6 +262,10 @@
         "button": "Explorar Dolce",
         "source_label": "Ver publicación oficial"
       }
+    },
+    "dolce_reviews": {
+      "type": "dolce-reviews",
+      "settings": {}
     }
   },
   "order": [
@@ -271,6 +275,7 @@
     "editorial",
     "moods",
     "essentials",
+    "dolce_reviews",
     "film",
     "service"
   ]
