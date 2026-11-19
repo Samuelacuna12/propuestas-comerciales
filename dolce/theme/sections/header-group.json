@@ -1,0 +1,20 @@
+{
+  "name": "Cabecera Dolce",
+  "type": "header",
+  "sections": {
+    "header": {
+      "type": "dolce-header",
+      "settings": {
+        "menu": "main-menu",
+        "announcement": "Dolce Lingerie · Diseñada para sentirte tú",
+        "contact_link": "https://wa.me/573163625694",
+        "contact_label": "Te ayudamos a elegir",
+        "wordmark": "dolce",
+        "search_hint": "Busca tu próximo favorito"
+      }
+    }
+  },
+  "order": [
+    "header"
+  ]
+}

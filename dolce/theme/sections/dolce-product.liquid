@@ -1,0 +1,524 @@
+{{ 'dolce-product.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'dolce-product.js' | asset_url }}" defer></script>
+<script src="{{ 'dolce-commerce.js' | asset_url }}" defer></script>
+{%- liquid
+  assign chosen = product.selected_or_first_available_variant
+  assign form_id = 'DolceProduct-' | append: section.id
+  assign size_option = nil
+  assign product_story = nil
+  for story_block in section.blocks
+    if story_block.type == 'product_story' and story_block.settings.product.id == product.id
+      assign product_story = story_block
+      break
+    endif
+  endfor
+  assign gallery_media = product.media
+  assign preferred_image = nil
+  for image_slot in (1..3)
+    assign product_key = 'card_product_' | append: image_slot
+    assign image_key = 'card_image_' | append: image_slot
+    assign configured_product = settings[product_key]
+    assign configured_image = settings[image_key]
+    if configured_product.id == product.id and configured_image != blank
+      assign preferred_image = configured_image
+      break
+    endif
+  endfor
+  if preferred_image != blank
+    assign preferred_filename = preferred_image.src | split: '?' | first | split: '/' | last
+    for media in product.media
+      if media.media_type == 'image'
+        assign preferred_match = false
+        assign media_filename = media.preview_image.src | split: '?' | first | split: '/' | last
+        if preferred_image.id != blank and media.preview_image.id == preferred_image.id
+          assign preferred_match = true
+        elsif preferred_filename != blank and media_filename == preferred_filename
+          assign preferred_match = true
+        endif
+        if preferred_match
+          assign first_media = product.media | where: 'id', media.id
+          assign remaining_media = product.media | reject: 'id', media.id
+          assign gallery_media = first_media | concat: remaining_media
+          break
+        endif
+      endif
+    endfor
+  endif
+  for option in product.options_with_values
+    assign option_name = option.name | downcase
+    if option_name contains 'talla'
+      assign size_option = option
+    endif
+  endfor
+-%}
+<section class="d-pdp" id="DolcePdp-{{ section.id }}" data-dolce-product data-buy-label="{{ 'dolce.product.buy_now' | t }}" data-offer-fallback="{{ 'dolce.product.offer_fallback' | t }}" data-currency="{{ cart.currency.iso_code }}" data-add-url="{{ routes.cart_add_url }}.js" data-cart-url="{{ routes.cart_url }}" data-add-label="{{ 'dolce.product.add' | t | escape }}" data-sold-label="{{ 'dolce.product.sold_out' | t | escape }}" data-unavailable-label="{{ 'dolce.product.unavailable' | t | escape }}" data-added-label="{{ 'dolce.product.added' | t | escape }}" data-adding-label="{{ 'dolce.product.adding' | t | escape }}" data-error-label="{{ 'dolce.product.error' | t | escape }}">
+  <nav class="d-wrap d-pdp__breadcrumb" aria-label="{{ 'dolce.product.breadcrumb' | t }}"><a href="{{ routes.root_url }}">{{ 'dolce.product.home' | t }}</a><span aria-hidden="true">/</span><a href="{{ routes.all_products_collection_url }}">{{ 'dolce.product.collection' | t }}</a><span aria-hidden="true">/</span><span>{{ product.title | downcase | capitalize | escape }}</span></nav>
+  <div class="d-wrap d-pdp__layout">
+    <header class="d-pdp__heading">
+      <h1 class="d-display d-pdp__title">{{ product.title | downcase | capitalize | escape }}</h1>
+      <div class="d-pdp__price-row"><span class="d-pdp__price" data-product-price>{{ chosen.price | money | replace: ',', '.' }}</span><s class="d-pdp__compare" data-product-compare{% unless chosen.compare_at_price > chosen.price %} hidden{% endunless %}>{{ chosen.compare_at_price | money | replace: ',', '.' }}</s><span class="d-pdp__currency">{{ cart.currency.iso_code }}</span></div>
+    </header>
+    <div class="d-pdp__gallery" aria-label="{{ 'dolce.product.gallery' | t }}">
+      <div class="d-pdp__stage">
+        <div class="d-pdp__media-grid" data-gallery tabindex="0" aria-label="{{ 'dolce.product.gallery' | t }}">
+          {%- for media in gallery_media -%}
+            <figure class="d-pdp__media" data-media-id="{{ media.id }}" id="DolceMedia-{{ section.id }}-{{ media.id }}">
+              {%- case media.media_type -%}
+                {%- when 'image' -%}
+                  {%- assign image_alt = media.alt | default: product.title -%}
+                  <button type="button" class="d-pdp__zoom" data-zoom="{{ media | image_url: width: 2400 }}" data-zoom-alt="{{ image_alt | escape }}" aria-label="{{ 'dolce.product.zoom' | t }}">
+                    {%- if forloop.first -%}
+                      {{ media | image_url: width: 1400 | image_tag: widths: '390, 585, 780, 1000, 1200, 1400', sizes: '(min-width: 900px) 52vw, 100vw', loading: 'eager', fetchpriority: 'high', alt: image_alt }}
+                    {%- else -%}
+                      {{ media | image_url: width: 1200 | image_tag: widths: '390, 585, 780, 1000, 1200', sizes: '(min-width: 900px) 52vw, 100vw', loading: 'lazy', alt: image_alt }}
+                    {%- endif -%}
+                    <span class="d-pdp__zoom-hint" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 3H3v5M16 3h5v5M21 16v5h-5M3 16v5h5"/></svg></span>
+                  </button>
+                {%- when 'video' -%}{{ media | video_tag: controls: true, preload: 'none', image_size: '900x', class: 'd-pdp__video' }}
+                {%- when 'external_video' -%}{{ media | external_video_tag: class: 'd-pdp__video', loading: 'lazy' }}
+              {%- endcase -%}
+            </figure>
+          {%- else -%}<figure class="d-pdp__media">{{ 'product-1' | placeholder_svg_tag }}</figure>{%- endfor -%}
+        </div>
+        {%- if gallery_media.size > 1 -%}<button type="button" class="d-pdp__gallery-step d-pdp__gallery-step--prev" data-gallery-prev aria-label="{{ 'dolce.product.previous_image' | t }}">‹</button><button type="button" class="d-pdp__gallery-step d-pdp__gallery-step--next" data-gallery-next aria-label="{{ 'dolce.product.next_image' | t }}">›</button><span class="d-pdp__gallery-count" data-gallery-count aria-live="polite">1 / {{ gallery_media.size }}</span>{%- endif -%}
+      </div>
+      {%- if gallery_media.size > 1 -%}<div class="d-pdp__thumbnails" aria-label="{{ 'dolce.product.gallery' | t }}">{%- for media in gallery_media -%}<button type="button" class="d-pdp__thumbnail" data-gallery-thumb="{{ forloop.index0 }}" aria-label="{{ 'dolce.product.image_number' | t: number: forloop.index }}" aria-pressed="{% if forloop.first %}true{% else %}false{% endif %}">{{ media.preview_image | image_url: width: 160 | image_tag: width: 64, height: 80, loading: 'lazy', alt: '' }}</button>{%- endfor -%}</div>{%- endif -%}
+    </div>
+    <div class="d-pdp__information"><div class="d-pdp__information-inner">
+      {%- if product_story.settings.headline != blank -%}<h2 class="d-pdp__benefit-title">{{ product_story.settings.headline | escape }}</h2>{%- endif -%}
+      {%- if product_story.settings.summary != blank -%}<p class="d-pdp__summary">{{ product_story.settings.summary | escape }}</p>{%- endif -%}
+{% form 'product', product, id: form_id, class: 'd-pdp__form' %}
+          <div class="d-pdp__native-variants" data-native-variants>
+            <label for="DolceVariant-{{ section.id }}">{{ 'dolce.product.variant' | t }}</label>
+            <select name="id" id="DolceVariant-{{ section.id }}" data-variant-select>
+              {%- for variant in product.variants -%}
+                <option value="{{ variant.id }}"{% if variant == chosen %} selected{% endif %}{% unless variant.available %} disabled{% endunless %}>{{ variant.title | escape }} — {{ variant.price | money | replace: ',', '.' }}{% unless variant.available %} · {{ 'dolce.product.sold_out' | t }}{% endunless %}</option>
+              {%- endfor -%}
+            </select>
+          </div>
+          {%- unless product.has_only_default_variant -%}
+            <div class="d-pdp__options" data-variant-options hidden>
+              {%- for option in product.options_with_values -%}
+                {%- assign option_name = option.name | downcase -%}
+                {%- assign option_index = forloop.index0 -%}
+                <fieldset class="d-pdp__option" data-option-index="{{ option_index }}">
+                  <legend><span class="d-pdp__option-heading"><span>{{ option.name | downcase | capitalize | escape }}: <span data-option-label>{{ chosen.options[option_index] | escape }}</span></span>{%- if option_name contains 'talla' -%}<button type="button" class="d-pdp__size-guide-link" data-size-open>{{ section.settings.guide_label | escape }}</button>{%- endif -%}</span></legend>
+                  <div class="d-pdp__choices">
+                    {%- for value in option.values -%}
+                      {%- liquid
+                        assign color = value | downcase
+                        assign swatch_color = '#d8ccce'
+                        case color
+                          when 'negro'
+                            assign swatch_color = '#21191c'
+                          when 'blanco'
+                            assign swatch_color = '#ffffff'
+                          when 'marfil'
+                            assign swatch_color = '#efe9da'
+                          when 'piel'
+                            assign swatch_color = '#d0a98b'
+                          when 'vino'
+                            assign swatch_color = '#6d2237'
+                          when 'rojo', 'rojo cereza'
+                            assign swatch_color = '#a92b36'
+                          when 'cocoa'
+                            assign swatch_color = '#704d40'
+                          when 'gris'
+                            assign swatch_color = '#929196'
+                          when 'dorado'
+                            assign swatch_color = '#bba36c'
+                          when 'rosa', 'palo de rosa'
+                            assign swatch_color = '#d4a7b0'
+                          when 'melon'
+                            assign swatch_color = '#edbcb1'
+                          when 'verde botella'
+                            assign swatch_color = '#184f43'
+                          when 'azul oscuro'
+                            assign swatch_color = '#28384f'
+                          when 'azul rey'
+                            assign swatch_color = '#284fc0'
+                          when 'azul cielo'
+                            assign swatch_color = '#b8d6e9'
+                          when 'menta'
+                            assign swatch_color = '#bad9c4'
+                          when 'verde militar'
+                            assign swatch_color = '#69765b'
+                          when 'amarillo pastel'
+                            assign swatch_color = '#ece4a5'
+                          when 'fucsia', 'barbie'
+                            assign swatch_color = '#cd4f8c'
+                        endcase
+                      -%}
+                      <label class="d-pdp__choice{% if option_name contains 'color' %} d-pdp__choice--color{% endif %}" data-choice>
+                        <input type="radio" name="dolce-option-{{ section.id }}-{{ option_index }}" value="{{ value | escape }}" data-option-value{% if chosen.options[option_index] == value %} checked{% endif %}>
+                        <span class="d-pdp__choice-face">{% if option_name contains 'color' %}<span class="d-pdp__swatch" style="--swatch:{{ swatch_color }}" aria-hidden="true"></span>{% endif %}<span>{{ value | escape }}</span><span class="d-visually-hidden" data-choice-availability></span></span>
+                      </label>
+                    {%- endfor -%}
+                  </div>
+                </fieldset>
+              {%- endfor -%}
+            </div>
+          {%- endunless -%}
+          {% render 'dolce-offers',story:product_story %}
+          <div class="d-pdp__buy-row" data-primary-buy>
+            <label class="d-pdp__quantity"><span class="d-visually-hidden">{{ 'dolce.product.quantity' | t }}</span><input type="number" name="quantity" min="1" max="99" value="1" inputmode="numeric" aria-label="{{ 'dolce.product.quantity' | t }}"></label>
+            <button type="submit" name="add" class="d-button d-pdp__add" data-add-button{% unless chosen.available %} disabled{% endunless %}><span data-add-text>{% if chosen.available %}{{ 'dolce.product.add' | t }}{% else %}{{ 'dolce.product.sold_out' | t }}{% endif %}</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8h12l1 13H5L6 8ZM9 8V6a3 3 0 0 1 6 0v2"/></svg></button>
+          </div>
+          <div class="d-pdp__terms">{{ form | payment_terms }}</div>
+          <div class="d-pdp__form-status" data-product-status role="status" aria-live="polite" aria-atomic="true"></div>
+          <a class="d-pdp__cart-link" href="{{ routes.cart_url }}" data-cart-link hidden>{{ 'dolce.product.view_cart' | t }}</a>
+          <div class="d-pdp__form-error" data-product-error role="alert" hidden></div>
+        {% endform %}
+      <p class="d-pdp__shipping-note">{{ section.settings.shipping_note | escape }}</p>
+      <div class="d-pdp__help"><span>{{ section.settings.delivery_text | escape }}</span><a href="{{ section.settings.whatsapp_url }}" target="_blank" rel="noopener">{{ 'dolce.product.ask_question' | t }}</a></div>
+      <div class="d-pdp__accordions">
+        <details><summary>{{ section.settings.details_heading | escape }}<span aria-hidden="true">+</span></summary><div class="d-rich d-pdp__description">{% if product.description != blank %}{{ product.description }}{% else %}<p>{{ 'dolce.product.details_fallback' | t }}</p>{% endif %}</div></details>
+        {%- if product_story.settings.fit_note != blank -%}<details><summary>{{ section.settings.fit_heading | escape }}<span aria-hidden="true">+</span></summary><div class="d-rich"><p>{{ product_story.settings.fit_note | escape }}</p><a href="{{ section.settings.whatsapp_url }}" target="_blank" rel="noopener">{{ 'dolce.product.ask_fit' | t }}</a></div></details>{%- endif -%}
+        {%- if product_story.settings.care_note != blank -%}<details><summary>{{ 'dolce.product.care' | t }}<span aria-hidden="true">+</span></summary><div class="d-rich"><p>{{ product_story.settings.care_note | escape }}</p></div></details>{%- endif -%}
+        <details><summary>{{ section.settings.delivery_heading | escape }}<span aria-hidden="true">+</span></summary><div class="d-rich"><p>{{ section.settings.delivery_details | escape }}</p><a href="{{ shop.refund_policy.url }}">{{ 'dolce.product.shipping_policy' | t }}</a></div></details>
+        {%- for block in section.blocks -%}{%- if block.type == 'accordion' -%}<details {{ block.shopify_attributes }}><summary>{{ block.settings.heading | escape }}<span aria-hidden="true">+</span></summary><div class="d-rich">{{ block.settings.text }}</div></details>{%- endif -%}{%- endfor -%}
+      </div>
+    </div></div>
+  </div>
+  {% render 'dolce-sales-story', product: product, story: product_story, gallery: gallery_media %}
+  {%- if product_story.settings.headline != blank -%}
+    {%- liquid
+      assign story_image = product_story.settings.editorial_image
+      if story_image == blank
+        if preferred_image != blank
+          assign story_image = preferred_image
+        else
+          assign story_image = gallery_media[1].preview_image | default: gallery_media[0].preview_image
+        endif
+      endif
+      assign story_alt = story_image.alt | default: product.title
+    -%}
+    <section class="d-wrap d-pdp__construction" {{ product_story.shopify_attributes }}>
+      <div class="d-pdp__construction-photo"><button type="button" data-zoom="{{ story_image | image_url: width: 2400 }}" data-zoom-alt="{{ story_alt | escape }}" aria-label="{{ 'dolce.product.zoom' | t }}">{{ story_image | image_url: width: 1000 | image_tag: widths: '390, 585, 780, 1000', sizes: '(min-width: 900px) 45vw, 100vw', loading: 'lazy', alt: story_alt }}<span>{{ 'dolce.product.explore_detail' | t }}</span></button></div>
+      <div class="d-pdp__construction-content"><h2 class="d-display">{{ section.settings.construction_heading | escape }}</h2><ul role="list">{%- if product_story.settings.feature1 != blank -%}<li>{{ product_story.settings.feature1 | escape }}</li>{%- endif -%}{%- if product_story.settings.feature2 != blank -%}<li>{{ product_story.settings.feature2 | escape }}</li>{%- endif -%}{%- if product_story.settings.feature3 != blank -%}<li>{{ product_story.settings.feature3 | escape }}</li>{%- endif -%}</ul></div>
+    </section>
+  {%- endif -%}
+  <section class="d-wrap d-pdp__fit">
+    <div class="d-pdp__fit-intro"><h2 class="d-display">{{ section.settings.fit_section_heading | escape }}</h2>{%- if product_story.settings.fit_note != blank -%}<p>{{ product_story.settings.fit_note | escape }}</p>{%- endif -%}{%- if size_option != nil -%}<div class="d-pdp__size-values" aria-label="{{ size_option.name | escape }}">{%- for value in size_option.values -%}<span>{{ value | escape }}</span>{%- endfor -%}</div>{%- endif -%}<button type="button" class="d-pdp__fit-link" data-size-open>{{ 'dolce.product.fit_help' | t }}</button></div>
+    <div class="d-pdp__measurements"><h3>{{ 'dolce.product.measure_heading' | t }}</h3><dl><div><dt>{{ 'dolce.product.bust' | t }}</dt><dd>{{ 'dolce.product.bust_how' | t }}</dd></div><div><dt>{{ 'dolce.product.waist' | t }}</dt><dd>{{ 'dolce.product.waist_how' | t }}</dd></div><div><dt>{{ 'dolce.product.hip' | t }}</dt><dd>{{ 'dolce.product.hip_how' | t }}</dd></div></dl></div>
+  </section>
+  <section class="d-wrap d-pdp__faq"><h2 class="d-display">{{ section.settings.faq_heading | escape }}</h2><div class="d-pdp__accordions">
+    {%- if product_story.settings.summary != blank -%}<details><summary>{{ 'dolce.product.faq_details' | t: product: product.title }}<span aria-hidden="true">+</span></summary><div class="d-rich"><p>{{ product_story.settings.summary | escape }}</p>{% if product_story.settings.included_note != blank %}<p>{{ product_story.settings.included_note | escape }}</p>{% endif %}</div></details>{%- endif -%}
+    {%- if product_story.settings.fit_note != blank -%}<details><summary>{{ 'dolce.product.faq_fit' | t }}<span aria-hidden="true">+</span></summary><div class="d-rich"><p>{{ product_story.settings.fit_note | escape }}</p><a href="{{ section.settings.whatsapp_url }}" target="_blank" rel="noopener">{{ 'dolce.product.ask_fit' | t }}</a></div></details>{%- endif -%}
+    <details><summary>{{ 'dolce.product.faq_shipping' | t }}<span aria-hidden="true">+</span></summary><div class="d-rich"><p>{{ section.settings.delivery_details | escape }}</p><a href="{{ shop.refund_policy.url }}">{{ 'dolce.product.shipping_policy' | t }}</a></div></details>
+    <details><summary>{{ 'dolce.product.faq_returns' | t }}<span aria-hidden="true">+</span></summary><div class="d-rich"><p>{{ section.settings.returns_answer | escape }}</p><a href="{{ shop.refund_policy.url }}">{{ 'dolce.product.shipping_policy' | t }}</a></div></details>
+  </div></section>
+  <div class="d-wrap d-pdp__return"><div><span class="d-pdp__return-title">{{ product.title | downcase | capitalize | escape }}</span><span class="d-pdp__return-price"><span data-product-price-repeat>{{ chosen.price | money | replace: ',', '.' }}</span> <span>{{ cart.currency.iso_code }}</span></span></div><a class="d-button" href="#{{ form_id }}">{{ 'dolce.product.return_buy' | t }}</a></div>
+  {%- if section.settings.show_reviews -%}<div class="d-wrap d-pdp__reviews">{%- for block in section.blocks -%}{%- if block.type == '@app' -%}<div class="d-pdp__app" {{ block.shopify_attributes }}>{% render block %}</div>{%- endif -%}{%- endfor -%}</div>{%- endif -%}
+  <div class="d-pdp__sticky" data-sticky-buy hidden><div><span class="d-pdp__sticky-title">{{ product.title | downcase | capitalize | escape }}</span><span data-sticky-price>{{ chosen.price | money | replace: ',', '.' }}</span></div><button type="submit" form="{{ form_id }}" class="d-button" data-sticky-add{% unless chosen.available %} disabled{% endunless %}><span data-sticky-text>{% if chosen.available %}{{ 'dolce.product.add' | t }}{% else %}{{ 'dolce.product.sold_out' | t }}{% endif %}</span></button></div>
+  <dialog class="d-pdp__dialog" data-size-dialog aria-labelledby="DolceGuideHeading-{{ section.id }}">
+    <div class="d-pdp__dialog-header"><h2 class="d-display" id="DolceGuideHeading-{{ section.id }}">{{ section.settings.guide_label | escape }}</h2><button type="button" data-dialog-close aria-label="{{ 'dolce.product.close' | t }}">×</button></div>
+    <p>{{ 'dolce.product.guide_intro' | t }}</p>
+    {%- if size_option != nil -%}
+      <div class="d-pdp__size-values">{%- for value in size_option.values -%}<span>{{ value | escape }}</span>{%- endfor -%}</div>
+      <p>{{ 'dolce.product.guide_equivalence' | t }}</p>
+    {%- else -%}<p>{{ 'dolce.product.guide_unique' | t }}</p>{%- endif -%}
+    <p>{{ section.settings.guide_text | escape }}</p>
+    <a class="d-button" href="{{ section.settings.whatsapp_url }}" target="_blank" rel="noopener">{{ 'dolce.product.ask_fit' | t }}</a>
+  </dialog>
+  <dialog class="d-pdp__lightbox" data-lightbox aria-label="{{ 'dolce.product.zoom' | t }}"><button type="button" data-dialog-close aria-label="{{ 'dolce.product.close' | t }}">×</button><img src="{{ product.featured_image | image_url: width: 1200 }}" width="1200" height="1500" alt="{{ product.title | escape }}" loading="lazy" data-lightbox-image></dialog>
+  <script type="application/json" data-product-json>{{ product | json }}</script>
+  <script type="application/ld+json">{
+    "@context":"https://schema.org","@type":"Product","@id":{{ canonical_url | append: '#product' | json }},
+    "name":{{ product.title | json }},"url":{{ canonical_url | json }},
+    "description":{{ product.description | strip_html | strip_newlines | truncate: 500 | json }},
+    "brand":{"@type":"Brand","name":"Dolce Lingerie"},
+    "image":[{{ product.featured_image | image_url: width: 1600 | replace: 'https:', '' | prepend: 'https:' | json }}],
+    {% if chosen.sku != blank %}"sku":{{ chosen.sku | json }},{% endif %}
+    "offers":{"@type":"Offer","url":{{ canonical_url | json }},"priceCurrency":{{ cart.currency.iso_code | json }},
+    "price":{% if product_story.settings.offer1_total > 0 %}{{ product_story.settings.offer1_total | json }}{% else %}{{ chosen.price | divided_by: 100.0 | json }}{% endif %},
+    "availability":"https://schema.org/{% if chosen.available %}InStock{% else %}OutOfStock{% endif %}"}
+  }</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":{{ 'dolce.product.home' | t | json }},"item":{{ shop.url | json }}},{"@type":"ListItem","position":2,"name":{{ product.title | json }},"item":{{ canonical_url | json }}}]}</script>
+  {%- if section.settings.related_collection != blank -%}
+    <div class="d-wrap d-section d-pdp__related"><div class="d-pdp__related-header"><h2 class="d-display">{{ section.settings.related_heading | escape }}</h2><a href="{{ section.settings.related_collection.url }}">{{ 'dolce.product.see_all' | t }}</a></div><div class="d-pdp__related-grid">{%- assign related_count = 0 -%}{%- for related in section.settings.related_collection.products -%}{%- unless related.id == product.id -%}{% render 'dolce-card', product: related %}{%- assign related_count = related_count | plus: 1 -%}{%- if related_count == 4 -%}{%- break -%}{%- endif -%}{%- endunless -%}{%- endfor -%}</div></div>
+  {%- endif -%}
+</section>
+{% schema %}
+{
+  "name": "Dolce · Producto",
+  "settings": [
+    {
+      "type": "text",
+      "id": "shipping_note",
+      "label": "Nota bajo el precio",
+      "default": "El envío y las promociones se confirman al finalizar tu pedido."
+    },
+    {
+      "type": "text",
+      "id": "guide_label",
+      "label": "Título guía",
+      "default": "Encuentra tu talla"
+    },
+    {
+      "type": "textarea",
+      "id": "guide_text",
+      "label": "Ayuda de talla",
+      "default": "Si tienes dudas entre dos tallas, escríbenos con tus medidas de busto, cintura y cadera antes de comprar. Te ayudamos a elegir según la referencia."
+    },
+    {
+      "type": "url",
+      "id": "whatsapp_url",
+      "label": "WhatsApp"
+    },
+    {
+      "type": "text",
+      "id": "delivery_text",
+      "label": "Resumen entrega",
+      "default": "Entrega de 1 a 3 días hábiles tras el despacho."
+    },
+    {
+      "type": "text",
+      "id": "payment_text",
+      "label": "Resumen pagos",
+      "default": "Compra segura en línea."
+    },
+    {
+      "type": "text",
+      "id": "details_heading",
+      "label": "Título detalles",
+      "default": "La prenda, en detalle"
+    },
+    {
+      "type": "text",
+      "id": "delivery_heading",
+      "label": "Título envíos",
+      "default": "Envíos y cambios"
+    },
+    {
+      "type": "textarea",
+      "id": "delivery_details",
+      "label": "Información envíos",
+      "default": "El envío y las promociones se confirman al finalizar tu pedido. La política publicada indica despacho dentro de 24 horas y entrega de la transportadora de 1 a 3 días hábiles. Revisa las condiciones al comprar."
+    },
+    {
+      "type": "text",
+      "id": "fit_heading",
+      "label": "Título ajuste",
+      "default": "Elige tu ajuste"
+    },
+    {
+      "type": "textarea",
+      "id": "fit_details",
+      "label": "Ayuda de ajuste",
+      "default": "Cada referencia tiene sus propias tallas y detalles. Revisa las opciones disponibles y la descripción. Nuestro equipo puede orientarte antes de comprar."
+    },
+    {
+      "type": "collection",
+      "id": "related_collection",
+      "label": "Colección complementaria"
+    },
+    {
+      "type": "text",
+      "id": "related_heading",
+      "label": "Título complementos",
+      "default": "Sigue explorando Dolce"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_reviews",
+      "label": "Mostrar reseñas de la app",
+      "default": false
+    },
+    {
+      "type": "text",
+      "id": "construction_heading",
+      "label": "Título detalles visuales",
+      "default": "Los detalles que hacen la diferencia"
+    },
+    {
+      "type": "text",
+      "id": "fit_section_heading",
+      "label": "Título ajuste de compra",
+      "default": "Tu ajuste, antes de elegir"
+    },
+    {
+      "type": "text",
+      "id": "faq_heading",
+      "label": "Título preguntas",
+      "default": "Antes de hacerlo tuyo"
+    },
+    {
+      "type": "textarea",
+      "id": "returns_answer",
+      "label": "Respuesta cambios vigente",
+      "default": "La política publicada limita los cambios a defectos de fabricación dentro de las primeras 24 horas de recibido el pedido. No contempla devoluciones por talla, color o material. Consulta las condiciones completas antes de comprar."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product_story",
+      "name": "Historia de producto",
+      "settings": [
+        {
+          "type": "product",
+          "id": "product",
+          "label": "Producto"
+        },
+        {
+          "type": "text",
+          "id": "headline",
+          "label": "Frase editorial"
+        },
+        {
+          "type": "textarea",
+          "id": "summary",
+          "label": "Resumen breve de compra"
+        },
+        {
+          "type": "text",
+          "id": "feature1",
+          "label": "Detalle real 1"
+        },
+        {
+          "type": "text",
+          "id": "feature2",
+          "label": "Detalle real 2"
+        },
+        {
+          "type": "text",
+          "id": "feature3",
+          "label": "Detalle real 3"
+        },
+        {
+          "type": "textarea",
+          "id": "fit_note",
+          "label": "Nota de ajuste verificada"
+        },
+        {
+          "type": "textarea",
+          "id": "care_note",
+          "label": "Cuidados verificados"
+        },
+        {
+          "type": "image_picker",
+          "id": "editorial_image",
+          "label": "Fotografía editorial"
+        },
+        {
+          "type": "textarea",
+          "id": "included_note",
+          "label": "Qué incluye (dato verificado)"
+        },
+        {
+          "type": "text",
+          "id": "offer1_label",
+          "label": "Oferta 1: nombre"
+        },
+        {
+          "type": "number",
+          "id": "offer1_quantity",
+          "label": "Oferta 1: cantidad",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "offer1_total",
+          "label": "Oferta 1: total COP",
+          "default": 0
+        },
+        {
+          "type": "text",
+          "id": "offer2_label",
+          "label": "Oferta 2: nombre"
+        },
+        {
+          "type": "number",
+          "id": "offer2_quantity",
+          "label": "Oferta 2: cantidad",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "offer2_total",
+          "label": "Oferta 2: total COP",
+          "default": 0
+        },
+        {
+          "type": "text",
+          "id": "offer3_label",
+          "label": "Oferta 3: nombre"
+        },
+        {
+          "type": "number",
+          "id": "offer3_quantity",
+          "label": "Oferta 3: cantidad",
+          "default": 0
+        },
+        {
+          "type": "number",
+          "id": "offer3_total",
+          "label": "Oferta 3: total COP",
+          "default": 0
+        },
+        {
+          "type": "image_picker",
+          "id": "sales_editorial",
+          "label": "Composición editorial"
+        },
+        {
+          "type": "text",
+          "id": "sales_heading1",
+          "label": "Título editorial 1"
+        },
+        {
+          "type": "textarea",
+          "id": "sales_text1",
+          "label": "Texto editorial 1"
+        },
+        {
+          "type": "text",
+          "id": "sales_heading2",
+          "label": "Título editorial 2"
+        },
+        {
+          "type": "textarea",
+          "id": "sales_text2",
+          "label": "Texto editorial 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "detail_image_one",
+          "label": "Foto de detalle 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "detail_image_two",
+          "label": "Foto de detalle 2"
+        }
+      ]
+    },
+    {
+      "type": "accordion",
+      "name": "Información adicional",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Título",
+          "default": "Más información"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Contenido",
+          "default": "<p>Agrega información específica de la prenda.</p>"
+        }
+      ]
+    },
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Dolce · Producto"
+    }
+  ]
+}
+{% endschema %}

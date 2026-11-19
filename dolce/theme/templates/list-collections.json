@@ -1,0 +1,11 @@
+{
+  "sections": {
+    "main": {
+      "type": "dolce-collections",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

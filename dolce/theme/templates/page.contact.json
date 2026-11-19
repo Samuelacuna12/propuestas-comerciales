@@ -1,0 +1,13 @@
+{
+  "sections": {
+    "main": {
+      "type": "dolce-contact",
+      "settings": {
+        "whatsapp": "https://wa.me/573163625694"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

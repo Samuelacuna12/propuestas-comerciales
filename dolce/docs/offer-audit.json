@@ -1,0 +1,273 @@
+{
+  "checkedAt": "2026-11-19",
+  "source": "Official public Releasit purchase forms on dolcelingerie.co, inspected through browser UI; no orders sent",
+  "products": [
+    {
+      "handle": "body-isadora",
+      "url": "https://dolcelingerie.co/products/body-isadora",
+      "offers": [
+        {
+          "position": 0,
+          "title": "Pack x 1 Body",
+          "total": "$70.990",
+          "unitLabel": "$70.990 Cd Body"
+        },
+        {
+          "old": "$141.980",
+          "position": 1,
+          "title": "Pack x 2 Bodys",
+          "total": "$116.980",
+          "unitLabel": "$57.500 Cd Body"
+        },
+        {
+          "old": "$212.970",
+          "position": 2,
+          "title": "Pack x 3 Bodys",
+          "total": "$159.990",
+          "unitLabel": "$53.330 Cd Body"
+        }
+      ]
+    },
+    {
+      "handle": "set-victoria",
+      "url": "https://dolcelingerie.co/products/set-victoria",
+      "offers": [
+        {
+          "position": 0,
+          "title": "Pack x 1 Set",
+          "total": "$59.990",
+          "unitLabel": "$59.990 Cd Set"
+        },
+        {
+          "old": "$119.980",
+          "position": 1,
+          "title": "Pack x 2 Sets",
+          "total": "$104.990",
+          "unitLabel": "$52.495 Cd Set"
+        },
+        {
+          "old": "$179.970",
+          "position": 2,
+          "title": "Pack x 3 Sets",
+          "total": "$139.990",
+          "unitLabel": "$46.663 Cd set"
+        }
+      ],
+      "shippingSnippet": "generic: Envío\n- generic: Gratis\n- generic: Total\n- generic: $59.990\n- generic: Ingrese su dirección de "
+    },
+    {
+      "handle": "corset-isadora",
+      "url": "https://dolcelingerie.co/products/corset-isadora",
+      "offers": [
+        {
+          "position": 0,
+          "title": "Pack x 1 Corset",
+          "total": "$59.990",
+          "unitLabel": "$59.990 Cd Corset"
+        },
+        {
+          "old": "$119.980",
+          "position": 1,
+          "title": "Pack x 2 Corsets",
+          "total": "$104.990",
+          "unitLabel": "$52.495 Cd Corset"
+        }
+      ],
+      "shippingSnippet": "generic: Envío\n- generic: $13.000\n- generic: Total\n- generic: $72.990\n- generic: Ingrese su dirección de"
+    },
+    {
+      "handle": "set-aria",
+      "url": "https://dolcelingerie.co/products/set-aria",
+      "offers": [
+        {
+          "position": 0,
+          "title": "Pack x 1 Set",
+          "total": "$59.990",
+          "unitLabel": "$59.990 Cd Set"
+        },
+        {
+          "old": "$119.980",
+          "position": 1,
+          "title": "Pack x 2 Sets",
+          "total": "$104.990",
+          "unitLabel": "$52.495 Cd Set"
+        }
+      ],
+      "shippingSnippet": "generic: Envío\n- generic: Gratis\n- generic: Total\n- generic: $59.990\n- generic: Ingrese su dirección de "
+    },
+    {
+      "handle": "set-alma",
+      "url": "https://dolcelingerie.co/products/set-alma",
+      "offers": [
+        {
+          "position": 0,
+          "title": "Pack x 1 Set",
+          "total": "$59.990",
+          "unitLabel": "$59.990 Cd Set"
+        },
+        {
+          "old": "$119.980",
+          "position": 1,
+          "title": "Pack x 2 Sets",
+          "total": "$99.990",
+          "unitLabel": "$49.995 Cd Set"
+        }
+      ],
+      "shippingSnippet": "generic: Envío\n- generic: Gratis\n- generic: Total\n- generic: $59.990\n- generic: Ingrese su dirección de "
+    },
+    {
+      "handle": "pack-boxer-dama",
+      "url": "https://dolcelingerie.co/products/pack-boxer-dama",
+      "offers": [
+        {
+          "old": "$105.000",
+          "position": 0,
+          "title": "Pack x 5 Boxer",
+          "total": "$79.990",
+          "unitLabel": "$15.998 cada Boxer"
+        },
+        {
+          "old": "$210.000",
+          "position": 1,
+          "title": "Pack x 10 Boxer",
+          "total": "$125.990",
+          "unitLabel": "$12.599 cada Boxer"
+        }
+      ],
+      "shippingSnippet": "generic: Envío\n- generic: Gratis\n- generic: Descuentos\n- generic: \"- $25.010\"\n- generic: Total\n- generic"
+    },
+    {
+      "handle": "pack-brasilera",
+      "url": "https://dolcelingerie.co/products/pack-brasilera",
+      "offers": [
+        {
+          "old": "$126.000",
+          "position": 0,
+          "title": "Pack x 6 Tangas talla U Desde la S a XL",
+          "total": "$89.990",
+          "unitLabel": "$14.998 cada tanga"
+        },
+        {
+          "old": "$252.000",
+          "position": 1,
+          "title": "Pack x 12 Tangas talla única S a XL",
+          "total": "$129.990",
+          "unitLabel": "$10.832 cada tanga"
+        }
+      ],
+      "shippingSnippet": "generic: Envío\n- generic: Gratis\n- generic: Descuentos\n- generic: \"- $36.010\"\n- generic: Total\n- generic"
+    },
+    {
+      "handle": "promocion-de-brasilera",
+      "url": "https://dolcelingerie.co/products/promocion-de-brasilera",
+      "offers": [
+        {
+          "old": "$114.000",
+          "position": 0,
+          "title": "Pack x 6 Tangas talla U Desde la S a XL",
+          "total": "$79.900",
+          "unitLabel": "$13.320 cada tanga"
+        },
+        {
+          "old": "$228.000",
+          "position": 1,
+          "title": "Pack x 12 Tangas talla única S a XL",
+          "total": "$109.900",
+          "unitLabel": "$9.160 cada tanga"
+        }
+      ],
+      "shippingSnippet": "generic: Envío\n- generic: Gratis\n- generic: Descuentos\n- generic: \"- $34.100\"\n- generic: Total\n- generic"
+    },
+    {
+      "handle": "baby-doll-lexi",
+      "url": "https://dolcelingerie.co/products/baby-doll-lexi",
+      "offers": [],
+      "mode": "single",
+      "shippingSnippet": "Envío Gratis en formulario para la variante 36 / Rojo. Total $69.990."
+    },
+    {
+      "handle": "body-monaco",
+      "url": "https://dolcelingerie.co/products/body-monaco",
+      "offers": [
+        {
+          "position": 0,
+          "title": "Pack x 1 Body",
+          "total": "$64.990",
+          "unitLabel": "$64.990 Cd Body"
+        },
+        {
+          "old": "$129.980",
+          "position": 1,
+          "title": "Pack x 2 Bodys",
+          "total": "$104.980",
+          "unitLabel": "$52.490 Cd Body"
+        }
+      ],
+      "mode": "bundle",
+      "shippingSnippet": "generic: Envío\n- generic: Gratis\n- generic: Total\n- generic: $64.990\n- generic: Ingrese su dirección de "
+    },
+    {
+      "handle": "set-sharlot",
+      "url": "https://dolcelingerie.co/products/set-sharlot",
+      "offers": [
+        {
+          "position": 0,
+          "title": "Pack x 1 Set",
+          "total": "$59.990",
+          "unitLabel": "$59.990 Cd Set"
+        },
+        {
+          "old": "$119.980",
+          "position": 1,
+          "title": "Pack x 2 Sets",
+          "total": "$104.990",
+          "unitLabel": "$52.495 Cd Set"
+        }
+      ],
+      "mode": "bundle",
+      "shippingSnippet": "generic: Envío\n- generic: Gratis\n- generic: Total\n- generic: $59.990\n- generic: Ingrese su dirección de "
+    },
+    {
+      "handle": "set-gabriela",
+      "url": "https://dolcelingerie.co/products/set-gabriela",
+      "offers": [
+        {
+          "position": 0,
+          "title": "Pack x 1 Set",
+          "total": "$59.990",
+          "unitLabel": "$59.990 Cd Set"
+        },
+        {
+          "old": "$119.980",
+          "position": 1,
+          "title": "Pack x 2 Sets",
+          "total": "$104.990",
+          "unitLabel": "$52.495 Cd Set"
+        }
+      ],
+      "mode": "bundle",
+      "shippingSnippet": "generic: Envío\n- generic: Gratis\n- generic: Total\n- generic: $59.990\n- generic: Ingrese su dirección de "
+    },
+    {
+      "handle": "set-deportivo",
+      "url": "https://dolcelingerie.co/products/set-deportivo",
+      "offers": [
+        {
+          "position": 0,
+          "title": "Pack x 1 Set",
+          "total": "$49.990",
+          "unitLabel": "$49.990 Cd Set"
+        },
+        {
+          "old": "$99.980",
+          "position": 1,
+          "title": "Pack x 2 Sets",
+          "total": "$89.980",
+          "unitLabel": "$45.995 Cd Set"
+        }
+      ],
+      "mode": "bundle",
+      "shippingSnippet": "generic: Envío\n- generic: Gratis\n- generic: Total\n- generic: $49.990\n- generic: Ingrese su dirección de "
+    }
+  ]
+}

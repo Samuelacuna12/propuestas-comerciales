@@ -1,0 +1,4 @@
+<nav class="d-category-rail" aria-label="{{ section.settings.label }}">{% for block in section.blocks %}{% if block.settings.collection != blank %}<a href="{{ block.settings.collection.url }}" {{ block.shopify_attributes }}>{{ block.settings.label | default:block.settings.collection.title }}</a>{% endif %}{% endfor %}</nav>
+{% schema %}
+{"name":"Dolce · Categorías","settings":[{"type":"text","id":"label","label":"Etiqueta de navegación","default":"Encuentra tu estilo"}],"blocks":[{"type":"collection","name":"Colección","settings":[{"type":"collection","id":"collection","label":"Colección"},{"type":"text","id":"label","label":"Nombre alternativo"}]}],"presets":[{"name":"Dolce · Categorías"}]}
+{% endschema %}

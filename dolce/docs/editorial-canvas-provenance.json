@@ -1,0 +1,19 @@
+{
+  "asset": "theme/assets/dolce-editorial-canvas.webp",
+  "type": "AI-generated decorative background only",
+  "createdAt": "2026-11-19",
+  "method": "built-in imagegen",
+  "prompt": "Use case: ads-marketing. Asset type: decorative background canvas for a premium Dolce ecommerce fashion editorial, behind separately composited unchanged official product photos and native HTML typography. Generate a portrait 2:3 canvas approximately 1200 x 1800. An exceptionally clean matte ivory paper backdrop, predominantly warm white #fffdf9 in its entire broad center, fading almost imperceptibly into pale blush #f6e9e5 at the very outer left and right edges. Soft diffused studio light. Only extremely subtle broad abstract curved paper folds or tonal waves at the far outer corners and lateral margins, almost flat, elegant, restrained, smooth. Airy editorial feel, expansive empty white space, no visible paper grain, no fabric texture, no weave, no lace, no mesh, no textile simulation. No people, no bodies, no garments, no product, no objects, no packaging, no symbols, no illustrations, no florals. Absolutely no text, letters, numbers, logo or watermark. The center 70% of width and 85% of height should be nearly plain warm white, usable as a seamless webpage background. It must read as neutral decorative studio paper, never as a product material or product claim. One finished portrait background image only.",
+  "generatedOriginal": "/workspace/scratch/baa84d9d7cc6/generated_images/exec-5850d1ed-6f4d-45ce-bfa4-3145d3b2b983.png",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "quality": 88,
+  "qa": {
+    "approved": true,
+    "visualCheck": "Plain warm-white center with subtle blush paper curves at far corners. No humans, garments, product materials, logos, text, or product details. Suitable solely as a decorative background behind unchanged official photos in HTML.",
+    "productClaims": "None; decorative studio-paper background only."
+  },
+  "rejectedPredecessors": "The four AI product collages documented in editorial-assets-classics.json failed strict exact-official product QA and must not be used for the final site."
+}

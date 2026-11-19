@@ -1,0 +1,2 @@
+<div class="d-wrap d-section"><h1>{{ 'dolce.collections' | t }}</h1><div class="d-grid">{% for collection in collections %}{% if collection.products_count > 0 %}<article class="d-card"><a class="d-card__link" href="{{ collection.url }}"><div class="d-card__image">{{ collection.featured_image | image_url:width:700 | image_tag:loading:'lazy',alt:collection.title }}</div><h2 style="font-size:1.8rem;margin-top:18px">{{ collection.title }}</h2></a></article>{% endif %}{% endfor %}</div></div>
+{% schema %}{"name":"Dolce · Colecciones","settings":[]}{% endschema %}

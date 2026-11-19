@@ -1,0 +1,253 @@
+{
+  "sections": {
+    "hero": {
+      "type": "dolce-hero",
+      "settings": {
+        "heading": "Tu forma de sentirte.",
+        "description": "Prendas que se sienten como tú. Descubre el lado más Dolce de cada día.",
+        "button": "Descubrir la colección",
+        "link": "/collections/all",
+        "caption": "Del primer detalle a tu próximo favorito.",
+        "product_one": "body-monaco",
+        "product_two": "set-sharlot"
+      }
+    },
+    "categories": {
+      "type": "dolce-categories",
+      "settings": {},
+      "blocks": {
+        "sets": {
+          "type": "collection",
+          "settings": {
+            "collection": "sets",
+            "label": "Sets"
+          }
+        },
+        "bodys": {
+          "type": "collection",
+          "settings": {
+            "collection": "bodys",
+            "label": "Bodys"
+          }
+        },
+        "corsets": {
+          "type": "collection",
+          "settings": {
+            "collection": "corsets",
+            "label": "Corsets"
+          }
+        },
+        "panty": {
+          "type": "collection",
+          "settings": {
+            "collection": "panty",
+            "label": "Pantys"
+          }
+        },
+        "baby-doll": {
+          "type": "collection",
+          "settings": {
+            "collection": "baby-doll",
+            "label": "Baby doll"
+          }
+        }
+      },
+      "block_order": [
+        "sets",
+        "bodys",
+        "corsets",
+        "panty",
+        "baby-doll"
+      ]
+    },
+    "selection": {
+      "type": "dolce-curation",
+      "settings": {
+        "heading": "Tus próximos favoritos.",
+        "description": "Encaje, transparencias y detalles que hacen la diferencia.",
+        "button": "Ver todo",
+        "link": "/collections/all",
+        "collection": "todos-los-productos",
+        "count": 4
+      },
+      "blocks": {
+        "p0": {
+          "type": "product",
+          "settings": {
+            "product": "set-victoria"
+          }
+        },
+        "p1": {
+          "type": "product",
+          "settings": {
+            "product": "corset-isadora"
+          }
+        },
+        "p2": {
+          "type": "product",
+          "settings": {
+            "product": "set-aria"
+          }
+        },
+        "p3": {
+          "type": "product",
+          "settings": {
+            "product": "set-alma"
+          }
+        }
+      },
+      "block_order": [
+        "p0",
+        "p1",
+        "p2",
+        "p3"
+      ]
+    },
+    "editorial": {
+      "type": "dolce-edit",
+      "settings": {
+        "label": "Dentro y fuera",
+        "heading": "Demasiado lindo para esconderlo.",
+        "description": "Un body, tu jean favorito y ganas de salir. Descubre prendas que también se vuelven parte de tu outfit.",
+        "button": "Explorar bodys",
+        "link": "shopify://collections/bodys",
+        "product": "body-isadora",
+        "secondary_product": "body-monaco",
+        "secondary_label": "Descubrir la prenda"
+      }
+    },
+    "moods": {
+      "type": "dolce-moods",
+      "settings": {
+        "heading": "Para cada versión de ti.",
+        "description": "Tu estilo cambia. Tu esencia se queda."
+      },
+      "blocks": {
+        "one": {
+          "type": "mood",
+          "settings": {
+            "heading": "Un momento para ti.",
+            "button": "Descubrir sets",
+            "link": "shopify://collections/sets",
+            "product": "set-gabriela"
+          }
+        },
+        "two": {
+          "type": "mood",
+          "settings": {
+            "heading": "Que la noche sea tuya.",
+            "button": "Descubrir Lexi",
+            "link": "shopify://products/baby-doll-lexi",
+            "product": "baby-doll-lexi"
+          }
+        }
+      },
+      "block_order": [
+        "one",
+        "two"
+      ]
+    },
+    "essentials": {
+      "type": "dolce-curation",
+      "settings": {
+        "heading": "Comodidad, a tu manera.",
+        "description": "Los packs de Dolce para acompañarte cada día.",
+        "button": "Ver pantys",
+        "link": "shopify://collections/panty",
+        "collection": "panty",
+        "count": 4
+      },
+      "blocks": {
+        "p0": {
+          "type": "product",
+          "settings": {
+            "product": "pack-boxer-dama"
+          }
+        },
+        "p1": {
+          "type": "product",
+          "settings": {
+            "product": "pack-brasilera"
+          }
+        },
+        "p2": {
+          "type": "product",
+          "settings": {
+            "product": "promocion-de-brasilera"
+          }
+        },
+        "p3": {
+          "type": "product",
+          "settings": {
+            "product": "set-deportivo"
+          }
+        }
+      },
+      "block_order": [
+        "p0",
+        "p1",
+        "p2",
+        "p3"
+      ]
+    },
+    "service": {
+      "type": "dolce-service",
+      "settings": {},
+      "blocks": {
+        "fit": {
+          "type": "service",
+          "settings": {
+            "icon": "fit",
+            "heading": "Tu ajuste importa",
+            "text": "Tallas y opciones específicas para cada referencia."
+          }
+        },
+        "delivery": {
+          "type": "service",
+          "settings": {
+            "icon": "truck",
+            "heading": "Hasta donde estés",
+            "text": "Envío calculado en la compra. Entrega estimada de 1 a 3 días hábiles tras el despacho."
+          }
+        },
+        "help": {
+          "type": "service",
+          "settings": {
+            "icon": "heart",
+            "heading": "Cerca de ti",
+            "text": "Nuestro equipo te ayuda a elegir por WhatsApp."
+          }
+        }
+      },
+      "block_order": [
+        "fit",
+        "delivery",
+        "help"
+      ]
+    },
+    "film": {
+      "type": "dolce-film",
+      "settings": {
+        "video_source": "https://samuelacuna12.github.io/propuestas-comerciales/dolce/assets/dolce-backstage.mp4",
+        "poster": "shopify://shop_images/dolce-backstage-oficial.jpg",
+        "collection": "todos-los-productos",
+        "source": "https://www.tiktok.com/@dolcelingerie1/video/7470182443706748165",
+        "label": "Detrás de cámaras",
+        "heading": "Antes de tu próximo favorito.",
+        "description": "Una mirada a una sesión de Dolce. Prendas reales, detalles y el trabajo que hay detrás de cada foto.",
+        "button": "Explorar Dolce",
+        "source_label": "Ver publicación oficial"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "categories",
+    "selection",
+    "editorial",
+    "moods",
+    "essentials",
+    "film",
+    "service"
+  ]
+}

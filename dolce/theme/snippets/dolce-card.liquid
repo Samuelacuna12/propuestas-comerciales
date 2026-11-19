@@ -1,0 +1,21 @@
+{% doc %}
+Renders a product card using current Shopify catalog data.
+@param {product} product - Product to display
+{% enddoc %}
+{% liquid
+ assign card_image = product.featured_image
+ assign card_offer_total = 0
+ assign card_pack_label = blank
+ for i in (1..3)
+  assign product_key = 'card_product_' | append:i
+  assign image_key = 'card_image_' | append:i
+  assign total_key = 'card_total_' | append:i
+  assign pack_key = 'card_pack_' | append:i
+  if settings[product_key].id == product.id and settings[image_key] != blank
+   assign card_image = settings[image_key]
+   assign card_offer_total = settings[total_key] | default:0
+   assign card_pack_label = settings[pack_key]
+  endif
+ endfor
+%}
+<article class="d-card"><a class="d-card__link" href="{{ product.url }}"><div class="d-card__image">{% unless product.available %}<span class="d-card__sold">{{ 'dolce.sold_out' | t }}</span>{% endunless %}{% if card_image %}{{ card_image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '250,360,500,700,900', sizes: '(min-width: 750px) 23vw, 46vw', alt: product.title }}{% if product.images[1] %}{{ product.images[1] | image_url: width: 700 | image_tag: class: 'd-card__second', loading: 'lazy', widths: '250,360,500,700', sizes: '(min-width: 750px) 23vw, 46vw', alt: '' }}{% endif %}{% else %}{{ 'product-1' | placeholder_svg_tag }}{% endif %}</div><div class="d-card__meta"><h3>{{ product.title }}</h3><div class="d-card__price">{% if card_offer_total > 0 %}{{ card_offer_total | times:100 | money | replace: ',', '.' }}{% else %}{% if product.price_varies %}{{ 'dolce.from' | t }} {% endif %}{{ product.price | money | replace: ',', '.' }}{% endif %}{% if product.compare_at_price > product.price %} <s>{{ product.compare_at_price | money | replace: ',', '.' }}</s>{% endif %}</div></div>{% if card_pack_label != blank %}<p class="d-card__pack">{{ card_pack_label }}</p>{% endif %}<p class="d-card__colors">{% for option in product.options_with_values %}{% assign option_name = option.name | downcase %}{% if option_name == 'color' %}{{ 'dolce.color_count' | t: count: option.values.size }}{% endif %}{% endfor %}</p></a></article>

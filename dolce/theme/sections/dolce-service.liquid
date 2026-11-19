@@ -1,0 +1,4 @@
+<div class="d-wrap"><div class="d-service">{% for block in section.blocks %}<article {{ block.shopify_attributes }}>{% render 'dolce-icon',name:block.settings.icon %}<div><h3>{{ block.settings.heading }}</h3><p>{{ block.settings.text }}</p></div></article>{% endfor %}</div></div>
+{% schema %}
+{"name":"Dolce · Compra con calma","blocks":[{"type":"service","name":"Información","settings":[{"type":"select","id":"icon","label":"Icono","options":[{"value":"fit","label":"Ajuste"},{"value":"truck","label":"Envío"},{"value":"heart","label":"Atención"}],"default":"heart"},{"type":"text","id":"heading","label":"Título","default":"Estamos para ayudarte"},{"type":"text","id":"text","label":"Texto","default":"Resolvemos tus dudas antes de comprar."}]}],"presets":[{"name":"Dolce · Compra con calma"}]}
+{% endschema %}

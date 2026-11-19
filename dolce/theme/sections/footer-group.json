@@ -1,0 +1,23 @@
+{
+  "name": "Pie de página Dolce",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "dolce-footer",
+      "settings": {
+        "menu": "main-menu",
+        "contact_url": "https://wa.me/573163625694",
+        "wordmark": "dolce",
+        "intro": "Lencería para acompañarte en todas tus formas de ser.",
+        "contact_label": "Hablemos por WhatsApp",
+        "explore_heading": "Descubre Dolce",
+        "help_heading": "Estamos para ti",
+        "address": "Medellín · Transversal 49 d #59-47, piso 7",
+        "currency_label": "Colombia · COP"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

@@ -1,0 +1,213 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Dolce Editorial",
+    "theme_author": "Creati Art",
+    "theme_version": "1.0.0",
+    "theme_documentation_url": "https://dolcelingerie.co",
+    "theme_support_url": "https://dolcelingerie.co"
+  },
+  {
+    "name": "Identidad Dolce",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo"
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon"
+      },
+      {
+        "type": "font_picker",
+        "id": "type_body_font",
+        "label": "Tipografía de lectura",
+        "default": "poppins_n4"
+      },
+      {
+        "type": "select",
+        "id": "display_font",
+        "label": "Tipografía editorial",
+        "options": [
+          {
+            "value": "Georgia",
+            "label": "Georgia"
+          },
+          {
+            "value": "Poppins",
+            "label": "Poppins"
+          }
+        ],
+        "default": "Georgia"
+      },
+      {
+        "type": "color",
+        "id": "d_paper",
+        "label": "Fondo",
+        "default": "#fffaf9"
+      },
+      {
+        "type": "color",
+        "id": "d_ink",
+        "label": "Texto",
+        "default": "#21191c"
+      },
+      {
+        "type": "color",
+        "id": "d_accent",
+        "label": "Botón principal",
+        "default": "#6d2237"
+      },
+      {
+        "type": "color",
+        "id": "d_blush",
+        "label": "Fondo editorial",
+        "default": "#f5e8e8"
+      },
+      {
+        "type": "color",
+        "id": "d_line",
+        "label": "Líneas",
+        "default": "#d8ccce"
+      },
+      {
+        "type": "color",
+        "id": "d_muted",
+        "label": "Texto secundario",
+        "default": "#665b60"
+      }
+    ]
+  },
+  {
+    "name": "Redes sociales",
+    "settings": [
+      {
+        "type": "url",
+        "id": "social_instagram_link",
+        "label": "Instagram"
+      },
+      {
+        "type": "url",
+        "id": "social_tiktok_link",
+        "label": "TikTok"
+      }
+    ]
+  },
+  {
+    "name": "Búsqueda y presentación",
+    "settings": [
+      {
+        "type": "text",
+        "id": "home_seo_title",
+        "label": "Título de portada",
+        "default": "Dolce Lingerie | Lencería, bodys y corsets en Colombia"
+      },
+      {
+        "type": "textarea",
+        "id": "home_seo_description",
+        "label": "Descripción de portada",
+        "default": "Descubre sets de lencería, bodys, corsets y pantys de Dolce Lingerie. Consulta colores y tallas, compra online y recibe en Colombia. Asesoría desde Medellín."
+      }
+    ]
+  },
+  {
+    "name": "Fotos de catálogo",
+    "settings": [
+      {
+        "type": "product",
+        "id": "card_product_1",
+        "label": "Producto con foto elegida 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "card_image_1",
+        "label": "Foto elegida 1"
+      },
+      {
+        "type": "product",
+        "id": "card_product_2",
+        "label": "Producto con foto elegida 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "card_image_2",
+        "label": "Foto elegida 2"
+      },
+      {
+        "type": "product",
+        "id": "card_product_3",
+        "label": "Producto con foto elegida 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "card_image_3",
+        "label": "Foto elegida 3"
+      },
+      {
+        "type": "number",
+        "id": "card_total_1",
+        "label": "Oferta para tarjeta 1: total COP",
+        "default": 0
+      },
+      {
+        "type": "text",
+        "id": "card_pack_1",
+        "label": "Oferta para tarjeta 1: cantidad"
+      },
+      {
+        "type": "number",
+        "id": "card_total_2",
+        "label": "Oferta para tarjeta 2: total COP",
+        "default": 0
+      },
+      {
+        "type": "text",
+        "id": "card_pack_2",
+        "label": "Oferta para tarjeta 2: cantidad"
+      },
+      {
+        "type": "number",
+        "id": "card_total_3",
+        "label": "Oferta para tarjeta 3: total COP",
+        "default": 0
+      },
+      {
+        "type": "text",
+        "id": "card_pack_3",
+        "label": "Oferta para tarjeta 3: cantidad"
+      }
+    ]
+  },
+  {
+    "name": "Contenido editorial oficial",
+    "settings": [
+      {
+        "type": "url",
+        "id": "brand_film_url",
+        "label": "Video oficial de la marca"
+      },
+      {
+        "type": "image_picker",
+        "id": "brand_film_poster",
+        "label": "Portada del video"
+      },
+      {
+        "type": "image_picker",
+        "id": "proof_image1",
+        "label": "Comunidad: imagen oficial 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "proof_image2",
+        "label": "Comunidad: imagen oficial 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "editorial_canvas",
+        "label": "Fondo editorial decorativo"
+      }
+    ]
+  }
+]

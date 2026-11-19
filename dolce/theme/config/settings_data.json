@@ -1,0 +1,67 @@
+{
+  "current": {
+    "logo": "shopify://shop_images/LOGO_DOLCE.png",
+    "favicon": "shopify://shop_images/LOGO_PNG.png",
+    "type_body_font": "poppins_n4",
+    "display_font": "Georgia",
+    "d_paper": "#fffaf9",
+    "d_ink": "#21191c",
+    "d_accent": "#6d2237",
+    "d_blush": "#f5e8e8",
+    "d_line": "#d8ccce",
+    "d_muted": "#665b60",
+    "social_instagram_link": "https://www.instagram.com/dolcelingerie_/?igsh=YXl6c3RiN2c1eWVh",
+    "social_tiktok_link": "https://www.tiktok.com/@dolcelingerie1?_t=8kJhcXYSKEn&_r=1",
+    "blocks": {
+      "13768625480086291342": {
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": false,
+        "settings": {}
+      },
+      "8208493610395315515": {
+        "type": "shopify://apps/dondy-whatsapp-chat-marketing/blocks/app-block/7f5a70cb-e171-4cc7-ac02-e2220203abd6",
+        "disabled": false,
+        "settings": {}
+      },
+      "9790993569898449839": {
+        "type": "shopify://apps/opinew-reviews/blocks/global/e1d8e0dc-17ff-4e4a-8a8a-1e73c8ef8676",
+        "disabled": false,
+        "settings": {}
+      },
+      "2950567246721570496": {
+        "type": "shopify://apps/tabs-studio/blocks/global_embed_block/19980fb9-f2ca-4ada-ad36-c0364c3318b8",
+        "disabled": true,
+        "settings": {
+          "init_type": "fallback",
+          "init_selector": "",
+          "replace_contents": false,
+          "init_timing": "immediate",
+          "custom_script": "",
+          "custom_style": ""
+        }
+      },
+      "13669795325273674392": {
+        "type": "shopify://apps/releasit-cod-form/blocks/app-embed/72faf214-4174-4fec-886b-0d0e8d3af9a2",
+        "disabled": false,
+        "settings": {}
+      }
+    },
+    "home_seo_title": "Dolce Lingerie | Lencería, bodys y corsets en Colombia",
+    "home_seo_description": "Descubre sets de lencería, bodys, corsets y pantys de Dolce Lingerie. Consulta colores y tallas, compra online y recibe en Colombia. Asesoría desde Medellín.",
+    "card_product_1": "pack-boxer-dama",
+    "card_image_1": "shopify://shop_images/Frontal_cc1d5724-930a-45b8-8138-94fff7fcf6ed.png",
+    "card_product_2": "pack-brasilera",
+    "card_image_2": "shopify://shop_images/magnific_task-mirrorselfie-catalog_xSZA0eQjfW.png",
+    "card_product_3": "promocion-de-brasilera",
+    "card_image_3": "shopify://shop_images/7_ba4c8e19-fa96-4975-9a47-44914b850724.jpg",
+    "card_total_1": 79990,
+    "card_pack_1": "5 prendas",
+    "card_total_2": 89990,
+    "card_pack_2": "6 prendas",
+    "card_total_3": 79900,
+    "card_pack_3": "6 prendas",
+    "brand_film_url": "https://samuelacuna12.github.io/propuestas-comerciales/dolce/assets/dolce-backstage.mp4",
+    "brand_film_poster": "shopify://shop_images/dolce-backstage-oficial.jpg",
+    "editorial_canvas": "shopify://shop_images/dolce-editorial-canvas.webp"
+  }
+}
