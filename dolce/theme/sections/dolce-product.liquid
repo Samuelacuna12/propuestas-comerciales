@@ -1,6 +1,6 @@
-{{ 'dolce-product.css' | asset_url | stylesheet_tag }}
+{{ 'dolce-product.css' | asset_url | append: '&dolce=sticky-20261119' | stylesheet_tag }}
 <script src="{{ 'dolce-product.js' | asset_url }}" defer></script>
-<script src="{{ 'dolce-commerce.js' | asset_url }}" defer></script>
+<script src="{{ 'dolce-commerce.js' | asset_url | append: '&dolce=sticky-20261119' }}" defer></script>
 {%- liquid
   assign chosen = product.selected_or_first_available_variant
   assign form_id = 'DolceProduct-' | append: section.id
