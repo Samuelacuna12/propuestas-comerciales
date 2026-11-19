@@ -1,0 +1,11 @@
+{{ 'dolce-banners.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'dolce-banners.js' | asset_url }}" defer></script>
+<section class="d-banners" data-dolce-banners aria-label="Banners oficiales Dolce">
+ <div class="d-banners__track" data-banner-track tabindex="0" aria-label="Desliza para explorar los banners">
+ {% for block in section.blocks %}{% if block.settings.image != blank %}<figure class="d-banners__slide" {{ block.shopify_attributes }}><a href="{{ block.settings.link }}" aria-label="{{ block.settings.alt | escape }}">{{ block.settings.image | image_url: width: 2000 | image_tag: loading:'lazy', widths:'390,585,800,1200,1600,2000', sizes:'100vw', alt:block.settings.alt }}</a></figure>{% endif %}{% endfor %}
+ </div>
+ {% if section.blocks.size > 1 %}<div class="d-banners__controls"><button type="button" data-banner-prev aria-label="Banner anterior">←</button><span data-banner-count aria-live="polite">1 / {{ section.blocks.size }}</span><button type="button" data-banner-next aria-label="Siguiente banner">→</button></div>{% endif %}
+</section>
+{% schema %}
+{"name":"Dolce · Banners","settings":[],"blocks":[{"type":"banner","name":"Banner oficial","settings":[{"type":"image_picker","id":"image","label":"Banner original"},{"type":"text","id":"alt","label":"Descripción accesible","default":"Descubre Dolce Lingerie"},{"type":"url","id":"link","label":"Destino del banner"}]}],"presets":[{"name":"Dolce · Banners"}]}
+{% endschema %}

@@ -1,0 +1,71 @@
+{
+  "verified": "2026-11-19",
+  "active_products": 13,
+  "landings": [
+    {
+      "handle": "body-monaco",
+      "interactive_landing": true,
+      "macro_details": 2
+    },
+    {
+      "handle": "set-sharlot",
+      "interactive_landing": true,
+      "macro_details": 2
+    },
+    {
+      "handle": "baby-doll-lexi",
+      "interactive_landing": true,
+      "macro_details": 2
+    },
+    {
+      "handle": "set-deportivo",
+      "interactive_landing": true,
+      "macro_details": 2
+    },
+    {
+      "handle": "set-gabriela",
+      "interactive_landing": true,
+      "macro_details": 2
+    },
+    {
+      "handle": "promocion-de-brasilera",
+      "interactive_landing": true,
+      "macro_details": 2
+    },
+    {
+      "handle": "set-alma",
+      "interactive_landing": true,
+      "macro_details": 2
+    },
+    {
+      "handle": "set-aria",
+      "interactive_landing": true,
+      "macro_details": 2
+    },
+    {
+      "handle": "corset-isadora",
+      "interactive_landing": true,
+      "macro_details": 2
+    },
+    {
+      "handle": "body-isadora",
+      "interactive_landing": true,
+      "macro_details": 2
+    },
+    {
+      "handle": "set-victoria",
+      "interactive_landing": true,
+      "macro_details": 2
+    },
+    {
+      "handle": "pack-boxer-dama",
+      "interactive_landing": true,
+      "macro_details": 2
+    },
+    {
+      "handle": "pack-brasilera",
+      "interactive_landing": true,
+      "macro_details": 2
+    }
+  ]
+}

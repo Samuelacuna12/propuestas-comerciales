@@ -1,6 +1,9 @@
+{{ 'dolce-showcase.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'dolce-showcase.js' | asset_url }}" defer></script>
 {{ 'dolce-cover.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'dolce-cover.js' | asset_url }}" defer></script>
 {% assign muse = section.settings.product_one %}
+<div class="d-showcase" data-dolce-showcase aria-roledescription="carrusel" aria-label="Colecciones Dolce"><div class="d-showcase__track" data-showcase-track><div class="d-showcase__slide" data-showcase-slide>
 <section class="d-cover" data-dolce-cover data-view="front" aria-label="El universo Dolce">
  <div class="d-cover__grain" aria-hidden="true"></div><p class="d-cover__eyebrow">Dolce Lingerie · La prenda y tú</p>
  <h1>Tu lado<br>más <em>Dolce.</em></h1>
@@ -10,6 +13,13 @@
  <div class="d-cover__switch" role="group" aria-label="Explorar las vistas de Mónaco"><button type="button" data-cover-view="front" aria-pressed="true">01 · Frente</button><button type="button" data-cover-view="back" aria-pressed="false">02 · Espalda</button></div>
  <div class="d-wrap d-cover__bottom"><p>Lencería que también se convierte en tu próximo outfit.</p><div class="d-cover__buy"><div><strong>{{ muse.title | escape }}</strong><span>Descubre la prenda, de cerca.</span></div><a href="{{ muse.url }}">Explorar Mónaco ↗</a></div></div>
 </section>
+</div>
+{% for block in section.blocks %}{% if block.settings.image != blank %}
+<div class="d-showcase__slide d-showcase__campaign" data-showcase-slide {{ block.shopify_attributes }}>
+ <div class="d-showcase__ambient" style="background-image:url('{{ block.settings.image | image_url: width: 900 }}')" aria-hidden="true"></div>
+ <div class="d-showcase__campaign-inner"><p class="d-showcase__edition">DOLCE LINGERIE · {{ block.settings.label | escape }}</p><a class="d-showcase__art" href="{{ block.settings.link }}">{{ block.settings.image | image_url: width: 2000 | image_tag: loading:'lazy', widths:'390,585,800,1200,1600,2000', sizes:'100vw', alt:block.settings.alt }}</a><a class="d-showcase__cta" href="{{ block.settings.link }}">Explorar la colección ↗</a></div>
+</div>{% endif %}{% endfor %}
+</div><div class="d-showcase__navigation"><button type="button" data-showcase-prev aria-label="Diapositiva anterior">←</button><div class="d-showcase__dots" role="group" aria-label="Elegir banner"><button type="button" data-showcase-dot="0" aria-pressed="true">01 · Editorial</button>{% for block in section.blocks %}<button type="button" data-showcase-dot="{{ forloop.index }}" aria-pressed="false">0{{ forloop.index | plus: 1 }} · {{ block.settings.label | escape }}</button>{% endfor %}</div><button type="button" data-showcase-next aria-label="Siguiente diapositiva">→</button></div></div>
 {% schema %}
-{"name":"Dolce · Portada","settings":[{"type":"text","id":"heading","label":"Título","default":"Tu forma de sentirte."},{"type":"text","id":"description","label":"Descripción","default":"Prendas que se sienten como tú. Descubre el lado más Dolce de cada día."},{"type":"text","id":"button","label":"Botón","default":"Descubrir la colección"},{"type":"url","id":"link","label":"Destino"},{"type":"text","id":"caption","label":"Nota editorial","default":"Del primer detalle a tu próximo favorito."},{"type":"product","id":"product_one","label":"Producto imagen principal"},{"type":"product","id":"product_two","label":"Producto imagen secundaria"},{"type":"image_picker","id":"image_one","label":"Imagen principal alternativa"},{"type":"image_picker","id":"image_two","label":"Imagen secundaria alternativa"}],"presets":[{"name":"Dolce · Portada"}]}
+{"name": "Dolce · Portada", "settings": [{"type": "text", "id": "heading", "label": "Título", "default": "Tu forma de sentirte."}, {"type": "text", "id": "description", "label": "Descripción", "default": "Prendas que se sienten como tú. Descubre el lado más Dolce de cada día."}, {"type": "text", "id": "button", "label": "Botón", "default": "Descubrir la colección"}, {"type": "url", "id": "link", "label": "Destino"}, {"type": "text", "id": "caption", "label": "Nota editorial", "default": "Del primer detalle a tu próximo favorito."}, {"type": "product", "id": "product_one", "label": "Producto imagen principal"}, {"type": "product", "id": "product_two", "label": "Producto imagen secundaria"}, {"type": "image_picker", "id": "image_one", "label": "Imagen principal alternativa"}, {"type": "image_picker", "id": "image_two", "label": "Imagen secundaria alternativa"}], "presets": [{"name": "Dolce · Portada"}], "blocks": [{"type": "banner", "name": "Banner oficial", "settings": [{"type": "image_picker", "id": "image", "label": "Banner original"}, {"type": "text", "id": "label", "label": "Nombre corto", "default": "Colección"}, {"type": "text", "id": "alt", "label": "Descripción accesible", "default": "Dolce Lingerie"}, {"type": "url", "id": "link", "label": "Destino"}]}]}
 {% endschema %}

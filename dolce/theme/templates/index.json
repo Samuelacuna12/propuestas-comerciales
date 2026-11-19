@@ -10,7 +10,31 @@
         "caption": "Del primer detalle a tu próximo favorito.",
         "product_one": "body-monaco",
         "product_two": "set-sharlot"
-      }
+      },
+      "blocks": {
+        "slide_HngXrg": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Beige_Minimalist_Mother_s_Day_Sale_Promotional_Banner_1.jpg",
+            "alt": "Dolce Lingerie · Campaña oficial 1",
+            "link": "https://dolcelingerie.co/collections/productos-sugeridos",
+            "label": "Colección"
+          }
+        },
+        "slide_Fptjma": {
+          "type": "banner",
+          "settings": {
+            "image": "shopify://shop_images/Beige_Minimalist_Mother_s_Day_Sale_Promotional_Banner_9.png",
+            "alt": "Dolce Lingerie · Campaña oficial 2",
+            "link": "https://dolcelingerie.co/collections/productos-sugeridos",
+            "label": "Detalles"
+          }
+        }
+      },
+      "block_order": [
+        "slide_HngXrg",
+        "slide_Fptjma"
+      ]
     },
     "categories": {
       "type": "dolce-categories",
