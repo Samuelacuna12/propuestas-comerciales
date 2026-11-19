@@ -1,0 +1,41 @@
+{% doc %}
+  Editorial detail and an accessible modal magnification of the same official photograph.
+  @param {image} photo - Source photo
+  @param profile - Verified crop and product copy
+  @param {string} detail_id - Stable anchor ID
+  @param {string} letter - Cross-reference to silhouette marker
+  @param {string} fallback_title - Detail title for a merchant-supplied photo
+  @param {string} fallback_copy - Description when the merchant selected the photo
+{% enddoc %}
+{% if photo != blank %}
+  {% liquid
+    assign title = profile[11] | default: fallback_title
+    assign copy = profile[12] | default: fallback_copy
+    assign description = title | append: ' · ' | append: photo.alt
+    assign crop_x = profile[8] | default: 50
+    assign crop_y = profile[9] | default: 50
+    assign crop_width = profile[10] | default: 100
+  %}
+  <article class="d-atelier-detail d-atelier-detail--{{ letter | downcase }}" id="{{ detail_id }}"
+    style="--crop-x:-{{ crop_x }}%;--crop-y:-{{ crop_y }}%;--crop-width:{{ crop_width }}%">
+    <a class="d-atelier-detail__plate" href="{{ photo | image_url: width: 2000 }}" data-atelier-detail="{{ detail_id }}"
+      aria-label="{{ 'dolce.product.zoom' | t | escape }} · {{ title | escape }}">
+      <span class="d-atelier-crop">{{ photo | image_url: width: 1100 | image_tag: widths: '480,720,900,1100', sizes: '(min-width: 750px) 620px, 90vw', loading: 'lazy', alt: description }}</span>
+      <span class="d-atelier-detail__magnify" aria-hidden="true">+</span>
+    </a>
+    <div class="d-atelier-detail__caption">
+      <span class="d-atelier-detail__letter" aria-hidden="true">{{ letter }}</span>
+      <h4>{{ title | escape }}</h4>
+    </div>
+    <dialog class="d-atelier-dialog" data-atelier-dialog="{{ detail_id }}" aria-labelledby="{{ detail_id }}-title">
+      <form method="dialog"><button type="submit" aria-label="{{ 'dolce.product.close' | t | escape }}" autofocus>×</button></form>
+      <div class="d-atelier-dialog__photo">
+        <span class="d-atelier-crop" data-atelier-magnified data-source="{{ photo | image_url: width: 2100 }}" data-description="{{ description | escape }}"></span>
+      </div>
+      <div class="d-atelier-dialog__caption">
+        <span class="d-atelier-detail__letter" aria-hidden="true">{{ letter }}</span>
+        <div><h3 id="{{ detail_id }}-title">{{ title | escape }}</h3>{% if copy != blank %}<p>{{ copy | escape }}</p>{% endif %}</div>
+      </div>
+    </dialog>
+  </article>
+{% endif %}

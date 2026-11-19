@@ -1,44 +1,99 @@
 {% doc %}
-Renders product-specific editorial photography, native sales copy and official brand media.
-@param {product} product - Current product
-@param {block} story - Matching merchant-editable product story
-@param gallery - Ordered product media
+  Product-specific editorial, official photography and brand media.
+  @param {product} product - Current product
+  @param {block} story - Merchant-editable story
+  @param gallery - Ordered product media
 {% enddoc %}
 {{ 'dolce-sales-story.css' | asset_url | stylesheet_tag }}
-{% liquid
- assign detail_one = story.settings.detail_image_one
- assign detail_two = story.settings.detail_image_two
- if detail_one == blank
-  assign detail_one = gallery[1].preview_image | default:gallery[0].preview_image
- endif
- if detail_two == blank
-  assign detail_two = gallery[2].preview_image | default:gallery[0].preview_image
- endif
- assign editorial = story.settings.sales_editorial
- assign detail_alt = product.title | append:' · Dolce Lingerie'
- assign community_alt = 'dolce.sales.community_alt' | t
-%}
+{% assign community_alt = 'dolce.sales.community_alt' | t %}
 {% if story.settings.sales_heading1 != blank %}
-<section class="d-sales-editorial{% if editorial %} d-sales-editorial--composite{% endif %}" style="--d-editorial-canvas:url('{{ settings.editorial_canvas | image_url: width: 1200 }}')" aria-labelledby="DolceNarrativeOne-{{ product.id }}">
- <div class="d-wrap d-sales-editorial__inner">
-  <span class="d-sales-editorial__watermark" aria-hidden="true">DOLCE</span>
-  <header class="d-sales-editorial__header"><p class="d-sales-label">{{ 'dolce.sales.look_closer' | t }}<span>{{ product.title | escape }}</span></p><h2 id="DolceNarrativeOne-{{ product.id }}">{{ story.settings.sales_heading1 | escape }}</h2></header>
-  {% if editorial %}
-   <div class="d-sales-composite"><button type="button" data-zoom="{{ editorial | image_url:width:2400 }}" data-zoom-alt="{{ detail_alt | escape }}" aria-label="{{ 'dolce.product.zoom' | t }}">{{ editorial | image_url:width:1600 | image_tag: loading:'lazy', widths:'390,585,800,1200,1600', sizes:'(min-width:1552px) 1440px,100vw', alt:detail_alt }}<span class="d-sales-editorial__zoom" aria-hidden="true">+</span></button></div>
-  {% else %}
-   <div class="d-sales-collage">
-    {% if detail_one %}<figure class="d-sales-collage__first"><button type="button" data-zoom="{{ detail_one | image_url:width:2000 }}" data-zoom-alt="{{ detail_alt | escape }}" aria-label="{{ 'dolce.product.zoom' | t }}">{{ detail_one | image_url:width:1100 | image_tag: loading:'lazy', widths:'390,585,800,1100', sizes:'(min-width:900px) 49vw,60vw', alt:detail_alt }}<span class="d-sales-editorial__zoom" aria-hidden="true">+</span></button><figcaption>{{ product.title | escape }}<span>Dolce Lingerie</span></figcaption></figure>{% endif %}
-    {% if detail_two %}<figure class="d-sales-collage__second"><button type="button" data-zoom="{{ detail_two | image_url:width:2000 }}" data-zoom-alt="{{ detail_alt | escape }}" aria-label="{{ 'dolce.product.zoom' | t }}">{{ detail_two | image_url:width:1000 | image_tag: loading:'lazy', widths:'390,585,800,1000', sizes:'(min-width:900px) 43vw,57vw', alt:detail_alt }}<span class="d-sales-editorial__zoom" aria-hidden="true">+</span></button></figure>{% endif %}
-    {% if detail_one %}<figure class="d-sales-collage__detail">{{ detail_one | image_url:width:700 | image_tag: loading:'lazy', widths:'240,350,500,700', sizes:'(min-width:900px) 22vw,32vw', alt:detail_alt }}<figcaption>{{ 'dolce.sales.made_of_details' | t }}</figcaption></figure>{% endif %}
-    <span class="d-sales-collage__vertical" aria-hidden="true">DOLCE LINGERIE</span>
-   </div>
-  {% endif %}
-  <div class="d-sales-editorial__captions">
-   <div class="d-sales-editorial__caption d-sales-editorial__caption--first"><span class="d-sales-editorial__index" aria-hidden="true">01</span><p>{{ story.settings.sales_text1 | escape }}</p><a href="#DolcePdp-{{ section.id }}" class="d-text-link">{{ 'dolce.sales.return_options' | t }}</a></div>
-   {% if story.settings.sales_heading2 != blank %}<div class="d-sales-editorial__caption d-sales-editorial__caption--second"><span class="d-sales-editorial__index" aria-hidden="true">02</span><h3>{{ story.settings.sales_heading2 | escape }}</h3><p>{{ story.settings.sales_text2 | escape }}</p>{% if section.settings.whatsapp_url != blank %}<a href="{{ section.settings.whatsapp_url }}" class="d-text-link" target="_blank" rel="noopener">{{ 'dolce.sales.ask_dolce' | t }}</a>{% endif %}</div>{% endif %}
-  </div>
- </div>
-</section>
+  <script src="{{ 'dolce-editorial-motion.js' | asset_url }}" defer></script>
+  {%- capture front_data -%}{% render 'dolce-atelier-profile', handle: product.handle, view: 'front' %}{%- endcapture -%}
+  {%- capture reverse_data -%}{% render 'dolce-atelier-profile', handle: product.handle, view: 'reverse' %}{%- endcapture -%}
+  {%- capture scene_name -%}{% render 'dolce-atelier-profile', handle: product.handle, view: 'scene' %}{%- endcapture -%}
+  {% liquid
+    assign front = front_data | strip | split: '~'
+    assign reverse = reverse_data | strip | split: '~'
+    assign scene_name = scene_name | strip
+    assign front_photo = nil
+    assign reverse_photo = nil
+    assign scene_photo = nil
+    for photograph in product.images
+      assign filename = photograph.src | split: '?' | first | split: '/' | last
+      if filename == front[0]
+        assign front_photo = photograph
+      elsif filename == reverse[0]
+        assign reverse_photo = photograph
+      elsif filename == scene_name
+        assign scene_photo = photograph
+      endif
+    endfor
+    if front_photo == blank
+      assign front = nil
+      assign front_photo = gallery[0].preview_image
+    endif
+    if reverse_photo == blank
+      assign reverse = nil
+      assign reverse_photo = gallery[1].preview_image
+    endif
+    assign plate_one = story.settings.detail_image_one | default: front_photo
+    assign plate_two = story.settings.detail_image_two | default: reverse_photo
+    assign plate_one_profile = front
+    assign plate_two_profile = reverse
+    if story.settings.detail_image_one != blank
+      assign plate_one_profile = nil
+    endif
+    if story.settings.detail_image_two != blank
+      assign plate_two_profile = nil
+    endif
+    assign scene_photo = story.settings.sales_editorial | default: scene_photo
+    assign story_id = 'DolceAtelier-' | append: section.id | append: '-' | append: product.id
+    assign detail_a = story_id | append: '-A'
+    assign detail_b = story_id | append: '-B'
+    assign fallback_title = 'dolce.details' | t
+  %}
+  <dolce-atelier-reader class="d-atelier" role="region" aria-labelledby="{{ story_id }}-heading"
+    {% if settings.editorial_canvas != blank %}style="--atelier-paper:url('{{ settings.editorial_canvas | image_url: width: 1600 }}')"{% endif %}>
+    <nav class="d-atelier-rail" aria-label="{{ 'dolce.sales.editorial_navigation' | t | escape }}">
+      <div class="d-atelier-rail__inner">
+        <span class="d-atelier-rail__name">{{ product.title | escape }}</span>
+        <div class="d-atelier-rail__links">
+          <a href="#{{ story_id }}-silhouette" data-atelier-jump="silhouette">{{ 'dolce.sales.silhouette' | t }}</a>
+          <a href="#{{ story_id }}-details" data-atelier-jump="details">{{ 'dolce.details' | t }}</a>
+        </div>
+      </div>
+      <span class="d-atelier-rail__progress" aria-hidden="true"></span>
+    </nav>
+    <div class="d-atelier__sheet">
+      <div class="d-atelier-opening" id="{{ story_id }}-silhouette" data-atelier-chapter="silhouette">
+        <span class="d-atelier-opening__word" aria-hidden="true">Dolce</span>
+        <header class="d-atelier-opening__copy">
+          <p class="d-atelier-kicker">{{ 'dolce.sales.look_closer' | t }}</p>
+          <h2 id="{{ story_id }}-heading">{{ story.settings.sales_heading1 | escape }}</h2>
+        </header>
+        {% render 'dolce-atelier-view', photo: front_photo, profile: front, view: 'front', detail_id: detail_a, letter: 'A', product_name: product.title %}
+        {% render 'dolce-atelier-view', photo: reverse_photo, profile: reverse, view: 'reverse', detail_id: detail_b, letter: 'B', product_name: product.title %}
+        <div class="d-atelier-opening__note"><p>{{ story.settings.sales_text1 | escape }}</p></div>
+      </div>
+      <div class="d-atelier-study{% unless scene_photo %} d-atelier-study--two-views{% endunless %}" id="{{ story_id }}-details" data-atelier-chapter="details">
+        <h3 class="d-visually-hidden">{{ 'dolce.details' | t }}</h3>
+        {% render 'dolce-atelier-detail', photo: plate_one, profile: plate_one_profile, detail_id: detail_a, letter: 'A', fallback_title: fallback_title, fallback_copy: story.settings.sales_text1 %}
+        {% if scene_photo %}
+          <figure class="d-atelier-study__scene">
+            <button type="button" data-zoom="{{ scene_photo | image_url: width: 2000 }}" data-zoom-alt="{{ product.title | escape }}" aria-label="{{ 'dolce.product.zoom' | t | escape }} · {{ product.title | escape }}">
+              {{ scene_photo | image_url: width: 900 | image_tag: widths: '300,450,650,900', sizes: '(min-width: 1050px) 360px, 44vw', loading: 'lazy', alt: product.title }}
+            </button>
+          </figure>
+        {% endif %}
+        {% render 'dolce-atelier-detail', photo: plate_two, profile: plate_two_profile, detail_id: detail_b, letter: 'B', fallback_title: fallback_title, fallback_copy: story.settings.sales_text2 %}
+        <div class="d-atelier-study__copy">
+          {% if story.settings.sales_heading2 != blank %}<h3>{{ story.settings.sales_heading2 | escape }}</h3>{% endif %}
+          {% if story.settings.sales_text2 != blank %}<p>{{ story.settings.sales_text2 | escape }}</p>{% endif %}
+          <a class="d-atelier-buy" href="#DolceProduct-{{ section.id }}">{{ 'dolce.sales.return_options' | t }} <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </div>
+  </dolce-atelier-reader>
 {% endif %}
 {% if settings.brand_film_url != blank %}
 <section class="d-sales-backstage" aria-labelledby="DolceBackstageHeading-{{ product.id }}">

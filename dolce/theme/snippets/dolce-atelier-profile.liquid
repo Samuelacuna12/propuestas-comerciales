@@ -1,0 +1,126 @@
+{%- doc -%}
+  Returns the art direction for an official catalog photograph. Match filenames before applying a matte.
+  Fields are filename, mask, image width, source left and top, frame ratio, marker x/y,
+  crop center x/y, crop zoom, detail title, detail description, full-view alt.
+  @param {string} handle - Product handle
+  @param {string} view - front, reverse or scene
+{%- enddoc -%}
+{%- liquid
+  case handle
+    when 'body-monaco'
+      case view
+        when 'front'
+          echo 'DSC4124.jpg~atelier-body-monaco-2.png~161.08~8.99~3.0~0.427~53.17~37.11~42~39~256.41~La copa~La copa tipo brasier y las varillas dibujan el escote del body en licra gruesa.~Mónaco de frente en palo de rosa'
+        when 'reverse'
+          echo 'DSC4172.jpg~atelier-body-monaco-3.png~137.65~10.53~8.46~0.5294~36.43~37.73~37~43~294.12~Las cargaderas~Las cargaderas de Mónaco se pueden ajustar o retirar. Aquí se ve cómo se unen a la espalda.~Espalda del body Mónaco en palo de rosa'
+        when 'scene'
+          echo 'DSC4270.jpg'
+      endcase
+    when 'set-sharlot'
+      case view
+        when 'front'
+          echo 'manga_59d34920-ad67-4ec3-ad37-8b64af7ff3ef.png~atelier-set-sharlot-1.png~117.16~0~4.48~0.7148~53.9~45.56~46~48~232.56~El encaje~La copa de Sharlot lleva encaje y forro interno en mallatex. Las tiras cruzan el escote por delante.~Set Sharlot blanco de frente'
+        when 'reverse'
+          echo '5_ff51d697-f873-4726-b9be-88517dea2f77.png~atelier-set-sharlot-back.png~157.23~14.08~0~0.5088~56.48~55.0~50~55~277.78~El broche~La banda de encaje se abrocha en el centro de la espalda. Las cargaderas permiten regular el largo.~Espalda del set Sharlot en rojo'
+        when 'scene'
+          echo '6_74e1e1c9-e7c1-4398-a882-4ee8c305743f.png'
+      endcase
+    when 'baby-doll-lexi'
+      case view
+        when 'front'
+          echo 'DSC3916_1.jpg~atelier-baby-doll-lexi-1.png~241.14~28.41~3.35~0.2874~47.24~29.76~48~32~400.0~Las copas~Las copas de encaje se encuentran en el centro del escote. Debajo se abre el mallatex rojo.~Baby Doll Lexi rojo de cuerpo entero'
+        when 'reverse'
+          echo 'DSC3952_1.jpg~atelier-baby-doll-lexi-3.png~130.62~10.53~4.14~0.5328~30.66~42.62~34~45~322.58~La espalda~Las cargaderas ajustables se unen al borde superior de la espalda.~Baby Doll Lexi rojo visto por detrás'
+        when 'scene'
+          echo 'DSC3934_1.jpg'
+      endcase
+    when 'set-deportivo'
+      case view
+        when 'front'
+          echo 'manga.png~atelier-set-deportivo-1.png~189.9~29.85~9.82~0.4672~40.16~53.43~51~58~263.16~La banda con letras~El top blanco de Chattie termina en una banda con letras a contraste.~Set Chattie blanco de frente'
+        when 'reverse'
+          echo '2_ce7c35de-6cca-473f-8429-cc75ce9d389e.png~atelier-set-deportivo-2.png~122.07~6.7~0.16~0.6564~51.64~68.95~49~69~250.0~La cintura~En la espalda del panty se repite la banda con letras del top.~Vista posterior de Chattie en blanco'
+        when 'scene'
+          echo '4_fae2b3d0-d619-494b-887f-983a54c1c139.png'
+      endcase
+    when 'set-gabriela'
+      case view
+        when 'front'
+          echo '2_07647dc0-07bb-4ce0-ab54-62e9e5a3c283.png~atelier-set-gabriela-1.png~156.2~10.11~0.05~0.5124~52.94~51.98~44~52~277.78~El encaje~De cerca se distinguen el dibujo del encaje negro y el borde que perfila la copa.~Gabriela en negro, vista frontal'
+        when 'reverse'
+          echo '4_8c241156-954c-4f83-8d45-cff01594beb0.png~atelier-set-gabriela-3.png~105.41~0~0~0.7589~53.76~42.0~51~42~188.68~Las tiras cruzadas~Las tiras negras se cruzan entre los dos lados del brasier en la espalda.~Espalda de Gabriela con las tiras negras cruzadas'
+        when 'scene'
+          echo '5_e8184338-25bb-420b-8f31-f12b2de6456d.png'
+      endcase
+    when 'promocion-de-brasilera'
+      case view
+        when 'front'
+          echo '7_ba4c8e19-fa96-4975-9a47-44914b850724.jpg~atelier-promocion-de-brasilera-1.png~105.6~1.44~35.96~1.2482~65.01~37.96~63~59~312.5~El dibujo del encaje~El dibujo floral se aprecia de cerca en la tanga azul del trío.~Tres tangas de encaje fotografiadas sobre un fondo claro'
+        when 'reverse'
+          echo '3_1abc84f8-0ff2-4c10-96f7-81ed24dfd71e.jpg~atelier-promocion-de-brasilera-3.png~109.34~0~0~0.7317~79.82~34.0~73~34~333.33~La unión lateral~Una argolla une la tira azul al frente de encaje. La tanga se puede graduar a los lados.~Vista puesta de la tanga azul de encaje'
+        when 'scene'
+          echo 'WhatsApp_Image_2026-02-02_at_11.40.23_PM.jpg'
+      endcase
+    when 'set-alma'
+      case view
+        when 'front'
+          echo 'WhatsAppImage2026-02-18at6.24.51PM.jpg~atelier-set-alma-1.png~131.82~11.12~1.41~0.5517~59.16~46.24~56~47~312.5~El mallatex~Sobre el fondo marfil se distinguen los pequeños puntos de brillo del bralette.~Bralette y panty del set Alma en marfil'
+        when 'reverse'
+          echo 'WhatsAppImage2026-02-18at6.24.51PM_1.jpg~atelier-set-alma-2.png~143.62~9.6~0~0.4748~43.66~77.0~40~77~303.03~El perfil del panty~El borde marfil sigue la curva de la cadera y enmarca el tejido con puntos de brillo.~Alma de perfil en marfil'
+      endcase
+    when 'set-aria'
+      case view
+        when 'front'
+          echo 'IMG_9246.jpg~atelier-set-aria-1.png~158.23~12.36~20.62~0.5917~57.97~55.91~49~65~277.78~El borde de la copa~Un borde de encaje recorre el escote del bralette verde botella.~Aria de frente, en verde botella'
+        when 'reverse'
+          echo 'IMG_9248.jpg~atelier-set-aria-back.png~184.81~19.56~16.19~0.4761~30.38~46.31~36~55~370.37~La cargadera~La cargadera graduable acompaña la espalda del bralette de polilicra.~Set Aria verde botella visto desde atrás'
+        when 'scene'
+          echo 'IMG_9250.jpg'
+      endcase
+    when 'corset-isadora'
+      case view
+        when 'front'
+          echo 'WhatsAppImage2026-02-26at2.43.43PM_3.jpg~atelier-corset-isadora-1.png~149.88~12.89~19.6~0.6402~52.62~55.22~48~64~277.78~La copa~El borde y la costura inferior perfilan la copa de la versión dorada.~Corset Isadora dorado de frente'
+        when 'reverse'
+          echo 'WhatsAppImage2026-02-26at2.43.57PM.jpg~atelier-corset-isadora-back.png~162.23~17.38~16.64~0.537~43.19~65.21~44~71~312.5~La espalda ajustable~Las tiras horizontales de Isadora permiten regular el ajuste de la espalda.~Espalda ajustable de Isadora en dorado'
+        when 'scene'
+          echo 'WhatsAppImage2026-02-26at2.43.43PM.jpg'
+      endcase
+    when 'body-isadora'
+      case view
+        when 'front'
+          echo 'WhatsAppImage2026-04-08at4.50.36PM.jpg~atelier-body-isadora-1.png~297.35~30.97~21.19~0.3~53.61~23.81~49~39~333.33~El escote~El corte off shoulder deja los hombros a la vista y dibuja una línea horizontal en el escote.~Body Leia blanco con los hombros descubiertos'
+        when 'reverse'
+          echo 'WhatsAppImage2026-04-08at4.50.35PM.jpg~atelier-body-isadora-2.png~298.86~32.84~19.25~0.3127~81.17~36.07~60~45~454.55~Las mangas~La malla de las mangas deja ver la piel en contraste con el cuerpo negro.~Body Leia negro con mangas de malla'
+        when 'scene'
+          echo 'WhatsAppImage2026-04-08at4.50.36PM_1.jpg'
+      endcase
+    when 'set-victoria'
+      case view
+        when 'front'
+          echo 'IMG_7243_JPG.jpg~atelier-set-victoria-1.png~144.43~13.59~29.48~0.655~51.14~31.93~49~52~357.14~La blonda~La blonda blanca se distingue entre el borde recto del escote y la banda inferior.~Set Victoria blanco llevado con pantalón claro'
+        when 'reverse'
+          echo 'IMG_7233_JPG.jpg~atelier-set-victoria-back.png~145.52~20.18~0~0.6872~52.12~48.0~56~48~333.33~La espalda~La banda de blonda color vino recorre la espalda entre las dos cargaderas.~Set Victoria vino desde atrás con jeans'
+        when 'scene'
+          echo 'IMG_7230_JPG.jpg'
+      endcase
+    when 'pack-boxer-dama'
+      case view
+        when 'front'
+          echo 'Frontal_cc1d5724-930a-45b8-8138-94fff7fcf6ed.png~atelier-pack-boxer-dama-1.png~101.0~0.99~0~0.6605~54.55~40.0~55~40~232.56~El elástico tejido~La cintura en jacquard lleva el nombre de la marca tejido sobre el elástico.~Boxer blanco con elástico negro, vista frontal'
+        when 'reverse'
+          echo 'Trasero.jpg~atelier-pack-boxer-dama-2.png~129.17~8.65~0~0.5164~67.62~60.0~61~60~227.27~La terminación~Una costura remata el borde de la pierna del boxer de algodón.~Boxer blanco visto desde atrás'
+        when 'scene'
+          echo 'Lateral_6f673cbb-e145-4652-8908-38dc3c03bcc2.jpg'
+      endcase
+    when 'pack-brasilera'
+      case view
+        when 'front'
+          echo 'magnific_task-mirrorselfie-catalog_xSZA0eQjfW.png~atelier-pack-brasilera-1.png~110.75~9.71~0~0.5079~35.76~45.0~42~45~294.12~La tira lateral~La pieza que une la tira al frente se ve en el costado del panty beige.~Brasilera beige de frente'
+        when 'reverse'
+          echo 'magnific_task-mirrorselfie-catalog_ovrxTWp829.png~atelier-pack-brasilera-2.png~100.0~0~0~0.5625~53.0~53.0~53~53~256.41~El corte posterior~El elástico bordea la cintura y el panel de poli lycra se estrecha hacia abajo.~Espalda de la brasilera en tono vino'
+        when 'scene'
+          echo 'magnific_task-fullbody-studio-cata_LwAzmICswO.png'
+      endcase
+  endcase
+-%}

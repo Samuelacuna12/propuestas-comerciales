@@ -1,4 +1,6 @@
 (()=>{
+  const colorMedia={"body-monaco":{"NEGRO":"DSC4195.jpg","BLANCO":"DSC4270.jpg","PALO DE ROSA":"DSC4124.jpg"},"set-sharlot":{"BLANCO":"manga_59d34920-ad67-4ec3-ad37-8b64af7ff3ef.png","ROJO":"3_e22096b0-8fc8-470c-9e6e-2c3ec5dd2b4d.png","MELON":"6_74e1e1c9-e7c1-4398-a882-4ee8c305743f.png"},"baby-doll-lexi":{"ROJO":"DSC3916_1.jpg","NEGRO":"DSC3959_1.jpg"},"set-deportivo":{"BLANCO":"manga.png","NEGRO":"4_fae2b3d0-d619-494b-887f-983a54c1c139.png"},"set-gabriela":{"NEGRO":"2_07647dc0-07bb-4ce0-ab54-62e9e5a3c283.png","BLANCO":"5_e8184338-25bb-420b-8f31-f12b2de6456d.png","MELON":"8_4b0d1126-66fd-468b-b78b-f3f95f8c652b.png"},"set-alma":{"MARFIL":"WhatsAppImage2026-02-18at6.24.51PM.jpg"},"set-aria":{"VERDE BOTELLA":"IMG_9246.jpg","ROSA":"IMG_9250.jpg","NEGRO":"IMG_9247.jpg","ROJO":"IMG_9249.jpg"},"corset-isadora":{"DORADO":"WhatsAppImage2026-02-26at2.43.43PM_3.jpg","BLANCO":"WhatsAppImage2026-02-26at2.43.43PM_1.jpg","ROJO CEREZA":"WhatsAppImage2026-02-26at2.43.43PM.jpg"},"body-isadora":{"BLANCO":"WhatsAppImage2026-04-08at4.50.36PM.jpg","NEGRO":"WhatsAppImage2026-04-08at4.50.35PM.jpg","COCOA":"Gemini_Generated_Image_uoc5u1uoc5u1uoc5.png","MARFIL":"WhatsAppImage2026-04-08at4.50.36PM_1.jpg"},"set-victoria":{"MARFIL":"IMG_7243_JPG.jpg","VINO":"IMG_7238_JPG.jpg","NEGRO":"IMG_7230_JPG.jpg"},"pack-boxer-dama":{"BLANCO":"Frontal_cc1d5724-930a-45b8-8138-94fff7fcf6ed.png","GRIS":"magnific_task-imagegeneration-mode_jUOomlfLD0.jpg","AZUL OSCURO":"Frontal.png","NEGRO":"Frontal_3cca986f-43b9-4e34-acfc-e3a90041d569.png","ROSA":"Frontal_08cd1c10-7cd7-401a-95cf-6f093e5dc83a.png","MARFIL":"Lateral_6f673cbb-e145-4652-8908-38dc3c03bcc2.jpg"},"pack-brasilera":{"VINO":"magnific_task-mirrorselfie-catalog_P3DpPlr42C.png","AZUL CIELO":"magnific_task-mirrorselfie-catalog_YMfE0eUWeC.png","MARFIL":"magnific_task-mirrorselfie-catalog_xSZA0eQjfW.png","BLANCO":"magnific_task-mirrorselfie-catalog_Bh1rDjpoQR.png","AMARILLO PASTEL":"magnific_task-mirrorselfie-catalog_TdQF7WtVNR.png","NEGRO":"magnific_task-fullbody-studio-cata_LwAzmICswO.png","COCOA":"magnific_task-mirrorselfie-catalog_WDCuFLLcXe.png"}};
+
   const initialize=(root)=>{
     if(root.dataset.initialized)return;
     root.dataset.initialized='true';
@@ -61,7 +63,14 @@
         compare.hidden=!(variant.compare_at_price>variant.price);
         if(!compare.hidden)compare.textContent=formatMoney(variant.compare_at_price);
         if(updateUrl){const url=new URL(location.href);url.searchParams.set('variant',variant.id);history.replaceState({},'',url);}
-        if(moveMedia&&variant.featured_media){const index=slides.findIndex(s=>s.dataset.mediaId===String(variant.featured_media.id));if(index>=0)goToMedia(index);}
+        if(moveMedia){
+          const colorIndex=product.options.findIndex(option=>String(typeof option==='string'?option:option.name).toLowerCase()==='color');
+          const color=String(variant.options[colorIndex]||'').toLocaleUpperCase('es');
+          const filename=colorMedia[product.handle]?.[color];
+          let index=filename?slides.findIndex(slide=>decodeURIComponent(slide.dataset.mediaSrc||'').split('/').pop()===decodeURIComponent(filename)):-1;
+          if(index<0&&variant.featured_media)index=slides.findIndex(slide=>slide.dataset.mediaId===String(variant.featured_media.id));
+          if(index>=0)goToMedia(index);
+        }
       }
       setAvailability();
     };
@@ -142,7 +151,7 @@
       dialog.addEventListener('click',event=>{if(event.target===dialog){const rect=dialog.getBoundingClientRect();if(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom)dialog.close();}});
       dialog.addEventListener('close',()=>dialog._dolceTrigger?.focus());
     });
-    renderVariant(selected,false,false);
+    renderVariant(selected,false,true);
   };
   const initializeAll=(scope=document)=>scope.querySelectorAll('[data-dolce-product]').forEach(initialize);
   if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',()=>initializeAll(),{once:true});else initializeAll();

@@ -1,0 +1,25 @@
+{% doc %}
+  Displays an official catalog photograph and its product-specific silhouette matte.
+  @param {image} photo - Shopify photograph
+  @param profile - Verified framing and detail metadata
+  @param {string} view - front or reverse
+  @param {string} detail_id - Related detail caption anchor
+  @param {string} product_name - Accessible fallback photo name
+  @param {string} letter - Detail marker
+{% enddoc %}
+{% if photo != blank %}
+  <figure class="d-atelier-view d-atelier-view--{{ view }}{% if profile != blank %} d-atelier-view--cut{% endif %}"
+    {% if profile != blank %}style="--frame-ratio:{{ profile[5] }};--photo-width:{{ profile[2] }}%;--photo-x:-{{ profile[3] }}%;--photo-y:-{{ profile[4] }}%;--matte:url('{{ profile[1] | asset_url }}');--point-x:{{ profile[6] }}%;--point-y:{{ profile[7] }}%"{% endif %}>
+    <div class="d-atelier-view__stage">
+      <div class="d-atelier-view__frame">
+        {% assign view_alt = profile[13] | default: photo.alt | default: product_name %}
+        {{ photo | image_url: width: 1200 | image_tag: widths: '320,480,640,840,1000,1200', sizes: '(min-width: 1050px) 490px, (min-width: 650px) 44vw, 58vw', loading: 'lazy', alt: view_alt }}
+      </div>
+      {% if profile != blank %}
+        <a class="d-atelier-point" href="#{{ detail_id }}" data-atelier-detail="{{ detail_id }}" aria-label="{{ letter }} · {{ profile[11] | escape }}">
+          <span aria-hidden="true">{{ letter }}</span>
+        </a>
+      {% endif %}
+    </div>
+  </figure>
+{% endif %}

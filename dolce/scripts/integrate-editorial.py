@@ -67,6 +67,6 @@ fragment = json.loads((root / 'locales/long-sales-strings.json').read_text())
 for lang in ['en.default.json','es.json']:
     path = theme / 'locales' / lang
     data = json.loads(path.read_text())
-    data['dolce']['sales'] = fragment['dolce']['sales']
+    data['dolce'].setdefault('sales', {}).update(fragment['dolce']['sales'])
     path.write_text(json.dumps(data,ensure_ascii=False,indent=2) + '\n')
 print('Integrated 13 product narratives, editorial media and official backstage.')

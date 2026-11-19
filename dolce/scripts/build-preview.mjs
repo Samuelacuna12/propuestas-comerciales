@@ -51,7 +51,7 @@ function imgurl(img,args=[]){let u=typeof img==='string'?img:(img?.src||img?.url
 engine.registerFilter('image_url',(v,...args)=>imgurl(v,args));
 engine.registerFilter('img_url',(v,...args)=>imgurl(v,args));
 engine.registerFilter('image_tag',(url,...args)=>{const a=kwargs(args);const original=imageMeta(url);const width=a.width||original?.width||1200;const height=a.height||original?.height||1600;const widths=String(a.widths||'').split(',').map(x=>parseInt(x.trim())).filter(Boolean);const sized=(w)=>{try{const u=new URL(String(url),'https://dolcelingerie.co');u.searchParams.set('width',w);return u.href}catch{return url}};const srcset=widths.length&&!String(url).startsWith(base+'/assets/')?` srcset="${widths.map(w=>esc(sized(w))+' '+w+'w').join(', ')}"`:'';return `<img src="${esc(url)}" width="${width}" height="${height}"${srcset} alt="${esc(a.alt||'Dolce Lingerie')}"${Object.entries(a).filter(([k])=>!['width','height','alt','widths','preload'].includes(k)).map(([k,v])=>` ${k}="${esc(v)}"`).join('')}>`;});
-engine.registerFilter('asset_url',v=>base+'/assets/'+v);
+engine.registerFilter('asset_url',v=>base+'/assets/'+v+'?v=20261119-editorial2');
 engine.registerFilter('file_url',v=>'https://dolcelingerie.co/cdn/shop/files/'+v);
 engine.registerFilter('stylesheet_tag',v=>`<link rel="stylesheet" href="${esc(v)}">`);
 engine.registerFilter('script_tag',v=>`<script src="${esc(v)}" defer></script>`);

@@ -1,8 +1,15 @@
-{% liquid
- assign image_one = section.settings.image_one | default: section.settings.product_one.featured_image
- assign image_two = section.settings.image_two | default: section.settings.product_two.featured_image
-%}
-<section class="d-hero"><div class="d-hero-media">{% if image_one %}{{ image_one | image_url: width:1600 | image_tag: loading:'eager', fetchpriority:'high', widths:'500,750,1000,1400,1600', sizes:'(min-width:750px) 50vw, 100vw', alt:section.settings.product_one.title }}{% endif %}{% if image_two %}{{ image_two | image_url: width:1400 | image_tag: loading:'eager', widths:'500,750,1000,1400', sizes:'50vw', alt:section.settings.product_two.title }}{% endif %}</div><div class="d-hero-content d-wrap"><div><h1>{{ section.settings.heading }}</h1><p class="d-hero-desc">{{ section.settings.description }}</p><a href="{{ section.settings.link }}" class="d-button d-button--light">{{ section.settings.button }}</a></div><p class="d-hero-caption">{{ section.settings.caption }}</p></div></section>
+{{ 'dolce-cover.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'dolce-cover.js' | asset_url }}" defer></script>
+{% assign muse = section.settings.product_one %}
+<section class="d-cover" data-dolce-cover data-view="front" aria-label="El universo Dolce">
+ <div class="d-cover__grain" aria-hidden="true"></div><p class="d-cover__eyebrow">Dolce Lingerie · La prenda y tú</p>
+ <h1>Tu lado<br>más <em>Dolce.</em></h1>
+ <figure class="d-cover__figure d-cover__figure--front" style="--cover-mask:url('{{ 'atelier-body-monaco-2.png' | asset_url }}')">{{ muse.images[1] | image_url: width: 1100 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '550,800,1100', sizes: '(min-width:750px) 500px,365px', alt: 'Body Mónaco Dolce, vista frontal en palo de rosa' }}</figure>
+ <figure class="d-cover__figure d-cover__figure--back" style="--cover-mask:url('{{ 'atelier-body-monaco-3.png' | asset_url }}')">{{ muse.images[2] | image_url: width: 1000 | image_tag: loading: 'eager', widths: '500,750,1000', sizes: '(min-width:750px) 440px,330px', alt: 'Body Mónaco Dolce, vista posterior en palo de rosa' }}</figure>
+ <span class="d-cover__vertical" aria-hidden="true">DOLCE · EN CADA DETALLE</span>
+ <div class="d-cover__switch" role="group" aria-label="Explorar las vistas de Mónaco"><button type="button" data-cover-view="front" aria-pressed="true">01 · Frente</button><button type="button" data-cover-view="back" aria-pressed="false">02 · Espalda</button></div>
+ <div class="d-wrap d-cover__bottom"><p>Lencería que también se convierte en tu próximo outfit.</p><div class="d-cover__buy"><div><strong>{{ muse.title | escape }}</strong><span>Descubre la prenda, de cerca.</span></div><a href="{{ muse.url }}">Explorar Mónaco ↗</a></div></div>
+</section>
 {% schema %}
 {"name":"Dolce · Portada","settings":[{"type":"text","id":"heading","label":"Título","default":"Tu forma de sentirte."},{"type":"text","id":"description","label":"Descripción","default":"Prendas que se sienten como tú. Descubre el lado más Dolce de cada día."},{"type":"text","id":"button","label":"Botón","default":"Descubrir la colección"},{"type":"url","id":"link","label":"Destino"},{"type":"text","id":"caption","label":"Nota editorial","default":"Del primer detalle a tu próximo favorito."},{"type":"product","id":"product_one","label":"Producto imagen principal"},{"type":"product","id":"product_two","label":"Producto imagen secundaria"},{"type":"image_picker","id":"image_one","label":"Imagen principal alternativa"},{"type":"image_picker","id":"image_two","label":"Imagen secundaria alternativa"}],"presets":[{"name":"Dolce · Portada"}]}
 {% endschema %}

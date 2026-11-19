@@ -642,6 +642,8 @@
       "base_unit_price": "Precio individual en catálogo:"
     },
     "sales": {
+      "editorial_navigation": "Recorrido de la prenda",
+      "silhouette": "Silueta",
       "look_closer": "Míralo de cerca",
       "made_of_details": "El detalle sí importa",
       "return_options": "Elegir mi color y talla",
